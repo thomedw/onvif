@@ -8,8 +8,12 @@ import java.net.SocketAddress;
 import java.net.URL;
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.Calendar;
+import java.util.Date;
 import java.util.List;
 import java.util.Map;
+import java.util.TimeZone;
+import java.util.concurrent.TimeUnit;
 
 import javax.xml.soap.SOAPException;
 import javax.xml.ws.Binding;
@@ -26,6 +30,7 @@ import org.onvif.ver10.media.wsdl.MediaService;
 import org.onvif.ver10.schema.Capabilities;
 import org.onvif.ver10.schema.CapabilityCategory;
 import org.onvif.ver10.schema.DateTime;
+import org.onvif.ver10.schema.SetDateTimeType;
 import org.onvif.ver20.imaging.wsdl.ImagingPort;
 import org.onvif.ver20.imaging.wsdl.ImagingService;
 import org.onvif.ver20.ptz.wsdl.PTZ;
@@ -147,6 +152,7 @@ public class OnvifDevice {
 			throw new ConnectException("Capabilities not reachable.");
 		}
 
+		resetSystemDateAndTime();
 		String localDeviceUri = capabilities.getDevice().getXAddr();
 
 		if (localDeviceUri.startsWith("http://")) {
@@ -187,6 +193,44 @@ public class OnvifDevice {
 			String eventsUri = replaceLocalIpWithProxyIp(capabilities.getEvents().getXAddr());
 			configService((BindingProvider) events, eventsUri);
 		}
+	}
+
+	private void resetSystemDateAndTime() {
+		Calendar calendar = Calendar.getInstance();
+		Date currentDate = new Date();
+		boolean daylightSavings = calendar.getTimeZone().inDaylightTime(currentDate);
+		org.onvif.ver10.schema.TimeZone timeZone = new org.onvif.ver10.schema.TimeZone();
+		timeZone.setTZ(displayTimeZone(calendar.getTimeZone()));
+		org.onvif.ver10.schema.Time time = new org.onvif.ver10.schema.Time();
+		time.setHour(calendar.get(Calendar.HOUR_OF_DAY));
+		time.setMinute(calendar.get(Calendar.MINUTE));
+		time.setSecond(calendar.get(Calendar.SECOND));
+		org.onvif.ver10.schema.Date date = new org.onvif.ver10.schema.Date();
+		date.setYear(calendar.get(Calendar.YEAR));
+		date.setMonth(calendar.get(Calendar.MONTH) + 1);
+		date.setDay(calendar.get(Calendar.DAY_OF_MONTH));
+		org.onvif.ver10.schema.DateTime utcDateTime = new org.onvif.ver10.schema.DateTime();
+		utcDateTime.setDate(date);
+		utcDateTime.setTime(time);
+		device.setSystemDateAndTime(SetDateTimeType.MANUAL, daylightSavings, timeZone, utcDateTime);
+	}
+
+	private static String displayTimeZone(TimeZone tz) {
+
+		long hours = TimeUnit.MILLISECONDS.toHours(tz.getRawOffset());
+		long minutes = TimeUnit.MILLISECONDS.toMinutes(tz.getRawOffset()) - TimeUnit.HOURS.toMinutes(hours);
+		// avoid -4:-30 issue
+		minutes = Math.abs(minutes);
+
+		String result = "";
+		if (hours > 0) {
+			result = String.format("GMT+%02d:%02d", hours, minutes);
+		} else {
+			result = String.format("GMT%02d:%02d", hours, minutes);
+		}
+
+		return result;
+
 	}
 
 	private void configService(BindingProvider bindingProvider, String serviceUrl) {
