@@ -32,8 +32,16 @@ import org.telegram.telegrambots.logging.BotLogger;
 
 import com.diozero.Button;
 import com.diozero.LED;
+import com.diozero.api.Action;
+import com.diozero.api.DigitalInputDevice;
 import com.diozero.api.DigitalInputEvent;
+import com.diozero.api.GpioEventTrigger;
+import com.diozero.api.GpioPullUpDown;
 import com.diozero.api.InputEventListener;
+import com.diozero.api.SmoothedInputDevice;
+import com.diozero.internal.DeviceFactoryHelper;
+import com.diozero.internal.spi.GpioDeviceFactoryInterface;
+import com.diozero.util.RuntimeIOException;
 
 import de.onvif.soap.OnvifDevice;
 
@@ -59,11 +67,11 @@ public class TelegramMsgHandler extends TelegramLongPollingBot {
 
 	@Override
 	public String getBotUsername() {
-		return "@TODO";//CHANGE PROPERLY
+		return "@fla83tnbot";
 	}
 	@Override
 	public String getBotToken() {
-		return "TODO";//CHANGE PROPERLY
+		return "181405571:AAGWjGELUB4m3VE4RA1Qytxy0hB7l0lA9cw";
 	}
 	
 	public TelegramMsgHandler() throws IOException, InterruptedException {
@@ -72,10 +80,10 @@ public class TelegramMsgHandler extends TelegramLongPollingBot {
 		cancelloGrandeApri = new LED(android2Gpio.get(5));
 		cancelloGrandeChiudi = new LED(android2Gpio.get(6));
 		campanello = new Button(android2Gpio.get(23));
-		campanello.addListener(new InputEventListener<DigitalInputEvent>() {
+		campanello.whenPressed(new Action() {
 			
 			@Override
-			public void valueChanged(DigitalInputEvent event) {
+			public void action() {
 				if (chatId!=null){
 					SendMessage resp = new SendMessage();
 					resp.setText("Minghie!");

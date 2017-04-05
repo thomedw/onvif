@@ -38,7 +38,6 @@ public class User {
     private Collection<Role> roles;
 
     public User() {
-        super();
         this.enabled = false;
     }
 

@@ -51,10 +51,15 @@ public class SecSecurityConfig extends WebSecurityConfigurerAdapter {
         http
             .csrf().disable()
             .authorizeRequests()
-                .antMatchers("/login*","/login*", "/logout*", "/signin/**", "/signup/**",
-                        "/user/registration*", "/regitrationConfirm*", "/expiredAccount*", "/registration*",
-                        "/badUser*", "/user/resendRegistrationToken*" ,"/forgetPassword*", "/user/resetPassword*",
-                        "/user/changePassword*", "/emailError*", "/resources/**","/old/user/registration*","/successRegister*").permitAll()
+                .antMatchers("/login*","/login*","/logout*", "/signin/**","/signup/**").permitAll()
+                .antMatchers("/user/registration*","/user/resetPassword*","/user/changePassword*").permitAll()
+                .antMatchers("/user/resendRegistrationToken*","/badUser*").permitAll()
+                .antMatchers("/regitrationConfirm*","/registration*").permitAll()
+                .antMatchers("/forgetPassword*","/expiredAccount*" ).permitAll()
+                .antMatchers("/successRegister*","/emailError*").permitAll()
+                .antMatchers("/old/user/registration*").permitAll()
+                .antMatchers("/resources/**").permitAll()
+                .antMatchers("/webjars/**").permitAll()
                 .antMatchers("/invalidSession*").anonymous()
                 .anyRequest().authenticated()
                 .and()

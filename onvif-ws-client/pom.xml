@@ -8,6 +8,38 @@
 	</parent>
 	<artifactId>onvif-ws-client</artifactId>
 
+	<dependencies>
+		<dependency>
+			<groupId>org.apache.cxf</groupId>
+			<artifactId>cxf-rt-frontend-jaxws</artifactId>
+			<version>${cxf.version}</version>
+		</dependency>
+		<!-- <dependency> -->
+		<!-- <groupId>org.apache.cxf</groupId> -->
+		<!-- <artifactId>cxf-rt-transports-http-hc</artifactId> -->
+		<!-- <version>${cxf.version}</version> -->
+		<!-- </dependency> -->
+		<dependency>
+			<groupId>org.apache.cxf</groupId>
+			<artifactId>cxf-rt-transports-http-jetty</artifactId>
+			<version>${cxf.version}</version>
+		</dependency>
+		<!-- <dependency> -->
+		<!-- <groupId>org.apache.cxf</groupId> -->
+		<!-- <artifactId>cxf-rt-ws-addr</artifactId> -->
+		<!-- <version>${cxf.version}</version> -->
+		<!-- </dependency> -->
+		<!-- <dependency> -->
+		<!-- <groupId>org.apache.cxf</groupId> -->
+		<!-- <artifactId>cxf-rt-ws-policy</artifactId> -->
+		<!-- <version>${cxf.version}</version> -->
+		<!-- </dependency> -->
+		<dependency>
+			<groupId>org.apache.cxf.services.wsn</groupId>
+			<artifactId>cxf-services-wsn-core</artifactId>
+			<version>${cxf.version}</version>
+		</dependency>
+	</dependencies>
 	<build>
 		<plugins>
 			<plugin>
@@ -17,10 +49,10 @@
 				<executions>
 					<execution>
 						<id>generate-ws-stubs</id>
-<!-- 						<phase>generate-sources</phase> -->
-<!-- 						<goals> -->
-<!-- 						<goal>wsdl2java</goal> -->
-<!-- 						</goals> -->
+						<phase>generate-sources</phase>
+						<goals>
+							<goal>wsdl2java</goal>
+						</goals>
 						<configuration>
 							<wsdlRoot>${basedir}/src/main/resources/wsdl</wsdlRoot>
 							<sourceRoot>${basedir}/src/main/java</sourceRoot>
@@ -35,7 +67,6 @@
 									<extraarg>-verbose</extraarg>
 									<extraarg>-catalog</extraarg>
 									<extraarg>${basedir}/src/main/resources/wsdl/jax-ws-catalog.xml</extraarg>
-									<extraarg>-xjc-Xcollection-setter-injector</extraarg>
 									<extraarg>-wsdlLocation</extraarg>
 									<extraarg></extraarg>
 								</extraargs>
@@ -44,23 +75,16 @@
 					</execution>
 				</executions>
 				<dependencies>
+					<dependency>
+						<groupId>org.apache.cxf</groupId>
+						<artifactId>cxf-rt-bindings-soap</artifactId>
+						<version>3.1.0</version>
+					</dependency>
 					<!-- Boolean getters/setters -->
 					<dependency>
 						<groupId>org.apache.cxf.xjcplugins</groupId>
 						<artifactId>cxf-xjc-boolean</artifactId>
 						<version>3.1.0</version>
-					</dependency>
-					<!-- Collection getters/setters -->
-					<dependency>
-						<groupId>net.java.dev.vcc.thirdparty</groupId>
-						<artifactId>collection-setter-injector</artifactId>
-						<version>0.5.0-1</version>
-					</dependency>
-					<!-- https://mvnrepository.com/artifact/com.sun.xml.bind/jaxb-xjc -->
-					<dependency>
-						<groupId>com.sun.xml.bind</groupId>
-						<artifactId>jaxb-xjc</artifactId>
-						<version>2.3.0-b170127.1453</version>
 					</dependency>
 				</dependencies>
 			</plugin>

@@ -5,22 +5,25 @@ import java.net.ConnectException;
 import java.net.InetSocketAddress;
 import java.net.Socket;
 import java.net.SocketAddress;
-import java.net.URL;
-import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Calendar;
 import java.util.Date;
-import java.util.List;
-import java.util.Map;
 import java.util.TimeZone;
 import java.util.concurrent.TimeUnit;
 
 import javax.xml.soap.SOAPException;
-import javax.xml.ws.Binding;
 import javax.xml.ws.BindingProvider;
 import javax.xml.ws.Holder;
-import javax.xml.ws.handler.Handler;
 
+import org.apache.cxf.binding.soap.Soap12;
+import org.apache.cxf.binding.soap.SoapBindingConfiguration;
+import org.apache.cxf.endpoint.Client;
+import org.apache.cxf.frontend.ClientProxy;
+import org.apache.cxf.interceptor.LoggingOutInterceptor;
+import org.apache.cxf.jaxws.JaxWsProxyFactoryBean;
+import org.apache.cxf.transport.http.HTTPConduit;
+import org.apache.cxf.transports.http.configuration.HTTPClientPolicy;
+import org.apache.cxf.wsn.client.CreatePullPoint;
 import org.onvif.ver10.device.wsdl.Device;
 import org.onvif.ver10.device.wsdl.DeviceService;
 import org.onvif.ver10.events.wsdl.EventPortType;
@@ -39,7 +42,6 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 import de.onvif.beans.DeviceInfo;
-import de.onvif.utils.WSDLLocations;
 
 /**
  * 
@@ -49,8 +51,7 @@ import de.onvif.utils.WSDLLocations;
 public class OnvifDevice {
 	private static final Logger logger = LoggerFactory.getLogger(OnvifDevice.class);
 
-	private String deviceIp, originalIp;
-	private boolean isProxy;
+	private String deviceIp;
 	private String username, password;
 	private String deviceUri;
 
@@ -78,9 +79,7 @@ public class OnvifDevice {
 	 */
 	public OnvifDevice(String deviceIp, String user, String password) throws ConnectException, SOAPException {
 		this.deviceIp = deviceIp;
-		URL wsdlLocation = this.getClass().getResource(WSDLLocations.DEVICE);
-		this.device = new DeviceService(wsdlLocation).getDevicePort();
-
+		
 		if (!isOnline()) {
 			throw new ConnectException("Host not available.");
 		}
@@ -145,56 +144,65 @@ public class OnvifDevice {
 	 * @throws SOAPException
 	 */
 	protected void init() throws ConnectException, SOAPException {
-		configService((BindingProvider) device, deviceUri);
-		Capabilities capabilities = device.getCapabilities(Arrays.asList(CapabilityCategory.ALL));
-
+		BindingProvider deviceServicePort = (BindingProvider) new DeviceService().getDevicePort();
+		this.device = getServiceProxy(deviceServicePort, deviceUri).create(Device.class);
+		
+		resetSystemDateAndTime();
+		
+		Capabilities capabilities = this.device.getCapabilities(Arrays.asList(CapabilityCategory.ALL));
 		if (capabilities == null) {
 			throw new ConnectException("Capabilities not reachable.");
 		}
 
-		resetSystemDateAndTime();
-		String localDeviceUri = capabilities.getDevice().getXAddr();
-
-		if (localDeviceUri.startsWith("http://")) {
-			originalIp = localDeviceUri.replace("http://", "");
-			originalIp = originalIp.substring(0, originalIp.indexOf('/'));
-		} else {
-			logger.error("Unknown/Not implemented local procotol!");
-		}
-
-		if (!originalIp.equals(deviceIp)) {
-			isProxy = true;
-		}
+		//String localDeviceUri = capabilities.getDevice().getXAddr();
 
 		if (capabilities.getMedia() != null && capabilities.getMedia().getXAddr() != null) {
-			URL wsdlLocation = this.getClass().getResource(WSDLLocations.MEDIA);
-			media = new MediaService(wsdlLocation).getMediaPort();
-			String mediaUri = replaceLocalIpWithProxyIp(capabilities.getMedia().getXAddr());
-			configService((BindingProvider) media, mediaUri);
+			this.media = new MediaService().getMediaPort();
+			this.media = getServiceProxy((BindingProvider) media, capabilities.getMedia().getXAddr()).create(Media.class);
 		}
 
 		if (capabilities.getPTZ() != null && capabilities.getPTZ().getXAddr() != null) {
-			URL wsdlLocation = this.getClass().getResource(WSDLLocations.PTZ);
-			ptz = new PtzService(wsdlLocation).getPtzPort();
-			String ptzUri = replaceLocalIpWithProxyIp(capabilities.getPTZ().getXAddr());
-			configService((BindingProvider) ptz, ptzUri);
+			this.ptz = new PtzService().getPtzPort();
+			this.ptz = getServiceProxy((BindingProvider) ptz, capabilities.getPTZ().getXAddr()).create(PTZ.class);
 		}
 
 		if (capabilities.getImaging() != null && capabilities.getImaging().getXAddr() != null) {
-			URL wsdlLocation = this.getClass().getResource(WSDLLocations.IMAGING);
-			imaging = new ImagingService(wsdlLocation).getImagingPort();
-			String imagingUri = replaceLocalIpWithProxyIp(capabilities.getImaging().getXAddr());
-			configService((BindingProvider) imaging, imagingUri);
+			this.imaging = new ImagingService().getImagingPort();
+			this.imaging = getServiceProxy((BindingProvider) imaging, capabilities.getImaging().getXAddr()).create(ImagingPort.class);
 		}
 
 		if (capabilities.getEvents() != null && capabilities.getEvents().getXAddr() != null) {
-			URL wsdlLocation = this.getClass().getResource(WSDLLocations.EVENT);
-			events = new EventService(wsdlLocation).getEventPort();
-			String eventsUri = replaceLocalIpWithProxyIp(capabilities.getEvents().getXAddr());
-			configService((BindingProvider) events, eventsUri);
+			this.events = new EventService().getEventPort();
+			this.events = getServiceProxy((BindingProvider) events, capabilities.getEvents().getXAddr()).create(EventPortType.class);
 		}
 	}
 
+	public static JaxWsProxyFactoryBean getServiceProxy(BindingProvider servicePort, String serviceAddr) {
+		JaxWsProxyFactoryBean proxyFactory = new JaxWsProxyFactoryBean();
+		if(serviceAddr != null)
+			proxyFactory.setAddress(serviceAddr);
+		proxyFactory.setServiceClass(servicePort.getClass());
+		proxyFactory.getOutInterceptors().add(new LoggingOutInterceptor());  
+		SoapBindingConfiguration config = new SoapBindingConfiguration();  
+		config.setVersion(Soap12.getInstance());
+		proxyFactory.setBindingConfig(config);
+		Client deviceClient = ClientProxy.getClient(servicePort);
+
+		HTTPConduit http = (HTTPConduit) deviceClient.getConduit();
+
+//		AuthorizationPolicy authPolicy = new AuthorizationPolicy();
+//		authPolicy.setUserName(username);
+//		authPolicy.setPassword(password);
+//		authPolicy.setAuthorizationType("Basic");
+//		http.setAuthorization(authPolicy);
+		
+		HTTPClientPolicy httpClientPolicy = http.getClient();
+		httpClientPolicy.setConnectionTimeout(36000);  
+		httpClientPolicy.setReceiveTimeout(32000);
+		httpClientPolicy.setAllowChunking(false);
+		return proxyFactory;
+	}
+	
 	private void resetSystemDateAndTime() {
 		Calendar calendar = Calendar.getInstance();
 		Date currentDate = new Date();
@@ -231,31 +239,6 @@ public class OnvifDevice {
 
 		return result;
 
-	}
-
-	private void configService(BindingProvider bindingProvider, String serviceUrl) {
-		// Add a security handler for the credentials
-		final Binding binding = bindingProvider.getBinding();
-		@SuppressWarnings("rawtypes")
-		List<Handler> handlerList = binding.getHandlerChain();
-		if (handlerList == null)
-			handlerList = new ArrayList<>();
-		handlerList.add(new SimpleSecurityHandler(username, password));
-		binding.setHandlerChain(handlerList);
-
-		// Set the actual web services address instead of the mock service
-		Map<String, Object> requestContext = bindingProvider.getRequestContext();
-		requestContext.put(BindingProvider.ENDPOINT_ADDRESS_PROPERTY, serviceUrl);
-	}
-
-	public String replaceLocalIpWithProxyIp(String original) {
-		if (original.startsWith("http:///")) {
-			original.replace("http:///", "http://" + deviceIp);
-		}
-		if (isProxy) {
-			return original.replace(originalIp, deviceIp);
-		}
-		return original;
 	}
 
 	/**

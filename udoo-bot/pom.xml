@@ -9,17 +9,19 @@
 	</parent>
 
 	<artifactId>udoo-app</artifactId>
-	<!-- <packaging>war</packaging> -->
+	<packaging>war</packaging>
 
 	<properties>
 		<java.version>1.8</java.version>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<diozero.version>0.7</diozero.version>
-		<telegrambots.version>2.3.3.3</telegrambots.version>
+		<telegrambots.version>2.3.5</telegrambots.version>
 		<passay.version>1.0</passay.version>
 		<guava.version>19.0</guava.version>
 		<javax.mail.version>1.4.7</javax.mail.version>
 		<rest-assured.version>2.4.0</rest-assured.version>
+		<bootstrap.version>3.3.6</bootstrap.version>
+		<jquery.version>1.11.1</jquery.version>
 
 		<cargo-maven2-plugin.version>1.4.17</cargo-maven2-plugin.version>
 
@@ -86,6 +88,23 @@
 			<artifactId>thymeleaf-extras-springsecurity4</artifactId>
 		</dependency>
 
+		<!-- webjars -->
+		<dependency>
+			<groupId>org.webjars</groupId>
+			<artifactId>bootstrap</artifactId>
+			<version>${bootstrap.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>org.webjars</groupId>
+			<artifactId>jquery</artifactId>
+			<version>${jquery.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>org.webjars</groupId>
+			<artifactId>jquery-validation</artifactId>
+			<version>${jquery.version}</version>
+		</dependency>
+		
 		<!-- Spring -->
 
 		<dependency>
@@ -128,7 +147,6 @@
 		<dependency>
 			<groupId>org.springframework</groupId>
 			<artifactId>spring-expression</artifactId>
-
 		</dependency>
 
 		<dependency>
@@ -162,10 +180,10 @@
 		</dependency>
 
 
-		<dependency>
-			<groupId>org.springframework</groupId>
-			<artifactId>spring-test</artifactId>
 
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
 		</dependency>
 
@@ -280,7 +298,6 @@
 	</dependencies>
 
 	<build>
-		<finalName>spring-security-login-and-registration</finalName>
 		<resources>
 			<resource>
 				<directory>src/main/resources</directory>
@@ -302,6 +319,10 @@
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-war-plugin</artifactId>
+			</plugin>
+			<plugin>
+				<groupId>org.springframework.boot</groupId>
+				<artifactId>spring-boot-maven-plugin</artifactId>
 			</plugin>
 
 			<plugin>

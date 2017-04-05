@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org"
+	xmlns:layout="http://www.ultraq.net.nz/web/thymeleaf/layout">
+<head>
+	<title>Layout</title>
+ 	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+ 	
+ 	<!-- Bootstrap -->
+	<link href="webjars/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet" media="screen" />
+</head>
+<body>
+	<div class="container">
+		<nav class="navbar navbar-default">
+		  <div class="container-fluid">
+		    <div class="navbar-header">
+		      <a class="navbar-brand" href="#" th:text="#{label.pages.home.title}">home</a>
+		    </div>
+		      <ul class="nav navbar-nav navbar-right">
+		        <li><a th:href="@{/logout}" th:text="#{label.pages.logout}">logout</a></li>
+		      </ul>
+		  </div>
+		</nav>
+		<div th:if="${param.message != null}" class="alert alert-info" th:text="${param.message[0]}">message</div>
+		<div th:if="${param.error != null}" class="alert alert-danger" th:text="${session[SPRING_SECURITY_LAST_EXCEPTION]}">error</div>
+		<h1 layout:fragment="header">Layout</h1>
+		<div layout:fragment="content">Fake content</div>
+		
+		<p th:text="'Hello!'" />
+
+	    <div class="btn-group">
+	        <button type="button" class="btn btn-success">This is a success button</button>
+	        <button type="button" class="btn btn-warning">This is a warning button</button>
+	        <button type="button" class="btn btn-danger">This is a danger button</button>
+	    </div>
+	</div>
+</body>
+
+<script src="webjars/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+</html>

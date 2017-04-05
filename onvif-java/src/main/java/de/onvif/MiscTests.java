@@ -5,24 +5,22 @@ import java.io.IOException;
 import java.net.ConnectException;
 import java.net.MalformedURLException;
 import java.net.URL;
-import java.text.DateFormat;
-import java.util.Calendar;
-import java.util.Date;
 import java.util.List;
+import java.util.concurrent.CountDownLatch;
 
 import javax.xml.bind.JAXBElement;
-import javax.xml.datatype.DatatypeFactory;
-import javax.xml.datatype.XMLGregorianCalendar;
 import javax.xml.soap.SOAPException;
-import javax.xml.ws.BindingProvider;
-import javax.xml.ws.EndpointReference;
-import javax.xml.ws.WebServiceFeature;
-import javax.xml.ws.soap.Addressing;
-import javax.xml.ws.soap.AddressingFeature;
-import javax.xml.ws.wsaddressing.W3CEndpointReference;
 
+import org.apache.activemq.ActiveMQConnectionFactory;
 import org.apache.commons.io.FileUtils;
+import org.apache.cxf.wsn.client.Consumer;
+import org.apache.cxf.wsn.client.CreatePullPoint;
+import org.apache.cxf.wsn.client.NotificationBroker;
+import org.apache.cxf.wsn.client.Publisher;
+import org.apache.cxf.wsn.client.Subscription;
+import org.apache.cxf.wsn.services.JaxwsNotificationBroker;
 import org.oasis_open.docs.wsn.b_2.FilterType;
+import org.oasis_open.docs.wsn.b_2.NotificationMessageHolderType;
 import org.oasis_open.docs.wsn.b_2.TopicExpressionType;
 import org.oasis_open.docs.wsn.bw_2.InvalidFilterFault;
 import org.oasis_open.docs.wsn.bw_2.InvalidMessageContentExpressionFault;
@@ -36,27 +34,19 @@ import org.oasis_open.docs.wsn.bw_2.UnacceptableInitialTerminationTimeFault;
 import org.oasis_open.docs.wsn.bw_2.UnrecognizedPolicyRequestFault;
 import org.oasis_open.docs.wsn.bw_2.UnsupportedPolicyRequestFault;
 import org.oasis_open.docs.wsrf.rw_2.ResourceUnknownFault;
-import org.onvif.ver10.device.wsdl.GetEndpointReference;
-import org.onvif.ver10.device.wsdl.GetEndpointReferenceResponse;
 import org.onvif.ver10.events.wsdl.CreatePullPointSubscription;
 import org.onvif.ver10.events.wsdl.CreatePullPointSubscription.SubscriptionPolicy;
 import org.onvif.ver10.events.wsdl.CreatePullPointSubscriptionResponse;
 import org.onvif.ver10.events.wsdl.EventPortType;
-import org.onvif.ver10.events.wsdl.EventService;
 import org.onvif.ver10.events.wsdl.GetEventProperties;
 import org.onvif.ver10.events.wsdl.GetEventPropertiesResponse;
-import org.onvif.ver10.events.wsdl.PullMessages;
-import org.onvif.ver10.events.wsdl.PullPointSubscription;
-import org.onvif.ver10.events.wsdl.PullPointSubscriptionService;
 import org.onvif.ver10.schema.MediaUri;
 import org.onvif.ver10.schema.Profile;
-import org.opensaml.soap.wsaddressing.Address;
 import org.w3c.dom.Element;
 import org.w3c.dom.Node;
 import org.w3c.dom.NodeList;
 
 import de.onvif.soap.OnvifDevice;
-import de.onvif.utils.WSDLLocations;
 
 public class MiscTests {
 
@@ -89,59 +79,132 @@ public class MiscTests {
 		// presets.forEach(x->System.out.println(x.getName()));
 
 		EventPortType eventWs = cam.getEvents();
-//		GetEventProperties getEventProperties = new GetEventProperties();
-//		GetEventPropertiesResponse getEventPropertiesResp = eventWs.getEventProperties(getEventProperties);
-//		getEventPropertiesResp.getMessageContentFilterDialect().forEach(x -> System.out.println(x));
-//		getEventPropertiesResp.getTopicExpressionDialect().forEach(x -> System.out.println(x));
-//		for (Object object : getEventPropertiesResp.getTopicSet().getAny()) {
-//			Element e = (Element) object;
-//			printTree(e, e.getNodeName());
-//		}
+		GetEventProperties getEventProperties = new GetEventProperties();
+		GetEventPropertiesResponse getEventPropertiesResp = eventWs.getEventProperties(getEventProperties);
+		getEventPropertiesResp.getMessageContentFilterDialect().forEach(x -> System.out.println(x));
+		getEventPropertiesResp.getTopicExpressionDialect().forEach(x -> System.out.println(x));
+		for (Object object : getEventPropertiesResp.getTopicSet().getAny()) {
+			Element e = (Element) object;
+			printTree(e, e.getNodeName());
+		}
 
 		org.oasis_open.docs.wsn.b_2.ObjectFactory objectFactory = new org.oasis_open.docs.wsn.b_2.ObjectFactory();
-		CreatePullPointSubscription subscription = new CreatePullPointSubscription();
+		CreatePullPointSubscription pullPointSubscription = new CreatePullPointSubscription();
 		FilterType filter = new FilterType();
 		TopicExpressionType topicExp = new TopicExpressionType();
 		topicExp.getContent().add("tns1:RuleEngine//.");// every event in that topic
 		topicExp.setDialect("http://www.onvif.org/ver10/tev/topicExpression/ConcreteSet");
 		JAXBElement<?> topicExpElem = objectFactory.createTopicExpression(topicExp);
 		filter.getAny().add(topicExpElem);
-		subscription.setFilter(filter);
+		pullPointSubscription.setFilter(filter);
 		org.onvif.ver10.events.wsdl.ObjectFactory eventObjFactory = new org.onvif.ver10.events.wsdl.ObjectFactory();
 		SubscriptionPolicy subcriptionPolicy = eventObjFactory.createCreatePullPointSubscriptionSubscriptionPolicy();
-		subscription.setSubscriptionPolicy(subcriptionPolicy);
+		pullPointSubscription.setSubscriptionPolicy(subcriptionPolicy);
 		String timespan = "PT10S";//every 10 seconds
 		//String timespan = "PT1M";//every 1 minute
-		subscription.setInitialTerminationTime(objectFactory.createSubscribeInitialTerminationTime(timespan));
+		pullPointSubscription.setInitialTerminationTime(objectFactory.createSubscribeInitialTerminationTime(timespan));
+			
+		
+
 		try {
-			long start = System.currentTimeMillis();
-			CreatePullPointSubscriptionResponse resp = eventWs.createPullPointSubscription(subscription);
-			EndpointReference endpointReference = (EndpointReference)resp.getSubscriptionReference();
-			System.out.println(endpointReference);//TODO how to use this??
-			long terminationtime = resp.getTerminationTime().toGregorianCalendar().getTimeInMillis();
-			long currentTime = resp.getCurrentTime().toGregorianCalendar().getTimeInMillis();
-			long now = currentTime;
-			while (now < terminationtime) {
-				System.out.printf("Subscription active: current time %s (Termination time: %s)\n", new Date(now), new Date(terminationtime));
-				for (Object object : resp.getAny()) {
-					Element e = (Element) object;
-					printTree(e, e.getNodeName());
-				}
-				Thread.sleep(1000);
-				now = currentTime + (System.currentTimeMillis() - start);
+			CreatePullPointSubscriptionResponse resp = eventWs.createPullPointSubscription(pullPointSubscription);
+			
+			// Start a consumer that will listen for notification messages
+	        // We'll just print the text content out for now.
+	        String eventConsumerAddress = "http://localhost:9001/MyConsumer";
+			Consumer consumer = new Consumer(new Consumer.Callback() {
+	            public void notify(NotificationMessageHolderType message) {
+	                Object o = message.getMessage().getAny();
+	                System.out.println(message.getMessage().getAny());
+	                if (o instanceof Element) {
+	                    System.out.println(((Element)o).getTextContent());
+	                }
+	            }
+	        }, eventConsumerAddress);
+
+	        
+	        String queuePort = "8182";
+	        String brokerPort= "8181";
+	        String brokerAddress = "http://localhost:" + brokerPort + "/wsn/NotificationBroker";
+	        ActiveMQConnectionFactory activemq = new ActiveMQConnectionFactory("vm:(broker:(tcp://localhost:" + queuePort + ")?persistent=false)");
+	        JaxwsNotificationBroker notificationBrokerServer = new JaxwsNotificationBroker("WSNotificationBroker",activemq);
+			notificationBrokerServer.setAddress(brokerAddress);
+	        notificationBrokerServer.init();
+	        
+
+	        
+			// Create a subscription for a Topic on the broker
+	        NotificationBroker notificationBroker = new NotificationBroker(brokerAddress);
+//	        PublisherCallback publisherCallback = new PublisherCallback();
+//	        Publisher publisher = new Publisher(publisherCallback, "http://localhost:" + port2 + "/test/publisher");
+	        Subscription subscription = notificationBroker.subscribe(consumer, "tns1:RuleEngine");
+	        
+//	        Device
+//	            Trigger/Relay
+//	            OperationMode/ShutdownInitiated
+//	            OperationMode/UploadInitiated
+//	            HardwareFailure/FanFailure
+//	            HardwareFailure/PowerSupplyFailure
+//	            HardwareFailure/StorageFailure
+//	            HardwareFailure/TemperatureCritical
+//	        VideoSource
+//		        tns1:VideoSource/CameraRedirected
+//		        tns1:VideoSource/SignalLoss 
+//	        	tns1:VideoSource/MotionAlarm
+//	        VideoEncoder
+//	        VideoAnalytics
+//	        RuleEngine
+//		        LineDetector/Crossed
+//	            FieldDetector/ObjectsInside
+//	        PTZController
+//	            PTZPresets/Invoked
+//	            PTZPresets/Reached
+//	            PTZPresets/Aborted
+//	            PTZPresets/Left
+//	        AudioSource
+//	        AudioEncoder
+//	        UserAlarm
+//	        MediaControl
+//	        RecordingConfig
+//	        RecordingHistory
+//	        VideoOutput
+//	        AudioOutput
+//	        VideoDecoder
+//	        AudioDecoder
+//	        Receiver
+//	        MediaConfiguration
+//	            VideoSourceConfiguration
+//	            AudioSourceConfiguration
+//	            VideoEncoderConfiguration
+//	            AudioEncoderConfiguration
+//	            VideoAnalyticsConfiguration
+//	            PTZConfiguration
+//	            MetaDataConfiguration
+
+	        
+	        
+	        // Wait for some messages to accumulate in the pull point
+	        Thread.sleep(50_000);
+	        
+	        // Cleanup and exit
+	        subscription.unsubscribe();
+	        consumer.stop();
+	        
+			} catch (TopicNotSupportedFault | TopicExpressionDialectUnknownFault | InvalidTopicExpressionFault
+					| InvalidMessageContentExpressionFault | InvalidProducerPropertiesExpressionFault
+					| UnacceptableInitialTerminationTimeFault | NotifyMessageNotSupportedFault | ResourceUnknownFault
+					| UnsupportedPolicyRequestFault | InvalidFilterFault | SubscribeCreationFailedFault
+					| UnrecognizedPolicyRequestFault e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			} catch (InterruptedException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			} catch (Exception e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
 			}
-			System.out.printf("Subscription terminated: current time %s (Termination time: %s)\n", new Date(now), new Date(terminationtime));
-		} catch (TopicNotSupportedFault | TopicExpressionDialectUnknownFault | InvalidTopicExpressionFault
-				| InvalidMessageContentExpressionFault | InvalidProducerPropertiesExpressionFault
-				| UnacceptableInitialTerminationTimeFault | NotifyMessageNotSupportedFault | ResourceUnknownFault
-				| UnsupportedPolicyRequestFault | InvalidFilterFault | SubscribeCreationFailedFault
-				| UnrecognizedPolicyRequestFault e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		} catch (InterruptedException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		}
+			
 	}
 
 	private static void printTree(Node node, String name) {
@@ -183,5 +246,17 @@ public class MiscTests {
 					cam.getMedia().getSnapshotUri(p.getToken()).getUri());
 		}
 	}
-	// This handler will add the authentication parameters
+
+	 public static class PublisherCallback implements Publisher.Callback {
+	        final CountDownLatch subscribed = new CountDownLatch(1);
+	        final CountDownLatch unsubscribed = new CountDownLatch(1);
+
+	        public void subscribe(TopicExpressionType topic) {
+	            subscribed.countDown();
+	        }
+
+	        public void unsubscribe(TopicExpressionType topic) {
+	            unsubscribed.countDown();
+	        }
+	}
 }
