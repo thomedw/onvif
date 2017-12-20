@@ -17,9 +17,9 @@ import org.w3c.dom.Element;
 
 
 /**
- * <p>Java class for FocusConfiguration complex type.
+ * <p>Classe Java per FocusConfiguration complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>Il seguente frammento di schema specifica il contenuto previsto contenuto in questa classe.
  * 
  * <pre>
  * &lt;complexType name="FocusConfiguration"&gt;
@@ -65,7 +65,7 @@ public class FocusConfiguration {
     private Map<QName, String> otherAttributes = new HashMap<QName, String>();
 
     /**
-     * Gets the value of the autoFocusMode property.
+     * Recupera il valore della proprietà autoFocusMode.
      * 
      * @return
      *     possible object is
@@ -77,7 +77,7 @@ public class FocusConfiguration {
     }
 
     /**
-     * Sets the value of the autoFocusMode property.
+     * Imposta il valore della proprietà autoFocusMode.
      * 
      * @param value
      *     allowed object is
@@ -89,7 +89,7 @@ public class FocusConfiguration {
     }
 
     /**
-     * Gets the value of the defaultSpeed property.
+     * Recupera il valore della proprietà defaultSpeed.
      * 
      */
     public float getDefaultSpeed() {
@@ -97,7 +97,7 @@ public class FocusConfiguration {
     }
 
     /**
-     * Sets the value of the defaultSpeed property.
+     * Imposta il valore della proprietà defaultSpeed.
      * 
      */
     public void setDefaultSpeed(float value) {
@@ -105,7 +105,7 @@ public class FocusConfiguration {
     }
 
     /**
-     * Gets the value of the nearLimit property.
+     * Recupera il valore della proprietà nearLimit.
      * 
      */
     public float getNearLimit() {
@@ -113,7 +113,7 @@ public class FocusConfiguration {
     }
 
     /**
-     * Sets the value of the nearLimit property.
+     * Imposta il valore della proprietà nearLimit.
      * 
      */
     public void setNearLimit(float value) {
@@ -121,7 +121,7 @@ public class FocusConfiguration {
     }
 
     /**
-     * Gets the value of the farLimit property.
+     * Recupera il valore della proprietà farLimit.
      * 
      */
     public float getFarLimit() {
@@ -129,7 +129,7 @@ public class FocusConfiguration {
     }
 
     /**
-     * Sets the value of the farLimit property.
+     * Imposta il valore della proprietà farLimit.
      * 
      */
     public void setFarLimit(float value) {
@@ -154,8 +154,8 @@ public class FocusConfiguration {
      * 
      * <p>
      * Objects of the following type(s) are allowed in the list
-     * {@link java.lang.Object }
      * {@link Element }
+     * {@link java.lang.Object }
      * 
      * 
      */

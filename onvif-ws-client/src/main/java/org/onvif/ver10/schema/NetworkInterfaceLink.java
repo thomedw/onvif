@@ -8,9 +8,9 @@ import javax.xml.bind.annotation.XmlType;
 
 
 /**
- * <p>Java class for NetworkInterfaceLink complex type.
+ * <p>Classe Java per NetworkInterfaceLink complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>Il seguente frammento di schema specifica il contenuto previsto contenuto in questa classe.
  * 
  * <pre>
  * &lt;complexType name="NetworkInterfaceLink"&gt;
@@ -44,7 +44,7 @@ public class NetworkInterfaceLink {
     protected int interfaceType;
 
     /**
-     * Gets the value of the adminSettings property.
+     * Recupera il valore della proprietà adminSettings.
      * 
      * @return
      *     possible object is
@@ -56,7 +56,7 @@ public class NetworkInterfaceLink {
     }
 
     /**
-     * Sets the value of the adminSettings property.
+     * Imposta il valore della proprietà adminSettings.
      * 
      * @param value
      *     allowed object is
@@ -68,7 +68,7 @@ public class NetworkInterfaceLink {
     }
 
     /**
-     * Gets the value of the operSettings property.
+     * Recupera il valore della proprietà operSettings.
      * 
      * @return
      *     possible object is
@@ -80,7 +80,7 @@ public class NetworkInterfaceLink {
     }
 
     /**
-     * Sets the value of the operSettings property.
+     * Imposta il valore della proprietà operSettings.
      * 
      * @param value
      *     allowed object is
@@ -92,7 +92,7 @@ public class NetworkInterfaceLink {
     }
 
     /**
-     * Gets the value of the interfaceType property.
+     * Recupera il valore della proprietà interfaceType.
      * 
      */
     public int getInterfaceType() {
@@ -100,7 +100,7 @@ public class NetworkInterfaceLink {
     }
 
     /**
-     * Sets the value of the interfaceType property.
+     * Imposta il valore della proprietà interfaceType.
      * 
      */
     public void setInterfaceType(int value) {

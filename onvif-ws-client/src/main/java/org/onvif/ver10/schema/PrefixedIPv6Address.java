@@ -11,9 +11,9 @@ import javax.xml.bind.annotation.adapters.XmlJavaTypeAdapter;
 
 
 /**
- * <p>Java class for PrefixedIPv6Address complex type.
+ * <p>Classe Java per PrefixedIPv6Address complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>Il seguente frammento di schema specifica il contenuto previsto contenuto in questa classe.
  * 
  * <pre>
  * &lt;complexType name="PrefixedIPv6Address"&gt;
@@ -45,7 +45,7 @@ public class PrefixedIPv6Address {
     protected int prefixLength;
 
     /**
-     * Gets the value of the address property.
+     * Recupera il valore della proprietà address.
      * 
      * @return
      *     possible object is
@@ -57,7 +57,7 @@ public class PrefixedIPv6Address {
     }
 
     /**
-     * Sets the value of the address property.
+     * Imposta il valore della proprietà address.
      * 
      * @param value
      *     allowed object is
@@ -69,7 +69,7 @@ public class PrefixedIPv6Address {
     }
 
     /**
-     * Gets the value of the prefixLength property.
+     * Recupera il valore della proprietà prefixLength.
      * 
      */
     public int getPrefixLength() {
@@ -77,7 +77,7 @@ public class PrefixedIPv6Address {
     }
 
     /**
-     * Sets the value of the prefixLength property.
+     * Imposta il valore della proprietà prefixLength.
      * 
      */
     public void setPrefixLength(int value) {

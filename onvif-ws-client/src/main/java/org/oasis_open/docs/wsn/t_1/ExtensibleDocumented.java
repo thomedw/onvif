@@ -12,9 +12,9 @@ import javax.xml.namespace.QName;
 
 
 /**
- * <p>Java class for ExtensibleDocumented complex type.
+ * <p>Classe Java per ExtensibleDocumented complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>Il seguente frammento di schema specifica il contenuto previsto contenuto in questa classe.
  * 
  * <pre>
  * &lt;complexType name="ExtensibleDocumented"&gt;
@@ -36,8 +36,8 @@ import javax.xml.namespace.QName;
     "documentation"
 })
 @XmlSeeAlso({
-    TopicNamespaceType.class,
     TopicSetType.class,
+    TopicNamespaceType.class,
     TopicType.class
 })
 public abstract class ExtensibleDocumented {
@@ -47,7 +47,7 @@ public abstract class ExtensibleDocumented {
     private Map<QName, String> otherAttributes = new HashMap<QName, String>();
 
     /**
-     * Gets the value of the documentation property.
+     * Recupera il valore della proprietà documentation.
      * 
      * @return
      *     possible object is
@@ -59,7 +59,7 @@ public abstract class ExtensibleDocumented {
     }
 
     /**
-     * Sets the value of the documentation property.
+     * Imposta il valore della proprietà documentation.
      * 
      * @param value
      *     allowed object is

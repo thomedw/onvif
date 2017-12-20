@@ -11,9 +11,9 @@ import javax.xml.bind.annotation.XmlType;
 
 
 /**
- * <p>Java class for FindEventResultList complex type.
+ * <p>Classe Java per FindEventResultList complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>Il seguente frammento di schema specifica il contenuto previsto contenuto in questa classe.
  * 
  * <pre>
  * &lt;complexType name="FindEventResultList"&gt;
@@ -44,7 +44,7 @@ public class FindEventResultList {
     protected List<FindEventResult> result;
 
     /**
-     * Gets the value of the searchState property.
+     * Recupera il valore della proprietà searchState.
      * 
      * @return
      *     possible object is
@@ -56,7 +56,7 @@ public class FindEventResultList {
     }
 
     /**
-     * Sets the value of the searchState property.
+     * Imposta il valore della proprietà searchState.
      * 
      * @param value
      *     allowed object is

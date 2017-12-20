@@ -14,9 +14,9 @@ import javax.xml.bind.annotation.adapters.XmlJavaTypeAdapter;
 
 
 /**
- * <p>Java class for anonymous complex type.
+ * <p>Classe Java per anonymous complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>Il seguente frammento di schema specifica il contenuto previsto contenuto in questa classe.
  * 
  * <pre>
  * &lt;complexType&gt;
@@ -57,7 +57,7 @@ public class CreatePKCS10CSR {
     protected AlgorithmIdentifier signatureAlgorithm;
 
     /**
-     * Gets the value of the subject property.
+     * Recupera il valore della proprietà subject.
      * 
      * @return
      *     possible object is
@@ -69,7 +69,7 @@ public class CreatePKCS10CSR {
     }
 
     /**
-     * Sets the value of the subject property.
+     * Imposta il valore della proprietà subject.
      * 
      * @param value
      *     allowed object is
@@ -81,7 +81,7 @@ public class CreatePKCS10CSR {
     }
 
     /**
-     * Gets the value of the keyID property.
+     * Recupera il valore della proprietà keyID.
      * 
      * @return
      *     possible object is
@@ -93,7 +93,7 @@ public class CreatePKCS10CSR {
     }
 
     /**
-     * Sets the value of the keyID property.
+     * Imposta il valore della proprietà keyID.
      * 
      * @param value
      *     allowed object is
@@ -134,7 +134,7 @@ public class CreatePKCS10CSR {
     }
 
     /**
-     * Gets the value of the signatureAlgorithm property.
+     * Recupera il valore della proprietà signatureAlgorithm.
      * 
      * @return
      *     possible object is
@@ -146,7 +146,7 @@ public class CreatePKCS10CSR {
     }
 
     /**
-     * Sets the value of the signatureAlgorithm property.
+     * Imposta il valore della proprietà signatureAlgorithm.
      * 
      * @param value
      *     allowed object is

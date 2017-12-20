@@ -11,9 +11,9 @@ import javax.xml.bind.annotation.XmlType;
 
 
 /**
- * <p>Java class for IPv6NetworkInterfaceSetConfiguration complex type.
+ * <p>Classe Java per IPv6NetworkInterfaceSetConfiguration complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>Il seguente frammento di schema specifica il contenuto previsto contenuto in questa classe.
  * 
  * <pre>
  * &lt;complexType name="IPv6NetworkInterfaceSetConfiguration"&gt;
@@ -52,7 +52,7 @@ public class IPv6NetworkInterfaceSetConfiguration {
     protected IPv6DHCPConfiguration dhcp;
 
     /**
-     * Gets the value of the enabled property.
+     * Recupera il valore della proprietà enabled.
      * This getter has been renamed from isEnabled() to getEnabled() by cxf-xjc-boolean plugin.
      * 
      * @return
@@ -65,7 +65,7 @@ public class IPv6NetworkInterfaceSetConfiguration {
     }
 
     /**
-     * Sets the value of the enabled property.
+     * Imposta il valore della proprietà enabled.
      * 
      * @param value
      *     allowed object is
@@ -77,7 +77,7 @@ public class IPv6NetworkInterfaceSetConfiguration {
     }
 
     /**
-     * Gets the value of the acceptRouterAdvert property.
+     * Recupera il valore della proprietà acceptRouterAdvert.
      * This getter has been renamed from isAcceptRouterAdvert() to getAcceptRouterAdvert() by cxf-xjc-boolean plugin.
      * 
      * @return
@@ -90,7 +90,7 @@ public class IPv6NetworkInterfaceSetConfiguration {
     }
 
     /**
-     * Sets the value of the acceptRouterAdvert property.
+     * Imposta il valore della proprietà acceptRouterAdvert.
      * 
      * @param value
      *     allowed object is
@@ -131,7 +131,7 @@ public class IPv6NetworkInterfaceSetConfiguration {
     }
 
     /**
-     * Gets the value of the dhcp property.
+     * Recupera il valore della proprietà dhcp.
      * 
      * @return
      *     possible object is
@@ -143,7 +143,7 @@ public class IPv6NetworkInterfaceSetConfiguration {
     }
 
     /**
-     * Sets the value of the dhcp property.
+     * Imposta il valore della proprietà dhcp.
      * 
      * @param value
      *     allowed object is

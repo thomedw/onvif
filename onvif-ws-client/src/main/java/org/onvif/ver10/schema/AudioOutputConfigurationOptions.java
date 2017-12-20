@@ -17,9 +17,9 @@ import org.w3c.dom.Element;
 
 
 /**
- * <p>Java class for AudioOutputConfigurationOptions complex type.
+ * <p>Classe Java per AudioOutputConfigurationOptions complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>Il seguente frammento di schema specifica il contenuto previsto contenuto in questa classe.
  * 
  * <pre>
  * &lt;complexType name="AudioOutputConfigurationOptions"&gt;
@@ -119,7 +119,7 @@ public class AudioOutputConfigurationOptions {
     }
 
     /**
-     * Gets the value of the outputLevelRange property.
+     * Recupera il valore della proprietà outputLevelRange.
      * 
      * @return
      *     possible object is
@@ -131,7 +131,7 @@ public class AudioOutputConfigurationOptions {
     }
 
     /**
-     * Sets the value of the outputLevelRange property.
+     * Imposta il valore della proprietà outputLevelRange.
      * 
      * @param value
      *     allowed object is
@@ -160,8 +160,8 @@ public class AudioOutputConfigurationOptions {
      * 
      * <p>
      * Objects of the following type(s) are allowed in the list
-     * {@link java.lang.Object }
      * {@link Element }
+     * {@link java.lang.Object }
      * 
      * 
      */

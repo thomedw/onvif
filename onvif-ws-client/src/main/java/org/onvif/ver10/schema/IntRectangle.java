@@ -10,9 +10,9 @@ import javax.xml.bind.annotation.XmlType;
 /**
  * Rectangle defined by lower left corner position and size. Units are pixel.
  * 
- * <p>Java class for IntRectangle complex type.
+ * <p>Classe Java per IntRectangle complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>Il seguente frammento di schema specifica il contenuto previsto contenuto in questa classe.
  * 
  * <pre>
  * &lt;complexType name="IntRectangle"&gt;
@@ -43,7 +43,7 @@ public class IntRectangle {
     protected int height;
 
     /**
-     * Gets the value of the x property.
+     * Recupera il valore della proprietà x.
      * 
      */
     public int getX() {
@@ -51,7 +51,7 @@ public class IntRectangle {
     }
 
     /**
-     * Sets the value of the x property.
+     * Imposta il valore della proprietà x.
      * 
      */
     public void setX(int value) {
@@ -59,7 +59,7 @@ public class IntRectangle {
     }
 
     /**
-     * Gets the value of the y property.
+     * Recupera il valore della proprietà y.
      * 
      */
     public int getY() {
@@ -67,7 +67,7 @@ public class IntRectangle {
     }
 
     /**
-     * Sets the value of the y property.
+     * Imposta il valore della proprietà y.
      * 
      */
     public void setY(int value) {
@@ -75,7 +75,7 @@ public class IntRectangle {
     }
 
     /**
-     * Gets the value of the width property.
+     * Recupera il valore della proprietà width.
      * 
      */
     public int getWidth() {
@@ -83,7 +83,7 @@ public class IntRectangle {
     }
 
     /**
-     * Sets the value of the width property.
+     * Imposta il valore della proprietà width.
      * 
      */
     public void setWidth(int value) {
@@ -91,7 +91,7 @@ public class IntRectangle {
     }
 
     /**
-     * Gets the value of the height property.
+     * Recupera il valore della proprietà height.
      * 
      */
     public int getHeight() {
@@ -99,7 +99,7 @@ public class IntRectangle {
     }
 
     /**
-     * Sets the value of the height property.
+     * Imposta il valore della proprietà height.
      * 
      */
     public void setHeight(int value) {

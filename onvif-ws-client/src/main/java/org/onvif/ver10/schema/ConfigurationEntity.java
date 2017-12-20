@@ -12,9 +12,9 @@ import javax.xml.bind.annotation.XmlType;
 /**
  * Base type defining the common properties of a configuration.
  * 
- * <p>Java class for ConfigurationEntity complex type.
+ * <p>Classe Java per ConfigurationEntity complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>Il seguente frammento di schema specifica il contenuto previsto contenuto in questa classe.
  * 
  * <pre>
  * &lt;complexType name="ConfigurationEntity"&gt;
@@ -64,7 +64,7 @@ public class ConfigurationEntity {
     protected String token;
 
     /**
-     * Gets the value of the name property.
+     * Recupera il valore della proprietà name.
      * 
      * @return
      *     possible object is
@@ -76,7 +76,7 @@ public class ConfigurationEntity {
     }
 
     /**
-     * Sets the value of the name property.
+     * Imposta il valore della proprietà name.
      * 
      * @param value
      *     allowed object is
@@ -88,7 +88,7 @@ public class ConfigurationEntity {
     }
 
     /**
-     * Gets the value of the useCount property.
+     * Recupera il valore della proprietà useCount.
      * 
      */
     public int getUseCount() {
@@ -96,7 +96,7 @@ public class ConfigurationEntity {
     }
 
     /**
-     * Sets the value of the useCount property.
+     * Imposta il valore della proprietà useCount.
      * 
      */
     public void setUseCount(int value) {
@@ -104,7 +104,7 @@ public class ConfigurationEntity {
     }
 
     /**
-     * Gets the value of the token property.
+     * Recupera il valore della proprietà token.
      * 
      * @return
      *     possible object is
@@ -116,7 +116,7 @@ public class ConfigurationEntity {
     }
 
     /**
-     * Sets the value of the token property.
+     * Imposta il valore della proprietà token.
      * 
      * @param value
      *     allowed object is

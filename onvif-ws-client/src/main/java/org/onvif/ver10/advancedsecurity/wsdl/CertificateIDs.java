@@ -19,9 +19,9 @@ import javax.xml.namespace.QName;
 /**
  * A sequence of certificate IDs.
  * 
- * <p>Java class for CertificateIDs complex type.
+ * <p>Classe Java per CertificateIDs complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>Il seguente frammento di schema specifica il contenuto previsto contenuto in questa classe.
  * 
  * <pre>
  * &lt;complexType name="CertificateIDs"&gt;

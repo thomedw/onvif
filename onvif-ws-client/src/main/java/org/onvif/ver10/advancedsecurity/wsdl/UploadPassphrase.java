@@ -9,9 +9,9 @@ import javax.xml.bind.annotation.XmlType;
 
 
 /**
- * <p>Java class for anonymous complex type.
+ * <p>Classe Java per anonymous complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>Il seguente frammento di schema specifica il contenuto previsto contenuto in questa classe.
  * 
  * <pre>
  * &lt;complexType&gt;
@@ -42,7 +42,7 @@ public class UploadPassphrase {
     protected String passphraseAlias;
 
     /**
-     * Gets the value of the passphrase property.
+     * Recupera il valore della proprietà passphrase.
      * 
      * @return
      *     possible object is
@@ -54,7 +54,7 @@ public class UploadPassphrase {
     }
 
     /**
-     * Sets the value of the passphrase property.
+     * Imposta il valore della proprietà passphrase.
      * 
      * @param value
      *     allowed object is
@@ -66,7 +66,7 @@ public class UploadPassphrase {
     }
 
     /**
-     * Gets the value of the passphraseAlias property.
+     * Recupera il valore della proprietà passphraseAlias.
      * 
      * @return
      *     possible object is
@@ -78,7 +78,7 @@ public class UploadPassphrase {
     }
 
     /**
-     * Sets the value of the passphraseAlias property.
+     * Imposta il valore della proprietà passphraseAlias.
      * 
      * @param value
      *     allowed object is

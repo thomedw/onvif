@@ -18,9 +18,9 @@ import org.w3c.dom.Element;
 /**
  * Configuration of the streaming and coding settings of a Video window.
  * 
- * <p>Java class for PaneConfiguration complex type.
+ * <p>Classe Java per PaneConfiguration complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>Il seguente frammento di schema specifica il contenuto previsto contenuto in questa classe.
  * 
  * <pre>
  * &lt;complexType name="PaneConfiguration"&gt;
@@ -73,7 +73,7 @@ public class PaneConfiguration {
     private Map<QName, String> otherAttributes = new HashMap<QName, String>();
 
     /**
-     * Gets the value of the paneName property.
+     * Recupera il valore della proprietà paneName.
      * 
      * @return
      *     possible object is
@@ -85,7 +85,7 @@ public class PaneConfiguration {
     }
 
     /**
-     * Sets the value of the paneName property.
+     * Imposta il valore della proprietà paneName.
      * 
      * @param value
      *     allowed object is
@@ -97,7 +97,7 @@ public class PaneConfiguration {
     }
 
     /**
-     * Gets the value of the audioOutputToken property.
+     * Recupera il valore della proprietà audioOutputToken.
      * 
      * @return
      *     possible object is
@@ -109,7 +109,7 @@ public class PaneConfiguration {
     }
 
     /**
-     * Sets the value of the audioOutputToken property.
+     * Imposta il valore della proprietà audioOutputToken.
      * 
      * @param value
      *     allowed object is
@@ -121,7 +121,7 @@ public class PaneConfiguration {
     }
 
     /**
-     * Gets the value of the audioSourceToken property.
+     * Recupera il valore della proprietà audioSourceToken.
      * 
      * @return
      *     possible object is
@@ -133,7 +133,7 @@ public class PaneConfiguration {
     }
 
     /**
-     * Sets the value of the audioSourceToken property.
+     * Imposta il valore della proprietà audioSourceToken.
      * 
      * @param value
      *     allowed object is
@@ -145,7 +145,7 @@ public class PaneConfiguration {
     }
 
     /**
-     * Gets the value of the audioEncoderConfiguration property.
+     * Recupera il valore della proprietà audioEncoderConfiguration.
      * 
      * @return
      *     possible object is
@@ -157,7 +157,7 @@ public class PaneConfiguration {
     }
 
     /**
-     * Sets the value of the audioEncoderConfiguration property.
+     * Imposta il valore della proprietà audioEncoderConfiguration.
      * 
      * @param value
      *     allowed object is
@@ -169,7 +169,7 @@ public class PaneConfiguration {
     }
 
     /**
-     * Gets the value of the receiverToken property.
+     * Recupera il valore della proprietà receiverToken.
      * 
      * @return
      *     possible object is
@@ -181,7 +181,7 @@ public class PaneConfiguration {
     }
 
     /**
-     * Sets the value of the receiverToken property.
+     * Imposta il valore della proprietà receiverToken.
      * 
      * @param value
      *     allowed object is
@@ -193,7 +193,7 @@ public class PaneConfiguration {
     }
 
     /**
-     * Gets the value of the token property.
+     * Recupera il valore della proprietà token.
      * 
      * @return
      *     possible object is
@@ -205,7 +205,7 @@ public class PaneConfiguration {
     }
 
     /**
-     * Sets the value of the token property.
+     * Imposta il valore della proprietà token.
      * 
      * @param value
      *     allowed object is
@@ -234,8 +234,8 @@ public class PaneConfiguration {
      * 
      * <p>
      * Objects of the following type(s) are allowed in the list
-     * {@link java.lang.Object }
      * {@link Element }
+     * {@link java.lang.Object }
      * 
      * 
      */

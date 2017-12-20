@@ -8,9 +8,9 @@ import javax.xml.bind.annotation.XmlType;
 
 
 /**
- * <p>Java class for VideoResolution complex type.
+ * <p>Classe Java per VideoResolution complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>Il seguente frammento di schema specifica il contenuto previsto contenuto in questa classe.
  * 
  * <pre>
  * &lt;complexType name="VideoResolution"&gt;
@@ -40,7 +40,7 @@ public class VideoResolution {
     protected int height;
 
     /**
-     * Gets the value of the width property.
+     * Recupera il valore della proprietà width.
      * 
      */
     public int getWidth() {
@@ -48,7 +48,7 @@ public class VideoResolution {
     }
 
     /**
-     * Sets the value of the width property.
+     * Imposta il valore della proprietà width.
      * 
      */
     public void setWidth(int value) {
@@ -56,7 +56,7 @@ public class VideoResolution {
     }
 
     /**
-     * Gets the value of the height property.
+     * Recupera il valore della proprietà height.
      * 
      */
     public int getHeight() {
@@ -64,7 +64,7 @@ public class VideoResolution {
     }
 
     /**
-     * Sets the value of the height property.
+     * Imposta il valore della proprietà height.
      * 
      */
     public void setHeight(int value) {

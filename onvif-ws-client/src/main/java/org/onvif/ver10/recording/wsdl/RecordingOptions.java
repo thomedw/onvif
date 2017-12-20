@@ -12,9 +12,9 @@ import org.w3c.dom.Element;
 
 
 /**
- * <p>Java class for RecordingOptions complex type.
+ * <p>Classe Java per RecordingOptions complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>Il seguente frammento di schema specifica il contenuto previsto contenuto in questa classe.
  * 
  * <pre>
  * &lt;complexType name="RecordingOptions"&gt;
@@ -48,7 +48,7 @@ public class RecordingOptions {
     protected List<Object> any;
 
     /**
-     * Gets the value of the job property.
+     * Recupera il valore della proprietà job.
      * 
      * @return
      *     possible object is
@@ -60,7 +60,7 @@ public class RecordingOptions {
     }
 
     /**
-     * Sets the value of the job property.
+     * Imposta il valore della proprietà job.
      * 
      * @param value
      *     allowed object is
@@ -72,7 +72,7 @@ public class RecordingOptions {
     }
 
     /**
-     * Gets the value of the track property.
+     * Recupera il valore della proprietà track.
      * 
      * @return
      *     possible object is
@@ -84,7 +84,7 @@ public class RecordingOptions {
     }
 
     /**
-     * Sets the value of the track property.
+     * Imposta il valore della proprietà track.
      * 
      * @param value
      *     allowed object is
@@ -113,8 +113,8 @@ public class RecordingOptions {
      * 
      * <p>
      * Objects of the following type(s) are allowed in the list
-     * {@link Object }
      * {@link Element }
+     * {@link Object }
      * 
      * 
      */

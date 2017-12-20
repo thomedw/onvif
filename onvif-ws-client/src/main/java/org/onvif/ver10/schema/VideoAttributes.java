@@ -17,9 +17,9 @@ import org.w3c.dom.Element;
 
 
 /**
- * <p>Java class for VideoAttributes complex type.
+ * <p>Classe Java per VideoAttributes complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>Il seguente frammento di schema specifica il contenuto previsto contenuto in questa classe.
  * 
  * <pre>
  * &lt;complexType name="VideoAttributes"&gt;
@@ -69,7 +69,7 @@ public class VideoAttributes {
     private Map<QName, String> otherAttributes = new HashMap<QName, String>();
 
     /**
-     * Gets the value of the bitrate property.
+     * Recupera il valore della proprietà bitrate.
      * 
      * @return
      *     possible object is
@@ -81,7 +81,7 @@ public class VideoAttributes {
     }
 
     /**
-     * Sets the value of the bitrate property.
+     * Imposta il valore della proprietà bitrate.
      * 
      * @param value
      *     allowed object is
@@ -93,7 +93,7 @@ public class VideoAttributes {
     }
 
     /**
-     * Gets the value of the width property.
+     * Recupera il valore della proprietà width.
      * 
      */
     public int getWidth() {
@@ -101,7 +101,7 @@ public class VideoAttributes {
     }
 
     /**
-     * Sets the value of the width property.
+     * Imposta il valore della proprietà width.
      * 
      */
     public void setWidth(int value) {
@@ -109,7 +109,7 @@ public class VideoAttributes {
     }
 
     /**
-     * Gets the value of the height property.
+     * Recupera il valore della proprietà height.
      * 
      */
     public int getHeight() {
@@ -117,7 +117,7 @@ public class VideoAttributes {
     }
 
     /**
-     * Sets the value of the height property.
+     * Imposta il valore della proprietà height.
      * 
      */
     public void setHeight(int value) {
@@ -125,7 +125,7 @@ public class VideoAttributes {
     }
 
     /**
-     * Gets the value of the encoding property.
+     * Recupera il valore della proprietà encoding.
      * 
      * @return
      *     possible object is
@@ -137,7 +137,7 @@ public class VideoAttributes {
     }
 
     /**
-     * Sets the value of the encoding property.
+     * Imposta il valore della proprietà encoding.
      * 
      * @param value
      *     allowed object is
@@ -149,7 +149,7 @@ public class VideoAttributes {
     }
 
     /**
-     * Gets the value of the framerate property.
+     * Recupera il valore della proprietà framerate.
      * 
      */
     public float getFramerate() {
@@ -157,7 +157,7 @@ public class VideoAttributes {
     }
 
     /**
-     * Sets the value of the framerate property.
+     * Imposta il valore della proprietà framerate.
      * 
      */
     public void setFramerate(float value) {
@@ -182,8 +182,8 @@ public class VideoAttributes {
      * 
      * <p>
      * Objects of the following type(s) are allowed in the list
-     * {@link java.lang.Object }
      * {@link Element }
+     * {@link java.lang.Object }
      * 
      * 
      */

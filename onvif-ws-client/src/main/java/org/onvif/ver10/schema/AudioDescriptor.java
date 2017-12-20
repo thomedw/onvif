@@ -18,9 +18,9 @@ import org.w3c.dom.Element;
 
 
 /**
- * <p>Java class for AudioDescriptor complex type.
+ * <p>Classe Java per AudioDescriptor complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>Il seguente frammento di schema specifica il contenuto previsto contenuto in questa classe.
  * 
  * <pre>
  * &lt;complexType name="AudioDescriptor"&gt;
@@ -70,8 +70,8 @@ public class AudioDescriptor {
      * 
      * <p>
      * Objects of the following type(s) are allowed in the list
-     * {@link java.lang.Object }
      * {@link Element }
+     * {@link java.lang.Object }
      * 
      * 
      */
@@ -83,7 +83,7 @@ public class AudioDescriptor {
     }
 
     /**
-     * Gets the value of the utcTime property.
+     * Recupera il valore della proprietà utcTime.
      * 
      * @return
      *     possible object is
@@ -95,7 +95,7 @@ public class AudioDescriptor {
     }
 
     /**
-     * Sets the value of the utcTime property.
+     * Imposta il valore della proprietà utcTime.
      * 
      * @param value
      *     allowed object is

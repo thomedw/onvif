@@ -11,9 +11,9 @@ import org.w3c.dom.Element;
 
 
 /**
- * <p>Java class for MetadataConfigurationOptionsExtension2 complex type.
+ * <p>Classe Java per MetadataConfigurationOptionsExtension2 complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>Il seguente frammento di schema specifica il contenuto previsto contenuto in questa classe.
  * 
  * <pre>
  * &lt;complexType name="MetadataConfigurationOptionsExtension2"&gt;
@@ -56,8 +56,8 @@ public class MetadataConfigurationOptionsExtension2 {
      * 
      * <p>
      * Objects of the following type(s) are allowed in the list
-     * {@link java.lang.Object }
      * {@link Element }
+     * {@link java.lang.Object }
      * 
      * 
      */

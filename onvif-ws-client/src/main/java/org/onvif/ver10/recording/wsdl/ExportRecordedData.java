@@ -11,9 +11,9 @@ import org.onvif.ver10.schema.StorageReferencePath;
 
 
 /**
- * <p>Java class for anonymous complex type.
+ * <p>Classe Java per anonymous complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>Il seguente frammento di schema specifica il contenuto previsto contenuto in questa classe.
  * 
  * <pre>
  * &lt;complexType&gt;
@@ -48,7 +48,7 @@ public class ExportRecordedData {
     protected StorageReferencePath storageDestination;
 
     /**
-     * Gets the value of the searchScope property.
+     * Recupera il valore della proprietà searchScope.
      * 
      * @return
      *     possible object is
@@ -60,7 +60,7 @@ public class ExportRecordedData {
     }
 
     /**
-     * Sets the value of the searchScope property.
+     * Imposta il valore della proprietà searchScope.
      * 
      * @param value
      *     allowed object is
@@ -72,7 +72,7 @@ public class ExportRecordedData {
     }
 
     /**
-     * Gets the value of the fileFormat property.
+     * Recupera il valore della proprietà fileFormat.
      * 
      * @return
      *     possible object is
@@ -84,7 +84,7 @@ public class ExportRecordedData {
     }
 
     /**
-     * Sets the value of the fileFormat property.
+     * Imposta il valore della proprietà fileFormat.
      * 
      * @param value
      *     allowed object is
@@ -96,7 +96,7 @@ public class ExportRecordedData {
     }
 
     /**
-     * Gets the value of the storageDestination property.
+     * Recupera il valore della proprietà storageDestination.
      * 
      * @return
      *     possible object is
@@ -108,7 +108,7 @@ public class ExportRecordedData {
     }
 
     /**
-     * Sets the value of the storageDestination property.
+     * Imposta il valore della proprietà storageDestination.
      * 
      * @param value
      *     allowed object is

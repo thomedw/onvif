@@ -16,9 +16,9 @@ import org.w3c.dom.Element;
 
 
 /**
- * <p>Java class for TopicNamespaceType complex type.
+ * <p>Classe Java per TopicNamespaceType complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>Il seguente frammento di schema specifica il contenuto previsto contenuto in questa classe.
  * 
  * <pre>
  * &lt;complexType name="TopicNamespaceType"&gt;
@@ -118,8 +118,8 @@ public class TopicNamespaceType
      * 
      * <p>
      * Objects of the following type(s) are allowed in the list
-     * {@link Object }
      * {@link Element }
+     * {@link Object }
      * 
      * 
      */
@@ -131,7 +131,7 @@ public class TopicNamespaceType
     }
 
     /**
-     * Gets the value of the name property.
+     * Recupera il valore della proprietà name.
      * 
      * @return
      *     possible object is
@@ -143,7 +143,7 @@ public class TopicNamespaceType
     }
 
     /**
-     * Sets the value of the name property.
+     * Imposta il valore della proprietà name.
      * 
      * @param value
      *     allowed object is
@@ -155,7 +155,7 @@ public class TopicNamespaceType
     }
 
     /**
-     * Gets the value of the targetNamespace property.
+     * Recupera il valore della proprietà targetNamespace.
      * 
      * @return
      *     possible object is
@@ -167,7 +167,7 @@ public class TopicNamespaceType
     }
 
     /**
-     * Sets the value of the targetNamespace property.
+     * Imposta il valore della proprietà targetNamespace.
      * 
      * @param value
      *     allowed object is
@@ -179,7 +179,7 @@ public class TopicNamespaceType
     }
 
     /**
-     * Gets the value of the final property.
+     * Recupera il valore della proprietà final.
      * This getter has been renamed from isFinal() to getFinal() by cxf-xjc-boolean plugin.
      * 
      * @return
@@ -196,7 +196,7 @@ public class TopicNamespaceType
     }
 
     /**
-     * Sets the value of the final property.
+     * Imposta il valore della proprietà final.
      * 
      * @param value
      *     allowed object is
@@ -209,9 +209,9 @@ public class TopicNamespaceType
 
 
     /**
-     * <p>Java class for anonymous complex type.
+     * <p>Classe Java per anonymous complex type.
      * 
-     * <p>The following schema fragment specifies the expected content contained within this class.
+     * <p>Il seguente frammento di schema specifica il contenuto previsto contenuto in questa classe.
      * 
      * <pre>
      * &lt;complexType&gt;
@@ -237,7 +237,7 @@ public class TopicNamespaceType
         protected String parent;
 
         /**
-         * Gets the value of the parent property.
+         * Recupera il valore della proprietà parent.
          * 
          * @return
          *     possible object is
@@ -249,7 +249,7 @@ public class TopicNamespaceType
         }
 
         /**
-         * Sets the value of the parent property.
+         * Imposta il valore della proprietà parent.
          * 
          * @param value
          *     allowed object is

@@ -16,9 +16,9 @@ import org.w3c.dom.Element;
 
 
 /**
- * <p>Java class for RecordingJobStateTrack complex type.
+ * <p>Classe Java per RecordingJobStateTrack complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>Il seguente frammento di schema specifica il contenuto previsto contenuto in questa classe.
  * 
  * <pre>
  * &lt;complexType name="RecordingJobStateTrack"&gt;
@@ -63,7 +63,7 @@ public class RecordingJobStateTrack {
     private Map<QName, String> otherAttributes = new HashMap<QName, String>();
 
     /**
-     * Gets the value of the sourceTag property.
+     * Recupera il valore della proprietà sourceTag.
      * 
      * @return
      *     possible object is
@@ -75,7 +75,7 @@ public class RecordingJobStateTrack {
     }
 
     /**
-     * Sets the value of the sourceTag property.
+     * Imposta il valore della proprietà sourceTag.
      * 
      * @param value
      *     allowed object is
@@ -87,7 +87,7 @@ public class RecordingJobStateTrack {
     }
 
     /**
-     * Gets the value of the destination property.
+     * Recupera il valore della proprietà destination.
      * 
      * @return
      *     possible object is
@@ -99,7 +99,7 @@ public class RecordingJobStateTrack {
     }
 
     /**
-     * Sets the value of the destination property.
+     * Imposta il valore della proprietà destination.
      * 
      * @param value
      *     allowed object is
@@ -111,7 +111,7 @@ public class RecordingJobStateTrack {
     }
 
     /**
-     * Gets the value of the error property.
+     * Recupera il valore della proprietà error.
      * 
      * @return
      *     possible object is
@@ -123,7 +123,7 @@ public class RecordingJobStateTrack {
     }
 
     /**
-     * Sets the value of the error property.
+     * Imposta il valore della proprietà error.
      * 
      * @param value
      *     allowed object is
@@ -135,7 +135,7 @@ public class RecordingJobStateTrack {
     }
 
     /**
-     * Gets the value of the state property.
+     * Recupera il valore della proprietà state.
      * 
      * @return
      *     possible object is
@@ -147,7 +147,7 @@ public class RecordingJobStateTrack {
     }
 
     /**
-     * Sets the value of the state property.
+     * Imposta il valore della proprietà state.
      * 
      * @param value
      *     allowed object is
@@ -176,8 +176,8 @@ public class RecordingJobStateTrack {
      * 
      * <p>
      * Objects of the following type(s) are allowed in the list
-     * {@link java.lang.Object }
      * {@link Element }
+     * {@link java.lang.Object }
      * 
      * 
      */

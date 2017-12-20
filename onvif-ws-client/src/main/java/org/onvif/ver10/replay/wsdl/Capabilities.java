@@ -16,9 +16,9 @@ import org.w3c.dom.Element;
 
 
 /**
- * <p>Java class for Capabilities complex type.
+ * <p>Classe Java per Capabilities complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>Il seguente frammento di schema specifica il contenuto previsto contenuto in questa classe.
  * 
  * <pre>
  * &lt;complexType name="Capabilities"&gt;
@@ -73,8 +73,8 @@ public class Capabilities {
      * 
      * <p>
      * Objects of the following type(s) are allowed in the list
-     * {@link Object }
      * {@link Element }
+     * {@link Object }
      * 
      * 
      */
@@ -86,7 +86,7 @@ public class Capabilities {
     }
 
     /**
-     * Gets the value of the reversePlayback property.
+     * Recupera il valore della proprietà reversePlayback.
      * This getter has been renamed from isReversePlayback() to getReversePlayback() by cxf-xjc-boolean plugin.
      * 
      * @return
@@ -103,7 +103,7 @@ public class Capabilities {
     }
 
     /**
-     * Sets the value of the reversePlayback property.
+     * Imposta il valore della proprietà reversePlayback.
      * 
      * @param value
      *     allowed object is
@@ -144,7 +144,7 @@ public class Capabilities {
     }
 
     /**
-     * Gets the value of the rtprtsptcp property.
+     * Recupera il valore della proprietà rtprtsptcp.
      * This getter has been renamed from isRTPRTSPTCP() to getRTPRTSPTCP() by cxf-xjc-boolean plugin.
      * 
      * @return
@@ -157,7 +157,7 @@ public class Capabilities {
     }
 
     /**
-     * Sets the value of the rtprtsptcp property.
+     * Imposta il valore della proprietà rtprtsptcp.
      * 
      * @param value
      *     allowed object is

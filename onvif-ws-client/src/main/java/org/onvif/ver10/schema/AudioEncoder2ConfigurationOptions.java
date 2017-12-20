@@ -16,9 +16,9 @@ import org.w3c.dom.Element;
 
 
 /**
- * <p>Java class for AudioEncoder2ConfigurationOptions complex type.
+ * <p>Classe Java per AudioEncoder2ConfigurationOptions complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>Il seguente frammento di schema specifica il contenuto previsto contenuto in questa classe.
  * 
  * <pre>
  * &lt;complexType name="AudioEncoder2ConfigurationOptions"&gt;
@@ -59,7 +59,7 @@ public class AudioEncoder2ConfigurationOptions {
     private Map<QName, String> otherAttributes = new HashMap<QName, String>();
 
     /**
-     * Gets the value of the encoding property.
+     * Recupera il valore della proprietà encoding.
      * 
      * @return
      *     possible object is
@@ -71,7 +71,7 @@ public class AudioEncoder2ConfigurationOptions {
     }
 
     /**
-     * Sets the value of the encoding property.
+     * Imposta il valore della proprietà encoding.
      * 
      * @param value
      *     allowed object is
@@ -83,7 +83,7 @@ public class AudioEncoder2ConfigurationOptions {
     }
 
     /**
-     * Gets the value of the bitrateList property.
+     * Recupera il valore della proprietà bitrateList.
      * 
      * @return
      *     possible object is
@@ -95,7 +95,7 @@ public class AudioEncoder2ConfigurationOptions {
     }
 
     /**
-     * Sets the value of the bitrateList property.
+     * Imposta il valore della proprietà bitrateList.
      * 
      * @param value
      *     allowed object is
@@ -107,7 +107,7 @@ public class AudioEncoder2ConfigurationOptions {
     }
 
     /**
-     * Gets the value of the sampleRateList property.
+     * Recupera il valore della proprietà sampleRateList.
      * 
      * @return
      *     possible object is
@@ -119,7 +119,7 @@ public class AudioEncoder2ConfigurationOptions {
     }
 
     /**
-     * Sets the value of the sampleRateList property.
+     * Imposta il valore della proprietà sampleRateList.
      * 
      * @param value
      *     allowed object is
@@ -148,8 +148,8 @@ public class AudioEncoder2ConfigurationOptions {
      * 
      * <p>
      * Objects of the following type(s) are allowed in the list
-     * {@link java.lang.Object }
      * {@link Element }
+     * {@link java.lang.Object }
      * 
      * 
      */

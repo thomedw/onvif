@@ -9,9 +9,9 @@ import javax.xml.bind.annotation.XmlType;
 
 
 /**
- * <p>Java class for PTZMoveStatus complex type.
+ * <p>Classe Java per PTZMoveStatus complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>Il seguente frammento di schema specifica il contenuto previsto contenuto in questa classe.
  * 
  * <pre>
  * &lt;complexType name="PTZMoveStatus"&gt;
@@ -43,7 +43,7 @@ public class PTZMoveStatus {
     protected MoveStatus zoom;
 
     /**
-     * Gets the value of the panTilt property.
+     * Recupera il valore della proprietà panTilt.
      * 
      * @return
      *     possible object is
@@ -55,7 +55,7 @@ public class PTZMoveStatus {
     }
 
     /**
-     * Sets the value of the panTilt property.
+     * Imposta il valore della proprietà panTilt.
      * 
      * @param value
      *     allowed object is
@@ -67,7 +67,7 @@ public class PTZMoveStatus {
     }
 
     /**
-     * Gets the value of the zoom property.
+     * Recupera il valore della proprietà zoom.
      * 
      * @return
      *     possible object is
@@ -79,7 +79,7 @@ public class PTZMoveStatus {
     }
 
     /**
-     * Sets the value of the zoom property.
+     * Imposta il valore della proprietà zoom.
      * 
      * @param value
      *     allowed object is

@@ -8,9 +8,9 @@ import javax.xml.bind.annotation.XmlType;
 
 
 /**
- * <p>Java class for anonymous complex type.
+ * <p>Classe Java per anonymous complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>Il seguente frammento di schema specifica il contenuto previsto contenuto in questa classe.
  * 
  * <pre>
  * &lt;complexType&gt;
@@ -36,7 +36,7 @@ public class SetClientAuthenticationRequired {
     protected boolean clientAuthenticationRequired;
 
     /**
-     * Gets the value of the clientAuthenticationRequired property.
+     * Recupera il valore della proprietà clientAuthenticationRequired.
      * This getter has been renamed from isClientAuthenticationRequired() to getClientAuthenticationRequired() by cxf-xjc-boolean plugin.
      * 
      */
@@ -45,7 +45,7 @@ public class SetClientAuthenticationRequired {
     }
 
     /**
-     * Sets the value of the clientAuthenticationRequired property.
+     * Imposta il valore della proprietà clientAuthenticationRequired.
      * 
      */
     public void setClientAuthenticationRequired(boolean value) {

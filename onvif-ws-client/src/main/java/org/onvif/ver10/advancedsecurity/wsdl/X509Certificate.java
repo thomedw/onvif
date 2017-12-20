@@ -21,9 +21,9 @@ import org.w3c.dom.Element;
 /**
  * An X.509 cerficiate as specified in RFC 5280.
  * 
- * <p>Java class for X509Certificate complex type.
+ * <p>Classe Java per X509Certificate complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>Il seguente frammento di schema specifica il contenuto previsto contenuto in questa classe.
  * 
  * <pre>
  * &lt;complexType name="X509Certificate"&gt;
@@ -72,7 +72,7 @@ public class X509Certificate {
     private Map<QName, String> otherAttributes = new HashMap<QName, String>();
 
     /**
-     * Gets the value of the certificateID property.
+     * Recupera il valore della proprietà certificateID.
      * 
      * @return
      *     possible object is
@@ -84,7 +84,7 @@ public class X509Certificate {
     }
 
     /**
-     * Sets the value of the certificateID property.
+     * Imposta il valore della proprietà certificateID.
      * 
      * @param value
      *     allowed object is
@@ -96,7 +96,7 @@ public class X509Certificate {
     }
 
     /**
-     * Gets the value of the keyID property.
+     * Recupera il valore della proprietà keyID.
      * 
      * @return
      *     possible object is
@@ -108,7 +108,7 @@ public class X509Certificate {
     }
 
     /**
-     * Sets the value of the keyID property.
+     * Imposta il valore della proprietà keyID.
      * 
      * @param value
      *     allowed object is
@@ -120,7 +120,7 @@ public class X509Certificate {
     }
 
     /**
-     * Gets the value of the alias property.
+     * Recupera il valore della proprietà alias.
      * 
      * @return
      *     possible object is
@@ -132,7 +132,7 @@ public class X509Certificate {
     }
 
     /**
-     * Sets the value of the alias property.
+     * Imposta il valore della proprietà alias.
      * 
      * @param value
      *     allowed object is
@@ -144,7 +144,7 @@ public class X509Certificate {
     }
 
     /**
-     * Gets the value of the certificateContent property.
+     * Recupera il valore della proprietà certificateContent.
      * 
      * @return
      *     possible object is
@@ -155,7 +155,7 @@ public class X509Certificate {
     }
 
     /**
-     * Sets the value of the certificateContent property.
+     * Imposta il valore della proprietà certificateContent.
      * 
      * @param value
      *     allowed object is
@@ -183,8 +183,8 @@ public class X509Certificate {
      * 
      * <p>
      * Objects of the following type(s) are allowed in the list
-     * {@link Object }
      * {@link Element }
+     * {@link Object }
      * 
      * 
      */

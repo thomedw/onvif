@@ -16,9 +16,9 @@ import javax.xml.namespace.QName;
 /**
  * A layout describes a set of Video windows that are displayed simultaniously on a display. 
  * 
- * <p>Java class for Layout complex type.
+ * <p>Classe Java per Layout complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>Il seguente frammento di schema specifica il contenuto previsto contenuto in questa classe.
  * 
  * <pre>
  * &lt;complexType name="Layout"&gt;
@@ -80,7 +80,7 @@ public class Layout {
     }
 
     /**
-     * Gets the value of the extension property.
+     * Recupera il valore della proprietà extension.
      * 
      * @return
      *     possible object is
@@ -92,7 +92,7 @@ public class Layout {
     }
 
     /**
-     * Sets the value of the extension property.
+     * Imposta il valore della proprietà extension.
      * 
      * @param value
      *     allowed object is

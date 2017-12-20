@@ -16,9 +16,9 @@ import org.w3c.dom.Element;
 
 
 /**
- * <p>Java class for GetRecordingsResponseItem complex type.
+ * <p>Classe Java per GetRecordingsResponseItem complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>Il seguente frammento di schema specifica il contenuto previsto contenuto in questa classe.
  * 
  * <pre>
  * &lt;complexType name="GetRecordingsResponseItem"&gt;
@@ -59,7 +59,7 @@ public class GetRecordingsResponseItem {
     private Map<QName, String> otherAttributes = new HashMap<QName, String>();
 
     /**
-     * Gets the value of the recordingToken property.
+     * Recupera il valore della proprietà recordingToken.
      * 
      * @return
      *     possible object is
@@ -71,7 +71,7 @@ public class GetRecordingsResponseItem {
     }
 
     /**
-     * Sets the value of the recordingToken property.
+     * Imposta il valore della proprietà recordingToken.
      * 
      * @param value
      *     allowed object is
@@ -83,7 +83,7 @@ public class GetRecordingsResponseItem {
     }
 
     /**
-     * Gets the value of the configuration property.
+     * Recupera il valore della proprietà configuration.
      * 
      * @return
      *     possible object is
@@ -95,7 +95,7 @@ public class GetRecordingsResponseItem {
     }
 
     /**
-     * Sets the value of the configuration property.
+     * Imposta il valore della proprietà configuration.
      * 
      * @param value
      *     allowed object is
@@ -107,7 +107,7 @@ public class GetRecordingsResponseItem {
     }
 
     /**
-     * Gets the value of the tracks property.
+     * Recupera il valore della proprietà tracks.
      * 
      * @return
      *     possible object is
@@ -119,7 +119,7 @@ public class GetRecordingsResponseItem {
     }
 
     /**
-     * Sets the value of the tracks property.
+     * Imposta il valore della proprietà tracks.
      * 
      * @param value
      *     allowed object is
@@ -148,8 +148,8 @@ public class GetRecordingsResponseItem {
      * 
      * <p>
      * Objects of the following type(s) are allowed in the list
-     * {@link java.lang.Object }
      * {@link Element }
+     * {@link java.lang.Object }
      * 
      * 
      */

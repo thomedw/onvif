@@ -12,9 +12,9 @@ import javax.xml.bind.annotation.XmlType;
 
 
 /**
- * <p>Java class for Mpeg4Options complex type.
+ * <p>Classe Java per Mpeg4Options complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>Il seguente frammento di schema specifica il contenuto previsto contenuto in questa classe.
  * 
  * <pre>
  * &lt;complexType name="Mpeg4Options"&gt;
@@ -89,7 +89,7 @@ public class Mpeg4Options {
     }
 
     /**
-     * Gets the value of the govLengthRange property.
+     * Recupera il valore della proprietà govLengthRange.
      * 
      * @return
      *     possible object is
@@ -101,7 +101,7 @@ public class Mpeg4Options {
     }
 
     /**
-     * Sets the value of the govLengthRange property.
+     * Imposta il valore della proprietà govLengthRange.
      * 
      * @param value
      *     allowed object is
@@ -113,7 +113,7 @@ public class Mpeg4Options {
     }
 
     /**
-     * Gets the value of the frameRateRange property.
+     * Recupera il valore della proprietà frameRateRange.
      * 
      * @return
      *     possible object is
@@ -125,7 +125,7 @@ public class Mpeg4Options {
     }
 
     /**
-     * Sets the value of the frameRateRange property.
+     * Imposta il valore della proprietà frameRateRange.
      * 
      * @param value
      *     allowed object is
@@ -137,7 +137,7 @@ public class Mpeg4Options {
     }
 
     /**
-     * Gets the value of the encodingIntervalRange property.
+     * Recupera il valore della proprietà encodingIntervalRange.
      * 
      * @return
      *     possible object is
@@ -149,7 +149,7 @@ public class Mpeg4Options {
     }
 
     /**
-     * Sets the value of the encodingIntervalRange property.
+     * Imposta il valore della proprietà encodingIntervalRange.
      * 
      * @param value
      *     allowed object is

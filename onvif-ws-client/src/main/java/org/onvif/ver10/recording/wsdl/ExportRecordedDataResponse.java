@@ -13,9 +13,9 @@ import org.w3c.dom.Element;
 
 
 /**
- * <p>Java class for anonymous complex type.
+ * <p>Classe Java per anonymous complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>Il seguente frammento di schema specifica il contenuto previsto contenuto in questa classe.
  * 
  * <pre>
  * &lt;complexType&gt;
@@ -60,7 +60,7 @@ public class ExportRecordedDataResponse {
     protected ExportRecordedDataResponse.Extension extension;
 
     /**
-     * Gets the value of the operationToken property.
+     * Recupera il valore della proprietà operationToken.
      * 
      * @return
      *     possible object is
@@ -72,7 +72,7 @@ public class ExportRecordedDataResponse {
     }
 
     /**
-     * Sets the value of the operationToken property.
+     * Imposta il valore della proprietà operationToken.
      * 
      * @param value
      *     allowed object is
@@ -113,7 +113,7 @@ public class ExportRecordedDataResponse {
     }
 
     /**
-     * Gets the value of the extension property.
+     * Recupera il valore della proprietà extension.
      * 
      * @return
      *     possible object is
@@ -125,7 +125,7 @@ public class ExportRecordedDataResponse {
     }
 
     /**
-     * Sets the value of the extension property.
+     * Imposta il valore della proprietà extension.
      * 
      * @param value
      *     allowed object is
@@ -138,9 +138,9 @@ public class ExportRecordedDataResponse {
 
 
     /**
-     * <p>Java class for anonymous complex type.
+     * <p>Classe Java per anonymous complex type.
      * 
-     * <p>The following schema fragment specifies the expected content contained within this class.
+     * <p>Il seguente frammento di schema specifica il contenuto previsto contenuto in questa classe.
      * 
      * <pre>
      * &lt;complexType&gt;
@@ -166,12 +166,12 @@ public class ExportRecordedDataResponse {
         protected Object any;
 
         /**
-         * Gets the value of the any property.
+         * Recupera il valore della proprietà any.
          * 
          * @return
          *     possible object is
-         *     {@link Object }
          *     {@link Element }
+         *     {@link Object }
          *     
          */
         public Object getAny() {
@@ -179,12 +179,12 @@ public class ExportRecordedDataResponse {
         }
 
         /**
-         * Sets the value of the any property.
+         * Imposta il valore della proprietà any.
          * 
          * @param value
          *     allowed object is
-         *     {@link Object }
          *     {@link Element }
+         *     {@link Object }
          *     
          */
         public void setAny(Object value) {

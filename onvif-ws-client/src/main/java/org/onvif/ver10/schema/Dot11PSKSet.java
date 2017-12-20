@@ -15,9 +15,9 @@ import javax.xml.namespace.QName;
 
 
 /**
- * <p>Java class for Dot11PSKSet complex type.
+ * <p>Classe Java per Dot11PSKSet complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>Il seguente frammento di schema specifica il contenuto previsto contenuto in questa classe.
  * 
  * <pre>
  * &lt;complexType name="Dot11PSKSet"&gt;
@@ -56,7 +56,7 @@ public class Dot11PSKSet {
     private Map<QName, String> otherAttributes = new HashMap<QName, String>();
 
     /**
-     * Gets the value of the key property.
+     * Recupera il valore della proprietà key.
      * 
      * @return
      *     possible object is
@@ -68,7 +68,7 @@ public class Dot11PSKSet {
     }
 
     /**
-     * Sets the value of the key property.
+     * Imposta il valore della proprietà key.
      * 
      * @param value
      *     allowed object is
@@ -80,7 +80,7 @@ public class Dot11PSKSet {
     }
 
     /**
-     * Gets the value of the passphrase property.
+     * Recupera il valore della proprietà passphrase.
      * 
      * @return
      *     possible object is
@@ -92,7 +92,7 @@ public class Dot11PSKSet {
     }
 
     /**
-     * Sets the value of the passphrase property.
+     * Imposta il valore della proprietà passphrase.
      * 
      * @param value
      *     allowed object is
@@ -104,7 +104,7 @@ public class Dot11PSKSet {
     }
 
     /**
-     * Gets the value of the extension property.
+     * Recupera il valore della proprietà extension.
      * 
      * @return
      *     possible object is
@@ -116,7 +116,7 @@ public class Dot11PSKSet {
     }
 
     /**
-     * Sets the value of the extension property.
+     * Imposta il valore della proprietà extension.
      * 
      * @param value
      *     allowed object is

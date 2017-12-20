@@ -12,9 +12,9 @@ import javax.xml.bind.annotation.adapters.XmlJavaTypeAdapter;
 
 
 /**
- * <p>Java class for anonymous complex type.
+ * <p>Classe Java per anonymous complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>Il seguente frammento di schema specifica il contenuto previsto contenuto in questa classe.
  * 
  * <pre>
  * &lt;complexType&gt;
@@ -55,7 +55,7 @@ public class UploadKeyPairInPKCS8 {
     protected String encryptionPassphrase;
 
     /**
-     * Gets the value of the keyPair property.
+     * Recupera il valore della proprietà keyPair.
      * 
      * @return
      *     possible object is
@@ -66,7 +66,7 @@ public class UploadKeyPairInPKCS8 {
     }
 
     /**
-     * Sets the value of the keyPair property.
+     * Imposta il valore della proprietà keyPair.
      * 
      * @param value
      *     allowed object is
@@ -77,7 +77,7 @@ public class UploadKeyPairInPKCS8 {
     }
 
     /**
-     * Gets the value of the alias property.
+     * Recupera il valore della proprietà alias.
      * 
      * @return
      *     possible object is
@@ -89,7 +89,7 @@ public class UploadKeyPairInPKCS8 {
     }
 
     /**
-     * Sets the value of the alias property.
+     * Imposta il valore della proprietà alias.
      * 
      * @param value
      *     allowed object is
@@ -101,7 +101,7 @@ public class UploadKeyPairInPKCS8 {
     }
 
     /**
-     * Gets the value of the encryptionPassphraseID property.
+     * Recupera il valore della proprietà encryptionPassphraseID.
      * 
      * @return
      *     possible object is
@@ -113,7 +113,7 @@ public class UploadKeyPairInPKCS8 {
     }
 
     /**
-     * Sets the value of the encryptionPassphraseID property.
+     * Imposta il valore della proprietà encryptionPassphraseID.
      * 
      * @param value
      *     allowed object is
@@ -125,7 +125,7 @@ public class UploadKeyPairInPKCS8 {
     }
 
     /**
-     * Gets the value of the encryptionPassphrase property.
+     * Recupera il valore della proprietà encryptionPassphrase.
      * 
      * @return
      *     possible object is
@@ -137,7 +137,7 @@ public class UploadKeyPairInPKCS8 {
     }
 
     /**
-     * Sets the value of the encryptionPassphrase property.
+     * Imposta il valore della proprietà encryptionPassphrase.
      * 
      * @param value
      *     allowed object is

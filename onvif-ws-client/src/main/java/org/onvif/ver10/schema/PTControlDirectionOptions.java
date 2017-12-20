@@ -12,9 +12,9 @@ import javax.xml.namespace.QName;
 
 
 /**
- * <p>Java class for PTControlDirectionOptions complex type.
+ * <p>Classe Java per PTControlDirectionOptions complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>Il seguente frammento di schema specifica il contenuto previsto contenuto in questa classe.
  * 
  * <pre>
  * &lt;complexType name="PTControlDirectionOptions"&gt;
@@ -51,7 +51,7 @@ public class PTControlDirectionOptions {
     private Map<QName, String> otherAttributes = new HashMap<QName, String>();
 
     /**
-     * Gets the value of the eFlip property.
+     * Recupera il valore della proprietà eFlip.
      * 
      * @return
      *     possible object is
@@ -63,7 +63,7 @@ public class PTControlDirectionOptions {
     }
 
     /**
-     * Sets the value of the eFlip property.
+     * Imposta il valore della proprietà eFlip.
      * 
      * @param value
      *     allowed object is
@@ -75,7 +75,7 @@ public class PTControlDirectionOptions {
     }
 
     /**
-     * Gets the value of the reverse property.
+     * Recupera il valore della proprietà reverse.
      * 
      * @return
      *     possible object is
@@ -87,7 +87,7 @@ public class PTControlDirectionOptions {
     }
 
     /**
-     * Sets the value of the reverse property.
+     * Imposta il valore della proprietà reverse.
      * 
      * @param value
      *     allowed object is
@@ -99,7 +99,7 @@ public class PTControlDirectionOptions {
     }
 
     /**
-     * Gets the value of the extension property.
+     * Recupera il valore della proprietà extension.
      * 
      * @return
      *     possible object is
@@ -111,7 +111,7 @@ public class PTControlDirectionOptions {
     }
 
     /**
-     * Sets the value of the extension property.
+     * Imposta il valore della proprietà extension.
      * 
      * @param value
      *     allowed object is

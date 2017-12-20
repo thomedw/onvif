@@ -18,9 +18,9 @@ import org.w3c.dom.Element;
 
 
 /**
- * <p>Java class for MediaUri complex type.
+ * <p>Classe Java per MediaUri complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>Il seguente frammento di schema specifica il contenuto previsto contenuto in questa classe.
  * 
  * <pre>
  * &lt;complexType name="MediaUri"&gt;
@@ -66,7 +66,7 @@ public class MediaUri {
     private Map<QName, String> otherAttributes = new HashMap<QName, String>();
 
     /**
-     * Gets the value of the uri property.
+     * Recupera il valore della proprietà uri.
      * 
      * @return
      *     possible object is
@@ -78,7 +78,7 @@ public class MediaUri {
     }
 
     /**
-     * Sets the value of the uri property.
+     * Imposta il valore della proprietà uri.
      * 
      * @param value
      *     allowed object is
@@ -90,7 +90,7 @@ public class MediaUri {
     }
 
     /**
-     * Gets the value of the invalidAfterConnect property.
+     * Recupera il valore della proprietà invalidAfterConnect.
      * This getter has been renamed from isInvalidAfterConnect() to getInvalidAfterConnect() by cxf-xjc-boolean plugin.
      * 
      */
@@ -99,7 +99,7 @@ public class MediaUri {
     }
 
     /**
-     * Sets the value of the invalidAfterConnect property.
+     * Imposta il valore della proprietà invalidAfterConnect.
      * 
      */
     public void setInvalidAfterConnect(boolean value) {
@@ -107,7 +107,7 @@ public class MediaUri {
     }
 
     /**
-     * Gets the value of the invalidAfterReboot property.
+     * Recupera il valore della proprietà invalidAfterReboot.
      * This getter has been renamed from isInvalidAfterReboot() to getInvalidAfterReboot() by cxf-xjc-boolean plugin.
      * 
      */
@@ -116,7 +116,7 @@ public class MediaUri {
     }
 
     /**
-     * Sets the value of the invalidAfterReboot property.
+     * Imposta il valore della proprietà invalidAfterReboot.
      * 
      */
     public void setInvalidAfterReboot(boolean value) {
@@ -124,7 +124,7 @@ public class MediaUri {
     }
 
     /**
-     * Gets the value of the timeout property.
+     * Recupera il valore della proprietà timeout.
      * 
      * @return
      *     possible object is
@@ -136,7 +136,7 @@ public class MediaUri {
     }
 
     /**
-     * Sets the value of the timeout property.
+     * Imposta il valore della proprietà timeout.
      * 
      * @param value
      *     allowed object is
@@ -165,8 +165,8 @@ public class MediaUri {
      * 
      * <p>
      * Objects of the following type(s) are allowed in the list
-     * {@link java.lang.Object }
      * {@link Element }
+     * {@link java.lang.Object }
      * 
      * 
      */

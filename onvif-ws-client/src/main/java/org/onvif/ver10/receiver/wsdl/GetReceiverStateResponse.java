@@ -10,9 +10,9 @@ import org.onvif.ver10.schema.ReceiverStateInformation;
 
 
 /**
- * <p>Java class for anonymous complex type.
+ * <p>Classe Java per anonymous complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>Il seguente frammento di schema specifica il contenuto previsto contenuto in questa classe.
  * 
  * <pre>
  * &lt;complexType&gt;
@@ -39,7 +39,7 @@ public class GetReceiverStateResponse {
     protected ReceiverStateInformation receiverState;
 
     /**
-     * Gets the value of the receiverState property.
+     * Recupera il valore della proprietà receiverState.
      * 
      * @return
      *     possible object is
@@ -51,7 +51,7 @@ public class GetReceiverStateResponse {
     }
 
     /**
-     * Sets the value of the receiverState property.
+     * Imposta il valore della proprietà receiverState.
      * 
      * @param value
      *     allowed object is

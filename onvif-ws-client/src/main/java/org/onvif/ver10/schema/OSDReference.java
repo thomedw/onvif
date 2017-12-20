@@ -12,9 +12,9 @@ import javax.xml.namespace.QName;
 
 
 /**
- * <p>Java class for OSDReference complex type.
+ * <p>Classe Java per OSDReference complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>Il seguente frammento di schema specifica il contenuto previsto contenuto in questa classe.
  * 
  * <pre>
  * &lt;complexType name="OSDReference"&gt;
@@ -54,7 +54,7 @@ public class OSDReference {
     }
 
     /**
-     * Sets the value of the value property.
+     * Imposta il valore della proprietà value.
      * 
      * @param value
      *     allowed object is

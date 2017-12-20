@@ -18,9 +18,9 @@ import org.w3c.dom.Element;
 /**
  * This type contains the Audio and Video coding capabilities of a display service.
  * 
- * <p>Java class for CodingCapabilities complex type.
+ * <p>Classe Java per CodingCapabilities complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>Il seguente frammento di schema specifica il contenuto previsto contenuto in questa classe.
  * 
  * <pre>
  * &lt;complexType name="CodingCapabilities"&gt;
@@ -61,7 +61,7 @@ public class CodingCapabilities {
     private Map<QName, String> otherAttributes = new HashMap<QName, String>();
 
     /**
-     * Gets the value of the audioEncodingCapabilities property.
+     * Recupera il valore della proprietà audioEncodingCapabilities.
      * 
      * @return
      *     possible object is
@@ -73,7 +73,7 @@ public class CodingCapabilities {
     }
 
     /**
-     * Sets the value of the audioEncodingCapabilities property.
+     * Imposta il valore della proprietà audioEncodingCapabilities.
      * 
      * @param value
      *     allowed object is
@@ -85,7 +85,7 @@ public class CodingCapabilities {
     }
 
     /**
-     * Gets the value of the audioDecodingCapabilities property.
+     * Recupera il valore della proprietà audioDecodingCapabilities.
      * 
      * @return
      *     possible object is
@@ -97,7 +97,7 @@ public class CodingCapabilities {
     }
 
     /**
-     * Sets the value of the audioDecodingCapabilities property.
+     * Imposta il valore della proprietà audioDecodingCapabilities.
      * 
      * @param value
      *     allowed object is
@@ -109,7 +109,7 @@ public class CodingCapabilities {
     }
 
     /**
-     * Gets the value of the videoDecodingCapabilities property.
+     * Recupera il valore della proprietà videoDecodingCapabilities.
      * 
      * @return
      *     possible object is
@@ -121,7 +121,7 @@ public class CodingCapabilities {
     }
 
     /**
-     * Sets the value of the videoDecodingCapabilities property.
+     * Imposta il valore della proprietà videoDecodingCapabilities.
      * 
      * @param value
      *     allowed object is
@@ -150,8 +150,8 @@ public class CodingCapabilities {
      * 
      * <p>
      * Objects of the following type(s) are allowed in the list
-     * {@link java.lang.Object }
      * {@link Element }
+     * {@link java.lang.Object }
      * 
      * 
      */

@@ -16,9 +16,9 @@ import org.w3c.dom.Element;
 
 
 /**
- * <p>Java class for VideoOutputConfiguration complex type.
+ * <p>Classe Java per VideoOutputConfiguration complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>Il seguente frammento di schema specifica il contenuto previsto contenuto in questa classe.
  * 
  * <pre>
  * &lt;complexType name="VideoOutputConfiguration"&gt;
@@ -53,7 +53,7 @@ public class VideoOutputConfiguration
     private Map<QName, String> otherAttributes = new HashMap<QName, String>();
 
     /**
-     * Gets the value of the outputToken property.
+     * Recupera il valore della proprietà outputToken.
      * 
      * @return
      *     possible object is
@@ -65,7 +65,7 @@ public class VideoOutputConfiguration
     }
 
     /**
-     * Sets the value of the outputToken property.
+     * Imposta il valore della proprietà outputToken.
      * 
      * @param value
      *     allowed object is
@@ -94,8 +94,8 @@ public class VideoOutputConfiguration
      * 
      * <p>
      * Objects of the following type(s) are allowed in the list
-     * {@link java.lang.Object }
      * {@link Element }
+     * {@link java.lang.Object }
      * 
      * 
      */

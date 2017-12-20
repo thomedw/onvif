@@ -21,9 +21,9 @@ import org.w3c.dom.Element;
  *       Configuration parameters for the replay service.
  *     
  * 
- * <p>Java class for ReplayConfiguration complex type.
+ * <p>Classe Java per ReplayConfiguration complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>Il seguente frammento di schema specifica il contenuto previsto contenuto in questa classe.
  * 
  * <pre>
  * &lt;complexType name="ReplayConfiguration"&gt;
@@ -56,7 +56,7 @@ public class ReplayConfiguration {
     private Map<QName, String> otherAttributes = new HashMap<QName, String>();
 
     /**
-     * Gets the value of the sessionTimeout property.
+     * Recupera il valore della proprietà sessionTimeout.
      * 
      * @return
      *     possible object is
@@ -68,7 +68,7 @@ public class ReplayConfiguration {
     }
 
     /**
-     * Sets the value of the sessionTimeout property.
+     * Imposta il valore della proprietà sessionTimeout.
      * 
      * @param value
      *     allowed object is
@@ -97,8 +97,8 @@ public class ReplayConfiguration {
      * 
      * <p>
      * Objects of the following type(s) are allowed in the list
-     * {@link java.lang.Object }
      * {@link Element }
+     * {@link java.lang.Object }
      * 
      * 
      */

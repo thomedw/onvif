@@ -12,9 +12,9 @@ import javax.xml.namespace.QName;
 
 
 /**
- * <p>Java class for NetworkCapabilities complex type.
+ * <p>Classe Java per NetworkCapabilities complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>Il seguente frammento di schema specifica il contenuto previsto contenuto in questa classe.
  * 
  * <pre>
  * &lt;complexType name="NetworkCapabilities"&gt;
@@ -59,7 +59,7 @@ public class NetworkCapabilities {
     private Map<QName, String> otherAttributes = new HashMap<QName, String>();
 
     /**
-     * Gets the value of the ipFilter property.
+     * Recupera il valore della proprietà ipFilter.
      * This getter has been renamed from isIPFilter() to getIPFilter() by cxf-xjc-boolean plugin.
      * 
      * @return
@@ -72,7 +72,7 @@ public class NetworkCapabilities {
     }
 
     /**
-     * Sets the value of the ipFilter property.
+     * Imposta il valore della proprietà ipFilter.
      * 
      * @param value
      *     allowed object is
@@ -84,7 +84,7 @@ public class NetworkCapabilities {
     }
 
     /**
-     * Gets the value of the zeroConfiguration property.
+     * Recupera il valore della proprietà zeroConfiguration.
      * This getter has been renamed from isZeroConfiguration() to getZeroConfiguration() by cxf-xjc-boolean plugin.
      * 
      * @return
@@ -97,7 +97,7 @@ public class NetworkCapabilities {
     }
 
     /**
-     * Sets the value of the zeroConfiguration property.
+     * Imposta il valore della proprietà zeroConfiguration.
      * 
      * @param value
      *     allowed object is
@@ -109,7 +109,7 @@ public class NetworkCapabilities {
     }
 
     /**
-     * Gets the value of the ipVersion6 property.
+     * Recupera il valore della proprietà ipVersion6.
      * This getter has been renamed from isIPVersion6() to getIPVersion6() by cxf-xjc-boolean plugin.
      * 
      * @return
@@ -122,7 +122,7 @@ public class NetworkCapabilities {
     }
 
     /**
-     * Sets the value of the ipVersion6 property.
+     * Imposta il valore della proprietà ipVersion6.
      * 
      * @param value
      *     allowed object is
@@ -134,7 +134,7 @@ public class NetworkCapabilities {
     }
 
     /**
-     * Gets the value of the dynDNS property.
+     * Recupera il valore della proprietà dynDNS.
      * This getter has been renamed from isDynDNS() to getDynDNS() by cxf-xjc-boolean plugin.
      * 
      * @return
@@ -147,7 +147,7 @@ public class NetworkCapabilities {
     }
 
     /**
-     * Sets the value of the dynDNS property.
+     * Imposta il valore della proprietà dynDNS.
      * 
      * @param value
      *     allowed object is
@@ -159,7 +159,7 @@ public class NetworkCapabilities {
     }
 
     /**
-     * Gets the value of the extension property.
+     * Recupera il valore della proprietà extension.
      * 
      * @return
      *     possible object is
@@ -171,7 +171,7 @@ public class NetworkCapabilities {
     }
 
     /**
-     * Sets the value of the extension property.
+     * Imposta il valore della proprietà extension.
      * 
      * @param value
      *     allowed object is

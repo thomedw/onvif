@@ -11,9 +11,9 @@ import org.onvif.ver10.schema.FactoryDefaultType;
 
 
 /**
- * <p>Java class for anonymous complex type.
+ * <p>Classe Java per anonymous complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>Il seguente frammento di schema specifica il contenuto previsto contenuto in questa classe.
  * 
  * <pre>
  * &lt;complexType&gt;
@@ -41,7 +41,7 @@ public class SetSystemFactoryDefault {
     protected FactoryDefaultType factoryDefault;
 
     /**
-     * Gets the value of the factoryDefault property.
+     * Recupera il valore della proprietà factoryDefault.
      * 
      * @return
      *     possible object is
@@ -53,7 +53,7 @@ public class SetSystemFactoryDefault {
     }
 
     /**
-     * Sets the value of the factoryDefault property.
+     * Imposta il valore della proprietà factoryDefault.
      * 
      * @param value
      *     allowed object is

@@ -12,9 +12,9 @@ import javax.xml.namespace.QName;
 
 
 /**
- * <p>Java class for Defogging complex type.
+ * <p>Classe Java per Defogging complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>Il seguente frammento di schema specifica il contenuto previsto contenuto in questa classe.
  * 
  * <pre>
  * &lt;complexType name="Defogging"&gt;
@@ -51,7 +51,7 @@ public class Defogging {
     private Map<QName, String> otherAttributes = new HashMap<QName, String>();
 
     /**
-     * Gets the value of the mode property.
+     * Recupera il valore della proprietà mode.
      * 
      * @return
      *     possible object is
@@ -63,7 +63,7 @@ public class Defogging {
     }
 
     /**
-     * Sets the value of the mode property.
+     * Imposta il valore della proprietà mode.
      * 
      * @param value
      *     allowed object is
@@ -75,7 +75,7 @@ public class Defogging {
     }
 
     /**
-     * Gets the value of the level property.
+     * Recupera il valore della proprietà level.
      * 
      * @return
      *     possible object is
@@ -87,7 +87,7 @@ public class Defogging {
     }
 
     /**
-     * Sets the value of the level property.
+     * Imposta il valore della proprietà level.
      * 
      * @param value
      *     allowed object is
@@ -99,7 +99,7 @@ public class Defogging {
     }
 
     /**
-     * Gets the value of the extension property.
+     * Recupera il valore della proprietà extension.
      * 
      * @return
      *     possible object is
@@ -111,7 +111,7 @@ public class Defogging {
     }
 
     /**
-     * Sets the value of the extension property.
+     * Imposta il valore della proprietà extension.
      * 
      * @param value
      *     allowed object is

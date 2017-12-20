@@ -16,9 +16,9 @@ import org.w3c.dom.Element;
 
 
 /**
- * <p>Java class for ProfileExtension complex type.
+ * <p>Classe Java per ProfileExtension complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>Il seguente frammento di schema specifica il contenuto previsto contenuto in questa classe.
  * 
  * <pre>
  * &lt;complexType name="ProfileExtension"&gt;
@@ -76,8 +76,8 @@ public class ProfileExtension {
      * 
      * <p>
      * Objects of the following type(s) are allowed in the list
-     * {@link java.lang.Object }
      * {@link Element }
+     * {@link java.lang.Object }
      * 
      * 
      */
@@ -89,7 +89,7 @@ public class ProfileExtension {
     }
 
     /**
-     * Gets the value of the audioOutputConfiguration property.
+     * Recupera il valore della proprietà audioOutputConfiguration.
      * 
      * @return
      *     possible object is
@@ -101,7 +101,7 @@ public class ProfileExtension {
     }
 
     /**
-     * Sets the value of the audioOutputConfiguration property.
+     * Imposta il valore della proprietà audioOutputConfiguration.
      * 
      * @param value
      *     allowed object is
@@ -113,7 +113,7 @@ public class ProfileExtension {
     }
 
     /**
-     * Gets the value of the audioDecoderConfiguration property.
+     * Recupera il valore della proprietà audioDecoderConfiguration.
      * 
      * @return
      *     possible object is
@@ -125,7 +125,7 @@ public class ProfileExtension {
     }
 
     /**
-     * Sets the value of the audioDecoderConfiguration property.
+     * Imposta il valore della proprietà audioDecoderConfiguration.
      * 
      * @param value
      *     allowed object is
@@ -137,7 +137,7 @@ public class ProfileExtension {
     }
 
     /**
-     * Gets the value of the extension property.
+     * Recupera il valore della proprietà extension.
      * 
      * @return
      *     possible object is
@@ -149,7 +149,7 @@ public class ProfileExtension {
     }
 
     /**
-     * Sets the value of the extension property.
+     * Imposta il valore della proprietà extension.
      * 
      * @param value
      *     allowed object is

@@ -8,9 +8,9 @@ import javax.xml.bind.annotation.XmlType;
 
 
 /**
- * <p>Java class for Rectangle complex type.
+ * <p>Classe Java per Rectangle complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>Il seguente frammento di schema specifica il contenuto previsto contenuto in questa classe.
  * 
  * <pre>
  * &lt;complexType name="Rectangle"&gt;
@@ -41,7 +41,7 @@ public class Rectangle {
     protected Float left;
 
     /**
-     * Gets the value of the bottom property.
+     * Recupera il valore della proprietà bottom.
      * 
      * @return
      *     possible object is
@@ -53,7 +53,7 @@ public class Rectangle {
     }
 
     /**
-     * Sets the value of the bottom property.
+     * Imposta il valore della proprietà bottom.
      * 
      * @param value
      *     allowed object is
@@ -65,7 +65,7 @@ public class Rectangle {
     }
 
     /**
-     * Gets the value of the top property.
+     * Recupera il valore della proprietà top.
      * 
      * @return
      *     possible object is
@@ -77,7 +77,7 @@ public class Rectangle {
     }
 
     /**
-     * Sets the value of the top property.
+     * Imposta il valore della proprietà top.
      * 
      * @param value
      *     allowed object is
@@ -89,7 +89,7 @@ public class Rectangle {
     }
 
     /**
-     * Gets the value of the right property.
+     * Recupera il valore della proprietà right.
      * 
      * @return
      *     possible object is
@@ -101,7 +101,7 @@ public class Rectangle {
     }
 
     /**
-     * Sets the value of the right property.
+     * Imposta il valore della proprietà right.
      * 
      * @param value
      *     allowed object is
@@ -113,7 +113,7 @@ public class Rectangle {
     }
 
     /**
-     * Gets the value of the left property.
+     * Recupera il valore della proprietà left.
      * 
      * @return
      *     possible object is
@@ -125,7 +125,7 @@ public class Rectangle {
     }
 
     /**
-     * Sets the value of the left property.
+     * Imposta il valore della proprietà left.
      * 
      * @param value
      *     allowed object is

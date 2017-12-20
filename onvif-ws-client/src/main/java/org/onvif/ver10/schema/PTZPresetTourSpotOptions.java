@@ -16,9 +16,9 @@ import org.w3c.dom.Element;
 
 
 /**
- * <p>Java class for PTZPresetTourSpotOptions complex type.
+ * <p>Classe Java per PTZPresetTourSpotOptions complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>Il seguente frammento di schema specifica il contenuto previsto contenuto in questa classe.
  * 
  * <pre>
  * &lt;complexType name="PTZPresetTourSpotOptions"&gt;
@@ -55,7 +55,7 @@ public class PTZPresetTourSpotOptions {
     private Map<QName, String> otherAttributes = new HashMap<QName, String>();
 
     /**
-     * Gets the value of the presetDetail property.
+     * Recupera il valore della proprietà presetDetail.
      * 
      * @return
      *     possible object is
@@ -67,7 +67,7 @@ public class PTZPresetTourSpotOptions {
     }
 
     /**
-     * Sets the value of the presetDetail property.
+     * Imposta il valore della proprietà presetDetail.
      * 
      * @param value
      *     allowed object is
@@ -79,7 +79,7 @@ public class PTZPresetTourSpotOptions {
     }
 
     /**
-     * Gets the value of the stayTime property.
+     * Recupera il valore della proprietà stayTime.
      * 
      * @return
      *     possible object is
@@ -91,7 +91,7 @@ public class PTZPresetTourSpotOptions {
     }
 
     /**
-     * Sets the value of the stayTime property.
+     * Imposta il valore della proprietà stayTime.
      * 
      * @param value
      *     allowed object is
@@ -120,8 +120,8 @@ public class PTZPresetTourSpotOptions {
      * 
      * <p>
      * Objects of the following type(s) are allowed in the list
-     * {@link java.lang.Object }
      * {@link Element }
+     * {@link java.lang.Object }
      * 
      * 
      */

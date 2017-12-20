@@ -11,9 +11,9 @@ import javax.xml.bind.annotation.XmlType;
 
 
 /**
- * <p>Java class for FocusOptions20 complex type.
+ * <p>Classe Java per FocusOptions20 complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>Il seguente frammento di schema specifica il contenuto previsto contenuto in questa classe.
  * 
  * <pre>
  * &lt;complexType name="FocusOptions20"&gt;
@@ -85,7 +85,7 @@ public class FocusOptions20 {
     }
 
     /**
-     * Gets the value of the defaultSpeed property.
+     * Recupera il valore della proprietà defaultSpeed.
      * 
      * @return
      *     possible object is
@@ -97,7 +97,7 @@ public class FocusOptions20 {
     }
 
     /**
-     * Sets the value of the defaultSpeed property.
+     * Imposta il valore della proprietà defaultSpeed.
      * 
      * @param value
      *     allowed object is
@@ -109,7 +109,7 @@ public class FocusOptions20 {
     }
 
     /**
-     * Gets the value of the nearLimit property.
+     * Recupera il valore della proprietà nearLimit.
      * 
      * @return
      *     possible object is
@@ -121,7 +121,7 @@ public class FocusOptions20 {
     }
 
     /**
-     * Sets the value of the nearLimit property.
+     * Imposta il valore della proprietà nearLimit.
      * 
      * @param value
      *     allowed object is
@@ -133,7 +133,7 @@ public class FocusOptions20 {
     }
 
     /**
-     * Gets the value of the farLimit property.
+     * Recupera il valore della proprietà farLimit.
      * 
      * @return
      *     possible object is
@@ -145,7 +145,7 @@ public class FocusOptions20 {
     }
 
     /**
-     * Sets the value of the farLimit property.
+     * Imposta il valore della proprietà farLimit.
      * 
      * @param value
      *     allowed object is
@@ -157,7 +157,7 @@ public class FocusOptions20 {
     }
 
     /**
-     * Gets the value of the extension property.
+     * Recupera il valore della proprietà extension.
      * 
      * @return
      *     possible object is
@@ -169,7 +169,7 @@ public class FocusOptions20 {
     }
 
     /**
-     * Sets the value of the extension property.
+     * Imposta il valore della proprietà extension.
      * 
      * @param value
      *     allowed object is

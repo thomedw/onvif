@@ -13,9 +13,9 @@ import javax.xml.bind.annotation.XmlType;
  * 	    Fault reporting structure
  * 	  
  * 
- * <p>Java class for Fault complex type.
+ * <p>Classe Java per Fault complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>Il seguente frammento di schema specifica il contenuto previsto contenuto in questa classe.
  * 
  * <pre>
  * &lt;complexType name="Fault"&gt;
@@ -59,7 +59,7 @@ public class Fault {
     protected Detail detail;
 
     /**
-     * Gets the value of the code property.
+     * Recupera il valore della proprietà code.
      * 
      * @return
      *     possible object is
@@ -71,7 +71,7 @@ public class Fault {
     }
 
     /**
-     * Sets the value of the code property.
+     * Imposta il valore della proprietà code.
      * 
      * @param value
      *     allowed object is
@@ -83,7 +83,7 @@ public class Fault {
     }
 
     /**
-     * Gets the value of the reason property.
+     * Recupera il valore della proprietà reason.
      * 
      * @return
      *     possible object is
@@ -95,7 +95,7 @@ public class Fault {
     }
 
     /**
-     * Sets the value of the reason property.
+     * Imposta il valore della proprietà reason.
      * 
      * @param value
      *     allowed object is
@@ -107,7 +107,7 @@ public class Fault {
     }
 
     /**
-     * Gets the value of the node property.
+     * Recupera il valore della proprietà node.
      * 
      * @return
      *     possible object is
@@ -119,7 +119,7 @@ public class Fault {
     }
 
     /**
-     * Sets the value of the node property.
+     * Imposta il valore della proprietà node.
      * 
      * @param value
      *     allowed object is
@@ -131,7 +131,7 @@ public class Fault {
     }
 
     /**
-     * Gets the value of the role property.
+     * Recupera il valore della proprietà role.
      * 
      * @return
      *     possible object is
@@ -143,7 +143,7 @@ public class Fault {
     }
 
     /**
-     * Sets the value of the role property.
+     * Imposta il valore della proprietà role.
      * 
      * @param value
      *     allowed object is
@@ -155,7 +155,7 @@ public class Fault {
     }
 
     /**
-     * Gets the value of the detail property.
+     * Recupera il valore della proprietà detail.
      * 
      * @return
      *     possible object is
@@ -167,7 +167,7 @@ public class Fault {
     }
 
     /**
-     * Sets the value of the detail property.
+     * Imposta il valore della proprietà detail.
      * 
      * @param value
      *     allowed object is

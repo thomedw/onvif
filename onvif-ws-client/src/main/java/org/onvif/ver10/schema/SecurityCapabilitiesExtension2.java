@@ -12,9 +12,9 @@ import org.w3c.dom.Element;
 
 
 /**
- * <p>Java class for SecurityCapabilitiesExtension2 complex type.
+ * <p>Classe Java per SecurityCapabilitiesExtension2 complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>Il seguente frammento di schema specifica il contenuto previsto contenuto in questa classe.
  * 
  * <pre>
  * &lt;complexType name="SecurityCapabilitiesExtension2"&gt;
@@ -52,7 +52,7 @@ public class SecurityCapabilitiesExtension2 {
     protected List<java.lang.Object> any;
 
     /**
-     * Gets the value of the dot1X property.
+     * Recupera il valore della proprietà dot1X.
      * This getter has been renamed from isDot1X() to getDot1X() by cxf-xjc-boolean plugin.
      * 
      */
@@ -61,7 +61,7 @@ public class SecurityCapabilitiesExtension2 {
     }
 
     /**
-     * Sets the value of the dot1X property.
+     * Imposta il valore della proprietà dot1X.
      * 
      */
     public void setDot1X(boolean value) {
@@ -98,7 +98,7 @@ public class SecurityCapabilitiesExtension2 {
     }
 
     /**
-     * Gets the value of the remoteUserHandling property.
+     * Recupera il valore della proprietà remoteUserHandling.
      * This getter has been renamed from isRemoteUserHandling() to getRemoteUserHandling() by cxf-xjc-boolean plugin.
      * 
      */
@@ -107,7 +107,7 @@ public class SecurityCapabilitiesExtension2 {
     }
 
     /**
-     * Sets the value of the remoteUserHandling property.
+     * Imposta il valore della proprietà remoteUserHandling.
      * 
      */
     public void setRemoteUserHandling(boolean value) {
@@ -132,8 +132,8 @@ public class SecurityCapabilitiesExtension2 {
      * 
      * <p>
      * Objects of the following type(s) are allowed in the list
-     * {@link java.lang.Object }
      * {@link Element }
+     * {@link java.lang.Object }
      * 
      * 
      */

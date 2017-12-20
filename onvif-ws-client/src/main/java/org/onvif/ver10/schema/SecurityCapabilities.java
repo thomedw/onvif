@@ -16,9 +16,9 @@ import org.w3c.dom.Element;
 
 
 /**
- * <p>Java class for SecurityCapabilities complex type.
+ * <p>Classe Java per SecurityCapabilities complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>Il seguente frammento di schema specifica il contenuto previsto contenuto in questa classe.
  * 
  * <pre>
  * &lt;complexType name="SecurityCapabilities"&gt;
@@ -83,7 +83,7 @@ public class SecurityCapabilities {
     private Map<QName, String> otherAttributes = new HashMap<QName, String>();
 
     /**
-     * Gets the value of the tls11 property.
+     * Recupera il valore della proprietà tls11.
      * This getter has been renamed from isTLS11() to getTLS11() by cxf-xjc-boolean plugin.
      * 
      */
@@ -92,7 +92,7 @@ public class SecurityCapabilities {
     }
 
     /**
-     * Sets the value of the tls11 property.
+     * Imposta il valore della proprietà tls11.
      * 
      */
     public void setTLS11(boolean value) {
@@ -100,7 +100,7 @@ public class SecurityCapabilities {
     }
 
     /**
-     * Gets the value of the tls12 property.
+     * Recupera il valore della proprietà tls12.
      * This getter has been renamed from isTLS12() to getTLS12() by cxf-xjc-boolean plugin.
      * 
      */
@@ -109,7 +109,7 @@ public class SecurityCapabilities {
     }
 
     /**
-     * Sets the value of the tls12 property.
+     * Imposta il valore della proprietà tls12.
      * 
      */
     public void setTLS12(boolean value) {
@@ -117,7 +117,7 @@ public class SecurityCapabilities {
     }
 
     /**
-     * Gets the value of the onboardKeyGeneration property.
+     * Recupera il valore della proprietà onboardKeyGeneration.
      * This getter has been renamed from isOnboardKeyGeneration() to getOnboardKeyGeneration() by cxf-xjc-boolean plugin.
      * 
      */
@@ -126,7 +126,7 @@ public class SecurityCapabilities {
     }
 
     /**
-     * Sets the value of the onboardKeyGeneration property.
+     * Imposta il valore della proprietà onboardKeyGeneration.
      * 
      */
     public void setOnboardKeyGeneration(boolean value) {
@@ -134,7 +134,7 @@ public class SecurityCapabilities {
     }
 
     /**
-     * Gets the value of the accessPolicyConfig property.
+     * Recupera il valore della proprietà accessPolicyConfig.
      * This getter has been renamed from isAccessPolicyConfig() to getAccessPolicyConfig() by cxf-xjc-boolean plugin.
      * 
      */
@@ -143,7 +143,7 @@ public class SecurityCapabilities {
     }
 
     /**
-     * Sets the value of the accessPolicyConfig property.
+     * Imposta il valore della proprietà accessPolicyConfig.
      * 
      */
     public void setAccessPolicyConfig(boolean value) {
@@ -151,7 +151,7 @@ public class SecurityCapabilities {
     }
 
     /**
-     * Gets the value of the x509Token property.
+     * Recupera il valore della proprietà x509Token.
      * This getter has been renamed from isX509Token() to getX509Token() by cxf-xjc-boolean plugin.
      * 
      */
@@ -160,7 +160,7 @@ public class SecurityCapabilities {
     }
 
     /**
-     * Sets the value of the x509Token property.
+     * Imposta il valore della proprietà x509Token.
      * 
      */
     public void setX509Token(boolean value) {
@@ -168,7 +168,7 @@ public class SecurityCapabilities {
     }
 
     /**
-     * Gets the value of the samlToken property.
+     * Recupera il valore della proprietà samlToken.
      * This getter has been renamed from isSAMLToken() to getSAMLToken() by cxf-xjc-boolean plugin.
      * 
      */
@@ -177,7 +177,7 @@ public class SecurityCapabilities {
     }
 
     /**
-     * Sets the value of the samlToken property.
+     * Imposta il valore della proprietà samlToken.
      * 
      */
     public void setSAMLToken(boolean value) {
@@ -185,7 +185,7 @@ public class SecurityCapabilities {
     }
 
     /**
-     * Gets the value of the kerberosToken property.
+     * Recupera il valore della proprietà kerberosToken.
      * This getter has been renamed from isKerberosToken() to getKerberosToken() by cxf-xjc-boolean plugin.
      * 
      */
@@ -194,7 +194,7 @@ public class SecurityCapabilities {
     }
 
     /**
-     * Sets the value of the kerberosToken property.
+     * Imposta il valore della proprietà kerberosToken.
      * 
      */
     public void setKerberosToken(boolean value) {
@@ -202,7 +202,7 @@ public class SecurityCapabilities {
     }
 
     /**
-     * Gets the value of the relToken property.
+     * Recupera il valore della proprietà relToken.
      * This getter has been renamed from isRELToken() to getRELToken() by cxf-xjc-boolean plugin.
      * 
      */
@@ -211,7 +211,7 @@ public class SecurityCapabilities {
     }
 
     /**
-     * Sets the value of the relToken property.
+     * Imposta il valore della proprietà relToken.
      * 
      */
     public void setRELToken(boolean value) {
@@ -236,8 +236,8 @@ public class SecurityCapabilities {
      * 
      * <p>
      * Objects of the following type(s) are allowed in the list
-     * {@link java.lang.Object }
      * {@link Element }
+     * {@link java.lang.Object }
      * 
      * 
      */
@@ -249,7 +249,7 @@ public class SecurityCapabilities {
     }
 
     /**
-     * Gets the value of the extension property.
+     * Recupera il valore della proprietà extension.
      * 
      * @return
      *     possible object is
@@ -261,7 +261,7 @@ public class SecurityCapabilities {
     }
 
     /**
-     * Sets the value of the extension property.
+     * Imposta il valore della proprietà extension.
      * 
      * @param value
      *     allowed object is

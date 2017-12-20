@@ -10,9 +10,9 @@ import org.onvif.ver10.schema.TrackConfiguration;
 
 
 /**
- * <p>Java class for anonymous complex type.
+ * <p>Classe Java per anonymous complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>Il seguente frammento di schema specifica il contenuto previsto contenuto in questa classe.
  * 
  * <pre>
  * &lt;complexType&gt;
@@ -47,7 +47,7 @@ public class SetTrackConfiguration {
     protected TrackConfiguration trackConfiguration;
 
     /**
-     * Gets the value of the recordingToken property.
+     * Recupera il valore della proprietà recordingToken.
      * 
      * @return
      *     possible object is
@@ -59,7 +59,7 @@ public class SetTrackConfiguration {
     }
 
     /**
-     * Sets the value of the recordingToken property.
+     * Imposta il valore della proprietà recordingToken.
      * 
      * @param value
      *     allowed object is
@@ -71,7 +71,7 @@ public class SetTrackConfiguration {
     }
 
     /**
-     * Gets the value of the trackToken property.
+     * Recupera il valore della proprietà trackToken.
      * 
      * @return
      *     possible object is
@@ -83,7 +83,7 @@ public class SetTrackConfiguration {
     }
 
     /**
-     * Sets the value of the trackToken property.
+     * Imposta il valore della proprietà trackToken.
      * 
      * @param value
      *     allowed object is
@@ -95,7 +95,7 @@ public class SetTrackConfiguration {
     }
 
     /**
-     * Gets the value of the trackConfiguration property.
+     * Recupera il valore della proprietà trackConfiguration.
      * 
      * @return
      *     possible object is
@@ -107,7 +107,7 @@ public class SetTrackConfiguration {
     }
 
     /**
-     * Sets the value of the trackConfiguration property.
+     * Imposta il valore della proprietà trackConfiguration.
      * 
      * @param value
      *     allowed object is

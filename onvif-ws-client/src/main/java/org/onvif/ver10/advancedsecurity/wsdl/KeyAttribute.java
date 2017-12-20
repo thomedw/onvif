@@ -21,9 +21,9 @@ import org.w3c.dom.Element;
 /**
  * The attributes of a key in the keystore.
  * 
- * <p>Java class for KeyAttribute complex type.
+ * <p>Classe Java per KeyAttribute complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>Il seguente frammento di schema specifica il contenuto previsto contenuto in questa classe.
  * 
  * <pre>
  * &lt;complexType name="KeyAttribute"&gt;
@@ -89,7 +89,7 @@ public class KeyAttribute {
     private Map<QName, String> otherAttributes = new HashMap<QName, String>();
 
     /**
-     * Gets the value of the keyID property.
+     * Recupera il valore della proprietà keyID.
      * 
      * @return
      *     possible object is
@@ -101,7 +101,7 @@ public class KeyAttribute {
     }
 
     /**
-     * Sets the value of the keyID property.
+     * Imposta il valore della proprietà keyID.
      * 
      * @param value
      *     allowed object is
@@ -113,7 +113,7 @@ public class KeyAttribute {
     }
 
     /**
-     * Gets the value of the alias property.
+     * Recupera il valore della proprietà alias.
      * 
      * @return
      *     possible object is
@@ -125,7 +125,7 @@ public class KeyAttribute {
     }
 
     /**
-     * Sets the value of the alias property.
+     * Imposta il valore della proprietà alias.
      * 
      * @param value
      *     allowed object is
@@ -137,7 +137,7 @@ public class KeyAttribute {
     }
 
     /**
-     * Gets the value of the hasPrivateKey property.
+     * Recupera il valore della proprietà hasPrivateKey.
      * This getter has been renamed from isHasPrivateKey() to getHasPrivateKey() by cxf-xjc-boolean plugin.
      * 
      * @return
@@ -150,7 +150,7 @@ public class KeyAttribute {
     }
 
     /**
-     * Sets the value of the hasPrivateKey property.
+     * Imposta il valore della proprietà hasPrivateKey.
      * 
      * @param value
      *     allowed object is
@@ -162,7 +162,7 @@ public class KeyAttribute {
     }
 
     /**
-     * Gets the value of the keyStatus property.
+     * Recupera il valore della proprietà keyStatus.
      * 
      * @return
      *     possible object is
@@ -174,7 +174,7 @@ public class KeyAttribute {
     }
 
     /**
-     * Sets the value of the keyStatus property.
+     * Imposta il valore della proprietà keyStatus.
      * 
      * @param value
      *     allowed object is
@@ -203,8 +203,8 @@ public class KeyAttribute {
      * 
      * <p>
      * Objects of the following type(s) are allowed in the list
-     * {@link Object }
      * {@link Element }
+     * {@link Object }
      * 
      * 
      */
@@ -216,7 +216,7 @@ public class KeyAttribute {
     }
 
     /**
-     * Gets the value of the externallyGenerated property.
+     * Recupera il valore della proprietà externallyGenerated.
      * This getter has been renamed from isExternallyGenerated() to getExternallyGenerated() by cxf-xjc-boolean plugin.
      * 
      * @return
@@ -229,7 +229,7 @@ public class KeyAttribute {
     }
 
     /**
-     * Sets the value of the externallyGenerated property.
+     * Imposta il valore della proprietà externallyGenerated.
      * 
      * @param value
      *     allowed object is
@@ -241,7 +241,7 @@ public class KeyAttribute {
     }
 
     /**
-     * Gets the value of the securelyStored property.
+     * Recupera il valore della proprietà securelyStored.
      * This getter has been renamed from isSecurelyStored() to getSecurelyStored() by cxf-xjc-boolean plugin.
      * 
      * @return
@@ -254,7 +254,7 @@ public class KeyAttribute {
     }
 
     /**
-     * Sets the value of the securelyStored property.
+     * Imposta il valore della proprietà securelyStored.
      * 
      * @param value
      *     allowed object is
@@ -266,7 +266,7 @@ public class KeyAttribute {
     }
 
     /**
-     * Gets the value of the extension property.
+     * Recupera il valore della proprietà extension.
      * 
      * @return
      *     possible object is
@@ -278,7 +278,7 @@ public class KeyAttribute {
     }
 
     /**
-     * Sets the value of the extension property.
+     * Imposta il valore della proprietà extension.
      * 
      * @param value
      *     allowed object is
@@ -309,9 +309,9 @@ public class KeyAttribute {
 
 
     /**
-     * <p>Java class for anonymous complex type.
+     * <p>Classe Java per anonymous complex type.
      * 
-     * <p>The following schema fragment specifies the expected content contained within this class.
+     * <p>Il seguente frammento di schema specifica il contenuto previsto contenuto in questa classe.
      * 
      * <pre>
      * &lt;complexType&gt;
@@ -354,8 +354,8 @@ public class KeyAttribute {
          * 
          * <p>
          * Objects of the following type(s) are allowed in the list
-         * {@link Object }
          * {@link Element }
+         * {@link Object }
          * 
          * 
          */

@@ -16,9 +16,9 @@ import javax.xml.namespace.QName;
 
 
 /**
- * <p>Java class for Include complex type.
+ * <p>Classe Java per Include complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>Il seguente frammento di schema specifica il contenuto previsto contenuto in questa classe.
  * 
  * <pre>
  * &lt;complexType name="Include"&gt;
@@ -80,7 +80,7 @@ public class Include {
     }
 
     /**
-     * Gets the value of the href property.
+     * Recupera il valore della proprietà href.
      * 
      * @return
      *     possible object is
@@ -92,7 +92,7 @@ public class Include {
     }
 
     /**
-     * Sets the value of the href property.
+     * Imposta il valore della proprietà href.
      * 
      * @param value
      *     allowed object is

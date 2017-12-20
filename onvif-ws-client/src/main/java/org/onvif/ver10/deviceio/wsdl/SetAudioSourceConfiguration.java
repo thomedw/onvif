@@ -14,9 +14,9 @@ import org.w3c.dom.Element;
 
 
 /**
- * <p>Java class for anonymous complex type.
+ * <p>Classe Java per anonymous complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>Il seguente frammento di schema specifica il contenuto previsto contenuto in questa classe.
  * 
  * <pre>
  * &lt;complexType&gt;
@@ -51,7 +51,7 @@ public class SetAudioSourceConfiguration {
     protected List<Object> any;
 
     /**
-     * Gets the value of the configuration property.
+     * Recupera il valore della proprietà configuration.
      * 
      * @return
      *     possible object is
@@ -63,7 +63,7 @@ public class SetAudioSourceConfiguration {
     }
 
     /**
-     * Sets the value of the configuration property.
+     * Imposta il valore della proprietà configuration.
      * 
      * @param value
      *     allowed object is
@@ -75,7 +75,7 @@ public class SetAudioSourceConfiguration {
     }
 
     /**
-     * Gets the value of the forcePersistence property.
+     * Recupera il valore della proprietà forcePersistence.
      * This getter has been renamed from isForcePersistence() to getForcePersistence() by cxf-xjc-boolean plugin.
      * 
      */
@@ -84,7 +84,7 @@ public class SetAudioSourceConfiguration {
     }
 
     /**
-     * Sets the value of the forcePersistence property.
+     * Imposta il valore della proprietà forcePersistence.
      * 
      */
     public void setForcePersistence(boolean value) {
@@ -109,8 +109,8 @@ public class SetAudioSourceConfiguration {
      * 
      * <p>
      * Objects of the following type(s) are allowed in the list
-     * {@link Object }
      * {@link Element }
+     * {@link Object }
      * 
      * 
      */

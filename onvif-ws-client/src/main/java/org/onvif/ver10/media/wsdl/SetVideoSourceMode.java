@@ -9,9 +9,9 @@ import javax.xml.bind.annotation.XmlType;
 
 
 /**
- * <p>Java class for anonymous complex type.
+ * <p>Classe Java per anonymous complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>Il seguente frammento di schema specifica il contenuto previsto contenuto in questa classe.
  * 
  * <pre>
  * &lt;complexType&gt;
@@ -42,7 +42,7 @@ public class SetVideoSourceMode {
     protected String videoSourceModeToken;
 
     /**
-     * Gets the value of the videoSourceToken property.
+     * Recupera il valore della proprietà videoSourceToken.
      * 
      * @return
      *     possible object is
@@ -54,7 +54,7 @@ public class SetVideoSourceMode {
     }
 
     /**
-     * Sets the value of the videoSourceToken property.
+     * Imposta il valore della proprietà videoSourceToken.
      * 
      * @param value
      *     allowed object is
@@ -66,7 +66,7 @@ public class SetVideoSourceMode {
     }
 
     /**
-     * Gets the value of the videoSourceModeToken property.
+     * Recupera il valore della proprietà videoSourceModeToken.
      * 
      * @return
      *     possible object is
@@ -78,7 +78,7 @@ public class SetVideoSourceMode {
     }
 
     /**
-     * Sets the value of the videoSourceModeToken property.
+     * Imposta il valore della proprietà videoSourceModeToken.
      * 
      * @param value
      *     allowed object is

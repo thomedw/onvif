@@ -18,9 +18,9 @@ import org.w3c.dom.Element;
  * The Audio Decoder Configuration does not contain any that parameter to configure the
  * decoding .A decoder shall decode every data it receives (according to its capabilities).
  * 
- * <p>Java class for AudioDecoderConfiguration complex type.
+ * <p>Classe Java per AudioDecoderConfiguration complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>Il seguente frammento di schema specifica il contenuto previsto contenuto in questa classe.
  * 
  * <pre>
  * &lt;complexType name="AudioDecoderConfiguration"&gt;
@@ -68,8 +68,8 @@ public class AudioDecoderConfiguration
      * 
      * <p>
      * Objects of the following type(s) are allowed in the list
-     * {@link java.lang.Object }
      * {@link Element }
+     * {@link java.lang.Object }
      * 
      * 
      */

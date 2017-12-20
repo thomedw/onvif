@@ -8,9 +8,9 @@ import org.oasis_open.docs.wsrf.bf_2.BaseFaultType;
 
 
 /**
- * <p>Java class for InvalidTopicExpressionFaultType complex type.
+ * <p>Classe Java per InvalidTopicExpressionFaultType complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>Il seguente frammento di schema specifica il contenuto previsto contenuto in questa classe.
  * 
  * <pre>
  * &lt;complexType name="InvalidTopicExpressionFaultType"&gt;

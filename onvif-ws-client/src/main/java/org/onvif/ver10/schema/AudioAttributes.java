@@ -17,9 +17,9 @@ import org.w3c.dom.Element;
 
 
 /**
- * <p>Java class for AudioAttributes complex type.
+ * <p>Classe Java per AudioAttributes complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>Il seguente frammento di schema specifica il contenuto previsto contenuto in questa classe.
  * 
  * <pre>
  * &lt;complexType name="AudioAttributes"&gt;
@@ -61,7 +61,7 @@ public class AudioAttributes {
     private Map<QName, String> otherAttributes = new HashMap<QName, String>();
 
     /**
-     * Gets the value of the bitrate property.
+     * Recupera il valore della proprietà bitrate.
      * 
      * @return
      *     possible object is
@@ -73,7 +73,7 @@ public class AudioAttributes {
     }
 
     /**
-     * Sets the value of the bitrate property.
+     * Imposta il valore della proprietà bitrate.
      * 
      * @param value
      *     allowed object is
@@ -85,7 +85,7 @@ public class AudioAttributes {
     }
 
     /**
-     * Gets the value of the encoding property.
+     * Recupera il valore della proprietà encoding.
      * 
      * @return
      *     possible object is
@@ -97,7 +97,7 @@ public class AudioAttributes {
     }
 
     /**
-     * Sets the value of the encoding property.
+     * Imposta il valore della proprietà encoding.
      * 
      * @param value
      *     allowed object is
@@ -109,7 +109,7 @@ public class AudioAttributes {
     }
 
     /**
-     * Gets the value of the samplerate property.
+     * Recupera il valore della proprietà samplerate.
      * 
      */
     public int getSamplerate() {
@@ -117,7 +117,7 @@ public class AudioAttributes {
     }
 
     /**
-     * Sets the value of the samplerate property.
+     * Imposta il valore della proprietà samplerate.
      * 
      */
     public void setSamplerate(int value) {
@@ -142,8 +142,8 @@ public class AudioAttributes {
      * 
      * <p>
      * Objects of the following type(s) are allowed in the list
-     * {@link java.lang.Object }
      * {@link Element }
+     * {@link java.lang.Object }
      * 
      * 
      */

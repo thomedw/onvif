@@ -12,9 +12,9 @@ import org.oasis_open.docs.wsn.b_2.NotificationMessageHolderType;
 
 
 /**
- * <p>Java class for EventStream complex type.
+ * <p>Classe Java per EventStream complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>Il seguente frammento di schema specifica il contenuto previsto contenuto in questa classe.
  * 
  * <pre>
  * &lt;complexType name="EventStream"&gt;

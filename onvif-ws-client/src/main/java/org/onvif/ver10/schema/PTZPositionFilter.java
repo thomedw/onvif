@@ -16,9 +16,9 @@ import org.w3c.dom.Element;
 
 
 /**
- * <p>Java class for PTZPositionFilter complex type.
+ * <p>Classe Java per PTZPositionFilter complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>Il seguente frammento di schema specifica il contenuto previsto contenuto in questa classe.
  * 
  * <pre>
  * &lt;complexType name="PTZPositionFilter"&gt;
@@ -59,7 +59,7 @@ public class PTZPositionFilter {
     private Map<QName, String> otherAttributes = new HashMap<QName, String>();
 
     /**
-     * Gets the value of the minPosition property.
+     * Recupera il valore della proprietà minPosition.
      * 
      * @return
      *     possible object is
@@ -71,7 +71,7 @@ public class PTZPositionFilter {
     }
 
     /**
-     * Sets the value of the minPosition property.
+     * Imposta il valore della proprietà minPosition.
      * 
      * @param value
      *     allowed object is
@@ -83,7 +83,7 @@ public class PTZPositionFilter {
     }
 
     /**
-     * Gets the value of the maxPosition property.
+     * Recupera il valore della proprietà maxPosition.
      * 
      * @return
      *     possible object is
@@ -95,7 +95,7 @@ public class PTZPositionFilter {
     }
 
     /**
-     * Sets the value of the maxPosition property.
+     * Imposta il valore della proprietà maxPosition.
      * 
      * @param value
      *     allowed object is
@@ -107,7 +107,7 @@ public class PTZPositionFilter {
     }
 
     /**
-     * Gets the value of the enterOrExit property.
+     * Recupera il valore della proprietà enterOrExit.
      * This getter has been renamed from isEnterOrExit() to getEnterOrExit() by cxf-xjc-boolean plugin.
      * 
      */
@@ -116,7 +116,7 @@ public class PTZPositionFilter {
     }
 
     /**
-     * Sets the value of the enterOrExit property.
+     * Imposta il valore della proprietà enterOrExit.
      * 
      */
     public void setEnterOrExit(boolean value) {
@@ -141,8 +141,8 @@ public class PTZPositionFilter {
      * 
      * <p>
      * Objects of the following type(s) are allowed in the list
-     * {@link java.lang.Object }
      * {@link Element }
+     * {@link java.lang.Object }
      * 
      * 
      */

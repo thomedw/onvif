@@ -12,9 +12,9 @@ import org.w3c.dom.Element;
 
 
 /**
- * <p>Java class for SystemCapabilitiesExtension complex type.
+ * <p>Classe Java per SystemCapabilitiesExtension complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>Il seguente frammento di schema specifica il contenuto previsto contenuto in questa classe.
  * 
  * <pre>
  * &lt;complexType name="SystemCapabilitiesExtension"&gt;
@@ -77,8 +77,8 @@ public class SystemCapabilitiesExtension {
      * 
      * <p>
      * Objects of the following type(s) are allowed in the list
-     * {@link java.lang.Object }
      * {@link Element }
+     * {@link java.lang.Object }
      * 
      * 
      */
@@ -90,7 +90,7 @@ public class SystemCapabilitiesExtension {
     }
 
     /**
-     * Gets the value of the httpFirmwareUpgrade property.
+     * Recupera il valore della proprietà httpFirmwareUpgrade.
      * This getter has been renamed from isHttpFirmwareUpgrade() to getHttpFirmwareUpgrade() by cxf-xjc-boolean plugin.
      * 
      * @return
@@ -103,7 +103,7 @@ public class SystemCapabilitiesExtension {
     }
 
     /**
-     * Sets the value of the httpFirmwareUpgrade property.
+     * Imposta il valore della proprietà httpFirmwareUpgrade.
      * 
      * @param value
      *     allowed object is
@@ -115,7 +115,7 @@ public class SystemCapabilitiesExtension {
     }
 
     /**
-     * Gets the value of the httpSystemBackup property.
+     * Recupera il valore della proprietà httpSystemBackup.
      * This getter has been renamed from isHttpSystemBackup() to getHttpSystemBackup() by cxf-xjc-boolean plugin.
      * 
      * @return
@@ -128,7 +128,7 @@ public class SystemCapabilitiesExtension {
     }
 
     /**
-     * Sets the value of the httpSystemBackup property.
+     * Imposta il valore della proprietà httpSystemBackup.
      * 
      * @param value
      *     allowed object is
@@ -140,7 +140,7 @@ public class SystemCapabilitiesExtension {
     }
 
     /**
-     * Gets the value of the httpSystemLogging property.
+     * Recupera il valore della proprietà httpSystemLogging.
      * This getter has been renamed from isHttpSystemLogging() to getHttpSystemLogging() by cxf-xjc-boolean plugin.
      * 
      * @return
@@ -153,7 +153,7 @@ public class SystemCapabilitiesExtension {
     }
 
     /**
-     * Sets the value of the httpSystemLogging property.
+     * Imposta il valore della proprietà httpSystemLogging.
      * 
      * @param value
      *     allowed object is
@@ -165,7 +165,7 @@ public class SystemCapabilitiesExtension {
     }
 
     /**
-     * Gets the value of the httpSupportInformation property.
+     * Recupera il valore della proprietà httpSupportInformation.
      * This getter has been renamed from isHttpSupportInformation() to getHttpSupportInformation() by cxf-xjc-boolean plugin.
      * 
      * @return
@@ -178,7 +178,7 @@ public class SystemCapabilitiesExtension {
     }
 
     /**
-     * Sets the value of the httpSupportInformation property.
+     * Imposta il valore della proprietà httpSupportInformation.
      * 
      * @param value
      *     allowed object is
@@ -190,7 +190,7 @@ public class SystemCapabilitiesExtension {
     }
 
     /**
-     * Gets the value of the extension property.
+     * Recupera il valore della proprietà extension.
      * 
      * @return
      *     possible object is
@@ -202,7 +202,7 @@ public class SystemCapabilitiesExtension {
     }
 
     /**
-     * Sets the value of the extension property.
+     * Imposta il valore della proprietà extension.
      * 
      * @param value
      *     allowed object is

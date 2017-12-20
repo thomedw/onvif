@@ -12,9 +12,9 @@ import javax.xml.namespace.QName;
 
 
 /**
- * <p>Java class for SecurityType complex type.
+ * <p>Classe Java per SecurityType complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>Il seguente frammento di schema specifica il contenuto previsto contenuto in questa classe.
  * 
  * <pre>
  * &lt;complexType name="SecurityType"&gt;
@@ -43,7 +43,7 @@ public class SecurityType {
     private Map<QName, String> otherAttributes = new HashMap<QName, String>();
 
     /**
-     * Gets the value of the sig property.
+     * Recupera il valore della proprietà sig.
      * 
      * @return
      *     possible object is
@@ -55,7 +55,7 @@ public class SecurityType {
     }
 
     /**
-     * Sets the value of the sig property.
+     * Imposta il valore della proprietà sig.
      * 
      * @param value
      *     allowed object is

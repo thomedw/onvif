@@ -10,9 +10,9 @@ import javax.xml.bind.annotation.XmlType;
 
 
 /**
- * <p>Java class for ObjectId complex type.
+ * <p>Classe Java per ObjectId complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>Il seguente frammento di schema specifica il contenuto previsto contenuto in questa classe.
  * 
  * <pre>
  * &lt;complexType name="ObjectId"&gt;
@@ -37,7 +37,7 @@ public class ObjectId {
     protected BigInteger objectId;
 
     /**
-     * Gets the value of the objectId property.
+     * Recupera il valore della proprietà objectId.
      * 
      * @return
      *     possible object is
@@ -49,7 +49,7 @@ public class ObjectId {
     }
 
     /**
-     * Sets the value of the objectId property.
+     * Imposta il valore della proprietà objectId.
      * 
      * @param value
      *     allowed object is

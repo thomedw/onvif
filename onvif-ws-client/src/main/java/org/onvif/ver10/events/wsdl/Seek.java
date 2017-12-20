@@ -14,9 +14,9 @@ import javax.xml.datatype.XMLGregorianCalendar;
 
 
 /**
- * <p>Java class for anonymous complex type.
+ * <p>Classe Java per anonymous complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>Il seguente frammento di schema specifica il contenuto previsto contenuto in questa classe.
  * 
  * <pre>
  * &lt;complexType&gt;
@@ -52,7 +52,7 @@ public class Seek {
     protected List<Object> any;
 
     /**
-     * Gets the value of the utcTime property.
+     * Recupera il valore della proprietà utcTime.
      * 
      * @return
      *     possible object is
@@ -64,7 +64,7 @@ public class Seek {
     }
 
     /**
-     * Sets the value of the utcTime property.
+     * Imposta il valore della proprietà utcTime.
      * 
      * @param value
      *     allowed object is
@@ -76,7 +76,7 @@ public class Seek {
     }
 
     /**
-     * Gets the value of the reverse property.
+     * Recupera il valore della proprietà reverse.
      * This getter has been renamed from isReverse() to getReverse() by cxf-xjc-boolean plugin.
      * 
      * @return
@@ -89,7 +89,7 @@ public class Seek {
     }
 
     /**
-     * Sets the value of the reverse property.
+     * Imposta il valore della proprietà reverse.
      * 
      * @param value
      *     allowed object is

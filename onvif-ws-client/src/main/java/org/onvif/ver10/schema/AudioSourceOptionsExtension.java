@@ -11,9 +11,9 @@ import org.w3c.dom.Element;
 
 
 /**
- * <p>Java class for AudioSourceOptionsExtension complex type.
+ * <p>Classe Java per AudioSourceOptionsExtension complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>Il seguente frammento di schema specifica il contenuto previsto contenuto in questa classe.
  * 
  * <pre>
  * &lt;complexType name="AudioSourceOptionsExtension"&gt;
@@ -56,8 +56,8 @@ public class AudioSourceOptionsExtension {
      * 
      * <p>
      * Objects of the following type(s) are allowed in the list
-     * {@link java.lang.Object }
      * {@link Element }
+     * {@link java.lang.Object }
      * 
      * 
      */

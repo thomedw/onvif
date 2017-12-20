@@ -13,9 +13,9 @@ import javax.xml.namespace.QName;
 
 
 /**
- * <p>Java class for WhiteBalance20 complex type.
+ * <p>Classe Java per WhiteBalance20 complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>Il seguente frammento di schema specifica il contenuto previsto contenuto in questa classe.
  * 
  * <pre>
  * &lt;complexType name="WhiteBalance20"&gt;
@@ -57,7 +57,7 @@ public class WhiteBalance20 {
     private Map<QName, String> otherAttributes = new HashMap<QName, String>();
 
     /**
-     * Gets the value of the mode property.
+     * Recupera il valore della proprietà mode.
      * 
      * @return
      *     possible object is
@@ -69,7 +69,7 @@ public class WhiteBalance20 {
     }
 
     /**
-     * Sets the value of the mode property.
+     * Imposta il valore della proprietà mode.
      * 
      * @param value
      *     allowed object is
@@ -81,7 +81,7 @@ public class WhiteBalance20 {
     }
 
     /**
-     * Gets the value of the crGain property.
+     * Recupera il valore della proprietà crGain.
      * 
      * @return
      *     possible object is
@@ -93,7 +93,7 @@ public class WhiteBalance20 {
     }
 
     /**
-     * Sets the value of the crGain property.
+     * Imposta il valore della proprietà crGain.
      * 
      * @param value
      *     allowed object is
@@ -105,7 +105,7 @@ public class WhiteBalance20 {
     }
 
     /**
-     * Gets the value of the cbGain property.
+     * Recupera il valore della proprietà cbGain.
      * 
      * @return
      *     possible object is
@@ -117,7 +117,7 @@ public class WhiteBalance20 {
     }
 
     /**
-     * Sets the value of the cbGain property.
+     * Imposta il valore della proprietà cbGain.
      * 
      * @param value
      *     allowed object is
@@ -129,7 +129,7 @@ public class WhiteBalance20 {
     }
 
     /**
-     * Gets the value of the extension property.
+     * Recupera il valore della proprietà extension.
      * 
      * @return
      *     possible object is
@@ -141,7 +141,7 @@ public class WhiteBalance20 {
     }
 
     /**
-     * Sets the value of the extension property.
+     * Imposta il valore della proprietà extension.
      * 
      * @param value
      *     allowed object is

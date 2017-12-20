@@ -9,9 +9,9 @@ import javax.xml.namespace.QName;
 
 
 /**
- * <p>Java class for NotUnderstoodType complex type.
+ * <p>Classe Java per NotUnderstoodType complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>Il seguente frammento di schema specifica il contenuto previsto contenuto in questa classe.
  * 
  * <pre>
  * &lt;complexType name="NotUnderstoodType"&gt;
@@ -33,7 +33,7 @@ public class NotUnderstoodType {
     protected QName qname;
 
     /**
-     * Gets the value of the qname property.
+     * Recupera il valore della proprietà qname.
      * 
      * @return
      *     possible object is
@@ -45,7 +45,7 @@ public class NotUnderstoodType {
     }
 
     /**
-     * Sets the value of the qname property.
+     * Imposta il valore della proprietà qname.
      * 
      * @param value
      *     allowed object is

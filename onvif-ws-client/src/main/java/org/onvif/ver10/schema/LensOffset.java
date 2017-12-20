@@ -12,9 +12,9 @@ import javax.xml.namespace.QName;
 
 
 /**
- * <p>Java class for LensOffset complex type.
+ * <p>Classe Java per LensOffset complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>Il seguente frammento di schema specifica il contenuto previsto contenuto in questa classe.
  * 
  * <pre>
  * &lt;complexType name="LensOffset"&gt;
@@ -42,7 +42,7 @@ public class LensOffset {
     private Map<QName, String> otherAttributes = new HashMap<QName, String>();
 
     /**
-     * Gets the value of the x property.
+     * Recupera il valore della proprietà x.
      * 
      * @return
      *     possible object is
@@ -54,7 +54,7 @@ public class LensOffset {
     }
 
     /**
-     * Sets the value of the x property.
+     * Imposta il valore della proprietà x.
      * 
      * @param value
      *     allowed object is
@@ -66,7 +66,7 @@ public class LensOffset {
     }
 
     /**
-     * Gets the value of the y property.
+     * Recupera il valore della proprietà y.
      * 
      * @return
      *     possible object is
@@ -78,7 +78,7 @@ public class LensOffset {
     }
 
     /**
-     * Sets the value of the y property.
+     * Imposta il valore della proprietà y.
      * 
      * @param value
      *     allowed object is

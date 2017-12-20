@@ -11,9 +11,9 @@ import javax.xml.bind.annotation.adapters.XmlJavaTypeAdapter;
 
 
 /**
- * <p>Java class for Certificate complex type.
+ * <p>Classe Java per Certificate complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>Il seguente frammento di schema specifica il contenuto previsto contenuto in questa classe.
  * 
  * <pre>
  * &lt;complexType name="Certificate"&gt;
@@ -45,7 +45,7 @@ public class Certificate {
     protected BinaryData certificate;
 
     /**
-     * Gets the value of the certificateID property.
+     * Recupera il valore della proprietà certificateID.
      * 
      * @return
      *     possible object is
@@ -57,7 +57,7 @@ public class Certificate {
     }
 
     /**
-     * Sets the value of the certificateID property.
+     * Imposta il valore della proprietà certificateID.
      * 
      * @param value
      *     allowed object is
@@ -69,7 +69,7 @@ public class Certificate {
     }
 
     /**
-     * Gets the value of the certificate property.
+     * Recupera il valore della proprietà certificate.
      * 
      * @return
      *     possible object is
@@ -81,7 +81,7 @@ public class Certificate {
     }
 
     /**
-     * Sets the value of the certificate property.
+     * Imposta il valore della proprietà certificate.
      * 
      * @param value
      *     allowed object is

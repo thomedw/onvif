@@ -9,9 +9,9 @@ import javax.xml.bind.annotation.XmlType;
 
 
 /**
- * <p>Java class for Vector2D complex type.
+ * <p>Classe Java per Vector2D complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>Il seguente frammento di schema specifica il contenuto previsto contenuto in questa classe.
  * 
  * <pre>
  * &lt;complexType name="Vector2D"&gt;
@@ -40,7 +40,7 @@ public class Vector2D {
     protected String space;
 
     /**
-     * Gets the value of the x property.
+     * Recupera il valore della proprietà x.
      * 
      */
     public float getX() {
@@ -48,7 +48,7 @@ public class Vector2D {
     }
 
     /**
-     * Sets the value of the x property.
+     * Imposta il valore della proprietà x.
      * 
      */
     public void setX(float value) {
@@ -56,7 +56,7 @@ public class Vector2D {
     }
 
     /**
-     * Gets the value of the y property.
+     * Recupera il valore della proprietà y.
      * 
      */
     public float getY() {
@@ -64,7 +64,7 @@ public class Vector2D {
     }
 
     /**
-     * Sets the value of the y property.
+     * Imposta il valore della proprietà y.
      * 
      */
     public void setY(float value) {
@@ -72,7 +72,7 @@ public class Vector2D {
     }
 
     /**
-     * Gets the value of the space property.
+     * Recupera il valore della proprietà space.
      * 
      * @return
      *     possible object is
@@ -84,7 +84,7 @@ public class Vector2D {
     }
 
     /**
-     * Sets the value of the space property.
+     * Imposta il valore della proprietà space.
      * 
      * @param value
      *     allowed object is

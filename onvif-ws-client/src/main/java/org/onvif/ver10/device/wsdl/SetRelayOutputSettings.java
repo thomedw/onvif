@@ -10,9 +10,9 @@ import org.onvif.ver10.schema.RelayOutputSettings;
 
 
 /**
- * <p>Java class for anonymous complex type.
+ * <p>Classe Java per anonymous complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>Il seguente frammento di schema specifica il contenuto previsto contenuto in questa classe.
  * 
  * <pre>
  * &lt;complexType&gt;
@@ -43,7 +43,7 @@ public class SetRelayOutputSettings {
     protected RelayOutputSettings properties;
 
     /**
-     * Gets the value of the relayOutputToken property.
+     * Recupera il valore della proprietà relayOutputToken.
      * 
      * @return
      *     possible object is
@@ -55,7 +55,7 @@ public class SetRelayOutputSettings {
     }
 
     /**
-     * Sets the value of the relayOutputToken property.
+     * Imposta il valore della proprietà relayOutputToken.
      * 
      * @param value
      *     allowed object is
@@ -67,7 +67,7 @@ public class SetRelayOutputSettings {
     }
 
     /**
-     * Gets the value of the properties property.
+     * Recupera il valore della proprietà properties.
      * 
      * @return
      *     possible object is
@@ -79,7 +79,7 @@ public class SetRelayOutputSettings {
     }
 
     /**
-     * Sets the value of the properties property.
+     * Imposta il valore della proprietà properties.
      * 
      * @param value
      *     allowed object is

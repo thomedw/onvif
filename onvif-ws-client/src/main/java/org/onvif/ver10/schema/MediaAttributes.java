@@ -20,9 +20,9 @@ import org.w3c.dom.Element;
 /**
  * A set of media attributes valid for a recording at a point in time or for a time interval.
  * 
- * <p>Java class for MediaAttributes complex type.
+ * <p>Classe Java per MediaAttributes complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>Il seguente frammento di schema specifica il contenuto previsto contenuto in questa classe.
  * 
  * <pre>
  * &lt;complexType name="MediaAttributes"&gt;
@@ -69,7 +69,7 @@ public class MediaAttributes {
     private Map<QName, String> otherAttributes = new HashMap<QName, String>();
 
     /**
-     * Gets the value of the recordingToken property.
+     * Recupera il valore della proprietà recordingToken.
      * 
      * @return
      *     possible object is
@@ -81,7 +81,7 @@ public class MediaAttributes {
     }
 
     /**
-     * Sets the value of the recordingToken property.
+     * Imposta il valore della proprietà recordingToken.
      * 
      * @param value
      *     allowed object is
@@ -122,7 +122,7 @@ public class MediaAttributes {
     }
 
     /**
-     * Gets the value of the from property.
+     * Recupera il valore della proprietà from.
      * 
      * @return
      *     possible object is
@@ -134,7 +134,7 @@ public class MediaAttributes {
     }
 
     /**
-     * Sets the value of the from property.
+     * Imposta il valore della proprietà from.
      * 
      * @param value
      *     allowed object is
@@ -146,7 +146,7 @@ public class MediaAttributes {
     }
 
     /**
-     * Gets the value of the until property.
+     * Recupera il valore della proprietà until.
      * 
      * @return
      *     possible object is
@@ -158,7 +158,7 @@ public class MediaAttributes {
     }
 
     /**
-     * Sets the value of the until property.
+     * Imposta il valore della proprietà until.
      * 
      * @param value
      *     allowed object is
@@ -187,8 +187,8 @@ public class MediaAttributes {
      * 
      * <p>
      * Objects of the following type(s) are allowed in the list
-     * {@link java.lang.Object }
      * {@link Element }
+     * {@link java.lang.Object }
      * 
      * 
      */

@@ -19,9 +19,9 @@ import org.w3c.dom.Element;
 
 
 /**
- * <p>Java class for PassphraseAttribute complex type.
+ * <p>Classe Java per PassphraseAttribute complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>Il seguente frammento di schema specifica il contenuto previsto contenuto in questa classe.
  * 
  * <pre>
  * &lt;complexType name="PassphraseAttribute"&gt;
@@ -70,7 +70,7 @@ public class PassphraseAttribute {
     private Map<QName, String> otherAttributes = new HashMap<QName, String>();
 
     /**
-     * Gets the value of the passphraseID property.
+     * Recupera il valore della proprietà passphraseID.
      * 
      * @return
      *     possible object is
@@ -82,7 +82,7 @@ public class PassphraseAttribute {
     }
 
     /**
-     * Sets the value of the passphraseID property.
+     * Imposta il valore della proprietà passphraseID.
      * 
      * @param value
      *     allowed object is
@@ -94,7 +94,7 @@ public class PassphraseAttribute {
     }
 
     /**
-     * Gets the value of the alias property.
+     * Recupera il valore della proprietà alias.
      * 
      * @return
      *     possible object is
@@ -106,7 +106,7 @@ public class PassphraseAttribute {
     }
 
     /**
-     * Sets the value of the alias property.
+     * Imposta il valore della proprietà alias.
      * 
      * @param value
      *     allowed object is
@@ -118,7 +118,7 @@ public class PassphraseAttribute {
     }
 
     /**
-     * Gets the value of the extension property.
+     * Recupera il valore della proprietà extension.
      * 
      * @return
      *     possible object is
@@ -130,7 +130,7 @@ public class PassphraseAttribute {
     }
 
     /**
-     * Sets the value of the extension property.
+     * Imposta il valore della proprietà extension.
      * 
      * @param value
      *     allowed object is
@@ -161,9 +161,9 @@ public class PassphraseAttribute {
 
 
     /**
-     * <p>Java class for anonymous complex type.
+     * <p>Classe Java per anonymous complex type.
      * 
-     * <p>The following schema fragment specifies the expected content contained within this class.
+     * <p>Il seguente frammento di schema specifica il contenuto previsto contenuto in questa classe.
      * 
      * <pre>
      * &lt;complexType&gt;
@@ -206,8 +206,8 @@ public class PassphraseAttribute {
          * 
          * <p>
          * Objects of the following type(s) are allowed in the list
-         * {@link Object }
          * {@link Element }
+         * {@link Object }
          * 
          * 
          */

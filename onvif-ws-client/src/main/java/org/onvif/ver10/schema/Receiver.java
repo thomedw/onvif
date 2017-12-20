@@ -20,9 +20,9 @@ import org.w3c.dom.Element;
  * 			Description of a receiver, including its token and configuration.
  * 		
  * 
- * <p>Java class for Receiver complex type.
+ * <p>Classe Java per Receiver complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>Il seguente frammento di schema specifica il contenuto previsto contenuto in questa classe.
  * 
  * <pre>
  * &lt;complexType name="Receiver"&gt;
@@ -59,7 +59,7 @@ public class Receiver {
     private Map<QName, String> otherAttributes = new HashMap<QName, String>();
 
     /**
-     * Gets the value of the token property.
+     * Recupera il valore della proprietà token.
      * 
      * @return
      *     possible object is
@@ -71,7 +71,7 @@ public class Receiver {
     }
 
     /**
-     * Sets the value of the token property.
+     * Imposta il valore della proprietà token.
      * 
      * @param value
      *     allowed object is
@@ -83,7 +83,7 @@ public class Receiver {
     }
 
     /**
-     * Gets the value of the configuration property.
+     * Recupera il valore della proprietà configuration.
      * 
      * @return
      *     possible object is
@@ -95,7 +95,7 @@ public class Receiver {
     }
 
     /**
-     * Sets the value of the configuration property.
+     * Imposta il valore della proprietà configuration.
      * 
      * @param value
      *     allowed object is
@@ -124,8 +124,8 @@ public class Receiver {
      * 
      * <p>
      * Objects of the following type(s) are allowed in the list
-     * {@link java.lang.Object }
      * {@link Element }
+     * {@link java.lang.Object }
      * 
      * 
      */

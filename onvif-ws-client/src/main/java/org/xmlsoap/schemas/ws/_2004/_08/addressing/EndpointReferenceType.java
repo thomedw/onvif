@@ -16,9 +16,9 @@ import org.w3c.dom.Element;
 
 
 /**
- * <p>Java class for EndpointReferenceType complex type.
+ * <p>Classe Java per EndpointReferenceType complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>Il seguente frammento di schema specifica il contenuto previsto contenuto in questa classe.
  * 
  * <pre>
  * &lt;complexType name="EndpointReferenceType"&gt;
@@ -67,7 +67,7 @@ public class EndpointReferenceType {
     private Map<QName, String> otherAttributes = new HashMap<QName, String>();
 
     /**
-     * Gets the value of the address property.
+     * Recupera il valore della proprietà address.
      * 
      * @return
      *     possible object is
@@ -79,7 +79,7 @@ public class EndpointReferenceType {
     }
 
     /**
-     * Sets the value of the address property.
+     * Imposta il valore della proprietà address.
      * 
      * @param value
      *     allowed object is
@@ -91,7 +91,7 @@ public class EndpointReferenceType {
     }
 
     /**
-     * Gets the value of the referenceProperties property.
+     * Recupera il valore della proprietà referenceProperties.
      * 
      * @return
      *     possible object is
@@ -103,7 +103,7 @@ public class EndpointReferenceType {
     }
 
     /**
-     * Sets the value of the referenceProperties property.
+     * Imposta il valore della proprietà referenceProperties.
      * 
      * @param value
      *     allowed object is
@@ -115,7 +115,7 @@ public class EndpointReferenceType {
     }
 
     /**
-     * Gets the value of the referenceParameters property.
+     * Recupera il valore della proprietà referenceParameters.
      * 
      * @return
      *     possible object is
@@ -127,7 +127,7 @@ public class EndpointReferenceType {
     }
 
     /**
-     * Sets the value of the referenceParameters property.
+     * Imposta il valore della proprietà referenceParameters.
      * 
      * @param value
      *     allowed object is
@@ -139,7 +139,7 @@ public class EndpointReferenceType {
     }
 
     /**
-     * Gets the value of the portType property.
+     * Recupera il valore della proprietà portType.
      * 
      * @return
      *     possible object is
@@ -151,7 +151,7 @@ public class EndpointReferenceType {
     }
 
     /**
-     * Sets the value of the portType property.
+     * Imposta il valore della proprietà portType.
      * 
      * @param value
      *     allowed object is
@@ -163,7 +163,7 @@ public class EndpointReferenceType {
     }
 
     /**
-     * Gets the value of the serviceName property.
+     * Recupera il valore della proprietà serviceName.
      * 
      * @return
      *     possible object is
@@ -175,7 +175,7 @@ public class EndpointReferenceType {
     }
 
     /**
-     * Sets the value of the serviceName property.
+     * Imposta il valore della proprietà serviceName.
      * 
      * @param value
      *     allowed object is
@@ -204,8 +204,8 @@ public class EndpointReferenceType {
      * 
      * <p>
      * Objects of the following type(s) are allowed in the list
-     * {@link Object }
      * {@link Element }
+     * {@link Object }
      * 
      * 
      */

@@ -15,9 +15,9 @@ import org.onvif.ver10.pacs.DataEntity;
  * Used as extension base for AccessPointInfo.
  * 
  * 
- * <p>Java class for AccessPointInfoBase complex type.
+ * <p>Classe Java per AccessPointInfoBase complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>Il seguente frammento di schema specifica il contenuto previsto contenuto in questa classe.
  * 
  * <pre>
  * &lt;complexType name="AccessPointInfoBase"&gt;
@@ -68,7 +68,7 @@ public class AccessPointInfoBase
     protected String entity;
 
     /**
-     * Gets the value of the name property.
+     * Recupera il valore della proprietà name.
      * 
      * @return
      *     possible object is
@@ -80,7 +80,7 @@ public class AccessPointInfoBase
     }
 
     /**
-     * Sets the value of the name property.
+     * Imposta il valore della proprietà name.
      * 
      * @param value
      *     allowed object is
@@ -92,7 +92,7 @@ public class AccessPointInfoBase
     }
 
     /**
-     * Gets the value of the description property.
+     * Recupera il valore della proprietà description.
      * 
      * @return
      *     possible object is
@@ -104,7 +104,7 @@ public class AccessPointInfoBase
     }
 
     /**
-     * Sets the value of the description property.
+     * Imposta il valore della proprietà description.
      * 
      * @param value
      *     allowed object is
@@ -116,7 +116,7 @@ public class AccessPointInfoBase
     }
 
     /**
-     * Gets the value of the areaFrom property.
+     * Recupera il valore della proprietà areaFrom.
      * 
      * @return
      *     possible object is
@@ -128,7 +128,7 @@ public class AccessPointInfoBase
     }
 
     /**
-     * Sets the value of the areaFrom property.
+     * Imposta il valore della proprietà areaFrom.
      * 
      * @param value
      *     allowed object is
@@ -140,7 +140,7 @@ public class AccessPointInfoBase
     }
 
     /**
-     * Gets the value of the areaTo property.
+     * Recupera il valore della proprietà areaTo.
      * 
      * @return
      *     possible object is
@@ -152,7 +152,7 @@ public class AccessPointInfoBase
     }
 
     /**
-     * Sets the value of the areaTo property.
+     * Imposta il valore della proprietà areaTo.
      * 
      * @param value
      *     allowed object is
@@ -164,7 +164,7 @@ public class AccessPointInfoBase
     }
 
     /**
-     * Gets the value of the entityType property.
+     * Recupera il valore della proprietà entityType.
      * 
      * @return
      *     possible object is
@@ -176,7 +176,7 @@ public class AccessPointInfoBase
     }
 
     /**
-     * Sets the value of the entityType property.
+     * Imposta il valore della proprietà entityType.
      * 
      * @param value
      *     allowed object is
@@ -188,7 +188,7 @@ public class AccessPointInfoBase
     }
 
     /**
-     * Gets the value of the entity property.
+     * Recupera il valore della proprietà entity.
      * 
      * @return
      *     possible object is
@@ -200,7 +200,7 @@ public class AccessPointInfoBase
     }
 
     /**
-     * Sets the value of the entity property.
+     * Imposta il valore della proprietà entity.
      * 
      * @param value
      *     allowed object is

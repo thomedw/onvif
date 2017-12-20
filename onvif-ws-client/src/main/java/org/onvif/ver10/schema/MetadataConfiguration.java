@@ -18,9 +18,9 @@ import org.w3c.dom.Element;
 
 
 /**
- * <p>Java class for MetadataConfiguration complex type.
+ * <p>Classe Java per MetadataConfiguration complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>Il seguente frammento di schema specifica il contenuto previsto contenuto in questa classe.
  * 
  * <pre>
  * &lt;complexType name="MetadataConfiguration"&gt;
@@ -82,7 +82,7 @@ public class MetadataConfiguration
     private Map<QName, String> otherAttributes = new HashMap<QName, String>();
 
     /**
-     * Gets the value of the ptzStatus property.
+     * Recupera il valore della proprietà ptzStatus.
      * 
      * @return
      *     possible object is
@@ -94,7 +94,7 @@ public class MetadataConfiguration
     }
 
     /**
-     * Sets the value of the ptzStatus property.
+     * Imposta il valore della proprietà ptzStatus.
      * 
      * @param value
      *     allowed object is
@@ -106,7 +106,7 @@ public class MetadataConfiguration
     }
 
     /**
-     * Gets the value of the events property.
+     * Recupera il valore della proprietà events.
      * 
      * @return
      *     possible object is
@@ -118,7 +118,7 @@ public class MetadataConfiguration
     }
 
     /**
-     * Sets the value of the events property.
+     * Imposta il valore della proprietà events.
      * 
      * @param value
      *     allowed object is
@@ -130,7 +130,7 @@ public class MetadataConfiguration
     }
 
     /**
-     * Gets the value of the analytics property.
+     * Recupera il valore della proprietà analytics.
      * This getter has been renamed from isAnalytics() to getAnalytics() by cxf-xjc-boolean plugin.
      * 
      * @return
@@ -143,7 +143,7 @@ public class MetadataConfiguration
     }
 
     /**
-     * Sets the value of the analytics property.
+     * Imposta il valore della proprietà analytics.
      * 
      * @param value
      *     allowed object is
@@ -155,7 +155,7 @@ public class MetadataConfiguration
     }
 
     /**
-     * Gets the value of the multicast property.
+     * Recupera il valore della proprietà multicast.
      * 
      * @return
      *     possible object is
@@ -167,7 +167,7 @@ public class MetadataConfiguration
     }
 
     /**
-     * Sets the value of the multicast property.
+     * Imposta il valore della proprietà multicast.
      * 
      * @param value
      *     allowed object is
@@ -179,7 +179,7 @@ public class MetadataConfiguration
     }
 
     /**
-     * Gets the value of the sessionTimeout property.
+     * Recupera il valore della proprietà sessionTimeout.
      * 
      * @return
      *     possible object is
@@ -191,7 +191,7 @@ public class MetadataConfiguration
     }
 
     /**
-     * Sets the value of the sessionTimeout property.
+     * Imposta il valore della proprietà sessionTimeout.
      * 
      * @param value
      *     allowed object is
@@ -220,8 +220,8 @@ public class MetadataConfiguration
      * 
      * <p>
      * Objects of the following type(s) are allowed in the list
-     * {@link java.lang.Object }
      * {@link Element }
+     * {@link java.lang.Object }
      * 
      * 
      */
@@ -233,7 +233,7 @@ public class MetadataConfiguration
     }
 
     /**
-     * Gets the value of the analyticsEngineConfiguration property.
+     * Recupera il valore della proprietà analyticsEngineConfiguration.
      * 
      * @return
      *     possible object is
@@ -245,7 +245,7 @@ public class MetadataConfiguration
     }
 
     /**
-     * Sets the value of the analyticsEngineConfiguration property.
+     * Imposta il valore della proprietà analyticsEngineConfiguration.
      * 
      * @param value
      *     allowed object is
@@ -257,7 +257,7 @@ public class MetadataConfiguration
     }
 
     /**
-     * Gets the value of the extension property.
+     * Recupera il valore della proprietà extension.
      * 
      * @return
      *     possible object is
@@ -269,7 +269,7 @@ public class MetadataConfiguration
     }
 
     /**
-     * Sets the value of the extension property.
+     * Imposta il valore della proprietà extension.
      * 
      * @param value
      *     allowed object is
@@ -281,7 +281,7 @@ public class MetadataConfiguration
     }
 
     /**
-     * Gets the value of the compressionType property.
+     * Recupera il valore della proprietà compressionType.
      * 
      * @return
      *     possible object is
@@ -293,7 +293,7 @@ public class MetadataConfiguration
     }
 
     /**
-     * Sets the value of the compressionType property.
+     * Imposta il valore della proprietà compressionType.
      * 
      * @param value
      *     allowed object is

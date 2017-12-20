@@ -12,9 +12,9 @@ import javax.xml.namespace.QName;
 
 
 /**
- * <p>Java class for Appearance complex type.
+ * <p>Classe Java per Appearance complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>Il seguente frammento di schema specifica il contenuto previsto contenuto in questa classe.
  * 
  * <pre>
  * &lt;complexType name="Appearance"&gt;
@@ -59,7 +59,7 @@ public class Appearance {
     private Map<QName, String> otherAttributes = new HashMap<QName, String>();
 
     /**
-     * Gets the value of the transformation property.
+     * Recupera il valore della proprietà transformation.
      * 
      * @return
      *     possible object is
@@ -71,7 +71,7 @@ public class Appearance {
     }
 
     /**
-     * Sets the value of the transformation property.
+     * Imposta il valore della proprietà transformation.
      * 
      * @param value
      *     allowed object is
@@ -83,7 +83,7 @@ public class Appearance {
     }
 
     /**
-     * Gets the value of the shape property.
+     * Recupera il valore della proprietà shape.
      * 
      * @return
      *     possible object is
@@ -95,7 +95,7 @@ public class Appearance {
     }
 
     /**
-     * Sets the value of the shape property.
+     * Imposta il valore della proprietà shape.
      * 
      * @param value
      *     allowed object is
@@ -107,7 +107,7 @@ public class Appearance {
     }
 
     /**
-     * Gets the value of the color property.
+     * Recupera il valore della proprietà color.
      * 
      * @return
      *     possible object is
@@ -119,7 +119,7 @@ public class Appearance {
     }
 
     /**
-     * Sets the value of the color property.
+     * Imposta il valore della proprietà color.
      * 
      * @param value
      *     allowed object is
@@ -131,7 +131,7 @@ public class Appearance {
     }
 
     /**
-     * Gets the value of the clazz property.
+     * Recupera il valore della proprietà clazz.
      * 
      * @return
      *     possible object is
@@ -143,7 +143,7 @@ public class Appearance {
     }
 
     /**
-     * Sets the value of the clazz property.
+     * Imposta il valore della proprietà clazz.
      * 
      * @param value
      *     allowed object is
@@ -155,7 +155,7 @@ public class Appearance {
     }
 
     /**
-     * Gets the value of the extension property.
+     * Recupera il valore della proprietà extension.
      * 
      * @return
      *     possible object is
@@ -167,7 +167,7 @@ public class Appearance {
     }
 
     /**
-     * Sets the value of the extension property.
+     * Imposta il valore della proprietà extension.
      * 
      * @param value
      *     allowed object is

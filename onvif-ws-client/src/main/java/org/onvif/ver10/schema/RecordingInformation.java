@@ -18,9 +18,9 @@ import org.w3c.dom.Element;
 
 
 /**
- * <p>Java class for RecordingInformation complex type.
+ * <p>Classe Java per RecordingInformation complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>Il seguente frammento di schema specifica il contenuto previsto contenuto in questa classe.
  * 
  * <pre>
  * &lt;complexType name="RecordingInformation"&gt;
@@ -80,7 +80,7 @@ public class RecordingInformation {
     private Map<QName, String> otherAttributes = new HashMap<QName, String>();
 
     /**
-     * Gets the value of the recordingToken property.
+     * Recupera il valore della proprietà recordingToken.
      * 
      * @return
      *     possible object is
@@ -92,7 +92,7 @@ public class RecordingInformation {
     }
 
     /**
-     * Sets the value of the recordingToken property.
+     * Imposta il valore della proprietà recordingToken.
      * 
      * @param value
      *     allowed object is
@@ -104,7 +104,7 @@ public class RecordingInformation {
     }
 
     /**
-     * Gets the value of the source property.
+     * Recupera il valore della proprietà source.
      * 
      * @return
      *     possible object is
@@ -116,7 +116,7 @@ public class RecordingInformation {
     }
 
     /**
-     * Sets the value of the source property.
+     * Imposta il valore della proprietà source.
      * 
      * @param value
      *     allowed object is
@@ -128,7 +128,7 @@ public class RecordingInformation {
     }
 
     /**
-     * Gets the value of the earliestRecording property.
+     * Recupera il valore della proprietà earliestRecording.
      * 
      * @return
      *     possible object is
@@ -140,7 +140,7 @@ public class RecordingInformation {
     }
 
     /**
-     * Sets the value of the earliestRecording property.
+     * Imposta il valore della proprietà earliestRecording.
      * 
      * @param value
      *     allowed object is
@@ -152,7 +152,7 @@ public class RecordingInformation {
     }
 
     /**
-     * Gets the value of the latestRecording property.
+     * Recupera il valore della proprietà latestRecording.
      * 
      * @return
      *     possible object is
@@ -164,7 +164,7 @@ public class RecordingInformation {
     }
 
     /**
-     * Sets the value of the latestRecording property.
+     * Imposta il valore della proprietà latestRecording.
      * 
      * @param value
      *     allowed object is
@@ -176,7 +176,7 @@ public class RecordingInformation {
     }
 
     /**
-     * Gets the value of the content property.
+     * Recupera il valore della proprietà content.
      * 
      * @return
      *     possible object is
@@ -188,7 +188,7 @@ public class RecordingInformation {
     }
 
     /**
-     * Sets the value of the content property.
+     * Imposta il valore della proprietà content.
      * 
      * @param value
      *     allowed object is
@@ -229,7 +229,7 @@ public class RecordingInformation {
     }
 
     /**
-     * Gets the value of the recordingStatus property.
+     * Recupera il valore della proprietà recordingStatus.
      * 
      * @return
      *     possible object is
@@ -241,7 +241,7 @@ public class RecordingInformation {
     }
 
     /**
-     * Sets the value of the recordingStatus property.
+     * Imposta il valore della proprietà recordingStatus.
      * 
      * @param value
      *     allowed object is
@@ -270,8 +270,8 @@ public class RecordingInformation {
      * 
      * <p>
      * Objects of the following type(s) are allowed in the list
-     * {@link java.lang.Object }
      * {@link Element }
+     * {@link java.lang.Object }
      * 
      * 
      */

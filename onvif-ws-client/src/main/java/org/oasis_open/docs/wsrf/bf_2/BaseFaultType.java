@@ -39,15 +39,13 @@ import org.oasis_open.docs.wsn.b_2.UnacceptableInitialTerminationTimeFaultType;
 import org.oasis_open.docs.wsn.b_2.UnacceptableTerminationTimeFaultType;
 import org.oasis_open.docs.wsn.b_2.UnrecognizedPolicyRequestFaultType;
 import org.oasis_open.docs.wsn.b_2.UnsupportedPolicyRequestFaultType;
-import org.oasis_open.docs.wsrf.r_2.ResourceUnavailableFaultType;
-import org.oasis_open.docs.wsrf.r_2.ResourceUnknownFaultType;
 import org.w3c.dom.Element;
 
 
 /**
- * <p>Java class for BaseFaultType complex type.
+ * <p>Classe Java per BaseFaultType complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>Il seguente frammento di schema specifica il contenuto previsto contenuto in questa classe.
  * 
  * <pre>
  * &lt;complexType name="BaseFaultType"&gt;
@@ -106,8 +104,6 @@ import org.w3c.dom.Element;
     "faultCause"
 })
 @XmlSeeAlso({
-    ResourceUnknownFaultType.class,
-    ResourceUnavailableFaultType.class,
     SubscribeCreationFailedFaultType.class,
     InvalidFilterFaultType.class,
     TopicExpressionDialectUnknownFaultType.class,
@@ -165,8 +161,8 @@ public class BaseFaultType {
      * 
      * <p>
      * Objects of the following type(s) are allowed in the list
-     * {@link Object }
      * {@link Element }
+     * {@link Object }
      * 
      * 
      */
@@ -178,7 +174,7 @@ public class BaseFaultType {
     }
 
     /**
-     * Gets the value of the timestamp property.
+     * Recupera il valore della proprietà timestamp.
      * 
      * @return
      *     possible object is
@@ -190,7 +186,7 @@ public class BaseFaultType {
     }
 
     /**
-     * Sets the value of the timestamp property.
+     * Imposta il valore della proprietà timestamp.
      * 
      * @param value
      *     allowed object is
@@ -202,7 +198,7 @@ public class BaseFaultType {
     }
 
     /**
-     * Gets the value of the originator property.
+     * Recupera il valore della proprietà originator.
      * 
      * @return
      *     possible object is
@@ -214,7 +210,7 @@ public class BaseFaultType {
     }
 
     /**
-     * Sets the value of the originator property.
+     * Imposta il valore della proprietà originator.
      * 
      * @param value
      *     allowed object is
@@ -226,7 +222,7 @@ public class BaseFaultType {
     }
 
     /**
-     * Gets the value of the errorCode property.
+     * Recupera il valore della proprietà errorCode.
      * 
      * @return
      *     possible object is
@@ -238,7 +234,7 @@ public class BaseFaultType {
     }
 
     /**
-     * Sets the value of the errorCode property.
+     * Imposta il valore della proprietà errorCode.
      * 
      * @param value
      *     allowed object is
@@ -279,7 +275,7 @@ public class BaseFaultType {
     }
 
     /**
-     * Gets the value of the faultCause property.
+     * Recupera il valore della proprietà faultCause.
      * 
      * @return
      *     possible object is
@@ -291,7 +287,7 @@ public class BaseFaultType {
     }
 
     /**
-     * Sets the value of the faultCause property.
+     * Imposta il valore della proprietà faultCause.
      * 
      * @param value
      *     allowed object is
@@ -322,9 +318,9 @@ public class BaseFaultType {
 
 
     /**
-     * <p>Java class for anonymous complex type.
+     * <p>Classe Java per anonymous complex type.
      * 
-     * <p>The following schema fragment specifies the expected content contained within this class.
+     * <p>Il seguente frammento di schema specifica il contenuto previsto contenuto in questa classe.
      * 
      * <pre>
      * &lt;complexType&gt;
@@ -350,7 +346,7 @@ public class BaseFaultType {
         protected String lang;
 
         /**
-         * Gets the value of the value property.
+         * Recupera il valore della proprietà value.
          * 
          * @return
          *     possible object is
@@ -362,7 +358,7 @@ public class BaseFaultType {
         }
 
         /**
-         * Sets the value of the value property.
+         * Imposta il valore della proprietà value.
          * 
          * @param value
          *     allowed object is
@@ -374,7 +370,7 @@ public class BaseFaultType {
         }
 
         /**
-         * Gets the value of the lang property.
+         * Recupera il valore della proprietà lang.
          * 
          * @return
          *     possible object is
@@ -386,7 +382,7 @@ public class BaseFaultType {
         }
 
         /**
-         * Sets the value of the lang property.
+         * Imposta il valore della proprietà lang.
          * 
          * @param value
          *     allowed object is
@@ -401,9 +397,9 @@ public class BaseFaultType {
 
 
     /**
-     * <p>Java class for anonymous complex type.
+     * <p>Classe Java per anonymous complex type.
      * 
-     * <p>The following schema fragment specifies the expected content contained within this class.
+     * <p>Il seguente frammento di schema specifica il contenuto previsto contenuto in questa classe.
      * 
      * <pre>
      * &lt;complexType&gt;
@@ -464,7 +460,7 @@ public class BaseFaultType {
         }
 
         /**
-         * Gets the value of the dialect property.
+         * Recupera il valore della proprietà dialect.
          * 
          * @return
          *     possible object is
@@ -476,7 +472,7 @@ public class BaseFaultType {
         }
 
         /**
-         * Sets the value of the dialect property.
+         * Imposta il valore della proprietà dialect.
          * 
          * @param value
          *     allowed object is
@@ -509,9 +505,9 @@ public class BaseFaultType {
 
 
     /**
-     * <p>Java class for anonymous complex type.
+     * <p>Classe Java per anonymous complex type.
      * 
-     * <p>The following schema fragment specifies the expected content contained within this class.
+     * <p>Il seguente frammento di schema specifica il contenuto previsto contenuto in questa classe.
      * 
      * <pre>
      * &lt;complexType&gt;
@@ -537,12 +533,12 @@ public class BaseFaultType {
         protected Object any;
 
         /**
-         * Gets the value of the any property.
+         * Recupera il valore della proprietà any.
          * 
          * @return
          *     possible object is
-         *     {@link Object }
          *     {@link Element }
+         *     {@link Object }
          *     
          */
         public Object getAny() {
@@ -550,12 +546,12 @@ public class BaseFaultType {
         }
 
         /**
-         * Sets the value of the any property.
+         * Imposta il valore della proprietà any.
          * 
          * @param value
          *     allowed object is
-         *     {@link Object }
          *     {@link Element }
+         *     {@link Object }
          *     
          */
         public void setAny(Object value) {

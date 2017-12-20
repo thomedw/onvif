@@ -15,9 +15,9 @@ import javax.xml.namespace.QName;
 
 
 /**
- * <p>Java class for IPv6Configuration complex type.
+ * <p>Classe Java per IPv6Configuration complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>Il seguente frammento di schema specifica il contenuto previsto contenuto in questa classe.
  * 
  * <pre>
  * &lt;complexType name="IPv6Configuration"&gt;
@@ -71,7 +71,7 @@ public class IPv6Configuration {
     private Map<QName, String> otherAttributes = new HashMap<QName, String>();
 
     /**
-     * Gets the value of the acceptRouterAdvert property.
+     * Recupera il valore della proprietà acceptRouterAdvert.
      * This getter has been renamed from isAcceptRouterAdvert() to getAcceptRouterAdvert() by cxf-xjc-boolean plugin.
      * 
      * @return
@@ -84,7 +84,7 @@ public class IPv6Configuration {
     }
 
     /**
-     * Sets the value of the acceptRouterAdvert property.
+     * Imposta il valore della proprietà acceptRouterAdvert.
      * 
      * @param value
      *     allowed object is
@@ -96,7 +96,7 @@ public class IPv6Configuration {
     }
 
     /**
-     * Gets the value of the dhcp property.
+     * Recupera il valore della proprietà dhcp.
      * 
      * @return
      *     possible object is
@@ -108,7 +108,7 @@ public class IPv6Configuration {
     }
 
     /**
-     * Sets the value of the dhcp property.
+     * Imposta il valore della proprietà dhcp.
      * 
      * @param value
      *     allowed object is
@@ -236,7 +236,7 @@ public class IPv6Configuration {
     }
 
     /**
-     * Gets the value of the extension property.
+     * Recupera il valore della proprietà extension.
      * 
      * @return
      *     possible object is
@@ -248,7 +248,7 @@ public class IPv6Configuration {
     }
 
     /**
-     * Sets the value of the extension property.
+     * Imposta il valore della proprietà extension.
      * 
      * @param value
      *     allowed object is

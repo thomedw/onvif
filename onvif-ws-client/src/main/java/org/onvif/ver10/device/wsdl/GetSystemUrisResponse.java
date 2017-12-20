@@ -15,9 +15,9 @@ import org.w3c.dom.Element;
 
 
 /**
- * <p>Java class for anonymous complex type.
+ * <p>Classe Java per anonymous complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>Il seguente frammento di schema specifica il contenuto previsto contenuto in questa classe.
  * 
  * <pre>
  * &lt;complexType&gt;
@@ -68,7 +68,7 @@ public class GetSystemUrisResponse {
     protected GetSystemUrisResponse.Extension extension;
 
     /**
-     * Gets the value of the systemLogUris property.
+     * Recupera il valore della proprietà systemLogUris.
      * 
      * @return
      *     possible object is
@@ -80,7 +80,7 @@ public class GetSystemUrisResponse {
     }
 
     /**
-     * Sets the value of the systemLogUris property.
+     * Imposta il valore della proprietà systemLogUris.
      * 
      * @param value
      *     allowed object is
@@ -92,7 +92,7 @@ public class GetSystemUrisResponse {
     }
 
     /**
-     * Gets the value of the supportInfoUri property.
+     * Recupera il valore della proprietà supportInfoUri.
      * 
      * @return
      *     possible object is
@@ -104,7 +104,7 @@ public class GetSystemUrisResponse {
     }
 
     /**
-     * Sets the value of the supportInfoUri property.
+     * Imposta il valore della proprietà supportInfoUri.
      * 
      * @param value
      *     allowed object is
@@ -116,7 +116,7 @@ public class GetSystemUrisResponse {
     }
 
     /**
-     * Gets the value of the systemBackupUri property.
+     * Recupera il valore della proprietà systemBackupUri.
      * 
      * @return
      *     possible object is
@@ -128,7 +128,7 @@ public class GetSystemUrisResponse {
     }
 
     /**
-     * Sets the value of the systemBackupUri property.
+     * Imposta il valore della proprietà systemBackupUri.
      * 
      * @param value
      *     allowed object is
@@ -140,7 +140,7 @@ public class GetSystemUrisResponse {
     }
 
     /**
-     * Gets the value of the extension property.
+     * Recupera il valore della proprietà extension.
      * 
      * @return
      *     possible object is
@@ -152,7 +152,7 @@ public class GetSystemUrisResponse {
     }
 
     /**
-     * Sets the value of the extension property.
+     * Imposta il valore della proprietà extension.
      * 
      * @param value
      *     allowed object is
@@ -165,9 +165,9 @@ public class GetSystemUrisResponse {
 
 
     /**
-     * <p>Java class for anonymous complex type.
+     * <p>Classe Java per anonymous complex type.
      * 
-     * <p>The following schema fragment specifies the expected content contained within this class.
+     * <p>Il seguente frammento di schema specifica il contenuto previsto contenuto in questa classe.
      * 
      * <pre>
      * &lt;complexType&gt;
@@ -210,8 +210,8 @@ public class GetSystemUrisResponse {
          * 
          * <p>
          * Objects of the following type(s) are allowed in the list
-         * {@link Object }
          * {@link Element }
+         * {@link Object }
          * 
          * 
          */

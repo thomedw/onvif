@@ -10,9 +10,9 @@ import javax.xml.bind.annotation.XmlType;
 
 
 /**
- * <p>Java class for anonymous complex type.
+ * <p>Classe Java per anonymous complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>Il seguente frammento di schema specifica il contenuto previsto contenuto in questa classe.
  * 
  * <pre>
  * &lt;complexType&gt;
@@ -52,7 +52,7 @@ public class ExternalAuthorization {
     protected Decision decision;
 
     /**
-     * Gets the value of the accessPointToken property.
+     * Recupera il valore della proprietà accessPointToken.
      * 
      * @return
      *     possible object is
@@ -64,7 +64,7 @@ public class ExternalAuthorization {
     }
 
     /**
-     * Sets the value of the accessPointToken property.
+     * Imposta il valore della proprietà accessPointToken.
      * 
      * @param value
      *     allowed object is
@@ -76,7 +76,7 @@ public class ExternalAuthorization {
     }
 
     /**
-     * Gets the value of the credentialToken property.
+     * Recupera il valore della proprietà credentialToken.
      * 
      * @return
      *     possible object is
@@ -88,7 +88,7 @@ public class ExternalAuthorization {
     }
 
     /**
-     * Sets the value of the credentialToken property.
+     * Imposta il valore della proprietà credentialToken.
      * 
      * @param value
      *     allowed object is
@@ -100,7 +100,7 @@ public class ExternalAuthorization {
     }
 
     /**
-     * Gets the value of the reason property.
+     * Recupera il valore della proprietà reason.
      * 
      * @return
      *     possible object is
@@ -112,7 +112,7 @@ public class ExternalAuthorization {
     }
 
     /**
-     * Sets the value of the reason property.
+     * Imposta il valore della proprietà reason.
      * 
      * @param value
      *     allowed object is
@@ -124,7 +124,7 @@ public class ExternalAuthorization {
     }
 
     /**
-     * Gets the value of the decision property.
+     * Recupera il valore della proprietà decision.
      * 
      * @return
      *     possible object is
@@ -136,7 +136,7 @@ public class ExternalAuthorization {
     }
 
     /**
-     * Sets the value of the decision property.
+     * Imposta il valore della proprietà decision.
      * 
      * @param value
      *     allowed object is

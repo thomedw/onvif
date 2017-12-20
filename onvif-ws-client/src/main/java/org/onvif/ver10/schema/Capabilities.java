@@ -12,9 +12,9 @@ import javax.xml.namespace.QName;
 
 
 /**
- * <p>Java class for Capabilities complex type.
+ * <p>Classe Java per Capabilities complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>Il seguente frammento di schema specifica il contenuto previsto contenuto in questa classe.
  * 
  * <pre>
  * &lt;complexType name="Capabilities"&gt;
@@ -67,7 +67,7 @@ public class Capabilities {
     private Map<QName, String> otherAttributes = new HashMap<QName, String>();
 
     /**
-     * Gets the value of the analytics property.
+     * Recupera il valore della proprietà analytics.
      * 
      * @return
      *     possible object is
@@ -79,7 +79,7 @@ public class Capabilities {
     }
 
     /**
-     * Sets the value of the analytics property.
+     * Imposta il valore della proprietà analytics.
      * 
      * @param value
      *     allowed object is
@@ -91,7 +91,7 @@ public class Capabilities {
     }
 
     /**
-     * Gets the value of the device property.
+     * Recupera il valore della proprietà device.
      * 
      * @return
      *     possible object is
@@ -103,7 +103,7 @@ public class Capabilities {
     }
 
     /**
-     * Sets the value of the device property.
+     * Imposta il valore della proprietà device.
      * 
      * @param value
      *     allowed object is
@@ -115,7 +115,7 @@ public class Capabilities {
     }
 
     /**
-     * Gets the value of the events property.
+     * Recupera il valore della proprietà events.
      * 
      * @return
      *     possible object is
@@ -127,7 +127,7 @@ public class Capabilities {
     }
 
     /**
-     * Sets the value of the events property.
+     * Imposta il valore della proprietà events.
      * 
      * @param value
      *     allowed object is
@@ -139,7 +139,7 @@ public class Capabilities {
     }
 
     /**
-     * Gets the value of the imaging property.
+     * Recupera il valore della proprietà imaging.
      * 
      * @return
      *     possible object is
@@ -151,7 +151,7 @@ public class Capabilities {
     }
 
     /**
-     * Sets the value of the imaging property.
+     * Imposta il valore della proprietà imaging.
      * 
      * @param value
      *     allowed object is
@@ -163,7 +163,7 @@ public class Capabilities {
     }
 
     /**
-     * Gets the value of the media property.
+     * Recupera il valore della proprietà media.
      * 
      * @return
      *     possible object is
@@ -175,7 +175,7 @@ public class Capabilities {
     }
 
     /**
-     * Sets the value of the media property.
+     * Imposta il valore della proprietà media.
      * 
      * @param value
      *     allowed object is
@@ -187,7 +187,7 @@ public class Capabilities {
     }
 
     /**
-     * Gets the value of the ptz property.
+     * Recupera il valore della proprietà ptz.
      * 
      * @return
      *     possible object is
@@ -199,7 +199,7 @@ public class Capabilities {
     }
 
     /**
-     * Sets the value of the ptz property.
+     * Imposta il valore della proprietà ptz.
      * 
      * @param value
      *     allowed object is
@@ -211,7 +211,7 @@ public class Capabilities {
     }
 
     /**
-     * Gets the value of the extension property.
+     * Recupera il valore della proprietà extension.
      * 
      * @return
      *     possible object is
@@ -223,7 +223,7 @@ public class Capabilities {
     }
 
     /**
-     * Sets the value of the extension property.
+     * Imposta il valore della proprietà extension.
      * 
      * @param value
      *     allowed object is

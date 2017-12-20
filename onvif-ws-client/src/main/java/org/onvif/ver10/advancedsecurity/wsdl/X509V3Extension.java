@@ -18,9 +18,9 @@ import org.w3c.dom.Element;
 /**
  * An X.509v3 extension field as specified in RFC 5280
  * 
- * <p>Java class for X509v3Extension complex type.
+ * <p>Classe Java per X509v3Extension complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>Il seguente frammento di schema specifica il contenuto previsto contenuto in questa classe.
  * 
  * <pre>
  * &lt;complexType name="X509v3Extension"&gt;
@@ -61,7 +61,7 @@ public class X509V3Extension {
     private Map<QName, String> otherAttributes = new HashMap<QName, String>();
 
     /**
-     * Gets the value of the extnOID property.
+     * Recupera il valore della proprietà extnOID.
      * 
      * @return
      *     possible object is
@@ -73,7 +73,7 @@ public class X509V3Extension {
     }
 
     /**
-     * Sets the value of the extnOID property.
+     * Imposta il valore della proprietà extnOID.
      * 
      * @param value
      *     allowed object is
@@ -85,7 +85,7 @@ public class X509V3Extension {
     }
 
     /**
-     * Gets the value of the critical property.
+     * Recupera il valore della proprietà critical.
      * This getter has been renamed from isCritical() to getCritical() by cxf-xjc-boolean plugin.
      * 
      */
@@ -94,7 +94,7 @@ public class X509V3Extension {
     }
 
     /**
-     * Sets the value of the critical property.
+     * Imposta il valore della proprietà critical.
      * 
      */
     public void setCritical(boolean value) {
@@ -102,7 +102,7 @@ public class X509V3Extension {
     }
 
     /**
-     * Gets the value of the extnValue property.
+     * Recupera il valore della proprietà extnValue.
      * 
      * @return
      *     possible object is
@@ -113,7 +113,7 @@ public class X509V3Extension {
     }
 
     /**
-     * Sets the value of the extnValue property.
+     * Imposta il valore della proprietà extnValue.
      * 
      * @param value
      *     allowed object is
@@ -141,8 +141,8 @@ public class X509V3Extension {
      * 
      * <p>
      * Objects of the following type(s) are allowed in the list
-     * {@link Object }
      * {@link Element }
+     * {@link Object }
      * 
      * 
      */

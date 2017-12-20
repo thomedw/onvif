@@ -12,9 +12,9 @@ import javax.xml.namespace.QName;
 
 
 /**
- * <p>Java class for RealTimeStreamingCapabilities complex type.
+ * <p>Classe Java per RealTimeStreamingCapabilities complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>Il seguente frammento di schema specifica il contenuto previsto contenuto in questa classe.
  * 
  * <pre>
  * &lt;complexType name="RealTimeStreamingCapabilities"&gt;
@@ -55,7 +55,7 @@ public class RealTimeStreamingCapabilities {
     private Map<QName, String> otherAttributes = new HashMap<QName, String>();
 
     /**
-     * Gets the value of the rtpMulticast property.
+     * Recupera il valore della proprietà rtpMulticast.
      * This getter has been renamed from isRTPMulticast() to getRTPMulticast() by cxf-xjc-boolean plugin.
      * 
      * @return
@@ -68,7 +68,7 @@ public class RealTimeStreamingCapabilities {
     }
 
     /**
-     * Sets the value of the rtpMulticast property.
+     * Imposta il valore della proprietà rtpMulticast.
      * 
      * @param value
      *     allowed object is
@@ -80,7 +80,7 @@ public class RealTimeStreamingCapabilities {
     }
 
     /**
-     * Gets the value of the rtptcp property.
+     * Recupera il valore della proprietà rtptcp.
      * This getter has been renamed from isRTPTCP() to getRTPTCP() by cxf-xjc-boolean plugin.
      * 
      * @return
@@ -93,7 +93,7 @@ public class RealTimeStreamingCapabilities {
     }
 
     /**
-     * Sets the value of the rtptcp property.
+     * Imposta il valore della proprietà rtptcp.
      * 
      * @param value
      *     allowed object is
@@ -105,7 +105,7 @@ public class RealTimeStreamingCapabilities {
     }
 
     /**
-     * Gets the value of the rtprtsptcp property.
+     * Recupera il valore della proprietà rtprtsptcp.
      * This getter has been renamed from isRTPRTSPTCP() to getRTPRTSPTCP() by cxf-xjc-boolean plugin.
      * 
      * @return
@@ -118,7 +118,7 @@ public class RealTimeStreamingCapabilities {
     }
 
     /**
-     * Sets the value of the rtprtsptcp property.
+     * Imposta il valore della proprietà rtprtsptcp.
      * 
      * @param value
      *     allowed object is
@@ -130,7 +130,7 @@ public class RealTimeStreamingCapabilities {
     }
 
     /**
-     * Gets the value of the extension property.
+     * Recupera il valore della proprietà extension.
      * 
      * @return
      *     possible object is
@@ -142,7 +142,7 @@ public class RealTimeStreamingCapabilities {
     }
 
     /**
-     * Sets the value of the extension property.
+     * Imposta il valore della proprietà extension.
      * 
      * @param value
      *     allowed object is

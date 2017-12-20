@@ -9,9 +9,9 @@ import javax.xml.bind.annotation.XmlType;
 
 
 /**
- * <p>Java class for anonymous complex type.
+ * <p>Classe Java per anonymous complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>Il seguente frammento di schema specifica il contenuto previsto contenuto in questa classe.
  * 
  * <pre>
  * &lt;complexType&gt;
@@ -42,7 +42,7 @@ public class CreateCertificationPath {
     protected String alias;
 
     /**
-     * Gets the value of the certificateIDs property.
+     * Recupera il valore della proprietà certificateIDs.
      * 
      * @return
      *     possible object is
@@ -54,7 +54,7 @@ public class CreateCertificationPath {
     }
 
     /**
-     * Sets the value of the certificateIDs property.
+     * Imposta il valore della proprietà certificateIDs.
      * 
      * @param value
      *     allowed object is
@@ -66,7 +66,7 @@ public class CreateCertificationPath {
     }
 
     /**
-     * Gets the value of the alias property.
+     * Recupera il valore della proprietà alias.
      * 
      * @return
      *     possible object is
@@ -78,7 +78,7 @@ public class CreateCertificationPath {
     }
 
     /**
-     * Sets the value of the alias property.
+     * Imposta il valore della proprietà alias.
      * 
      * @param value
      *     allowed object is

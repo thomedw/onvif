@@ -12,9 +12,9 @@ import javax.xml.namespace.QName;
 
 
 /**
- * <p>Java class for PTZFilter complex type.
+ * <p>Classe Java per PTZFilter complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>Il seguente frammento di schema specifica il contenuto previsto contenuto in questa classe.
  * 
  * <pre>
  * &lt;complexType name="PTZFilter"&gt;
@@ -47,7 +47,7 @@ public class PTZFilter {
     private Map<QName, String> otherAttributes = new HashMap<QName, String>();
 
     /**
-     * Gets the value of the status property.
+     * Recupera il valore della proprietà status.
      * This getter has been renamed from isStatus() to getStatus() by cxf-xjc-boolean plugin.
      * 
      */
@@ -56,7 +56,7 @@ public class PTZFilter {
     }
 
     /**
-     * Sets the value of the status property.
+     * Imposta il valore della proprietà status.
      * 
      */
     public void setStatus(boolean value) {
@@ -64,7 +64,7 @@ public class PTZFilter {
     }
 
     /**
-     * Gets the value of the position property.
+     * Recupera il valore della proprietà position.
      * This getter has been renamed from isPosition() to getPosition() by cxf-xjc-boolean plugin.
      * 
      */
@@ -73,7 +73,7 @@ public class PTZFilter {
     }
 
     /**
-     * Sets the value of the position property.
+     * Imposta il valore della proprietà position.
      * 
      */
     public void setPosition(boolean value) {

@@ -6,8 +6,7 @@ import javax.xml.bind.annotation.XmlAccessorType;
 import javax.xml.bind.annotation.XmlAttribute;
 import javax.xml.bind.annotation.XmlSeeAlso;
 import javax.xml.bind.annotation.XmlType;
-import org.onvif.ver10.accesscontrol.wsdl.AccessPointInfoBase;
-import org.onvif.ver10.accesscontrol.wsdl.AreaInfoBase;
+import org.onvif.ver10.doorcontrol.wsdl.DoorInfoBase;
 
 
 /**
@@ -15,9 +14,9 @@ import org.onvif.ver10.accesscontrol.wsdl.AreaInfoBase;
  * General datastructure referenced by a token.
  * Should be used as extension base.
  * 
- * <p>Java class for DataEntity complex type.
+ * <p>Classe Java per DataEntity complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>Il seguente frammento di schema specifica il contenuto previsto contenuto in questa classe.
  * 
  * <pre>
  * &lt;complexType name="DataEntity"&gt;
@@ -36,8 +35,7 @@ import org.onvif.ver10.accesscontrol.wsdl.AreaInfoBase;
 @XmlAccessorType(XmlAccessType.FIELD)
 @XmlType(name = "DataEntity")
 @XmlSeeAlso({
-    AccessPointInfoBase.class,
-    AreaInfoBase.class
+    DoorInfoBase.class
 })
 public class DataEntity {
 
@@ -45,7 +43,7 @@ public class DataEntity {
     protected String token;
 
     /**
-     * Gets the value of the token property.
+     * Recupera il valore della proprietà token.
      * 
      * @return
      *     possible object is
@@ -57,7 +55,7 @@ public class DataEntity {
     }
 
     /**
-     * Sets the value of the token property.
+     * Imposta il valore della proprietà token.
      * 
      * @param value
      *     allowed object is

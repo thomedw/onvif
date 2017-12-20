@@ -16,9 +16,9 @@ import org.w3c.dom.Element;
 
 
 /**
- * <p>Java class for MetadataConfigurationOptions complex type.
+ * <p>Classe Java per MetadataConfigurationOptions complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>Il seguente frammento di schema specifica il contenuto previsto contenuto in questa classe.
  * 
  * <pre>
  * &lt;complexType name="MetadataConfigurationOptions"&gt;
@@ -55,7 +55,7 @@ public class MetadataConfigurationOptions {
     private Map<QName, String> otherAttributes = new HashMap<QName, String>();
 
     /**
-     * Gets the value of the ptzStatusFilterOptions property.
+     * Recupera il valore della proprietà ptzStatusFilterOptions.
      * 
      * @return
      *     possible object is
@@ -67,7 +67,7 @@ public class MetadataConfigurationOptions {
     }
 
     /**
-     * Sets the value of the ptzStatusFilterOptions property.
+     * Imposta il valore della proprietà ptzStatusFilterOptions.
      * 
      * @param value
      *     allowed object is
@@ -96,8 +96,8 @@ public class MetadataConfigurationOptions {
      * 
      * <p>
      * Objects of the following type(s) are allowed in the list
-     * {@link java.lang.Object }
      * {@link Element }
+     * {@link java.lang.Object }
      * 
      * 
      */
@@ -109,7 +109,7 @@ public class MetadataConfigurationOptions {
     }
 
     /**
-     * Gets the value of the extension property.
+     * Recupera il valore della proprietà extension.
      * 
      * @return
      *     possible object is
@@ -121,7 +121,7 @@ public class MetadataConfigurationOptions {
     }
 
     /**
-     * Sets the value of the extension property.
+     * Imposta il valore della proprietà extension.
      * 
      * @param value
      *     allowed object is

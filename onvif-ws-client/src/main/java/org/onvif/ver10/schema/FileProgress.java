@@ -16,9 +16,9 @@ import org.w3c.dom.Element;
 
 
 /**
- * <p>Java class for FileProgress complex type.
+ * <p>Classe Java per FileProgress complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>Il seguente frammento di schema specifica il contenuto previsto contenuto in questa classe.
  * 
  * <pre>
  * &lt;complexType name="FileProgress"&gt;
@@ -55,7 +55,7 @@ public class FileProgress {
     private Map<QName, String> otherAttributes = new HashMap<QName, String>();
 
     /**
-     * Gets the value of the fileName property.
+     * Recupera il valore della proprietà fileName.
      * 
      * @return
      *     possible object is
@@ -67,7 +67,7 @@ public class FileProgress {
     }
 
     /**
-     * Sets the value of the fileName property.
+     * Imposta il valore della proprietà fileName.
      * 
      * @param value
      *     allowed object is
@@ -79,7 +79,7 @@ public class FileProgress {
     }
 
     /**
-     * Gets the value of the progress property.
+     * Recupera il valore della proprietà progress.
      * 
      */
     public float getProgress() {
@@ -87,7 +87,7 @@ public class FileProgress {
     }
 
     /**
-     * Sets the value of the progress property.
+     * Imposta il valore della proprietà progress.
      * 
      */
     public void setProgress(float value) {
@@ -112,8 +112,8 @@ public class FileProgress {
      * 
      * <p>
      * Objects of the following type(s) are allowed in the list
-     * {@link java.lang.Object }
      * {@link Element }
+     * {@link java.lang.Object }
      * 
      * 
      */

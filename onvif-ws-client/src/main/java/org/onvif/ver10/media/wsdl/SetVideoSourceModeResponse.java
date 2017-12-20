@@ -9,9 +9,9 @@ import javax.xml.bind.annotation.XmlType;
 
 
 /**
- * <p>Java class for anonymous complex type.
+ * <p>Classe Java per anonymous complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>Il seguente frammento di schema specifica il contenuto previsto contenuto in questa classe.
  * 
  * <pre>
  * &lt;complexType&gt;
@@ -38,7 +38,7 @@ public class SetVideoSourceModeResponse {
     protected boolean reboot;
 
     /**
-     * Gets the value of the reboot property.
+     * Recupera il valore della proprietà reboot.
      * This getter has been renamed from isReboot() to getReboot() by cxf-xjc-boolean plugin.
      * 
      */
@@ -47,7 +47,7 @@ public class SetVideoSourceModeResponse {
     }
 
     /**
-     * Sets the value of the reboot property.
+     * Imposta il valore della proprietà reboot.
      * 
      */
     public void setReboot(boolean value) {

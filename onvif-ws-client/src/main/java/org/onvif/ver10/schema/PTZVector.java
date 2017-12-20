@@ -8,9 +8,9 @@ import javax.xml.bind.annotation.XmlType;
 
 
 /**
- * <p>Java class for PTZVector complex type.
+ * <p>Classe Java per PTZVector complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>Il seguente frammento di schema specifica il contenuto previsto contenuto in questa classe.
  * 
  * <pre>
  * &lt;complexType name="PTZVector"&gt;
@@ -40,7 +40,7 @@ public class PTZVector {
     protected Vector1D zoom;
 
     /**
-     * Gets the value of the panTilt property.
+     * Recupera il valore della proprietà panTilt.
      * 
      * @return
      *     possible object is
@@ -52,7 +52,7 @@ public class PTZVector {
     }
 
     /**
-     * Sets the value of the panTilt property.
+     * Imposta il valore della proprietà panTilt.
      * 
      * @param value
      *     allowed object is
@@ -64,7 +64,7 @@ public class PTZVector {
     }
 
     /**
-     * Gets the value of the zoom property.
+     * Recupera il valore della proprietà zoom.
      * 
      * @return
      *     possible object is
@@ -76,7 +76,7 @@ public class PTZVector {
     }
 
     /**
-     * Sets the value of the zoom property.
+     * Imposta il valore della proprietà zoom.
      * 
      * @param value
      *     allowed object is

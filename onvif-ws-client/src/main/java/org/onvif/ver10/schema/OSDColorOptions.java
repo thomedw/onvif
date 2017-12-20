@@ -14,9 +14,9 @@ import javax.xml.namespace.QName;
 /**
  * Describe the option of the color and its transparency.
  * 
- * <p>Java class for OSDColorOptions complex type.
+ * <p>Classe Java per OSDColorOptions complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>Il seguente frammento di schema specifica il contenuto previsto contenuto in questa classe.
  * 
  * <pre>
  * &lt;complexType name="OSDColorOptions"&gt;
@@ -53,7 +53,7 @@ public class OSDColorOptions {
     private Map<QName, String> otherAttributes = new HashMap<QName, String>();
 
     /**
-     * Gets the value of the color property.
+     * Recupera il valore della proprietà color.
      * 
      * @return
      *     possible object is
@@ -65,7 +65,7 @@ public class OSDColorOptions {
     }
 
     /**
-     * Sets the value of the color property.
+     * Imposta il valore della proprietà color.
      * 
      * @param value
      *     allowed object is
@@ -77,7 +77,7 @@ public class OSDColorOptions {
     }
 
     /**
-     * Gets the value of the transparent property.
+     * Recupera il valore della proprietà transparent.
      * 
      * @return
      *     possible object is
@@ -89,7 +89,7 @@ public class OSDColorOptions {
     }
 
     /**
-     * Sets the value of the transparent property.
+     * Imposta il valore della proprietà transparent.
      * 
      * @param value
      *     allowed object is
@@ -101,7 +101,7 @@ public class OSDColorOptions {
     }
 
     /**
-     * Gets the value of the extension property.
+     * Recupera il valore della proprietà extension.
      * 
      * @return
      *     possible object is
@@ -113,7 +113,7 @@ public class OSDColorOptions {
     }
 
     /**
-     * Sets the value of the extension property.
+     * Imposta il valore della proprietà extension.
      * 
      * @param value
      *     allowed object is

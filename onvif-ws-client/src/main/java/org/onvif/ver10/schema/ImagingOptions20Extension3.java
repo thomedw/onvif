@@ -8,9 +8,9 @@ import javax.xml.bind.annotation.XmlType;
 
 
 /**
- * <p>Java class for ImagingOptions20Extension3 complex type.
+ * <p>Classe Java per ImagingOptions20Extension3 complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>Il seguente frammento di schema specifica il contenuto previsto contenuto in questa classe.
  * 
  * <pre>
  * &lt;complexType name="ImagingOptions20Extension3"&gt;
@@ -48,7 +48,7 @@ public class ImagingOptions20Extension3 {
     protected ImagingOptions20Extension4 extension;
 
     /**
-     * Gets the value of the toneCompensationOptions property.
+     * Recupera il valore della proprietà toneCompensationOptions.
      * 
      * @return
      *     possible object is
@@ -60,7 +60,7 @@ public class ImagingOptions20Extension3 {
     }
 
     /**
-     * Sets the value of the toneCompensationOptions property.
+     * Imposta il valore della proprietà toneCompensationOptions.
      * 
      * @param value
      *     allowed object is
@@ -72,7 +72,7 @@ public class ImagingOptions20Extension3 {
     }
 
     /**
-     * Gets the value of the defoggingOptions property.
+     * Recupera il valore della proprietà defoggingOptions.
      * 
      * @return
      *     possible object is
@@ -84,7 +84,7 @@ public class ImagingOptions20Extension3 {
     }
 
     /**
-     * Sets the value of the defoggingOptions property.
+     * Imposta il valore della proprietà defoggingOptions.
      * 
      * @param value
      *     allowed object is
@@ -96,7 +96,7 @@ public class ImagingOptions20Extension3 {
     }
 
     /**
-     * Gets the value of the noiseReductionOptions property.
+     * Recupera il valore della proprietà noiseReductionOptions.
      * 
      * @return
      *     possible object is
@@ -108,7 +108,7 @@ public class ImagingOptions20Extension3 {
     }
 
     /**
-     * Sets the value of the noiseReductionOptions property.
+     * Imposta il valore della proprietà noiseReductionOptions.
      * 
      * @param value
      *     allowed object is
@@ -120,7 +120,7 @@ public class ImagingOptions20Extension3 {
     }
 
     /**
-     * Gets the value of the extension property.
+     * Recupera il valore della proprietà extension.
      * 
      * @return
      *     possible object is
@@ -132,7 +132,7 @@ public class ImagingOptions20Extension3 {
     }
 
     /**
-     * Sets the value of the extension property.
+     * Imposta il valore della proprietà extension.
      * 
      * @param value
      *     allowed object is

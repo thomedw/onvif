@@ -18,9 +18,9 @@ import org.w3c.dom.Element;
 
 
 /**
- * <p>Java class for ProbeType complex type.
+ * <p>Classe Java per ProbeType complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>Il seguente frammento di schema specifica il contenuto previsto contenuto in questa classe.
  * 
  * <pre>
  * &lt;complexType name="ProbeType"&gt;
@@ -88,7 +88,7 @@ public class ProbeType {
     }
 
     /**
-     * Gets the value of the scopes property.
+     * Recupera il valore della proprietà scopes.
      * 
      * @return
      *     possible object is
@@ -100,7 +100,7 @@ public class ProbeType {
     }
 
     /**
-     * Sets the value of the scopes property.
+     * Imposta il valore della proprietà scopes.
      * 
      * @param value
      *     allowed object is
@@ -129,8 +129,8 @@ public class ProbeType {
      * 
      * <p>
      * Objects of the following type(s) are allowed in the list
-     * {@link Object }
      * {@link Element }
+     * {@link Object }
      * 
      * 
      */

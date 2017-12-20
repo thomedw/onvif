@@ -9,9 +9,9 @@ import javax.xml.namespace.QName;
 
 
 /**
- * <p>Java class for subcode complex type.
+ * <p>Classe Java per subcode complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>Il seguente frammento di schema specifica il contenuto previsto contenuto in questa classe.
  * 
  * <pre>
  * &lt;complexType name="subcode"&gt;
@@ -41,7 +41,7 @@ public class Subcode {
     protected Subcode subcode;
 
     /**
-     * Gets the value of the value property.
+     * Recupera il valore della proprietà value.
      * 
      * @return
      *     possible object is
@@ -53,7 +53,7 @@ public class Subcode {
     }
 
     /**
-     * Sets the value of the value property.
+     * Imposta il valore della proprietà value.
      * 
      * @param value
      *     allowed object is
@@ -65,7 +65,7 @@ public class Subcode {
     }
 
     /**
-     * Gets the value of the subcode property.
+     * Recupera il valore della proprietà subcode.
      * 
      * @return
      *     possible object is
@@ -77,7 +77,7 @@ public class Subcode {
     }
 
     /**
-     * Sets the value of the subcode property.
+     * Imposta il valore della proprietà subcode.
      * 
      * @param value
      *     allowed object is

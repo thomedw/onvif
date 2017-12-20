@@ -17,9 +17,9 @@ import javax.xml.namespace.QName;
 
 
 /**
- * <p>Java class for Dot11AvailableNetworks complex type.
+ * <p>Classe Java per Dot11AvailableNetworks complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>Il seguente frammento di schema specifica il contenuto previsto contenuto in questa classe.
  * 
  * <pre>
  * &lt;complexType name="Dot11AvailableNetworks"&gt;
@@ -78,7 +78,7 @@ public class Dot11AvailableNetworks {
     private Map<QName, String> otherAttributes = new HashMap<QName, String>();
 
     /**
-     * Gets the value of the ssid property.
+     * Recupera il valore della proprietà ssid.
      * 
      * @return
      *     possible object is
@@ -90,7 +90,7 @@ public class Dot11AvailableNetworks {
     }
 
     /**
-     * Sets the value of the ssid property.
+     * Imposta il valore della proprietà ssid.
      * 
      * @param value
      *     allowed object is
@@ -102,7 +102,7 @@ public class Dot11AvailableNetworks {
     }
 
     /**
-     * Gets the value of the bssid property.
+     * Recupera il valore della proprietà bssid.
      * 
      * @return
      *     possible object is
@@ -114,7 +114,7 @@ public class Dot11AvailableNetworks {
     }
 
     /**
-     * Sets the value of the bssid property.
+     * Imposta il valore della proprietà bssid.
      * 
      * @param value
      *     allowed object is
@@ -213,7 +213,7 @@ public class Dot11AvailableNetworks {
     }
 
     /**
-     * Gets the value of the signalStrength property.
+     * Recupera il valore della proprietà signalStrength.
      * 
      * @return
      *     possible object is
@@ -225,7 +225,7 @@ public class Dot11AvailableNetworks {
     }
 
     /**
-     * Sets the value of the signalStrength property.
+     * Imposta il valore della proprietà signalStrength.
      * 
      * @param value
      *     allowed object is
@@ -237,7 +237,7 @@ public class Dot11AvailableNetworks {
     }
 
     /**
-     * Gets the value of the extension property.
+     * Recupera il valore della proprietà extension.
      * 
      * @return
      *     possible object is
@@ -249,7 +249,7 @@ public class Dot11AvailableNetworks {
     }
 
     /**
-     * Sets the value of the extension property.
+     * Imposta il valore della proprietà extension.
      * 
      * @param value
      *     allowed object is

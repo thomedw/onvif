@@ -16,9 +16,9 @@ import org.w3c.dom.Element;
 
 
 /**
- * <p>Java class for PTZPresetTourPresetDetail complex type.
+ * <p>Classe Java per PTZPresetTourPresetDetail complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>Il seguente frammento di schema specifica il contenuto previsto contenuto in questa classe.
  * 
  * <pre>
  * &lt;complexType name="PTZPresetTourPresetDetail"&gt;
@@ -65,7 +65,7 @@ public class PTZPresetTourPresetDetail {
     private Map<QName, String> otherAttributes = new HashMap<QName, String>();
 
     /**
-     * Gets the value of the presetToken property.
+     * Recupera il valore della proprietà presetToken.
      * 
      * @return
      *     possible object is
@@ -77,7 +77,7 @@ public class PTZPresetTourPresetDetail {
     }
 
     /**
-     * Sets the value of the presetToken property.
+     * Imposta il valore della proprietà presetToken.
      * 
      * @param value
      *     allowed object is
@@ -89,7 +89,7 @@ public class PTZPresetTourPresetDetail {
     }
 
     /**
-     * Gets the value of the home property.
+     * Recupera il valore della proprietà home.
      * This getter has been renamed from isHome() to getHome() by cxf-xjc-boolean plugin.
      * 
      * @return
@@ -102,7 +102,7 @@ public class PTZPresetTourPresetDetail {
     }
 
     /**
-     * Sets the value of the home property.
+     * Imposta il valore della proprietà home.
      * 
      * @param value
      *     allowed object is
@@ -114,7 +114,7 @@ public class PTZPresetTourPresetDetail {
     }
 
     /**
-     * Gets the value of the ptzPosition property.
+     * Recupera il valore della proprietà ptzPosition.
      * 
      * @return
      *     possible object is
@@ -126,7 +126,7 @@ public class PTZPresetTourPresetDetail {
     }
 
     /**
-     * Sets the value of the ptzPosition property.
+     * Imposta il valore della proprietà ptzPosition.
      * 
      * @param value
      *     allowed object is
@@ -138,7 +138,7 @@ public class PTZPresetTourPresetDetail {
     }
 
     /**
-     * Gets the value of the typeExtension property.
+     * Recupera il valore della proprietà typeExtension.
      * 
      * @return
      *     possible object is
@@ -150,7 +150,7 @@ public class PTZPresetTourPresetDetail {
     }
 
     /**
-     * Sets the value of the typeExtension property.
+     * Imposta il valore della proprietà typeExtension.
      * 
      * @param value
      *     allowed object is
@@ -179,8 +179,8 @@ public class PTZPresetTourPresetDetail {
      * 
      * <p>
      * Objects of the following type(s) are allowed in the list
-     * {@link java.lang.Object }
      * {@link Element }
+     * {@link java.lang.Object }
      * 
      * 
      */

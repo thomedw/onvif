@@ -17,9 +17,9 @@ import org.w3c.dom.Element;
 
 
 /**
- * <p>Java class for MetadataAttributes complex type.
+ * <p>Classe Java per MetadataAttributes complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>Il seguente frammento di schema specifica il contenuto previsto contenuto in questa classe.
  * 
  * <pre>
  * &lt;complexType name="MetadataAttributes"&gt;
@@ -63,7 +63,7 @@ public class MetadataAttributes {
     private Map<QName, String> otherAttributes = new HashMap<QName, String>();
 
     /**
-     * Gets the value of the canContainPTZ property.
+     * Recupera il valore della proprietà canContainPTZ.
      * This getter has been renamed from isCanContainPTZ() to getCanContainPTZ() by cxf-xjc-boolean plugin.
      * 
      */
@@ -72,7 +72,7 @@ public class MetadataAttributes {
     }
 
     /**
-     * Sets the value of the canContainPTZ property.
+     * Imposta il valore della proprietà canContainPTZ.
      * 
      */
     public void setCanContainPTZ(boolean value) {
@@ -80,7 +80,7 @@ public class MetadataAttributes {
     }
 
     /**
-     * Gets the value of the canContainAnalytics property.
+     * Recupera il valore della proprietà canContainAnalytics.
      * This getter has been renamed from isCanContainAnalytics() to getCanContainAnalytics() by cxf-xjc-boolean plugin.
      * 
      */
@@ -89,7 +89,7 @@ public class MetadataAttributes {
     }
 
     /**
-     * Sets the value of the canContainAnalytics property.
+     * Imposta il valore della proprietà canContainAnalytics.
      * 
      */
     public void setCanContainAnalytics(boolean value) {
@@ -97,7 +97,7 @@ public class MetadataAttributes {
     }
 
     /**
-     * Gets the value of the canContainNotifications property.
+     * Recupera il valore della proprietà canContainNotifications.
      * This getter has been renamed from isCanContainNotifications() to getCanContainNotifications() by cxf-xjc-boolean plugin.
      * 
      */
@@ -106,7 +106,7 @@ public class MetadataAttributes {
     }
 
     /**
-     * Sets the value of the canContainNotifications property.
+     * Imposta il valore della proprietà canContainNotifications.
      * 
      */
     public void setCanContainNotifications(boolean value) {
@@ -131,8 +131,8 @@ public class MetadataAttributes {
      * 
      * <p>
      * Objects of the following type(s) are allowed in the list
-     * {@link java.lang.Object }
      * {@link Element }
+     * {@link java.lang.Object }
      * 
      * 
      */

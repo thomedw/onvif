@@ -16,9 +16,9 @@ import org.w3c.dom.Element;
 
 
 /**
- * <p>Java class for AnalyticsEngineInput complex type.
+ * <p>Classe Java per AnalyticsEngineInput complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>Il seguente frammento di schema specifica il contenuto previsto contenuto in questa classe.
  * 
  * <pre>
  * &lt;complexType name="AnalyticsEngineInput"&gt;
@@ -61,7 +61,7 @@ public class AnalyticsEngineInput
     private Map<QName, String> otherAttributes = new HashMap<QName, String>();
 
     /**
-     * Gets the value of the sourceIdentification property.
+     * Recupera il valore della proprietà sourceIdentification.
      * 
      * @return
      *     possible object is
@@ -73,7 +73,7 @@ public class AnalyticsEngineInput
     }
 
     /**
-     * Sets the value of the sourceIdentification property.
+     * Imposta il valore della proprietà sourceIdentification.
      * 
      * @param value
      *     allowed object is
@@ -85,7 +85,7 @@ public class AnalyticsEngineInput
     }
 
     /**
-     * Gets the value of the videoInput property.
+     * Recupera il valore della proprietà videoInput.
      * 
      * @return
      *     possible object is
@@ -97,7 +97,7 @@ public class AnalyticsEngineInput
     }
 
     /**
-     * Sets the value of the videoInput property.
+     * Imposta il valore della proprietà videoInput.
      * 
      * @param value
      *     allowed object is
@@ -109,7 +109,7 @@ public class AnalyticsEngineInput
     }
 
     /**
-     * Gets the value of the metadataInput property.
+     * Recupera il valore della proprietà metadataInput.
      * 
      * @return
      *     possible object is
@@ -121,7 +121,7 @@ public class AnalyticsEngineInput
     }
 
     /**
-     * Sets the value of the metadataInput property.
+     * Imposta il valore della proprietà metadataInput.
      * 
      * @param value
      *     allowed object is
@@ -150,8 +150,8 @@ public class AnalyticsEngineInput
      * 
      * <p>
      * Objects of the following type(s) are allowed in the list
-     * {@link java.lang.Object }
      * {@link Element }
+     * {@link java.lang.Object }
      * 
      * 
      */

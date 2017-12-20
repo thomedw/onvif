@@ -20,9 +20,9 @@ import org.w3c.dom.Element;
 /**
  * The parameters for configuring the serial port.
  * 
- * <p>Java class for SerialPortConfiguration complex type.
+ * <p>Classe Java per SerialPortConfiguration complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>Il seguente frammento di schema specifica il contenuto previsto contenuto in questa classe.
  * 
  * <pre>
  * &lt;complexType name="SerialPortConfiguration"&gt;
@@ -74,7 +74,7 @@ public class SerialPortConfiguration {
     private Map<QName, String> otherAttributes = new HashMap<QName, String>();
 
     /**
-     * Gets the value of the baudRate property.
+     * Recupera il valore della proprietà baudRate.
      * 
      */
     public int getBaudRate() {
@@ -82,7 +82,7 @@ public class SerialPortConfiguration {
     }
 
     /**
-     * Sets the value of the baudRate property.
+     * Imposta il valore della proprietà baudRate.
      * 
      */
     public void setBaudRate(int value) {
@@ -90,7 +90,7 @@ public class SerialPortConfiguration {
     }
 
     /**
-     * Gets the value of the parityBit property.
+     * Recupera il valore della proprietà parityBit.
      * 
      * @return
      *     possible object is
@@ -102,7 +102,7 @@ public class SerialPortConfiguration {
     }
 
     /**
-     * Sets the value of the parityBit property.
+     * Imposta il valore della proprietà parityBit.
      * 
      * @param value
      *     allowed object is
@@ -114,7 +114,7 @@ public class SerialPortConfiguration {
     }
 
     /**
-     * Gets the value of the characterLength property.
+     * Recupera il valore della proprietà characterLength.
      * 
      */
     public int getCharacterLength() {
@@ -122,7 +122,7 @@ public class SerialPortConfiguration {
     }
 
     /**
-     * Sets the value of the characterLength property.
+     * Imposta il valore della proprietà characterLength.
      * 
      */
     public void setCharacterLength(int value) {
@@ -130,7 +130,7 @@ public class SerialPortConfiguration {
     }
 
     /**
-     * Gets the value of the stopBit property.
+     * Recupera il valore della proprietà stopBit.
      * 
      */
     public float getStopBit() {
@@ -138,7 +138,7 @@ public class SerialPortConfiguration {
     }
 
     /**
-     * Sets the value of the stopBit property.
+     * Imposta il valore della proprietà stopBit.
      * 
      */
     public void setStopBit(float value) {
@@ -163,8 +163,8 @@ public class SerialPortConfiguration {
      * 
      * <p>
      * Objects of the following type(s) are allowed in the list
-     * {@link Object }
      * {@link Element }
+     * {@link Object }
      * 
      * 
      */
@@ -176,7 +176,7 @@ public class SerialPortConfiguration {
     }
 
     /**
-     * Gets the value of the token property.
+     * Recupera il valore della proprietà token.
      * 
      * @return
      *     possible object is
@@ -188,7 +188,7 @@ public class SerialPortConfiguration {
     }
 
     /**
-     * Sets the value of the token property.
+     * Imposta il valore della proprietà token.
      * 
      * @param value
      *     allowed object is
@@ -200,7 +200,7 @@ public class SerialPortConfiguration {
     }
 
     /**
-     * Gets the value of the type property.
+     * Recupera il valore della proprietà type.
      * 
      * @return
      *     possible object is
@@ -212,7 +212,7 @@ public class SerialPortConfiguration {
     }
 
     /**
-     * Sets the value of the type property.
+     * Imposta il valore della proprietà type.
      * 
      * @param value
      *     allowed object is

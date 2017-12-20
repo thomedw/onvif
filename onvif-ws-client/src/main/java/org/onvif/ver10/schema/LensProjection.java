@@ -16,9 +16,9 @@ import org.w3c.dom.Element;
 
 
 /**
- * <p>Java class for LensProjection complex type.
+ * <p>Classe Java per LensProjection complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>Il seguente frammento di schema specifica il contenuto previsto contenuto in questa classe.
  * 
  * <pre>
  * &lt;complexType name="LensProjection"&gt;
@@ -59,7 +59,7 @@ public class LensProjection {
     private Map<QName, String> otherAttributes = new HashMap<QName, String>();
 
     /**
-     * Gets the value of the angle property.
+     * Recupera il valore della proprietà angle.
      * 
      */
     public float getAngle() {
@@ -67,7 +67,7 @@ public class LensProjection {
     }
 
     /**
-     * Sets the value of the angle property.
+     * Imposta il valore della proprietà angle.
      * 
      */
     public void setAngle(float value) {
@@ -75,7 +75,7 @@ public class LensProjection {
     }
 
     /**
-     * Gets the value of the radius property.
+     * Recupera il valore della proprietà radius.
      * 
      */
     public float getRadius() {
@@ -83,7 +83,7 @@ public class LensProjection {
     }
 
     /**
-     * Sets the value of the radius property.
+     * Imposta il valore della proprietà radius.
      * 
      */
     public void setRadius(float value) {
@@ -91,7 +91,7 @@ public class LensProjection {
     }
 
     /**
-     * Gets the value of the transmittance property.
+     * Recupera il valore della proprietà transmittance.
      * 
      * @return
      *     possible object is
@@ -103,7 +103,7 @@ public class LensProjection {
     }
 
     /**
-     * Sets the value of the transmittance property.
+     * Imposta il valore della proprietà transmittance.
      * 
      * @param value
      *     allowed object is
@@ -132,8 +132,8 @@ public class LensProjection {
      * 
      * <p>
      * Objects of the following type(s) are allowed in the list
-     * {@link java.lang.Object }
      * {@link Element }
+     * {@link java.lang.Object }
      * 
      * 
      */

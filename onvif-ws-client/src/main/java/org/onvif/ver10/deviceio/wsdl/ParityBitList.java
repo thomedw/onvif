@@ -13,9 +13,9 @@ import javax.xml.bind.annotation.XmlType;
 /**
  * The list of configurable parity for the data error detection.
  * 
- * <p>Java class for ParityBitList complex type.
+ * <p>Classe Java per ParityBitList complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>Il seguente frammento di schema specifica il contenuto previsto contenuto in questa classe.
  * 
  * <pre>
  * &lt;complexType name="ParityBitList"&gt;

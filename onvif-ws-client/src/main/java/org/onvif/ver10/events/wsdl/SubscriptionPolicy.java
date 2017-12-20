@@ -18,9 +18,9 @@ import org.w3c.dom.Element;
 /**
  * Optional ONVIF defined pull point subscription policies
  * 
- * <p>Java class for SubscriptionPolicy complex type.
+ * <p>Classe Java per SubscriptionPolicy complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>Il seguente frammento di schema specifica il contenuto previsto contenuto in questa classe.
  * 
  * <pre>
  * &lt;complexType name="SubscriptionPolicy"&gt;
@@ -69,8 +69,8 @@ public class SubscriptionPolicy {
      * 
      * <p>
      * Objects of the following type(s) are allowed in the list
-     * {@link Object }
      * {@link Element }
+     * {@link Object }
      * 
      * 
      */
@@ -82,7 +82,7 @@ public class SubscriptionPolicy {
     }
 
     /**
-     * Gets the value of the changedOnly property.
+     * Recupera il valore della proprietà changedOnly.
      * This getter has been renamed from isChangedOnly() to getChangedOnly() by cxf-xjc-boolean plugin.
      * 
      * @return
@@ -95,7 +95,7 @@ public class SubscriptionPolicy {
     }
 
     /**
-     * Sets the value of the changedOnly property.
+     * Imposta il valore della proprietà changedOnly.
      * 
      * @param value
      *     allowed object is

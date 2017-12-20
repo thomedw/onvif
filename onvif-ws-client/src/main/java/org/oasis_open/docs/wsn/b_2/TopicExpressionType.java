@@ -18,9 +18,9 @@ import org.w3c.dom.Element;
 
 
 /**
- * <p>Java class for TopicExpressionType complex type.
+ * <p>Classe Java per TopicExpressionType complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>Il seguente frammento di schema specifica il contenuto previsto contenuto in questa classe.
  * 
  * <pre>
  * &lt;complexType name="TopicExpressionType"&gt;
@@ -71,9 +71,9 @@ public class TopicExpressionType {
      * 
      * <p>
      * Objects of the following type(s) are allowed in the list
-     * {@link Object }
      * {@link String }
      * {@link Element }
+     * {@link Object }
      * 
      * 
      */
@@ -85,7 +85,7 @@ public class TopicExpressionType {
     }
 
     /**
-     * Gets the value of the dialect property.
+     * Recupera il valore della proprietà dialect.
      * 
      * @return
      *     possible object is
@@ -97,7 +97,7 @@ public class TopicExpressionType {
     }
 
     /**
-     * Sets the value of the dialect property.
+     * Imposta il valore della proprietà dialect.
      * 
      * @param value
      *     allowed object is

@@ -18,9 +18,9 @@ import org.w3c.dom.Element;
 /**
  * A CSR attribute as specified in RFC 2986.
  * 
- * <p>Java class for BasicRequestAttribute complex type.
+ * <p>Classe Java per BasicRequestAttribute complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>Il seguente frammento di schema specifica il contenuto previsto contenuto in questa classe.
  * 
  * <pre>
  * &lt;complexType name="BasicRequestAttribute"&gt;
@@ -57,7 +57,7 @@ public class BasicRequestAttribute {
     private Map<QName, String> otherAttributes = new HashMap<QName, String>();
 
     /**
-     * Gets the value of the oid property.
+     * Recupera il valore della proprietà oid.
      * 
      * @return
      *     possible object is
@@ -69,7 +69,7 @@ public class BasicRequestAttribute {
     }
 
     /**
-     * Sets the value of the oid property.
+     * Imposta il valore della proprietà oid.
      * 
      * @param value
      *     allowed object is
@@ -81,7 +81,7 @@ public class BasicRequestAttribute {
     }
 
     /**
-     * Gets the value of the value property.
+     * Recupera il valore della proprietà value.
      * 
      * @return
      *     possible object is
@@ -92,7 +92,7 @@ public class BasicRequestAttribute {
     }
 
     /**
-     * Sets the value of the value property.
+     * Imposta il valore della proprietà value.
      * 
      * @param value
      *     allowed object is
@@ -120,8 +120,8 @@ public class BasicRequestAttribute {
      * 
      * <p>
      * Objects of the following type(s) are allowed in the list
-     * {@link Object }
      * {@link Element }
+     * {@link Object }
      * 
      * 
      */

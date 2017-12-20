@@ -18,9 +18,9 @@ import org.w3c.dom.Element;
 /**
  * Representation of a physical audio input.
  * 
- * <p>Java class for AudioSource complex type.
+ * <p>Classe Java per AudioSource complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>Il seguente frammento di schema specifica il contenuto previsto contenuto in questa classe.
  * 
  * <pre>
  * &lt;complexType name="AudioSource"&gt;
@@ -55,7 +55,7 @@ public class AudioSource
     private Map<QName, String> otherAttributes = new HashMap<QName, String>();
 
     /**
-     * Gets the value of the channels property.
+     * Recupera il valore della proprietà channels.
      * 
      */
     public int getChannels() {
@@ -63,7 +63,7 @@ public class AudioSource
     }
 
     /**
-     * Sets the value of the channels property.
+     * Imposta il valore della proprietà channels.
      * 
      */
     public void setChannels(int value) {
@@ -88,8 +88,8 @@ public class AudioSource
      * 
      * <p>
      * Objects of the following type(s) are allowed in the list
-     * {@link java.lang.Object }
      * {@link Element }
+     * {@link java.lang.Object }
      * 
      * 
      */

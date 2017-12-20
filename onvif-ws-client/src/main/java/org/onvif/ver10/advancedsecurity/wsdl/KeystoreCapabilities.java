@@ -21,9 +21,9 @@ import org.w3c.dom.Element;
 /**
  * The capabilities of a keystore implementation on a device.
  * 
- * <p>Java class for KeystoreCapabilities complex type.
+ * <p>Classe Java per KeystoreCapabilities complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>Il seguente frammento di schema specifica il contenuto previsto contenuto in questa classe.
  * 
  * <pre>
  * &lt;complexType name="KeystoreCapabilities"&gt;
@@ -148,7 +148,7 @@ public class KeystoreCapabilities {
     }
 
     /**
-     * Gets the value of the anyElement property.
+     * Recupera il valore della proprietà anyElement.
      * 
      * @return
      *     possible object is
@@ -160,7 +160,7 @@ public class KeystoreCapabilities {
     }
 
     /**
-     * Sets the value of the anyElement property.
+     * Imposta il valore della proprietà anyElement.
      * 
      * @param value
      *     allowed object is
@@ -172,7 +172,7 @@ public class KeystoreCapabilities {
     }
 
     /**
-     * Gets the value of the maximumNumberOfKeys property.
+     * Recupera il valore della proprietà maximumNumberOfKeys.
      * 
      * @return
      *     possible object is
@@ -184,7 +184,7 @@ public class KeystoreCapabilities {
     }
 
     /**
-     * Sets the value of the maximumNumberOfKeys property.
+     * Imposta il valore della proprietà maximumNumberOfKeys.
      * 
      * @param value
      *     allowed object is
@@ -196,7 +196,7 @@ public class KeystoreCapabilities {
     }
 
     /**
-     * Gets the value of the maximumNumberOfCertificates property.
+     * Recupera il valore della proprietà maximumNumberOfCertificates.
      * 
      * @return
      *     possible object is
@@ -208,7 +208,7 @@ public class KeystoreCapabilities {
     }
 
     /**
-     * Sets the value of the maximumNumberOfCertificates property.
+     * Imposta il valore della proprietà maximumNumberOfCertificates.
      * 
      * @param value
      *     allowed object is
@@ -220,7 +220,7 @@ public class KeystoreCapabilities {
     }
 
     /**
-     * Gets the value of the maximumNumberOfCertificationPaths property.
+     * Recupera il valore della proprietà maximumNumberOfCertificationPaths.
      * 
      * @return
      *     possible object is
@@ -232,7 +232,7 @@ public class KeystoreCapabilities {
     }
 
     /**
-     * Sets the value of the maximumNumberOfCertificationPaths property.
+     * Imposta il valore della proprietà maximumNumberOfCertificationPaths.
      * 
      * @param value
      *     allowed object is
@@ -244,7 +244,7 @@ public class KeystoreCapabilities {
     }
 
     /**
-     * Gets the value of the rsaKeyPairGeneration property.
+     * Recupera il valore della proprietà rsaKeyPairGeneration.
      * This getter has been renamed from isRSAKeyPairGeneration() to getRSAKeyPairGeneration() by cxf-xjc-boolean plugin.
      * 
      * @return
@@ -257,7 +257,7 @@ public class KeystoreCapabilities {
     }
 
     /**
-     * Sets the value of the rsaKeyPairGeneration property.
+     * Imposta il valore della proprietà rsaKeyPairGeneration.
      * 
      * @param value
      *     allowed object is
@@ -298,7 +298,7 @@ public class KeystoreCapabilities {
     }
 
     /**
-     * Gets the value of the pkcs10ExternalCertificationWithRSA property.
+     * Recupera il valore della proprietà pkcs10ExternalCertificationWithRSA.
      * This getter has been renamed from isPKCS10ExternalCertificationWithRSA() to getPKCS10ExternalCertificationWithRSA() by cxf-xjc-boolean plugin.
      * 
      * @return
@@ -311,7 +311,7 @@ public class KeystoreCapabilities {
     }
 
     /**
-     * Sets the value of the pkcs10ExternalCertificationWithRSA property.
+     * Imposta il valore della proprietà pkcs10ExternalCertificationWithRSA.
      * 
      * @param value
      *     allowed object is
@@ -323,7 +323,7 @@ public class KeystoreCapabilities {
     }
 
     /**
-     * Gets the value of the selfSignedCertificateCreationWithRSA property.
+     * Recupera il valore della proprietà selfSignedCertificateCreationWithRSA.
      * This getter has been renamed from isSelfSignedCertificateCreationWithRSA() to getSelfSignedCertificateCreationWithRSA() by cxf-xjc-boolean plugin.
      * 
      * @return
@@ -336,7 +336,7 @@ public class KeystoreCapabilities {
     }
 
     /**
-     * Sets the value of the selfSignedCertificateCreationWithRSA property.
+     * Imposta il valore della proprietà selfSignedCertificateCreationWithRSA.
      * 
      * @param value
      *     allowed object is
@@ -377,7 +377,7 @@ public class KeystoreCapabilities {
     }
 
     /**
-     * Gets the value of the maximumNumberOfPassphrases property.
+     * Recupera il valore della proprietà maximumNumberOfPassphrases.
      * 
      * @return
      *     possible object is
@@ -389,7 +389,7 @@ public class KeystoreCapabilities {
     }
 
     /**
-     * Sets the value of the maximumNumberOfPassphrases property.
+     * Imposta il valore della proprietà maximumNumberOfPassphrases.
      * 
      * @param value
      *     allowed object is
@@ -401,7 +401,7 @@ public class KeystoreCapabilities {
     }
 
     /**
-     * Gets the value of the pkcs8RSAKeyPairUpload property.
+     * Recupera il valore della proprietà pkcs8RSAKeyPairUpload.
      * This getter has been renamed from isPKCS8RSAKeyPairUpload() to getPKCS8RSAKeyPairUpload() by cxf-xjc-boolean plugin.
      * 
      * @return
@@ -414,7 +414,7 @@ public class KeystoreCapabilities {
     }
 
     /**
-     * Sets the value of the pkcs8RSAKeyPairUpload property.
+     * Imposta il valore della proprietà pkcs8RSAKeyPairUpload.
      * 
      * @param value
      *     allowed object is
@@ -426,7 +426,7 @@ public class KeystoreCapabilities {
     }
 
     /**
-     * Gets the value of the pkcs12CertificateWithRSAPrivateKeyUpload property.
+     * Recupera il valore della proprietà pkcs12CertificateWithRSAPrivateKeyUpload.
      * This getter has been renamed from isPKCS12CertificateWithRSAPrivateKeyUpload() to getPKCS12CertificateWithRSAPrivateKeyUpload() by cxf-xjc-boolean plugin.
      * 
      * @return
@@ -439,7 +439,7 @@ public class KeystoreCapabilities {
     }
 
     /**
-     * Sets the value of the pkcs12CertificateWithRSAPrivateKeyUpload property.
+     * Imposta il valore della proprietà pkcs12CertificateWithRSAPrivateKeyUpload.
      * 
      * @param value
      *     allowed object is
@@ -509,7 +509,7 @@ public class KeystoreCapabilities {
     }
 
     /**
-     * Gets the value of the maximumNumberOfCRLs property.
+     * Recupera il valore della proprietà maximumNumberOfCRLs.
      * 
      * @return
      *     possible object is
@@ -521,7 +521,7 @@ public class KeystoreCapabilities {
     }
 
     /**
-     * Sets the value of the maximumNumberOfCRLs property.
+     * Imposta il valore della proprietà maximumNumberOfCRLs.
      * 
      * @param value
      *     allowed object is
@@ -533,7 +533,7 @@ public class KeystoreCapabilities {
     }
 
     /**
-     * Gets the value of the maximumNumberOfCertificationPathValidationPolicies property.
+     * Recupera il valore della proprietà maximumNumberOfCertificationPathValidationPolicies.
      * 
      * @return
      *     possible object is
@@ -545,7 +545,7 @@ public class KeystoreCapabilities {
     }
 
     /**
-     * Sets the value of the maximumNumberOfCertificationPathValidationPolicies property.
+     * Imposta il valore della proprietà maximumNumberOfCertificationPathValidationPolicies.
      * 
      * @param value
      *     allowed object is
@@ -557,7 +557,7 @@ public class KeystoreCapabilities {
     }
 
     /**
-     * Gets the value of the enforceTLSWebClientAuthExtKeyUsage property.
+     * Recupera il valore della proprietà enforceTLSWebClientAuthExtKeyUsage.
      * This getter has been renamed from isEnforceTLSWebClientAuthExtKeyUsage() to getEnforceTLSWebClientAuthExtKeyUsage() by cxf-xjc-boolean plugin.
      * 
      * @return
@@ -570,7 +570,7 @@ public class KeystoreCapabilities {
     }
 
     /**
-     * Sets the value of the enforceTLSWebClientAuthExtKeyUsage property.
+     * Imposta il valore della proprietà enforceTLSWebClientAuthExtKeyUsage.
      * 
      * @param value
      *     allowed object is
@@ -601,9 +601,9 @@ public class KeystoreCapabilities {
 
 
     /**
-     * <p>Java class for anonymous complex type.
+     * <p>Classe Java per anonymous complex type.
      * 
-     * <p>The following schema fragment specifies the expected content contained within this class.
+     * <p>Il seguente frammento di schema specifica il contenuto previsto contenuto in questa classe.
      * 
      * <pre>
      * &lt;complexType&gt;
@@ -646,8 +646,8 @@ public class KeystoreCapabilities {
          * 
          * <p>
          * Objects of the following type(s) are allowed in the list
-         * {@link Object }
          * {@link Element }
+         * {@link Object }
          * 
          * 
          */

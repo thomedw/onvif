@@ -10,9 +10,9 @@ import javax.xml.datatype.Duration;
 
 
 /**
- * <p>Java class for RelayOutputSettings complex type.
+ * <p>Classe Java per RelayOutputSettings complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>Il seguente frammento di schema specifica il contenuto previsto contenuto in questa classe.
  * 
  * <pre>
  * &lt;complexType name="RelayOutputSettings"&gt;
@@ -48,7 +48,7 @@ public class RelayOutputSettings {
     protected RelayIdleState idleState;
 
     /**
-     * Gets the value of the mode property.
+     * Recupera il valore della proprietà mode.
      * 
      * @return
      *     possible object is
@@ -60,7 +60,7 @@ public class RelayOutputSettings {
     }
 
     /**
-     * Sets the value of the mode property.
+     * Imposta il valore della proprietà mode.
      * 
      * @param value
      *     allowed object is
@@ -72,7 +72,7 @@ public class RelayOutputSettings {
     }
 
     /**
-     * Gets the value of the delayTime property.
+     * Recupera il valore della proprietà delayTime.
      * 
      * @return
      *     possible object is
@@ -84,7 +84,7 @@ public class RelayOutputSettings {
     }
 
     /**
-     * Sets the value of the delayTime property.
+     * Imposta il valore della proprietà delayTime.
      * 
      * @param value
      *     allowed object is
@@ -96,7 +96,7 @@ public class RelayOutputSettings {
     }
 
     /**
-     * Gets the value of the idleState property.
+     * Recupera il valore della proprietà idleState.
      * 
      * @return
      *     possible object is
@@ -108,7 +108,7 @@ public class RelayOutputSettings {
     }
 
     /**
-     * Sets the value of the idleState property.
+     * Imposta il valore della proprietà idleState.
      * 
      * @param value
      *     allowed object is

@@ -10,9 +10,9 @@ import org.onvif.ver10.schema.RecordingSummary;
 
 
 /**
- * <p>Java class for anonymous complex type.
+ * <p>Classe Java per anonymous complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>Il seguente frammento di schema specifica il contenuto previsto contenuto in questa classe.
  * 
  * <pre>
  * &lt;complexType&gt;
@@ -39,7 +39,7 @@ public class GetRecordingSummaryResponse {
     protected RecordingSummary summary;
 
     /**
-     * Gets the value of the summary property.
+     * Recupera il valore della proprietà summary.
      * 
      * @return
      *     possible object is
@@ -51,7 +51,7 @@ public class GetRecordingSummaryResponse {
     }
 
     /**
-     * Sets the value of the summary property.
+     * Imposta il valore della proprietà summary.
      * 
      * @param value
      *     allowed object is

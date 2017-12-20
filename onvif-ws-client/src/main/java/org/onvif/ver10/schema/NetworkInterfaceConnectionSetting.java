@@ -9,9 +9,9 @@ import javax.xml.bind.annotation.XmlType;
 
 
 /**
- * <p>Java class for NetworkInterfaceConnectionSetting complex type.
+ * <p>Classe Java per NetworkInterfaceConnectionSetting complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>Il seguente frammento di schema specifica il contenuto previsto contenuto in questa classe.
  * 
  * <pre>
  * &lt;complexType name="NetworkInterfaceConnectionSetting"&gt;
@@ -46,7 +46,7 @@ public class NetworkInterfaceConnectionSetting {
     protected Duplex duplex;
 
     /**
-     * Gets the value of the autoNegotiation property.
+     * Recupera il valore della proprietà autoNegotiation.
      * This getter has been renamed from isAutoNegotiation() to getAutoNegotiation() by cxf-xjc-boolean plugin.
      * 
      */
@@ -55,7 +55,7 @@ public class NetworkInterfaceConnectionSetting {
     }
 
     /**
-     * Sets the value of the autoNegotiation property.
+     * Imposta il valore della proprietà autoNegotiation.
      * 
      */
     public void setAutoNegotiation(boolean value) {
@@ -63,7 +63,7 @@ public class NetworkInterfaceConnectionSetting {
     }
 
     /**
-     * Gets the value of the speed property.
+     * Recupera il valore della proprietà speed.
      * 
      */
     public int getSpeed() {
@@ -71,7 +71,7 @@ public class NetworkInterfaceConnectionSetting {
     }
 
     /**
-     * Sets the value of the speed property.
+     * Imposta il valore della proprietà speed.
      * 
      */
     public void setSpeed(int value) {
@@ -79,7 +79,7 @@ public class NetworkInterfaceConnectionSetting {
     }
 
     /**
-     * Gets the value of the duplex property.
+     * Recupera il valore della proprietà duplex.
      * 
      * @return
      *     possible object is
@@ -91,7 +91,7 @@ public class NetworkInterfaceConnectionSetting {
     }
 
     /**
-     * Sets the value of the duplex property.
+     * Imposta il valore della proprietà duplex.
      * 
      * @param value
      *     allowed object is

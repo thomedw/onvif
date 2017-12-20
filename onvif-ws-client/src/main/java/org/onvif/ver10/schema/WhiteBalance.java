@@ -17,9 +17,9 @@ import org.w3c.dom.Element;
 
 
 /**
- * <p>Java class for WhiteBalance complex type.
+ * <p>Classe Java per WhiteBalance complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>Il seguente frammento di schema specifica il contenuto previsto contenuto in questa classe.
  * 
  * <pre>
  * &lt;complexType name="WhiteBalance"&gt;
@@ -61,7 +61,7 @@ public class WhiteBalance {
     private Map<QName, String> otherAttributes = new HashMap<QName, String>();
 
     /**
-     * Gets the value of the mode property.
+     * Recupera il valore della proprietà mode.
      * 
      * @return
      *     possible object is
@@ -73,7 +73,7 @@ public class WhiteBalance {
     }
 
     /**
-     * Sets the value of the mode property.
+     * Imposta il valore della proprietà mode.
      * 
      * @param value
      *     allowed object is
@@ -85,7 +85,7 @@ public class WhiteBalance {
     }
 
     /**
-     * Gets the value of the crGain property.
+     * Recupera il valore della proprietà crGain.
      * 
      */
     public float getCrGain() {
@@ -93,7 +93,7 @@ public class WhiteBalance {
     }
 
     /**
-     * Sets the value of the crGain property.
+     * Imposta il valore della proprietà crGain.
      * 
      */
     public void setCrGain(float value) {
@@ -101,7 +101,7 @@ public class WhiteBalance {
     }
 
     /**
-     * Gets the value of the cbGain property.
+     * Recupera il valore della proprietà cbGain.
      * 
      */
     public float getCbGain() {
@@ -109,7 +109,7 @@ public class WhiteBalance {
     }
 
     /**
-     * Sets the value of the cbGain property.
+     * Imposta il valore della proprietà cbGain.
      * 
      */
     public void setCbGain(float value) {
@@ -134,8 +134,8 @@ public class WhiteBalance {
      * 
      * <p>
      * Objects of the following type(s) are allowed in the list
-     * {@link java.lang.Object }
      * {@link Element }
+     * {@link java.lang.Object }
      * 
      * 
      */

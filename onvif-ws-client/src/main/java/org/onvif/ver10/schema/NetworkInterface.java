@@ -12,9 +12,9 @@ import javax.xml.namespace.QName;
 
 
 /**
- * <p>Java class for NetworkInterface complex type.
+ * <p>Classe Java per NetworkInterface complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>Il seguente frammento di schema specifica il contenuto previsto contenuto in questa classe.
  * 
  * <pre>
  * &lt;complexType name="NetworkInterface"&gt;
@@ -65,7 +65,7 @@ public class NetworkInterface
     private Map<QName, String> otherAttributes = new HashMap<QName, String>();
 
     /**
-     * Gets the value of the enabled property.
+     * Recupera il valore della proprietà enabled.
      * This getter has been renamed from isEnabled() to getEnabled() by cxf-xjc-boolean plugin.
      * 
      */
@@ -74,7 +74,7 @@ public class NetworkInterface
     }
 
     /**
-     * Sets the value of the enabled property.
+     * Imposta il valore della proprietà enabled.
      * 
      */
     public void setEnabled(boolean value) {
@@ -82,7 +82,7 @@ public class NetworkInterface
     }
 
     /**
-     * Gets the value of the info property.
+     * Recupera il valore della proprietà info.
      * 
      * @return
      *     possible object is
@@ -94,7 +94,7 @@ public class NetworkInterface
     }
 
     /**
-     * Sets the value of the info property.
+     * Imposta il valore della proprietà info.
      * 
      * @param value
      *     allowed object is
@@ -106,7 +106,7 @@ public class NetworkInterface
     }
 
     /**
-     * Gets the value of the link property.
+     * Recupera il valore della proprietà link.
      * 
      * @return
      *     possible object is
@@ -118,7 +118,7 @@ public class NetworkInterface
     }
 
     /**
-     * Sets the value of the link property.
+     * Imposta il valore della proprietà link.
      * 
      * @param value
      *     allowed object is
@@ -130,7 +130,7 @@ public class NetworkInterface
     }
 
     /**
-     * Gets the value of the iPv4 property.
+     * Recupera il valore della proprietà iPv4.
      * 
      * @return
      *     possible object is
@@ -142,7 +142,7 @@ public class NetworkInterface
     }
 
     /**
-     * Sets the value of the iPv4 property.
+     * Imposta il valore della proprietà iPv4.
      * 
      * @param value
      *     allowed object is
@@ -154,7 +154,7 @@ public class NetworkInterface
     }
 
     /**
-     * Gets the value of the iPv6 property.
+     * Recupera il valore della proprietà iPv6.
      * 
      * @return
      *     possible object is
@@ -166,7 +166,7 @@ public class NetworkInterface
     }
 
     /**
-     * Sets the value of the iPv6 property.
+     * Imposta il valore della proprietà iPv6.
      * 
      * @param value
      *     allowed object is
@@ -178,7 +178,7 @@ public class NetworkInterface
     }
 
     /**
-     * Gets the value of the extension property.
+     * Recupera il valore della proprietà extension.
      * 
      * @return
      *     possible object is
@@ -190,7 +190,7 @@ public class NetworkInterface
     }
 
     /**
-     * Sets the value of the extension property.
+     * Imposta il valore della proprietà extension.
      * 
      * @param value
      *     allowed object is

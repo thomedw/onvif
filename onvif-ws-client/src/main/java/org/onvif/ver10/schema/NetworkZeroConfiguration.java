@@ -17,9 +17,9 @@ import javax.xml.namespace.QName;
 
 
 /**
- * <p>Java class for NetworkZeroConfiguration complex type.
+ * <p>Classe Java per NetworkZeroConfiguration complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>Il seguente frammento di schema specifica il contenuto previsto contenuto in questa classe.
  * 
  * <pre>
  * &lt;complexType name="NetworkZeroConfiguration"&gt;
@@ -62,7 +62,7 @@ public class NetworkZeroConfiguration {
     private Map<QName, String> otherAttributes = new HashMap<QName, String>();
 
     /**
-     * Gets the value of the interfaceToken property.
+     * Recupera il valore della proprietà interfaceToken.
      * 
      * @return
      *     possible object is
@@ -74,7 +74,7 @@ public class NetworkZeroConfiguration {
     }
 
     /**
-     * Sets the value of the interfaceToken property.
+     * Imposta il valore della proprietà interfaceToken.
      * 
      * @param value
      *     allowed object is
@@ -86,7 +86,7 @@ public class NetworkZeroConfiguration {
     }
 
     /**
-     * Gets the value of the enabled property.
+     * Recupera il valore della proprietà enabled.
      * This getter has been renamed from isEnabled() to getEnabled() by cxf-xjc-boolean plugin.
      * 
      */
@@ -95,7 +95,7 @@ public class NetworkZeroConfiguration {
     }
 
     /**
-     * Sets the value of the enabled property.
+     * Imposta il valore della proprietà enabled.
      * 
      */
     public void setEnabled(boolean value) {
@@ -132,7 +132,7 @@ public class NetworkZeroConfiguration {
     }
 
     /**
-     * Gets the value of the extension property.
+     * Recupera il valore della proprietà extension.
      * 
      * @return
      *     possible object is
@@ -144,7 +144,7 @@ public class NetworkZeroConfiguration {
     }
 
     /**
-     * Sets the value of the extension property.
+     * Imposta il valore della proprietà extension.
      * 
      * @param value
      *     allowed object is

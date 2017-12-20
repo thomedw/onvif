@@ -23,9 +23,9 @@ import org.w3c.dom.Element;
  * The following capabilities are available:
  * 
  * 
- * <p>Java class for ServiceCapabilities complex type.
+ * <p>Classe Java per ServiceCapabilities complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>Il seguente frammento di schema specifica il contenuto previsto contenuto in questa classe.
  * 
  * <pre>
  * &lt;complexType name="ServiceCapabilities"&gt;
@@ -75,8 +75,8 @@ public class ServiceCapabilities {
      * 
      * <p>
      * Objects of the following type(s) are allowed in the list
-     * {@link Object }
      * {@link Element }
+     * {@link Object }
      * 
      * 
      */
@@ -88,7 +88,7 @@ public class ServiceCapabilities {
     }
 
     /**
-     * Gets the value of the maxLimit property.
+     * Recupera il valore della proprietà maxLimit.
      * 
      */
     public long getMaxLimit() {
@@ -96,7 +96,7 @@ public class ServiceCapabilities {
     }
 
     /**
-     * Sets the value of the maxLimit property.
+     * Imposta il valore della proprietà maxLimit.
      * 
      */
     public void setMaxLimit(long value) {

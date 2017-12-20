@@ -9,9 +9,9 @@ import javax.xml.bind.annotation.XmlType;
 
 
 /**
- * <p>Java class for Space1DDescription complex type.
+ * <p>Classe Java per Space1DDescription complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>Il seguente frammento di schema specifica il contenuto previsto contenuto in questa classe.
  * 
  * <pre>
  * &lt;complexType name="Space1DDescription"&gt;
@@ -42,7 +42,7 @@ public class Space1DDescription {
     protected FloatRange xRange;
 
     /**
-     * Gets the value of the uri property.
+     * Recupera il valore della proprietà uri.
      * 
      * @return
      *     possible object is
@@ -54,7 +54,7 @@ public class Space1DDescription {
     }
 
     /**
-     * Sets the value of the uri property.
+     * Imposta il valore della proprietà uri.
      * 
      * @param value
      *     allowed object is
@@ -66,7 +66,7 @@ public class Space1DDescription {
     }
 
     /**
-     * Gets the value of the xRange property.
+     * Recupera il valore della proprietà xRange.
      * 
      * @return
      *     possible object is
@@ -78,7 +78,7 @@ public class Space1DDescription {
     }
 
     /**
-     * Sets the value of the xRange property.
+     * Imposta il valore della proprietà xRange.
      * 
      * @param value
      *     allowed object is

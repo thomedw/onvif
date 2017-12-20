@@ -13,9 +13,9 @@ import javax.xml.datatype.Duration;
 
 
 /**
- * <p>Java class for anonymous complex type.
+ * <p>Classe Java per anonymous complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>Il seguente frammento di schema specifica il contenuto previsto contenuto in questa classe.
  * 
  * <pre>
  * &lt;complexType&gt;
@@ -50,7 +50,7 @@ public class PullMessagesFaultResponse {
     protected List<Object> any;
 
     /**
-     * Gets the value of the maxTimeout property.
+     * Recupera il valore della proprietà maxTimeout.
      * 
      * @return
      *     possible object is
@@ -62,7 +62,7 @@ public class PullMessagesFaultResponse {
     }
 
     /**
-     * Sets the value of the maxTimeout property.
+     * Imposta il valore della proprietà maxTimeout.
      * 
      * @param value
      *     allowed object is
@@ -74,7 +74,7 @@ public class PullMessagesFaultResponse {
     }
 
     /**
-     * Gets the value of the maxMessageLimit property.
+     * Recupera il valore della proprietà maxMessageLimit.
      * 
      */
     public int getMaxMessageLimit() {
@@ -82,7 +82,7 @@ public class PullMessagesFaultResponse {
     }
 
     /**
-     * Sets the value of the maxMessageLimit property.
+     * Imposta il valore della proprietà maxMessageLimit.
      * 
      */
     public void setMaxMessageLimit(int value) {

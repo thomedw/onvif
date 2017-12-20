@@ -17,9 +17,9 @@ import org.w3c.dom.Element;
 
 
 /**
- * <p>Java class for AnalyticsCapabilities complex type.
+ * <p>Classe Java per AnalyticsCapabilities complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>Il seguente frammento di schema specifica il contenuto previsto contenuto in questa classe.
  * 
  * <pre>
  * &lt;complexType name="AnalyticsCapabilities"&gt;
@@ -61,7 +61,7 @@ public class AnalyticsCapabilities {
     private Map<QName, String> otherAttributes = new HashMap<QName, String>();
 
     /**
-     * Gets the value of the xAddr property.
+     * Recupera il valore della proprietà xAddr.
      * 
      * @return
      *     possible object is
@@ -73,7 +73,7 @@ public class AnalyticsCapabilities {
     }
 
     /**
-     * Sets the value of the xAddr property.
+     * Imposta il valore della proprietà xAddr.
      * 
      * @param value
      *     allowed object is
@@ -85,7 +85,7 @@ public class AnalyticsCapabilities {
     }
 
     /**
-     * Gets the value of the ruleSupport property.
+     * Recupera il valore della proprietà ruleSupport.
      * This getter has been renamed from isRuleSupport() to getRuleSupport() by cxf-xjc-boolean plugin.
      * 
      */
@@ -94,7 +94,7 @@ public class AnalyticsCapabilities {
     }
 
     /**
-     * Sets the value of the ruleSupport property.
+     * Imposta il valore della proprietà ruleSupport.
      * 
      */
     public void setRuleSupport(boolean value) {
@@ -102,7 +102,7 @@ public class AnalyticsCapabilities {
     }
 
     /**
-     * Gets the value of the analyticsModuleSupport property.
+     * Recupera il valore della proprietà analyticsModuleSupport.
      * This getter has been renamed from isAnalyticsModuleSupport() to getAnalyticsModuleSupport() by cxf-xjc-boolean plugin.
      * 
      */
@@ -111,7 +111,7 @@ public class AnalyticsCapabilities {
     }
 
     /**
-     * Sets the value of the analyticsModuleSupport property.
+     * Imposta il valore della proprietà analyticsModuleSupport.
      * 
      */
     public void setAnalyticsModuleSupport(boolean value) {
@@ -136,8 +136,8 @@ public class AnalyticsCapabilities {
      * 
      * <p>
      * Objects of the following type(s) are allowed in the list
-     * {@link java.lang.Object }
      * {@link Element }
+     * {@link java.lang.Object }
      * 
      * 
      */

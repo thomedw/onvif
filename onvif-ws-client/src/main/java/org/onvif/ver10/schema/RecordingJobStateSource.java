@@ -16,9 +16,9 @@ import org.w3c.dom.Element;
 
 
 /**
- * <p>Java class for RecordingJobStateSource complex type.
+ * <p>Classe Java per RecordingJobStateSource complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>Il seguente frammento di schema specifica il contenuto previsto contenuto in questa classe.
  * 
  * <pre>
  * &lt;complexType name="RecordingJobStateSource"&gt;
@@ -59,7 +59,7 @@ public class RecordingJobStateSource {
     private Map<QName, String> otherAttributes = new HashMap<QName, String>();
 
     /**
-     * Gets the value of the sourceToken property.
+     * Recupera il valore della proprietà sourceToken.
      * 
      * @return
      *     possible object is
@@ -71,7 +71,7 @@ public class RecordingJobStateSource {
     }
 
     /**
-     * Sets the value of the sourceToken property.
+     * Imposta il valore della proprietà sourceToken.
      * 
      * @param value
      *     allowed object is
@@ -83,7 +83,7 @@ public class RecordingJobStateSource {
     }
 
     /**
-     * Gets the value of the state property.
+     * Recupera il valore della proprietà state.
      * 
      * @return
      *     possible object is
@@ -95,7 +95,7 @@ public class RecordingJobStateSource {
     }
 
     /**
-     * Sets the value of the state property.
+     * Imposta il valore della proprietà state.
      * 
      * @param value
      *     allowed object is
@@ -107,7 +107,7 @@ public class RecordingJobStateSource {
     }
 
     /**
-     * Gets the value of the tracks property.
+     * Recupera il valore della proprietà tracks.
      * 
      * @return
      *     possible object is
@@ -119,7 +119,7 @@ public class RecordingJobStateSource {
     }
 
     /**
-     * Sets the value of the tracks property.
+     * Imposta il valore della proprietà tracks.
      * 
      * @param value
      *     allowed object is
@@ -148,8 +148,8 @@ public class RecordingJobStateSource {
      * 
      * <p>
      * Objects of the following type(s) are allowed in the list
-     * {@link java.lang.Object }
      * {@link Element }
+     * {@link java.lang.Object }
      * 
      * 
      */

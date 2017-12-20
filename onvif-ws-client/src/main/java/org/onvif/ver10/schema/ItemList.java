@@ -22,9 +22,9 @@ import javax.xml.namespace.QName;
  * 			Each item in the list shall have a unique name.
  * 		
  * 
- * <p>Java class for ItemList complex type.
+ * <p>Classe Java per ItemList complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>Il seguente frammento di schema specifica il contenuto previsto contenuto in questa classe.
  * 
  * <pre>
  * &lt;complexType name="ItemList"&gt;
@@ -139,7 +139,7 @@ public class ItemList {
     }
 
     /**
-     * Gets the value of the extension property.
+     * Recupera il valore della proprietà extension.
      * 
      * @return
      *     possible object is
@@ -151,7 +151,7 @@ public class ItemList {
     }
 
     /**
-     * Sets the value of the extension property.
+     * Imposta il valore della proprietà extension.
      * 
      * @param value
      *     allowed object is
@@ -182,9 +182,9 @@ public class ItemList {
 
 
     /**
-     * <p>Java class for anonymous complex type.
+     * <p>Classe Java per anonymous complex type.
      * 
-     * <p>The following schema fragment specifies the expected content contained within this class.
+     * <p>Il seguente frammento di schema specifica il contenuto previsto contenuto in questa classe.
      * 
      * <pre>
      * &lt;complexType&gt;
@@ -213,7 +213,7 @@ public class ItemList {
         protected String name;
 
         /**
-         * Gets the value of the any property.
+         * Recupera il valore della proprietà any.
          * 
          * @return
          *     possible object is
@@ -225,7 +225,7 @@ public class ItemList {
         }
 
         /**
-         * Sets the value of the any property.
+         * Imposta il valore della proprietà any.
          * 
          * @param value
          *     allowed object is
@@ -237,7 +237,7 @@ public class ItemList {
         }
 
         /**
-         * Gets the value of the name property.
+         * Recupera il valore della proprietà name.
          * 
          * @return
          *     possible object is
@@ -249,7 +249,7 @@ public class ItemList {
         }
 
         /**
-         * Sets the value of the name property.
+         * Imposta il valore della proprietà name.
          * 
          * @param value
          *     allowed object is
@@ -264,9 +264,9 @@ public class ItemList {
 
 
     /**
-     * <p>Java class for anonymous complex type.
+     * <p>Classe Java per anonymous complex type.
      * 
-     * <p>The following schema fragment specifies the expected content contained within this class.
+     * <p>Il seguente frammento di schema specifica il contenuto previsto contenuto in questa classe.
      * 
      * <pre>
      * &lt;complexType&gt;
@@ -292,7 +292,7 @@ public class ItemList {
         protected String value;
 
         /**
-         * Gets the value of the name property.
+         * Recupera il valore della proprietà name.
          * 
          * @return
          *     possible object is
@@ -304,7 +304,7 @@ public class ItemList {
         }
 
         /**
-         * Sets the value of the name property.
+         * Imposta il valore della proprietà name.
          * 
          * @param value
          *     allowed object is
@@ -316,7 +316,7 @@ public class ItemList {
         }
 
         /**
-         * Gets the value of the value property.
+         * Recupera il valore della proprietà value.
          * 
          * @return
          *     possible object is
@@ -328,7 +328,7 @@ public class ItemList {
         }
 
         /**
-         * Sets the value of the value property.
+         * Imposta il valore della proprietà value.
          * 
          * @param value
          *     allowed object is

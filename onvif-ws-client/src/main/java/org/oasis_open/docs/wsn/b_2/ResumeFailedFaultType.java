@@ -8,9 +8,9 @@ import org.oasis_open.docs.wsrf.bf_2.BaseFaultType;
 
 
 /**
- * <p>Java class for ResumeFailedFaultType complex type.
+ * <p>Classe Java per ResumeFailedFaultType complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>Il seguente frammento di schema specifica il contenuto previsto contenuto in questa classe.
  * 
  * <pre>
  * &lt;complexType name="ResumeFailedFaultType"&gt;

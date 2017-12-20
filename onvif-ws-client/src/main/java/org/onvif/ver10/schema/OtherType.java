@@ -16,9 +16,9 @@ import org.w3c.dom.Element;
 
 
 /**
- * <p>Java class for OtherType complex type.
+ * <p>Classe Java per OtherType complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>Il seguente frammento di schema specifica il contenuto previsto contenuto in questa classe.
  * 
  * <pre>
  * &lt;complexType name="OtherType"&gt;
@@ -55,7 +55,7 @@ public class OtherType {
     private Map<QName, String> otherAttributes = new HashMap<QName, String>();
 
     /**
-     * Gets the value of the type property.
+     * Recupera il valore della proprietà type.
      * 
      * @return
      *     possible object is
@@ -67,7 +67,7 @@ public class OtherType {
     }
 
     /**
-     * Sets the value of the type property.
+     * Imposta il valore della proprietà type.
      * 
      * @param value
      *     allowed object is
@@ -79,7 +79,7 @@ public class OtherType {
     }
 
     /**
-     * Gets the value of the likelihood property.
+     * Recupera il valore della proprietà likelihood.
      * 
      */
     public float getLikelihood() {
@@ -87,7 +87,7 @@ public class OtherType {
     }
 
     /**
-     * Sets the value of the likelihood property.
+     * Imposta il valore della proprietà likelihood.
      * 
      */
     public void setLikelihood(float value) {
@@ -112,8 +112,8 @@ public class OtherType {
      * 
      * <p>
      * Objects of the following type(s) are allowed in the list
-     * {@link java.lang.Object }
      * {@link Element }
+     * {@link java.lang.Object }
      * 
      * 
      */

@@ -8,9 +8,9 @@ import javax.xml.bind.annotation.XmlType;
 
 
 /**
- * <p>Java class for Vector complex type.
+ * <p>Classe Java per Vector complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>Il seguente frammento di schema specifica il contenuto previsto contenuto in questa classe.
  * 
  * <pre>
  * &lt;complexType name="Vector"&gt;
@@ -35,7 +35,7 @@ public class Vector {
     protected Float y;
 
     /**
-     * Gets the value of the x property.
+     * Recupera il valore della proprietà x.
      * 
      * @return
      *     possible object is
@@ -47,7 +47,7 @@ public class Vector {
     }
 
     /**
-     * Sets the value of the x property.
+     * Imposta il valore della proprietà x.
      * 
      * @param value
      *     allowed object is
@@ -59,7 +59,7 @@ public class Vector {
     }
 
     /**
-     * Gets the value of the y property.
+     * Recupera il valore della proprietà y.
      * 
      * @return
      *     possible object is
@@ -71,7 +71,7 @@ public class Vector {
     }
 
     /**
-     * Sets the value of the y property.
+     * Imposta il valore della proprietà y.
      * 
      * @param value
      *     allowed object is

@@ -17,9 +17,9 @@ import org.w3c.dom.Element;
 
 
 /**
- * <p>Java class for SystemLogUri complex type.
+ * <p>Classe Java per SystemLogUri complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>Il seguente frammento di schema specifica il contenuto previsto contenuto in questa classe.
  * 
  * <pre>
  * &lt;complexType name="SystemLogUri"&gt;
@@ -58,7 +58,7 @@ public class SystemLogUri {
     private Map<QName, String> otherAttributes = new HashMap<QName, String>();
 
     /**
-     * Gets the value of the type property.
+     * Recupera il valore della proprietà type.
      * 
      * @return
      *     possible object is
@@ -70,7 +70,7 @@ public class SystemLogUri {
     }
 
     /**
-     * Sets the value of the type property.
+     * Imposta il valore della proprietà type.
      * 
      * @param value
      *     allowed object is
@@ -82,7 +82,7 @@ public class SystemLogUri {
     }
 
     /**
-     * Gets the value of the uri property.
+     * Recupera il valore della proprietà uri.
      * 
      * @return
      *     possible object is
@@ -94,7 +94,7 @@ public class SystemLogUri {
     }
 
     /**
-     * Sets the value of the uri property.
+     * Imposta il valore della proprietà uri.
      * 
      * @param value
      *     allowed object is
@@ -123,8 +123,8 @@ public class SystemLogUri {
      * 
      * <p>
      * Objects of the following type(s) are allowed in the list
-     * {@link java.lang.Object }
      * {@link Element }
+     * {@link java.lang.Object }
      * 
      * 
      */

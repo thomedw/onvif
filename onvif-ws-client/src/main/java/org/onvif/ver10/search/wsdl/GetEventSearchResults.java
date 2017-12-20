@@ -10,9 +10,9 @@ import javax.xml.datatype.Duration;
 
 
 /**
- * <p>Java class for anonymous complex type.
+ * <p>Classe Java per anonymous complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>Il seguente frammento di schema specifica il contenuto previsto contenuto in questa classe.
  * 
  * <pre>
  * &lt;complexType&gt;
@@ -51,7 +51,7 @@ public class GetEventSearchResults {
     protected Duration waitTime;
 
     /**
-     * Gets the value of the searchToken property.
+     * Recupera il valore della proprietà searchToken.
      * 
      * @return
      *     possible object is
@@ -63,7 +63,7 @@ public class GetEventSearchResults {
     }
 
     /**
-     * Sets the value of the searchToken property.
+     * Imposta il valore della proprietà searchToken.
      * 
      * @param value
      *     allowed object is
@@ -75,7 +75,7 @@ public class GetEventSearchResults {
     }
 
     /**
-     * Gets the value of the minResults property.
+     * Recupera il valore della proprietà minResults.
      * 
      * @return
      *     possible object is
@@ -87,7 +87,7 @@ public class GetEventSearchResults {
     }
 
     /**
-     * Sets the value of the minResults property.
+     * Imposta il valore della proprietà minResults.
      * 
      * @param value
      *     allowed object is
@@ -99,7 +99,7 @@ public class GetEventSearchResults {
     }
 
     /**
-     * Gets the value of the maxResults property.
+     * Recupera il valore della proprietà maxResults.
      * 
      * @return
      *     possible object is
@@ -111,7 +111,7 @@ public class GetEventSearchResults {
     }
 
     /**
-     * Sets the value of the maxResults property.
+     * Imposta il valore della proprietà maxResults.
      * 
      * @param value
      *     allowed object is
@@ -123,7 +123,7 @@ public class GetEventSearchResults {
     }
 
     /**
-     * Gets the value of the waitTime property.
+     * Recupera il valore della proprietà waitTime.
      * 
      * @return
      *     possible object is
@@ -135,7 +135,7 @@ public class GetEventSearchResults {
     }
 
     /**
-     * Sets the value of the waitTime property.
+     * Imposta il valore della proprietà waitTime.
      * 
      * @param value
      *     allowed object is

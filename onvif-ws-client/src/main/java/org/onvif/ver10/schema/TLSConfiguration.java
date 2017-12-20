@@ -19,9 +19,9 @@ import org.w3c.dom.Element;
 
 
 /**
- * <p>Java class for TLSConfiguration complex type.
+ * <p>Classe Java per TLSConfiguration complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>Il seguente frammento di schema specifica il contenuto previsto contenuto in questa classe.
  * 
  * <pre>
  * &lt;complexType name="TLSConfiguration"&gt;
@@ -56,7 +56,7 @@ public class TLSConfiguration {
     private Map<QName, String> otherAttributes = new HashMap<QName, String>();
 
     /**
-     * Gets the value of the certificateID property.
+     * Recupera il valore della proprietà certificateID.
      * 
      * @return
      *     possible object is
@@ -68,7 +68,7 @@ public class TLSConfiguration {
     }
 
     /**
-     * Sets the value of the certificateID property.
+     * Imposta il valore della proprietà certificateID.
      * 
      * @param value
      *     allowed object is
@@ -97,8 +97,8 @@ public class TLSConfiguration {
      * 
      * <p>
      * Objects of the following type(s) are allowed in the list
-     * {@link java.lang.Object }
      * {@link Element }
+     * {@link java.lang.Object }
      * 
      * 
      */

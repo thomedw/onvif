@@ -9,9 +9,9 @@ import javax.xml.bind.annotation.XmlType;
 
 
 /**
- * <p>Java class for anonymous complex type.
+ * <p>Classe Java per anonymous complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>Il seguente frammento di schema specifica il contenuto previsto contenuto in questa classe.
  * 
  * <pre>
  * &lt;complexType&gt;
@@ -42,7 +42,7 @@ public class SetSerialPortConfiguration {
     protected boolean forcePersistance;
 
     /**
-     * Gets the value of the serialPortConfiguration property.
+     * Recupera il valore della proprietà serialPortConfiguration.
      * 
      * @return
      *     possible object is
@@ -54,7 +54,7 @@ public class SetSerialPortConfiguration {
     }
 
     /**
-     * Sets the value of the serialPortConfiguration property.
+     * Imposta il valore della proprietà serialPortConfiguration.
      * 
      * @param value
      *     allowed object is
@@ -66,7 +66,7 @@ public class SetSerialPortConfiguration {
     }
 
     /**
-     * Gets the value of the forcePersistance property.
+     * Recupera il valore della proprietà forcePersistance.
      * This getter has been renamed from isForcePersistance() to getForcePersistance() by cxf-xjc-boolean plugin.
      * 
      */
@@ -75,7 +75,7 @@ public class SetSerialPortConfiguration {
     }
 
     /**
-     * Sets the value of the forcePersistance property.
+     * Imposta il valore della proprietà forcePersistance.
      * 
      */
     public void setForcePersistance(boolean value) {

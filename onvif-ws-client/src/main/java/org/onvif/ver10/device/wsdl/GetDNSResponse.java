@@ -10,9 +10,9 @@ import org.onvif.ver10.schema.DNSInformation;
 
 
 /**
- * <p>Java class for anonymous complex type.
+ * <p>Classe Java per anonymous complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>Il seguente frammento di schema specifica il contenuto previsto contenuto in questa classe.
  * 
  * <pre>
  * &lt;complexType&gt;
@@ -39,7 +39,7 @@ public class GetDNSResponse {
     protected DNSInformation dnsInformation;
 
     /**
-     * Gets the value of the dnsInformation property.
+     * Recupera il valore della proprietà dnsInformation.
      * 
      * @return
      *     possible object is
@@ -51,7 +51,7 @@ public class GetDNSResponse {
     }
 
     /**
-     * Sets the value of the dnsInformation property.
+     * Imposta il valore della proprietà dnsInformation.
      * 
      * @param value
      *     allowed object is

@@ -17,9 +17,9 @@ import org.w3c.dom.Element;
 
 
 /**
- * <p>Java class for TrackConfiguration complex type.
+ * <p>Classe Java per TrackConfiguration complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>Il seguente frammento di schema specifica il contenuto previsto contenuto in questa classe.
  * 
  * <pre>
  * &lt;complexType name="TrackConfiguration"&gt;
@@ -57,7 +57,7 @@ public class TrackConfiguration {
     private Map<QName, String> otherAttributes = new HashMap<QName, String>();
 
     /**
-     * Gets the value of the trackType property.
+     * Recupera il valore della proprietà trackType.
      * 
      * @return
      *     possible object is
@@ -69,7 +69,7 @@ public class TrackConfiguration {
     }
 
     /**
-     * Sets the value of the trackType property.
+     * Imposta il valore della proprietà trackType.
      * 
      * @param value
      *     allowed object is
@@ -81,7 +81,7 @@ public class TrackConfiguration {
     }
 
     /**
-     * Gets the value of the description property.
+     * Recupera il valore della proprietà description.
      * 
      * @return
      *     possible object is
@@ -93,7 +93,7 @@ public class TrackConfiguration {
     }
 
     /**
-     * Sets the value of the description property.
+     * Imposta il valore della proprietà description.
      * 
      * @param value
      *     allowed object is
@@ -122,8 +122,8 @@ public class TrackConfiguration {
      * 
      * <p>
      * Objects of the following type(s) are allowed in the list
-     * {@link java.lang.Object }
      * {@link Element }
+     * {@link java.lang.Object }
      * 
      * 
      */

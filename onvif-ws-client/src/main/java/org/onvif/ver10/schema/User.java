@@ -13,9 +13,9 @@ import javax.xml.namespace.QName;
 
 
 /**
- * <p>Java class for User complex type.
+ * <p>Classe Java per User complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>Il seguente frammento di schema specifica il contenuto previsto contenuto in questa classe.
  * 
  * <pre>
  * &lt;complexType name="User"&gt;
@@ -57,7 +57,7 @@ public class User {
     private Map<QName, String> otherAttributes = new HashMap<QName, String>();
 
     /**
-     * Gets the value of the username property.
+     * Recupera il valore della proprietà username.
      * 
      * @return
      *     possible object is
@@ -69,7 +69,7 @@ public class User {
     }
 
     /**
-     * Sets the value of the username property.
+     * Imposta il valore della proprietà username.
      * 
      * @param value
      *     allowed object is
@@ -81,7 +81,7 @@ public class User {
     }
 
     /**
-     * Gets the value of the password property.
+     * Recupera il valore della proprietà password.
      * 
      * @return
      *     possible object is
@@ -93,7 +93,7 @@ public class User {
     }
 
     /**
-     * Sets the value of the password property.
+     * Imposta il valore della proprietà password.
      * 
      * @param value
      *     allowed object is
@@ -105,7 +105,7 @@ public class User {
     }
 
     /**
-     * Gets the value of the userLevel property.
+     * Recupera il valore della proprietà userLevel.
      * 
      * @return
      *     possible object is
@@ -117,7 +117,7 @@ public class User {
     }
 
     /**
-     * Sets the value of the userLevel property.
+     * Imposta il valore della proprietà userLevel.
      * 
      * @param value
      *     allowed object is
@@ -129,7 +129,7 @@ public class User {
     }
 
     /**
-     * Gets the value of the extension property.
+     * Recupera il valore della proprietà extension.
      * 
      * @return
      *     possible object is
@@ -141,7 +141,7 @@ public class User {
     }
 
     /**
-     * Sets the value of the extension property.
+     * Imposta il valore della proprietà extension.
      * 
      * @param value
      *     allowed object is

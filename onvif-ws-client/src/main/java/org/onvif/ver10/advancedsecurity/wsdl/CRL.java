@@ -16,9 +16,9 @@ import org.w3c.dom.Element;
 
 
 /**
- * <p>Java class for CRL complex type.
+ * <p>Classe Java per CRL complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>Il seguente frammento di schema specifica il contenuto previsto contenuto in questa classe.
  * 
  * <pre>
  * &lt;complexType name="CRL"&gt;
@@ -59,7 +59,7 @@ public class CRL {
     protected List<Object> any;
 
     /**
-     * Gets the value of the crlid property.
+     * Recupera il valore della proprietà crlid.
      * 
      * @return
      *     possible object is
@@ -71,7 +71,7 @@ public class CRL {
     }
 
     /**
-     * Sets the value of the crlid property.
+     * Imposta il valore della proprietà crlid.
      * 
      * @param value
      *     allowed object is
@@ -83,7 +83,7 @@ public class CRL {
     }
 
     /**
-     * Gets the value of the alias property.
+     * Recupera il valore della proprietà alias.
      * 
      * @return
      *     possible object is
@@ -95,7 +95,7 @@ public class CRL {
     }
 
     /**
-     * Sets the value of the alias property.
+     * Imposta il valore della proprietà alias.
      * 
      * @param value
      *     allowed object is
@@ -107,7 +107,7 @@ public class CRL {
     }
 
     /**
-     * Gets the value of the crlContent property.
+     * Recupera il valore della proprietà crlContent.
      * 
      * @return
      *     possible object is
@@ -118,7 +118,7 @@ public class CRL {
     }
 
     /**
-     * Sets the value of the crlContent property.
+     * Imposta il valore della proprietà crlContent.
      * 
      * @param value
      *     allowed object is
@@ -146,8 +146,8 @@ public class CRL {
      * 
      * <p>
      * Objects of the following type(s) are allowed in the list
-     * {@link Object }
      * {@link Element }
+     * {@link Object }
      * 
      * 
      */

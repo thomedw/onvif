@@ -16,9 +16,9 @@ import org.w3c.dom.Element;
 
 
 /**
- * <p>Java class for AudioSourceConfiguration complex type.
+ * <p>Classe Java per AudioSourceConfiguration complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>Il seguente frammento di schema specifica il contenuto previsto contenuto in questa classe.
  * 
  * <pre>
  * &lt;complexType name="AudioSourceConfiguration"&gt;
@@ -53,7 +53,7 @@ public class AudioSourceConfiguration
     private Map<QName, String> otherAttributes = new HashMap<QName, String>();
 
     /**
-     * Gets the value of the sourceToken property.
+     * Recupera il valore della proprietà sourceToken.
      * 
      * @return
      *     possible object is
@@ -65,7 +65,7 @@ public class AudioSourceConfiguration
     }
 
     /**
-     * Sets the value of the sourceToken property.
+     * Imposta il valore della proprietà sourceToken.
      * 
      * @param value
      *     allowed object is
@@ -94,8 +94,8 @@ public class AudioSourceConfiguration
      * 
      * <p>
      * Objects of the following type(s) are allowed in the list
-     * {@link java.lang.Object }
      * {@link Element }
+     * {@link java.lang.Object }
      * 
      * 
      */

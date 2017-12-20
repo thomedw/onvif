@@ -21,9 +21,9 @@ import org.w3c.dom.Element;
  * 				A set of informative desciptions of a data source. The Search searvice allows a client to filter on recordings based on information in this structure.
  * 			
  * 
- * <p>Java class for RecordingSourceInformation complex type.
+ * <p>Classe Java per RecordingSourceInformation complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>Il seguente frammento di schema specifica il contenuto previsto contenuto in questa classe.
  * 
  * <pre>
  * &lt;complexType name="RecordingSourceInformation"&gt;
@@ -74,7 +74,7 @@ public class RecordingSourceInformation {
     private Map<QName, String> otherAttributes = new HashMap<QName, String>();
 
     /**
-     * Gets the value of the sourceId property.
+     * Recupera il valore della proprietà sourceId.
      * 
      * @return
      *     possible object is
@@ -86,7 +86,7 @@ public class RecordingSourceInformation {
     }
 
     /**
-     * Sets the value of the sourceId property.
+     * Imposta il valore della proprietà sourceId.
      * 
      * @param value
      *     allowed object is
@@ -98,7 +98,7 @@ public class RecordingSourceInformation {
     }
 
     /**
-     * Gets the value of the name property.
+     * Recupera il valore della proprietà name.
      * 
      * @return
      *     possible object is
@@ -110,7 +110,7 @@ public class RecordingSourceInformation {
     }
 
     /**
-     * Sets the value of the name property.
+     * Imposta il valore della proprietà name.
      * 
      * @param value
      *     allowed object is
@@ -122,7 +122,7 @@ public class RecordingSourceInformation {
     }
 
     /**
-     * Gets the value of the location property.
+     * Recupera il valore della proprietà location.
      * 
      * @return
      *     possible object is
@@ -134,7 +134,7 @@ public class RecordingSourceInformation {
     }
 
     /**
-     * Sets the value of the location property.
+     * Imposta il valore della proprietà location.
      * 
      * @param value
      *     allowed object is
@@ -146,7 +146,7 @@ public class RecordingSourceInformation {
     }
 
     /**
-     * Gets the value of the description property.
+     * Recupera il valore della proprietà description.
      * 
      * @return
      *     possible object is
@@ -158,7 +158,7 @@ public class RecordingSourceInformation {
     }
 
     /**
-     * Sets the value of the description property.
+     * Imposta il valore della proprietà description.
      * 
      * @param value
      *     allowed object is
@@ -170,7 +170,7 @@ public class RecordingSourceInformation {
     }
 
     /**
-     * Gets the value of the address property.
+     * Recupera il valore della proprietà address.
      * 
      * @return
      *     possible object is
@@ -182,7 +182,7 @@ public class RecordingSourceInformation {
     }
 
     /**
-     * Sets the value of the address property.
+     * Imposta il valore della proprietà address.
      * 
      * @param value
      *     allowed object is
@@ -211,8 +211,8 @@ public class RecordingSourceInformation {
      * 
      * <p>
      * Objects of the following type(s) are allowed in the list
-     * {@link java.lang.Object }
      * {@link Element }
+     * {@link java.lang.Object }
      * 
      * 
      */

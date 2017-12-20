@@ -20,9 +20,9 @@ import javax.xml.namespace.QName;
  * </pre>
  * 
  * 
- * <p>Java class for ColorOptions complex type.
+ * <p>Classe Java per ColorOptions complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>Il seguente frammento di schema specifica il contenuto previsto contenuto in questa classe.
  * 
  * <pre>
  * &lt;complexType name="ColorOptions"&gt;

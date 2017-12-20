@@ -12,9 +12,9 @@ import org.w3c.dom.Element;
 
 
 /**
- * <p>Java class for UserCredential complex type.
+ * <p>Classe Java per UserCredential complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>Il seguente frammento di schema specifica il contenuto previsto contenuto in questa classe.
  * 
  * <pre>
  * &lt;complexType name="UserCredential"&gt;
@@ -58,7 +58,7 @@ public class UserCredential {
     protected UserCredential.Extension extension;
 
     /**
-     * Gets the value of the userName property.
+     * Recupera il valore della proprietà userName.
      * 
      * @return
      *     possible object is
@@ -70,7 +70,7 @@ public class UserCredential {
     }
 
     /**
-     * Sets the value of the userName property.
+     * Imposta il valore della proprietà userName.
      * 
      * @param value
      *     allowed object is
@@ -82,7 +82,7 @@ public class UserCredential {
     }
 
     /**
-     * Gets the value of the password property.
+     * Recupera il valore della proprietà password.
      * 
      * @return
      *     possible object is
@@ -94,7 +94,7 @@ public class UserCredential {
     }
 
     /**
-     * Sets the value of the password property.
+     * Imposta il valore della proprietà password.
      * 
      * @param value
      *     allowed object is
@@ -106,7 +106,7 @@ public class UserCredential {
     }
 
     /**
-     * Gets the value of the extension property.
+     * Recupera il valore della proprietà extension.
      * 
      * @return
      *     possible object is
@@ -118,7 +118,7 @@ public class UserCredential {
     }
 
     /**
-     * Sets the value of the extension property.
+     * Imposta il valore della proprietà extension.
      * 
      * @param value
      *     allowed object is
@@ -131,9 +131,9 @@ public class UserCredential {
 
 
     /**
-     * <p>Java class for anonymous complex type.
+     * <p>Classe Java per anonymous complex type.
      * 
-     * <p>The following schema fragment specifies the expected content contained within this class.
+     * <p>Il seguente frammento di schema specifica il contenuto previsto contenuto in questa classe.
      * 
      * <pre>
      * &lt;complexType&gt;
@@ -176,8 +176,8 @@ public class UserCredential {
          * 
          * <p>
          * Objects of the following type(s) are allowed in the list
-         * {@link Object }
          * {@link Element }
+         * {@link Object }
          * 
          * 
          */

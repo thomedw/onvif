@@ -22,9 +22,9 @@ import org.w3c.dom.Element;
  * change during device operation, e.g. if hardware settings are changed.
  * The following capabilities are available:
  * 
- * <p>Java class for AccessPointCapabilities complex type.
+ * <p>Classe Java per AccessPointCapabilities complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>Il seguente frammento di schema specifica il contenuto previsto contenuto in questa classe.
  * 
  * <pre>
  * &lt;complexType name="AccessPointCapabilities"&gt;
@@ -85,8 +85,8 @@ public class AccessPointCapabilities {
      * 
      * <p>
      * Objects of the following type(s) are allowed in the list
-     * {@link Object }
      * {@link Element }
+     * {@link Object }
      * 
      * 
      */
@@ -98,7 +98,7 @@ public class AccessPointCapabilities {
     }
 
     /**
-     * Gets the value of the disableAccessPoint property.
+     * Recupera il valore della proprietà disableAccessPoint.
      * This getter has been renamed from isDisableAccessPoint() to getDisableAccessPoint() by cxf-xjc-boolean plugin.
      * 
      */
@@ -107,7 +107,7 @@ public class AccessPointCapabilities {
     }
 
     /**
-     * Sets the value of the disableAccessPoint property.
+     * Imposta il valore della proprietà disableAccessPoint.
      * 
      */
     public void setDisableAccessPoint(boolean value) {
@@ -115,7 +115,7 @@ public class AccessPointCapabilities {
     }
 
     /**
-     * Gets the value of the duress property.
+     * Recupera il valore della proprietà duress.
      * This getter has been renamed from isDuress() to getDuress() by cxf-xjc-boolean plugin.
      * 
      * @return
@@ -128,7 +128,7 @@ public class AccessPointCapabilities {
     }
 
     /**
-     * Sets the value of the duress property.
+     * Imposta il valore della proprietà duress.
      * 
      * @param value
      *     allowed object is
@@ -140,7 +140,7 @@ public class AccessPointCapabilities {
     }
 
     /**
-     * Gets the value of the anonymousAccess property.
+     * Recupera il valore della proprietà anonymousAccess.
      * This getter has been renamed from isAnonymousAccess() to getAnonymousAccess() by cxf-xjc-boolean plugin.
      * 
      * @return
@@ -153,7 +153,7 @@ public class AccessPointCapabilities {
     }
 
     /**
-     * Sets the value of the anonymousAccess property.
+     * Imposta il valore della proprietà anonymousAccess.
      * 
      * @param value
      *     allowed object is
@@ -165,7 +165,7 @@ public class AccessPointCapabilities {
     }
 
     /**
-     * Gets the value of the accessTaken property.
+     * Recupera il valore della proprietà accessTaken.
      * This getter has been renamed from isAccessTaken() to getAccessTaken() by cxf-xjc-boolean plugin.
      * 
      * @return
@@ -178,7 +178,7 @@ public class AccessPointCapabilities {
     }
 
     /**
-     * Sets the value of the accessTaken property.
+     * Imposta il valore della proprietà accessTaken.
      * 
      * @param value
      *     allowed object is
@@ -190,7 +190,7 @@ public class AccessPointCapabilities {
     }
 
     /**
-     * Gets the value of the externalAuthorization property.
+     * Recupera il valore della proprietà externalAuthorization.
      * This getter has been renamed from isExternalAuthorization() to getExternalAuthorization() by cxf-xjc-boolean plugin.
      * 
      * @return
@@ -203,7 +203,7 @@ public class AccessPointCapabilities {
     }
 
     /**
-     * Sets the value of the externalAuthorization property.
+     * Imposta il valore della proprietà externalAuthorization.
      * 
      * @param value
      *     allowed object is

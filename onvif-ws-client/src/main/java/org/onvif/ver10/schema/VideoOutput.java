@@ -14,9 +14,9 @@ import javax.xml.namespace.QName;
 /**
  * Representation of a physical video outputs.
  * 
- * <p>Java class for VideoOutput complex type.
+ * <p>Classe Java per VideoOutput complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>Il seguente frammento di schema specifica il contenuto previsto contenuto in questa classe.
  * 
  * <pre>
  * &lt;complexType name="VideoOutput"&gt;
@@ -63,7 +63,7 @@ public class VideoOutput
     private Map<QName, String> otherAttributes = new HashMap<QName, String>();
 
     /**
-     * Gets the value of the layout property.
+     * Recupera il valore della proprietà layout.
      * 
      * @return
      *     possible object is
@@ -75,7 +75,7 @@ public class VideoOutput
     }
 
     /**
-     * Sets the value of the layout property.
+     * Imposta il valore della proprietà layout.
      * 
      * @param value
      *     allowed object is
@@ -87,7 +87,7 @@ public class VideoOutput
     }
 
     /**
-     * Gets the value of the resolution property.
+     * Recupera il valore della proprietà resolution.
      * 
      * @return
      *     possible object is
@@ -99,7 +99,7 @@ public class VideoOutput
     }
 
     /**
-     * Sets the value of the resolution property.
+     * Imposta il valore della proprietà resolution.
      * 
      * @param value
      *     allowed object is
@@ -111,7 +111,7 @@ public class VideoOutput
     }
 
     /**
-     * Gets the value of the refreshRate property.
+     * Recupera il valore della proprietà refreshRate.
      * 
      * @return
      *     possible object is
@@ -123,7 +123,7 @@ public class VideoOutput
     }
 
     /**
-     * Sets the value of the refreshRate property.
+     * Imposta il valore della proprietà refreshRate.
      * 
      * @param value
      *     allowed object is
@@ -135,7 +135,7 @@ public class VideoOutput
     }
 
     /**
-     * Gets the value of the aspectRatio property.
+     * Recupera il valore della proprietà aspectRatio.
      * 
      * @return
      *     possible object is
@@ -147,7 +147,7 @@ public class VideoOutput
     }
 
     /**
-     * Sets the value of the aspectRatio property.
+     * Imposta il valore della proprietà aspectRatio.
      * 
      * @param value
      *     allowed object is
@@ -159,7 +159,7 @@ public class VideoOutput
     }
 
     /**
-     * Gets the value of the extension property.
+     * Recupera il valore della proprietà extension.
      * 
      * @return
      *     possible object is
@@ -171,7 +171,7 @@ public class VideoOutput
     }
 
     /**
-     * Sets the value of the extension property.
+     * Imposta il valore della proprietà extension.
      * 
      * @param value
      *     allowed object is

@@ -12,9 +12,9 @@ import javax.xml.namespace.QName;
 
 
 /**
- * <p>Java class for AudioDecoderConfigurationOptions complex type.
+ * <p>Classe Java per AudioDecoderConfigurationOptions complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>Il seguente frammento di schema specifica il contenuto previsto contenuto in questa classe.
  * 
  * <pre>
  * &lt;complexType name="AudioDecoderConfigurationOptions"&gt;
@@ -55,7 +55,7 @@ public class AudioDecoderConfigurationOptions {
     private Map<QName, String> otherAttributes = new HashMap<QName, String>();
 
     /**
-     * Gets the value of the aacDecOptions property.
+     * Recupera il valore della proprietà aacDecOptions.
      * 
      * @return
      *     possible object is
@@ -67,7 +67,7 @@ public class AudioDecoderConfigurationOptions {
     }
 
     /**
-     * Sets the value of the aacDecOptions property.
+     * Imposta il valore della proprietà aacDecOptions.
      * 
      * @param value
      *     allowed object is
@@ -79,7 +79,7 @@ public class AudioDecoderConfigurationOptions {
     }
 
     /**
-     * Gets the value of the g711DecOptions property.
+     * Recupera il valore della proprietà g711DecOptions.
      * 
      * @return
      *     possible object is
@@ -91,7 +91,7 @@ public class AudioDecoderConfigurationOptions {
     }
 
     /**
-     * Sets the value of the g711DecOptions property.
+     * Imposta il valore della proprietà g711DecOptions.
      * 
      * @param value
      *     allowed object is
@@ -103,7 +103,7 @@ public class AudioDecoderConfigurationOptions {
     }
 
     /**
-     * Gets the value of the g726DecOptions property.
+     * Recupera il valore della proprietà g726DecOptions.
      * 
      * @return
      *     possible object is
@@ -115,7 +115,7 @@ public class AudioDecoderConfigurationOptions {
     }
 
     /**
-     * Sets the value of the g726DecOptions property.
+     * Imposta il valore della proprietà g726DecOptions.
      * 
      * @param value
      *     allowed object is
@@ -127,7 +127,7 @@ public class AudioDecoderConfigurationOptions {
     }
 
     /**
-     * Gets the value of the extension property.
+     * Recupera il valore della proprietà extension.
      * 
      * @return
      *     possible object is
@@ -139,7 +139,7 @@ public class AudioDecoderConfigurationOptions {
     }
 
     /**
-     * Sets the value of the extension property.
+     * Imposta il valore della proprietà extension.
      * 
      * @param value
      *     allowed object is

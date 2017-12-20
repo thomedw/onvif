@@ -12,9 +12,9 @@ import javax.xml.namespace.QName;
 
 
 /**
- * <p>Java class for NetworkInterfaceSetConfiguration complex type.
+ * <p>Classe Java per NetworkInterfaceSetConfiguration complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>Il seguente frammento di schema specifica il contenuto previsto contenuto in questa classe.
  * 
  * <pre>
  * &lt;complexType name="NetworkInterfaceSetConfiguration"&gt;
@@ -63,7 +63,7 @@ public class NetworkInterfaceSetConfiguration {
     private Map<QName, String> otherAttributes = new HashMap<QName, String>();
 
     /**
-     * Gets the value of the enabled property.
+     * Recupera il valore della proprietà enabled.
      * This getter has been renamed from isEnabled() to getEnabled() by cxf-xjc-boolean plugin.
      * 
      * @return
@@ -76,7 +76,7 @@ public class NetworkInterfaceSetConfiguration {
     }
 
     /**
-     * Sets the value of the enabled property.
+     * Imposta il valore della proprietà enabled.
      * 
      * @param value
      *     allowed object is
@@ -88,7 +88,7 @@ public class NetworkInterfaceSetConfiguration {
     }
 
     /**
-     * Gets the value of the link property.
+     * Recupera il valore della proprietà link.
      * 
      * @return
      *     possible object is
@@ -100,7 +100,7 @@ public class NetworkInterfaceSetConfiguration {
     }
 
     /**
-     * Sets the value of the link property.
+     * Imposta il valore della proprietà link.
      * 
      * @param value
      *     allowed object is
@@ -112,7 +112,7 @@ public class NetworkInterfaceSetConfiguration {
     }
 
     /**
-     * Gets the value of the mtu property.
+     * Recupera il valore della proprietà mtu.
      * 
      * @return
      *     possible object is
@@ -124,7 +124,7 @@ public class NetworkInterfaceSetConfiguration {
     }
 
     /**
-     * Sets the value of the mtu property.
+     * Imposta il valore della proprietà mtu.
      * 
      * @param value
      *     allowed object is
@@ -136,7 +136,7 @@ public class NetworkInterfaceSetConfiguration {
     }
 
     /**
-     * Gets the value of the iPv4 property.
+     * Recupera il valore della proprietà iPv4.
      * 
      * @return
      *     possible object is
@@ -148,7 +148,7 @@ public class NetworkInterfaceSetConfiguration {
     }
 
     /**
-     * Sets the value of the iPv4 property.
+     * Imposta il valore della proprietà iPv4.
      * 
      * @param value
      *     allowed object is
@@ -160,7 +160,7 @@ public class NetworkInterfaceSetConfiguration {
     }
 
     /**
-     * Gets the value of the iPv6 property.
+     * Recupera il valore della proprietà iPv6.
      * 
      * @return
      *     possible object is
@@ -172,7 +172,7 @@ public class NetworkInterfaceSetConfiguration {
     }
 
     /**
-     * Sets the value of the iPv6 property.
+     * Imposta il valore della proprietà iPv6.
      * 
      * @param value
      *     allowed object is
@@ -184,7 +184,7 @@ public class NetworkInterfaceSetConfiguration {
     }
 
     /**
-     * Gets the value of the extension property.
+     * Recupera il valore della proprietà extension.
      * 
      * @return
      *     possible object is
@@ -196,7 +196,7 @@ public class NetworkInterfaceSetConfiguration {
     }
 
     /**
-     * Sets the value of the extension property.
+     * Imposta il valore della proprietà extension.
      * 
      * @param value
      *     allowed object is

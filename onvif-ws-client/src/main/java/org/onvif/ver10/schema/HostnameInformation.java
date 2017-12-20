@@ -15,9 +15,9 @@ import javax.xml.namespace.QName;
 
 
 /**
- * <p>Java class for HostnameInformation complex type.
+ * <p>Classe Java per HostnameInformation complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>Il seguente frammento di schema specifica il contenuto previsto contenuto in questa classe.
  * 
  * <pre>
  * &lt;complexType name="HostnameInformation"&gt;
@@ -56,7 +56,7 @@ public class HostnameInformation {
     private Map<QName, String> otherAttributes = new HashMap<QName, String>();
 
     /**
-     * Gets the value of the fromDHCP property.
+     * Recupera il valore della proprietà fromDHCP.
      * This getter has been renamed from isFromDHCP() to getFromDHCP() by cxf-xjc-boolean plugin.
      * 
      */
@@ -65,7 +65,7 @@ public class HostnameInformation {
     }
 
     /**
-     * Sets the value of the fromDHCP property.
+     * Imposta il valore della proprietà fromDHCP.
      * 
      */
     public void setFromDHCP(boolean value) {
@@ -73,7 +73,7 @@ public class HostnameInformation {
     }
 
     /**
-     * Gets the value of the name property.
+     * Recupera il valore della proprietà name.
      * 
      * @return
      *     possible object is
@@ -85,7 +85,7 @@ public class HostnameInformation {
     }
 
     /**
-     * Sets the value of the name property.
+     * Imposta il valore della proprietà name.
      * 
      * @param value
      *     allowed object is
@@ -97,7 +97,7 @@ public class HostnameInformation {
     }
 
     /**
-     * Gets the value of the extension property.
+     * Recupera il valore della proprietà extension.
      * 
      * @return
      *     possible object is
@@ -109,7 +109,7 @@ public class HostnameInformation {
     }
 
     /**
-     * Sets the value of the extension property.
+     * Imposta il valore della proprietà extension.
      * 
      * @param value
      *     allowed object is

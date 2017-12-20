@@ -10,9 +10,9 @@ import javax.xml.bind.annotation.XmlType;
 /**
  * Range of values greater equal Min value and less equal Max value.
  * 
- * <p>Java class for IntRange complex type.
+ * <p>Classe Java per IntRange complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>Il seguente frammento di schema specifica il contenuto previsto contenuto in questa classe.
  * 
  * <pre>
  * &lt;complexType name="IntRange"&gt;
@@ -42,7 +42,7 @@ public class IntRange {
     protected int max;
 
     /**
-     * Gets the value of the min property.
+     * Recupera il valore della proprietà min.
      * 
      */
     public int getMin() {
@@ -50,7 +50,7 @@ public class IntRange {
     }
 
     /**
-     * Sets the value of the min property.
+     * Imposta il valore della proprietà min.
      * 
      */
     public void setMin(int value) {
@@ -58,7 +58,7 @@ public class IntRange {
     }
 
     /**
-     * Gets the value of the max property.
+     * Recupera il valore della proprietà max.
      * 
      */
     public int getMax() {
@@ -66,7 +66,7 @@ public class IntRange {
     }
 
     /**
-     * Sets the value of the max property.
+     * Imposta il valore della proprietà max.
      * 
      */
     public void setMax(int value) {

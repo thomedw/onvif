@@ -13,9 +13,9 @@ import org.onvif.ver10.schema.TimeZone;
 
 
 /**
- * <p>Java class for anonymous complex type.
+ * <p>Classe Java per anonymous complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>Il seguente frammento di schema specifica il contenuto previsto contenuto in questa classe.
  * 
  * <pre>
  * &lt;complexType&gt;
@@ -55,7 +55,7 @@ public class SetSystemDateAndTime {
     protected DateTime utcDateTime;
 
     /**
-     * Gets the value of the dateTimeType property.
+     * Recupera il valore della proprietà dateTimeType.
      * 
      * @return
      *     possible object is
@@ -67,7 +67,7 @@ public class SetSystemDateAndTime {
     }
 
     /**
-     * Sets the value of the dateTimeType property.
+     * Imposta il valore della proprietà dateTimeType.
      * 
      * @param value
      *     allowed object is
@@ -79,7 +79,7 @@ public class SetSystemDateAndTime {
     }
 
     /**
-     * Gets the value of the daylightSavings property.
+     * Recupera il valore della proprietà daylightSavings.
      * This getter has been renamed from isDaylightSavings() to getDaylightSavings() by cxf-xjc-boolean plugin.
      * 
      */
@@ -88,7 +88,7 @@ public class SetSystemDateAndTime {
     }
 
     /**
-     * Sets the value of the daylightSavings property.
+     * Imposta il valore della proprietà daylightSavings.
      * 
      */
     public void setDaylightSavings(boolean value) {
@@ -96,7 +96,7 @@ public class SetSystemDateAndTime {
     }
 
     /**
-     * Gets the value of the timeZone property.
+     * Recupera il valore della proprietà timeZone.
      * 
      * @return
      *     possible object is
@@ -108,7 +108,7 @@ public class SetSystemDateAndTime {
     }
 
     /**
-     * Sets the value of the timeZone property.
+     * Imposta il valore della proprietà timeZone.
      * 
      * @param value
      *     allowed object is
@@ -120,7 +120,7 @@ public class SetSystemDateAndTime {
     }
 
     /**
-     * Gets the value of the utcDateTime property.
+     * Recupera il valore della proprietà utcDateTime.
      * 
      * @return
      *     possible object is
@@ -132,7 +132,7 @@ public class SetSystemDateAndTime {
     }
 
     /**
-     * Sets the value of the utcDateTime property.
+     * Imposta il valore della proprietà utcDateTime.
      * 
      * @param value
      *     allowed object is

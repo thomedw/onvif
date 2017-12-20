@@ -21,9 +21,9 @@ import org.w3c.dom.Element;
  * 						and does not change during device operation. The following capabilities are available:
  * 					
  * 
- * <p>Java class for ServiceCapabilities complex type.
+ * <p>Classe Java per ServiceCapabilities complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>Il seguente frammento di schema specifica il contenuto previsto contenuto in questa classe.
  * 
  * <pre>
  * &lt;complexType name="ServiceCapabilities"&gt;
@@ -99,8 +99,8 @@ public class ServiceCapabilities {
      * 
      * <p>
      * Objects of the following type(s) are allowed in the list
-     * {@link Object }
      * {@link Element }
+     * {@link Object }
      * 
      * 
      */
@@ -112,7 +112,7 @@ public class ServiceCapabilities {
     }
 
     /**
-     * Gets the value of the maxLimit property.
+     * Recupera il valore della proprietà maxLimit.
      * 
      */
     public long getMaxLimit() {
@@ -120,7 +120,7 @@ public class ServiceCapabilities {
     }
 
     /**
-     * Sets the value of the maxLimit property.
+     * Imposta il valore della proprietà maxLimit.
      * 
      */
     public void setMaxLimit(long value) {
@@ -128,7 +128,7 @@ public class ServiceCapabilities {
     }
 
     /**
-     * Gets the value of the maxAccessProfiles property.
+     * Recupera il valore della proprietà maxAccessProfiles.
      * 
      */
     public long getMaxAccessProfiles() {
@@ -136,7 +136,7 @@ public class ServiceCapabilities {
     }
 
     /**
-     * Sets the value of the maxAccessProfiles property.
+     * Imposta il valore della proprietà maxAccessProfiles.
      * 
      */
     public void setMaxAccessProfiles(long value) {
@@ -144,7 +144,7 @@ public class ServiceCapabilities {
     }
 
     /**
-     * Gets the value of the maxAccessPoliciesPerAccessProfile property.
+     * Recupera il valore della proprietà maxAccessPoliciesPerAccessProfile.
      * 
      */
     public long getMaxAccessPoliciesPerAccessProfile() {
@@ -152,7 +152,7 @@ public class ServiceCapabilities {
     }
 
     /**
-     * Sets the value of the maxAccessPoliciesPerAccessProfile property.
+     * Imposta il valore della proprietà maxAccessPoliciesPerAccessProfile.
      * 
      */
     public void setMaxAccessPoliciesPerAccessProfile(long value) {
@@ -160,7 +160,7 @@ public class ServiceCapabilities {
     }
 
     /**
-     * Gets the value of the multipleSchedulesPerAccessPointSupported property.
+     * Recupera il valore della proprietà multipleSchedulesPerAccessPointSupported.
      * This getter has been renamed from isMultipleSchedulesPerAccessPointSupported() to getMultipleSchedulesPerAccessPointSupported() by cxf-xjc-boolean plugin.
      * 
      */
@@ -169,7 +169,7 @@ public class ServiceCapabilities {
     }
 
     /**
-     * Sets the value of the multipleSchedulesPerAccessPointSupported property.
+     * Imposta il valore della proprietà multipleSchedulesPerAccessPointSupported.
      * 
      */
     public void setMultipleSchedulesPerAccessPointSupported(boolean value) {

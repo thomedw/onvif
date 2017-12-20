@@ -16,9 +16,9 @@ import org.w3c.dom.Element;
 
 
 /**
- * <p>Java class for CertPathValidationPolicy complex type.
+ * <p>Classe Java per CertPathValidationPolicy complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>Il seguente frammento di schema specifica il contenuto previsto contenuto in questa classe.
  * 
  * <pre>
  * &lt;complexType name="CertPathValidationPolicy"&gt;
@@ -72,7 +72,7 @@ public class CertPathValidationPolicy {
     protected CertPathValidationPolicy.AnyParameters anyParameters;
 
     /**
-     * Gets the value of the certPathValidationPolicyID property.
+     * Recupera il valore della proprietà certPathValidationPolicyID.
      * 
      * @return
      *     possible object is
@@ -84,7 +84,7 @@ public class CertPathValidationPolicy {
     }
 
     /**
-     * Sets the value of the certPathValidationPolicyID property.
+     * Imposta il valore della proprietà certPathValidationPolicyID.
      * 
      * @param value
      *     allowed object is
@@ -96,7 +96,7 @@ public class CertPathValidationPolicy {
     }
 
     /**
-     * Gets the value of the alias property.
+     * Recupera il valore della proprietà alias.
      * 
      * @return
      *     possible object is
@@ -108,7 +108,7 @@ public class CertPathValidationPolicy {
     }
 
     /**
-     * Sets the value of the alias property.
+     * Imposta il valore della proprietà alias.
      * 
      * @param value
      *     allowed object is
@@ -120,7 +120,7 @@ public class CertPathValidationPolicy {
     }
 
     /**
-     * Gets the value of the parameters property.
+     * Recupera il valore della proprietà parameters.
      * 
      * @return
      *     possible object is
@@ -132,7 +132,7 @@ public class CertPathValidationPolicy {
     }
 
     /**
-     * Sets the value of the parameters property.
+     * Imposta il valore della proprietà parameters.
      * 
      * @param value
      *     allowed object is
@@ -173,7 +173,7 @@ public class CertPathValidationPolicy {
     }
 
     /**
-     * Gets the value of the anyParameters property.
+     * Recupera il valore della proprietà anyParameters.
      * 
      * @return
      *     possible object is
@@ -185,7 +185,7 @@ public class CertPathValidationPolicy {
     }
 
     /**
-     * Sets the value of the anyParameters property.
+     * Imposta il valore della proprietà anyParameters.
      * 
      * @param value
      *     allowed object is
@@ -198,9 +198,9 @@ public class CertPathValidationPolicy {
 
 
     /**
-     * <p>Java class for anonymous complex type.
+     * <p>Classe Java per anonymous complex type.
      * 
-     * <p>The following schema fragment specifies the expected content contained within this class.
+     * <p>Il seguente frammento di schema specifica il contenuto previsto contenuto in questa classe.
      * 
      * <pre>
      * &lt;complexType&gt;
@@ -243,8 +243,8 @@ public class CertPathValidationPolicy {
          * 
          * <p>
          * Objects of the following type(s) are allowed in the list
-         * {@link Object }
          * {@link Element }
+         * {@link Object }
          * 
          * 
          */

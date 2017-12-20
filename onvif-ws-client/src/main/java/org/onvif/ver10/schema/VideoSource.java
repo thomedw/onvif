@@ -14,9 +14,9 @@ import javax.xml.namespace.QName;
 /**
  * Representation of a physical video input.
  * 
- * <p>Java class for VideoSource complex type.
+ * <p>Classe Java per VideoSource complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>Il seguente frammento di schema specifica il contenuto previsto contenuto in questa classe.
  * 
  * <pre>
  * &lt;complexType name="VideoSource"&gt;
@@ -59,7 +59,7 @@ public class VideoSource
     private Map<QName, String> otherAttributes = new HashMap<QName, String>();
 
     /**
-     * Gets the value of the framerate property.
+     * Recupera il valore della proprietà framerate.
      * 
      */
     public float getFramerate() {
@@ -67,7 +67,7 @@ public class VideoSource
     }
 
     /**
-     * Sets the value of the framerate property.
+     * Imposta il valore della proprietà framerate.
      * 
      */
     public void setFramerate(float value) {
@@ -75,7 +75,7 @@ public class VideoSource
     }
 
     /**
-     * Gets the value of the resolution property.
+     * Recupera il valore della proprietà resolution.
      * 
      * @return
      *     possible object is
@@ -87,7 +87,7 @@ public class VideoSource
     }
 
     /**
-     * Sets the value of the resolution property.
+     * Imposta il valore della proprietà resolution.
      * 
      * @param value
      *     allowed object is
@@ -99,7 +99,7 @@ public class VideoSource
     }
 
     /**
-     * Gets the value of the imaging property.
+     * Recupera il valore della proprietà imaging.
      * 
      * @return
      *     possible object is
@@ -111,7 +111,7 @@ public class VideoSource
     }
 
     /**
-     * Sets the value of the imaging property.
+     * Imposta il valore della proprietà imaging.
      * 
      * @param value
      *     allowed object is
@@ -123,7 +123,7 @@ public class VideoSource
     }
 
     /**
-     * Gets the value of the extension property.
+     * Recupera il valore della proprietà extension.
      * 
      * @return
      *     possible object is
@@ -135,7 +135,7 @@ public class VideoSource
     }
 
     /**
-     * Sets the value of the extension property.
+     * Imposta il valore della proprietà extension.
      * 
      * @param value
      *     allowed object is

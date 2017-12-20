@@ -16,9 +16,9 @@ import org.w3c.dom.Element;
 
 
 /**
- * <p>Java class for ToneCompensationOptions complex type.
+ * <p>Classe Java per ToneCompensationOptions complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>Il seguente frammento di schema specifica il contenuto previsto contenuto in questa classe.
  * 
  * <pre>
  * &lt;complexType name="ToneCompensationOptions"&gt;
@@ -84,7 +84,7 @@ public class ToneCompensationOptions {
     }
 
     /**
-     * Gets the value of the level property.
+     * Recupera il valore della proprietà level.
      * This getter has been renamed from isLevel() to getLevel() by cxf-xjc-boolean plugin.
      * 
      */
@@ -93,7 +93,7 @@ public class ToneCompensationOptions {
     }
 
     /**
-     * Sets the value of the level property.
+     * Imposta il valore della proprietà level.
      * 
      */
     public void setLevel(boolean value) {
@@ -118,8 +118,8 @@ public class ToneCompensationOptions {
      * 
      * <p>
      * Objects of the following type(s) are allowed in the list
-     * {@link java.lang.Object }
      * {@link Element }
+     * {@link java.lang.Object }
      * 
      * 
      */

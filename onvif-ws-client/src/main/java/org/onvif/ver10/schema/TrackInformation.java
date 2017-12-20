@@ -18,9 +18,9 @@ import org.w3c.dom.Element;
 
 
 /**
- * <p>Java class for TrackInformation complex type.
+ * <p>Classe Java per TrackInformation complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>Il seguente frammento di schema specifica il contenuto previsto contenuto in questa classe.
  * 
  * <pre>
  * &lt;complexType name="TrackInformation"&gt;
@@ -72,7 +72,7 @@ public class TrackInformation {
     private Map<QName, String> otherAttributes = new HashMap<QName, String>();
 
     /**
-     * Gets the value of the trackToken property.
+     * Recupera il valore della proprietà trackToken.
      * 
      * @return
      *     possible object is
@@ -84,7 +84,7 @@ public class TrackInformation {
     }
 
     /**
-     * Sets the value of the trackToken property.
+     * Imposta il valore della proprietà trackToken.
      * 
      * @param value
      *     allowed object is
@@ -96,7 +96,7 @@ public class TrackInformation {
     }
 
     /**
-     * Gets the value of the trackType property.
+     * Recupera il valore della proprietà trackType.
      * 
      * @return
      *     possible object is
@@ -108,7 +108,7 @@ public class TrackInformation {
     }
 
     /**
-     * Sets the value of the trackType property.
+     * Imposta il valore della proprietà trackType.
      * 
      * @param value
      *     allowed object is
@@ -120,7 +120,7 @@ public class TrackInformation {
     }
 
     /**
-     * Gets the value of the description property.
+     * Recupera il valore della proprietà description.
      * 
      * @return
      *     possible object is
@@ -132,7 +132,7 @@ public class TrackInformation {
     }
 
     /**
-     * Sets the value of the description property.
+     * Imposta il valore della proprietà description.
      * 
      * @param value
      *     allowed object is
@@ -144,7 +144,7 @@ public class TrackInformation {
     }
 
     /**
-     * Gets the value of the dataFrom property.
+     * Recupera il valore della proprietà dataFrom.
      * 
      * @return
      *     possible object is
@@ -156,7 +156,7 @@ public class TrackInformation {
     }
 
     /**
-     * Sets the value of the dataFrom property.
+     * Imposta il valore della proprietà dataFrom.
      * 
      * @param value
      *     allowed object is
@@ -168,7 +168,7 @@ public class TrackInformation {
     }
 
     /**
-     * Gets the value of the dataTo property.
+     * Recupera il valore della proprietà dataTo.
      * 
      * @return
      *     possible object is
@@ -180,7 +180,7 @@ public class TrackInformation {
     }
 
     /**
-     * Sets the value of the dataTo property.
+     * Imposta il valore della proprietà dataTo.
      * 
      * @param value
      *     allowed object is
@@ -209,8 +209,8 @@ public class TrackInformation {
      * 
      * <p>
      * Objects of the following type(s) are allowed in the list
-     * {@link java.lang.Object }
      * {@link Element }
+     * {@link java.lang.Object }
      * 
      * 
      */

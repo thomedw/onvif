@@ -15,9 +15,9 @@ import javax.xml.namespace.QName;
 
 
 /**
- * <p>Java class for NetworkHost complex type.
+ * <p>Classe Java per NetworkHost complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>Il seguente frammento di schema specifica il contenuto previsto contenuto in questa classe.
  * 
  * <pre>
  * &lt;complexType name="NetworkHost"&gt;
@@ -69,7 +69,7 @@ public class NetworkHost {
     private Map<QName, String> otherAttributes = new HashMap<QName, String>();
 
     /**
-     * Gets the value of the type property.
+     * Recupera il valore della proprietà type.
      * 
      * @return
      *     possible object is
@@ -81,7 +81,7 @@ public class NetworkHost {
     }
 
     /**
-     * Sets the value of the type property.
+     * Imposta il valore della proprietà type.
      * 
      * @param value
      *     allowed object is
@@ -93,7 +93,7 @@ public class NetworkHost {
     }
 
     /**
-     * Gets the value of the iPv4Address property.
+     * Recupera il valore della proprietà iPv4Address.
      * 
      * @return
      *     possible object is
@@ -105,7 +105,7 @@ public class NetworkHost {
     }
 
     /**
-     * Sets the value of the iPv4Address property.
+     * Imposta il valore della proprietà iPv4Address.
      * 
      * @param value
      *     allowed object is
@@ -117,7 +117,7 @@ public class NetworkHost {
     }
 
     /**
-     * Gets the value of the iPv6Address property.
+     * Recupera il valore della proprietà iPv6Address.
      * 
      * @return
      *     possible object is
@@ -129,7 +129,7 @@ public class NetworkHost {
     }
 
     /**
-     * Sets the value of the iPv6Address property.
+     * Imposta il valore della proprietà iPv6Address.
      * 
      * @param value
      *     allowed object is
@@ -141,7 +141,7 @@ public class NetworkHost {
     }
 
     /**
-     * Gets the value of the dnSname property.
+     * Recupera il valore della proprietà dnSname.
      * 
      * @return
      *     possible object is
@@ -153,7 +153,7 @@ public class NetworkHost {
     }
 
     /**
-     * Sets the value of the dnSname property.
+     * Imposta il valore della proprietà dnSname.
      * 
      * @param value
      *     allowed object is
@@ -165,7 +165,7 @@ public class NetworkHost {
     }
 
     /**
-     * Gets the value of the extension property.
+     * Recupera il valore della proprietà extension.
      * 
      * @return
      *     possible object is
@@ -177,7 +177,7 @@ public class NetworkHost {
     }
 
     /**
-     * Sets the value of the extension property.
+     * Imposta il valore della proprietà extension.
      * 
      * @param value
      *     allowed object is

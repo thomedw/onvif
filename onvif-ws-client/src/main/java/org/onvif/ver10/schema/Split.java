@@ -10,9 +10,9 @@ import javax.xml.bind.annotation.XmlType;
 
 
 /**
- * <p>Java class for Split complex type.
+ * <p>Classe Java per Split complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>Il seguente frammento di schema specifica il contenuto previsto contenuto in questa classe.
  * 
  * <pre>
  * &lt;complexType name="Split"&gt;
@@ -42,7 +42,7 @@ public class Split {
     protected List<ObjectId> to;
 
     /**
-     * Gets the value of the from property.
+     * Recupera il valore della proprietà from.
      * 
      * @return
      *     possible object is
@@ -54,7 +54,7 @@ public class Split {
     }
 
     /**
-     * Sets the value of the from property.
+     * Imposta il valore della proprietà from.
      * 
      * @param value
      *     allowed object is

@@ -16,9 +16,9 @@ import javax.xml.namespace.QName;
 /**
  * A structure for defining a limited scope when searching in recorded data.
  * 
- * <p>Java class for SearchScope complex type.
+ * <p>Classe Java per SearchScope complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>Il seguente frammento di schema specifica il contenuto previsto contenuto in questa classe.
  * 
  * <pre>
  * &lt;complexType name="SearchScope"&gt;
@@ -117,7 +117,7 @@ public class SearchScope {
     }
 
     /**
-     * Gets the value of the recordingInformationFilter property.
+     * Recupera il valore della proprietà recordingInformationFilter.
      * 
      * @return
      *     possible object is
@@ -129,7 +129,7 @@ public class SearchScope {
     }
 
     /**
-     * Sets the value of the recordingInformationFilter property.
+     * Imposta il valore della proprietà recordingInformationFilter.
      * 
      * @param value
      *     allowed object is
@@ -141,7 +141,7 @@ public class SearchScope {
     }
 
     /**
-     * Gets the value of the extension property.
+     * Recupera il valore della proprietà extension.
      * 
      * @return
      *     possible object is
@@ -153,7 +153,7 @@ public class SearchScope {
     }
 
     /**
-     * Sets the value of the extension property.
+     * Imposta il valore della proprietà extension.
      * 
      * @param value
      *     allowed object is

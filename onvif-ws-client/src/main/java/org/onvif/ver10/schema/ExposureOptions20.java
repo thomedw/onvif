@@ -11,9 +11,9 @@ import javax.xml.bind.annotation.XmlType;
 
 
 /**
- * <p>Java class for ExposureOptions20 complex type.
+ * <p>Classe Java per ExposureOptions20 complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>Il seguente frammento di schema specifica il contenuto previsto contenuto in questa classe.
  * 
  * <pre>
  * &lt;complexType name="ExposureOptions20"&gt;
@@ -139,7 +139,7 @@ public class ExposureOptions20 {
     }
 
     /**
-     * Gets the value of the minExposureTime property.
+     * Recupera il valore della proprietà minExposureTime.
      * 
      * @return
      *     possible object is
@@ -151,7 +151,7 @@ public class ExposureOptions20 {
     }
 
     /**
-     * Sets the value of the minExposureTime property.
+     * Imposta il valore della proprietà minExposureTime.
      * 
      * @param value
      *     allowed object is
@@ -163,7 +163,7 @@ public class ExposureOptions20 {
     }
 
     /**
-     * Gets the value of the maxExposureTime property.
+     * Recupera il valore della proprietà maxExposureTime.
      * 
      * @return
      *     possible object is
@@ -175,7 +175,7 @@ public class ExposureOptions20 {
     }
 
     /**
-     * Sets the value of the maxExposureTime property.
+     * Imposta il valore della proprietà maxExposureTime.
      * 
      * @param value
      *     allowed object is
@@ -187,7 +187,7 @@ public class ExposureOptions20 {
     }
 
     /**
-     * Gets the value of the minGain property.
+     * Recupera il valore della proprietà minGain.
      * 
      * @return
      *     possible object is
@@ -199,7 +199,7 @@ public class ExposureOptions20 {
     }
 
     /**
-     * Sets the value of the minGain property.
+     * Imposta il valore della proprietà minGain.
      * 
      * @param value
      *     allowed object is
@@ -211,7 +211,7 @@ public class ExposureOptions20 {
     }
 
     /**
-     * Gets the value of the maxGain property.
+     * Recupera il valore della proprietà maxGain.
      * 
      * @return
      *     possible object is
@@ -223,7 +223,7 @@ public class ExposureOptions20 {
     }
 
     /**
-     * Sets the value of the maxGain property.
+     * Imposta il valore della proprietà maxGain.
      * 
      * @param value
      *     allowed object is
@@ -235,7 +235,7 @@ public class ExposureOptions20 {
     }
 
     /**
-     * Gets the value of the minIris property.
+     * Recupera il valore della proprietà minIris.
      * 
      * @return
      *     possible object is
@@ -247,7 +247,7 @@ public class ExposureOptions20 {
     }
 
     /**
-     * Sets the value of the minIris property.
+     * Imposta il valore della proprietà minIris.
      * 
      * @param value
      *     allowed object is
@@ -259,7 +259,7 @@ public class ExposureOptions20 {
     }
 
     /**
-     * Gets the value of the maxIris property.
+     * Recupera il valore della proprietà maxIris.
      * 
      * @return
      *     possible object is
@@ -271,7 +271,7 @@ public class ExposureOptions20 {
     }
 
     /**
-     * Sets the value of the maxIris property.
+     * Imposta il valore della proprietà maxIris.
      * 
      * @param value
      *     allowed object is
@@ -283,7 +283,7 @@ public class ExposureOptions20 {
     }
 
     /**
-     * Gets the value of the exposureTime property.
+     * Recupera il valore della proprietà exposureTime.
      * 
      * @return
      *     possible object is
@@ -295,7 +295,7 @@ public class ExposureOptions20 {
     }
 
     /**
-     * Sets the value of the exposureTime property.
+     * Imposta il valore della proprietà exposureTime.
      * 
      * @param value
      *     allowed object is
@@ -307,7 +307,7 @@ public class ExposureOptions20 {
     }
 
     /**
-     * Gets the value of the gain property.
+     * Recupera il valore della proprietà gain.
      * 
      * @return
      *     possible object is
@@ -319,7 +319,7 @@ public class ExposureOptions20 {
     }
 
     /**
-     * Sets the value of the gain property.
+     * Imposta il valore della proprietà gain.
      * 
      * @param value
      *     allowed object is
@@ -331,7 +331,7 @@ public class ExposureOptions20 {
     }
 
     /**
-     * Gets the value of the iris property.
+     * Recupera il valore della proprietà iris.
      * 
      * @return
      *     possible object is
@@ -343,7 +343,7 @@ public class ExposureOptions20 {
     }
 
     /**
-     * Sets the value of the iris property.
+     * Imposta il valore della proprietà iris.
      * 
      * @param value
      *     allowed object is

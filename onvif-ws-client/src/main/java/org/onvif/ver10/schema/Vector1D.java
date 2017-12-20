@@ -9,9 +9,9 @@ import javax.xml.bind.annotation.XmlType;
 
 
 /**
- * <p>Java class for Vector1D complex type.
+ * <p>Classe Java per Vector1D complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>Il seguente frammento di schema specifica il contenuto previsto contenuto in questa classe.
  * 
  * <pre>
  * &lt;complexType name="Vector1D"&gt;
@@ -37,7 +37,7 @@ public class Vector1D {
     protected String space;
 
     /**
-     * Gets the value of the x property.
+     * Recupera il valore della proprietà x.
      * 
      */
     public float getX() {
@@ -45,7 +45,7 @@ public class Vector1D {
     }
 
     /**
-     * Sets the value of the x property.
+     * Imposta il valore della proprietà x.
      * 
      */
     public void setX(float value) {
@@ -53,7 +53,7 @@ public class Vector1D {
     }
 
     /**
-     * Gets the value of the space property.
+     * Recupera il valore della proprietà space.
      * 
      * @return
      *     possible object is
@@ -65,7 +65,7 @@ public class Vector1D {
     }
 
     /**
-     * Sets the value of the space property.
+     * Imposta il valore della proprietà space.
      * 
      * @param value
      *     allowed object is

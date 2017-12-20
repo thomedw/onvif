@@ -15,9 +15,9 @@ import org.onvif.ver10.pacs.DataEntity;
  * 						shall provide the following fields for each AccessProfileInfo.
  * 					
  * 
- * <p>Java class for AccessProfileInfo complex type.
+ * <p>Classe Java per AccessProfileInfo complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>Il seguente frammento di schema specifica il contenuto previsto contenuto in questa classe.
  * 
  * <pre>
  * &lt;complexType name="AccessProfileInfo"&gt;
@@ -52,7 +52,7 @@ public class AccessProfileInfo
     protected String description;
 
     /**
-     * Gets the value of the name property.
+     * Recupera il valore della proprietà name.
      * 
      * @return
      *     possible object is
@@ -64,7 +64,7 @@ public class AccessProfileInfo
     }
 
     /**
-     * Sets the value of the name property.
+     * Imposta il valore della proprietà name.
      * 
      * @param value
      *     allowed object is
@@ -76,7 +76,7 @@ public class AccessProfileInfo
     }
 
     /**
-     * Gets the value of the description property.
+     * Recupera il valore della proprietà description.
      * 
      * @return
      *     possible object is
@@ -88,7 +88,7 @@ public class AccessProfileInfo
     }
 
     /**
-     * Sets the value of the description property.
+     * Imposta il valore della proprietà description.
      * 
      * @param value
      *     allowed object is

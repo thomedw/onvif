@@ -13,9 +13,9 @@ import javax.xml.bind.annotation.XmlType;
 /**
  * A list with all certificates stored in the keystore.
  * 
- * <p>Java class for anonymous complex type.
+ * <p>Classe Java per anonymous complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>Il seguente frammento di schema specifica il contenuto previsto contenuto in questa classe.
  * 
  * <pre>
  * &lt;complexType&gt;

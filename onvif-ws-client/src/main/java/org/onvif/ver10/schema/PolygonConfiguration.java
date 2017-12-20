@@ -16,9 +16,9 @@ import org.w3c.dom.Element;
 
 
 /**
- * <p>Java class for PolygonConfiguration complex type.
+ * <p>Classe Java per PolygonConfiguration complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>Il seguente frammento di schema specifica il contenuto previsto contenuto in questa classe.
  * 
  * <pre>
  * &lt;complexType name="PolygonConfiguration"&gt;
@@ -51,7 +51,7 @@ public class PolygonConfiguration {
     private Map<QName, String> otherAttributes = new HashMap<QName, String>();
 
     /**
-     * Gets the value of the polygon property.
+     * Recupera il valore della proprietà polygon.
      * 
      * @return
      *     possible object is
@@ -63,7 +63,7 @@ public class PolygonConfiguration {
     }
 
     /**
-     * Sets the value of the polygon property.
+     * Imposta il valore della proprietà polygon.
      * 
      * @param value
      *     allowed object is
@@ -92,8 +92,8 @@ public class PolygonConfiguration {
      * 
      * <p>
      * Objects of the following type(s) are allowed in the list
-     * {@link java.lang.Object }
      * {@link Element }
+     * {@link java.lang.Object }
      * 
      * 
      */

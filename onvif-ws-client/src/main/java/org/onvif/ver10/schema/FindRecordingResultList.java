@@ -11,9 +11,9 @@ import javax.xml.bind.annotation.XmlType;
 
 
 /**
- * <p>Java class for FindRecordingResultList complex type.
+ * <p>Classe Java per FindRecordingResultList complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>Il seguente frammento di schema specifica il contenuto previsto contenuto in questa classe.
  * 
  * <pre>
  * &lt;complexType name="FindRecordingResultList"&gt;
@@ -44,7 +44,7 @@ public class FindRecordingResultList {
     protected List<RecordingInformation> recordingInformation;
 
     /**
-     * Gets the value of the searchState property.
+     * Recupera il valore della proprietà searchState.
      * 
      * @return
      *     possible object is
@@ -56,7 +56,7 @@ public class FindRecordingResultList {
     }
 
     /**
-     * Sets the value of the searchState property.
+     * Imposta il valore della proprietà searchState.
      * 
      * @param value
      *     allowed object is

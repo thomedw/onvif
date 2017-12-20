@@ -10,9 +10,9 @@ import javax.xml.datatype.Duration;
 
 
 /**
- * <p>Java class for anonymous complex type.
+ * <p>Classe Java per anonymous complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>Il seguente frammento di schema specifica il contenuto previsto contenuto in questa classe.
  * 
  * <pre>
  * &lt;complexType&gt;
@@ -59,7 +59,7 @@ public class AccessDoor {
     protected AccessDoorExtension extension;
 
     /**
-     * Gets the value of the token property.
+     * Recupera il valore della proprietà token.
      * 
      * @return
      *     possible object is
@@ -71,7 +71,7 @@ public class AccessDoor {
     }
 
     /**
-     * Sets the value of the token property.
+     * Imposta il valore della proprietà token.
      * 
      * @param value
      *     allowed object is
@@ -83,7 +83,7 @@ public class AccessDoor {
     }
 
     /**
-     * Gets the value of the useExtendedTime property.
+     * Recupera il valore della proprietà useExtendedTime.
      * This getter has been renamed from isUseExtendedTime() to getUseExtendedTime() by cxf-xjc-boolean plugin.
      * 
      * @return
@@ -96,7 +96,7 @@ public class AccessDoor {
     }
 
     /**
-     * Sets the value of the useExtendedTime property.
+     * Imposta il valore della proprietà useExtendedTime.
      * 
      * @param value
      *     allowed object is
@@ -108,7 +108,7 @@ public class AccessDoor {
     }
 
     /**
-     * Gets the value of the accessTime property.
+     * Recupera il valore della proprietà accessTime.
      * 
      * @return
      *     possible object is
@@ -120,7 +120,7 @@ public class AccessDoor {
     }
 
     /**
-     * Sets the value of the accessTime property.
+     * Imposta il valore della proprietà accessTime.
      * 
      * @param value
      *     allowed object is
@@ -132,7 +132,7 @@ public class AccessDoor {
     }
 
     /**
-     * Gets the value of the openTooLongTime property.
+     * Recupera il valore della proprietà openTooLongTime.
      * 
      * @return
      *     possible object is
@@ -144,7 +144,7 @@ public class AccessDoor {
     }
 
     /**
-     * Sets the value of the openTooLongTime property.
+     * Imposta il valore della proprietà openTooLongTime.
      * 
      * @param value
      *     allowed object is
@@ -156,7 +156,7 @@ public class AccessDoor {
     }
 
     /**
-     * Gets the value of the preAlarmTime property.
+     * Recupera il valore della proprietà preAlarmTime.
      * 
      * @return
      *     possible object is
@@ -168,7 +168,7 @@ public class AccessDoor {
     }
 
     /**
-     * Sets the value of the preAlarmTime property.
+     * Imposta il valore della proprietà preAlarmTime.
      * 
      * @param value
      *     allowed object is
@@ -180,7 +180,7 @@ public class AccessDoor {
     }
 
     /**
-     * Gets the value of the extension property.
+     * Recupera il valore della proprietà extension.
      * 
      * @return
      *     possible object is
@@ -192,7 +192,7 @@ public class AccessDoor {
     }
 
     /**
-     * Sets the value of the extension property.
+     * Imposta il valore della proprietà extension.
      * 
      * @param value
      *     allowed object is

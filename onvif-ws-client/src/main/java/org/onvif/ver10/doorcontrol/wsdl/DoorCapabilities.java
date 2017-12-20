@@ -23,9 +23,9 @@ import org.w3c.dom.Element;
  * The following capabilities are available:
  * 
  * 
- * <p>Java class for DoorCapabilities complex type.
+ * <p>Classe Java per DoorCapabilities complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>Il seguente frammento di schema specifica il contenuto previsto contenuto in questa classe.
  * 
  * <pre>
  * &lt;complexType name="DoorCapabilities"&gt;
@@ -113,8 +113,8 @@ public class DoorCapabilities {
      * 
      * <p>
      * Objects of the following type(s) are allowed in the list
-     * {@link Object }
      * {@link Element }
+     * {@link Object }
      * 
      * 
      */
@@ -126,7 +126,7 @@ public class DoorCapabilities {
     }
 
     /**
-     * Gets the value of the access property.
+     * Recupera il valore della proprietà access.
      * This getter has been renamed from isAccess() to getAccess() by cxf-xjc-boolean plugin.
      * 
      * @return
@@ -139,7 +139,7 @@ public class DoorCapabilities {
     }
 
     /**
-     * Sets the value of the access property.
+     * Imposta il valore della proprietà access.
      * 
      * @param value
      *     allowed object is
@@ -151,7 +151,7 @@ public class DoorCapabilities {
     }
 
     /**
-     * Gets the value of the accessTimingOverride property.
+     * Recupera il valore della proprietà accessTimingOverride.
      * This getter has been renamed from isAccessTimingOverride() to getAccessTimingOverride() by cxf-xjc-boolean plugin.
      * 
      * @return
@@ -164,7 +164,7 @@ public class DoorCapabilities {
     }
 
     /**
-     * Sets the value of the accessTimingOverride property.
+     * Imposta il valore della proprietà accessTimingOverride.
      * 
      * @param value
      *     allowed object is
@@ -176,7 +176,7 @@ public class DoorCapabilities {
     }
 
     /**
-     * Gets the value of the lock property.
+     * Recupera il valore della proprietà lock.
      * This getter has been renamed from isLock() to getLock() by cxf-xjc-boolean plugin.
      * 
      * @return
@@ -189,7 +189,7 @@ public class DoorCapabilities {
     }
 
     /**
-     * Sets the value of the lock property.
+     * Imposta il valore della proprietà lock.
      * 
      * @param value
      *     allowed object is
@@ -201,7 +201,7 @@ public class DoorCapabilities {
     }
 
     /**
-     * Gets the value of the unlock property.
+     * Recupera il valore della proprietà unlock.
      * This getter has been renamed from isUnlock() to getUnlock() by cxf-xjc-boolean plugin.
      * 
      * @return
@@ -214,7 +214,7 @@ public class DoorCapabilities {
     }
 
     /**
-     * Sets the value of the unlock property.
+     * Imposta il valore della proprietà unlock.
      * 
      * @param value
      *     allowed object is
@@ -226,7 +226,7 @@ public class DoorCapabilities {
     }
 
     /**
-     * Gets the value of the block property.
+     * Recupera il valore della proprietà block.
      * This getter has been renamed from isBlock() to getBlock() by cxf-xjc-boolean plugin.
      * 
      * @return
@@ -239,7 +239,7 @@ public class DoorCapabilities {
     }
 
     /**
-     * Sets the value of the block property.
+     * Imposta il valore della proprietà block.
      * 
      * @param value
      *     allowed object is
@@ -251,7 +251,7 @@ public class DoorCapabilities {
     }
 
     /**
-     * Gets the value of the doubleLock property.
+     * Recupera il valore della proprietà doubleLock.
      * This getter has been renamed from isDoubleLock() to getDoubleLock() by cxf-xjc-boolean plugin.
      * 
      * @return
@@ -264,7 +264,7 @@ public class DoorCapabilities {
     }
 
     /**
-     * Sets the value of the doubleLock property.
+     * Imposta il valore della proprietà doubleLock.
      * 
      * @param value
      *     allowed object is
@@ -276,7 +276,7 @@ public class DoorCapabilities {
     }
 
     /**
-     * Gets the value of the lockDown property.
+     * Recupera il valore della proprietà lockDown.
      * This getter has been renamed from isLockDown() to getLockDown() by cxf-xjc-boolean plugin.
      * 
      * @return
@@ -289,7 +289,7 @@ public class DoorCapabilities {
     }
 
     /**
-     * Sets the value of the lockDown property.
+     * Imposta il valore della proprietà lockDown.
      * 
      * @param value
      *     allowed object is
@@ -301,7 +301,7 @@ public class DoorCapabilities {
     }
 
     /**
-     * Gets the value of the lockOpen property.
+     * Recupera il valore della proprietà lockOpen.
      * This getter has been renamed from isLockOpen() to getLockOpen() by cxf-xjc-boolean plugin.
      * 
      * @return
@@ -314,7 +314,7 @@ public class DoorCapabilities {
     }
 
     /**
-     * Sets the value of the lockOpen property.
+     * Imposta il valore della proprietà lockOpen.
      * 
      * @param value
      *     allowed object is
@@ -326,7 +326,7 @@ public class DoorCapabilities {
     }
 
     /**
-     * Gets the value of the doorMonitor property.
+     * Recupera il valore della proprietà doorMonitor.
      * This getter has been renamed from isDoorMonitor() to getDoorMonitor() by cxf-xjc-boolean plugin.
      * 
      * @return
@@ -339,7 +339,7 @@ public class DoorCapabilities {
     }
 
     /**
-     * Sets the value of the doorMonitor property.
+     * Imposta il valore della proprietà doorMonitor.
      * 
      * @param value
      *     allowed object is
@@ -351,7 +351,7 @@ public class DoorCapabilities {
     }
 
     /**
-     * Gets the value of the lockMonitor property.
+     * Recupera il valore della proprietà lockMonitor.
      * This getter has been renamed from isLockMonitor() to getLockMonitor() by cxf-xjc-boolean plugin.
      * 
      * @return
@@ -364,7 +364,7 @@ public class DoorCapabilities {
     }
 
     /**
-     * Sets the value of the lockMonitor property.
+     * Imposta il valore della proprietà lockMonitor.
      * 
      * @param value
      *     allowed object is
@@ -376,7 +376,7 @@ public class DoorCapabilities {
     }
 
     /**
-     * Gets the value of the doubleLockMonitor property.
+     * Recupera il valore della proprietà doubleLockMonitor.
      * This getter has been renamed from isDoubleLockMonitor() to getDoubleLockMonitor() by cxf-xjc-boolean plugin.
      * 
      * @return
@@ -389,7 +389,7 @@ public class DoorCapabilities {
     }
 
     /**
-     * Sets the value of the doubleLockMonitor property.
+     * Imposta il valore della proprietà doubleLockMonitor.
      * 
      * @param value
      *     allowed object is
@@ -401,7 +401,7 @@ public class DoorCapabilities {
     }
 
     /**
-     * Gets the value of the alarm property.
+     * Recupera il valore della proprietà alarm.
      * This getter has been renamed from isAlarm() to getAlarm() by cxf-xjc-boolean plugin.
      * 
      * @return
@@ -414,7 +414,7 @@ public class DoorCapabilities {
     }
 
     /**
-     * Sets the value of the alarm property.
+     * Imposta il valore della proprietà alarm.
      * 
      * @param value
      *     allowed object is
@@ -426,7 +426,7 @@ public class DoorCapabilities {
     }
 
     /**
-     * Gets the value of the tamper property.
+     * Recupera il valore della proprietà tamper.
      * This getter has been renamed from isTamper() to getTamper() by cxf-xjc-boolean plugin.
      * 
      * @return
@@ -439,7 +439,7 @@ public class DoorCapabilities {
     }
 
     /**
-     * Sets the value of the tamper property.
+     * Imposta il valore della proprietà tamper.
      * 
      * @param value
      *     allowed object is
@@ -451,7 +451,7 @@ public class DoorCapabilities {
     }
 
     /**
-     * Gets the value of the fault property.
+     * Recupera il valore della proprietà fault.
      * This getter has been renamed from isFault() to getFault() by cxf-xjc-boolean plugin.
      * 
      * @return
@@ -464,7 +464,7 @@ public class DoorCapabilities {
     }
 
     /**
-     * Sets the value of the fault property.
+     * Imposta il valore della proprietà fault.
      * 
      * @param value
      *     allowed object is

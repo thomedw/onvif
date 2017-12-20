@@ -13,9 +13,9 @@ import javax.xml.namespace.QName;
 
 
 /**
- * <p>Java class for AppSequenceType complex type.
+ * <p>Classe Java per AppSequenceType complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>Il seguente frammento di schema specifica il contenuto previsto contenuto in questa classe.
  * 
  * <pre>
  * &lt;complexType name="AppSequenceType"&gt;
@@ -49,7 +49,7 @@ public class AppSequenceType {
     private Map<QName, String> otherAttributes = new HashMap<QName, String>();
 
     /**
-     * Gets the value of the instanceId property.
+     * Recupera il valore della proprietà instanceId.
      * 
      */
     public long getInstanceId() {
@@ -57,7 +57,7 @@ public class AppSequenceType {
     }
 
     /**
-     * Sets the value of the instanceId property.
+     * Imposta il valore della proprietà instanceId.
      * 
      */
     public void setInstanceId(long value) {
@@ -65,7 +65,7 @@ public class AppSequenceType {
     }
 
     /**
-     * Gets the value of the sequenceId property.
+     * Recupera il valore della proprietà sequenceId.
      * 
      * @return
      *     possible object is
@@ -77,7 +77,7 @@ public class AppSequenceType {
     }
 
     /**
-     * Sets the value of the sequenceId property.
+     * Imposta il valore della proprietà sequenceId.
      * 
      * @param value
      *     allowed object is
@@ -89,7 +89,7 @@ public class AppSequenceType {
     }
 
     /**
-     * Gets the value of the messageNumber property.
+     * Recupera il valore della proprietà messageNumber.
      * 
      */
     public long getMessageNumber() {
@@ -97,7 +97,7 @@ public class AppSequenceType {
     }
 
     /**
-     * Sets the value of the messageNumber property.
+     * Imposta il valore della proprietà messageNumber.
      * 
      */
     public void setMessageNumber(long value) {

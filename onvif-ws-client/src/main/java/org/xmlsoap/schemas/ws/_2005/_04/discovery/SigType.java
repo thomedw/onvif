@@ -18,9 +18,9 @@ import org.w3c.dom.Element;
 
 
 /**
- * <p>Java class for SigType complex type.
+ * <p>Classe Java per SigType complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>Il seguente frammento di schema specifica il contenuto previsto contenuto in questa classe.
  * 
  * <pre>
  * &lt;complexType name="SigType"&gt;
@@ -81,8 +81,8 @@ public class SigType {
      * 
      * <p>
      * Objects of the following type(s) are allowed in the list
-     * {@link Object }
      * {@link Element }
+     * {@link Object }
      * 
      * 
      */
@@ -94,7 +94,7 @@ public class SigType {
     }
 
     /**
-     * Gets the value of the scheme property.
+     * Recupera il valore della proprietà scheme.
      * 
      * @return
      *     possible object is
@@ -106,7 +106,7 @@ public class SigType {
     }
 
     /**
-     * Sets the value of the scheme property.
+     * Imposta il valore della proprietà scheme.
      * 
      * @param value
      *     allowed object is
@@ -118,7 +118,7 @@ public class SigType {
     }
 
     /**
-     * Gets the value of the keyId property.
+     * Recupera il valore della proprietà keyId.
      * 
      * @return
      *     possible object is
@@ -129,7 +129,7 @@ public class SigType {
     }
 
     /**
-     * Sets the value of the keyId property.
+     * Imposta il valore della proprietà keyId.
      * 
      * @param value
      *     allowed object is
@@ -169,7 +169,7 @@ public class SigType {
     }
 
     /**
-     * Gets the value of the sig property.
+     * Recupera il valore della proprietà sig.
      * 
      * @return
      *     possible object is
@@ -180,7 +180,7 @@ public class SigType {
     }
 
     /**
-     * Sets the value of the sig property.
+     * Imposta il valore della proprietà sig.
      * 
      * @param value
      *     allowed object is

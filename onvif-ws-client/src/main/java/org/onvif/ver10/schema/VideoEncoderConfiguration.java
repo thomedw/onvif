@@ -18,9 +18,9 @@ import org.w3c.dom.Element;
 
 
 /**
- * <p>Java class for VideoEncoderConfiguration complex type.
+ * <p>Classe Java per VideoEncoderConfiguration complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>Il seguente frammento di schema specifica il contenuto previsto contenuto in questa classe.
  * 
  * <pre>
  * &lt;complexType name="VideoEncoderConfiguration"&gt;
@@ -84,7 +84,7 @@ public class VideoEncoderConfiguration
     private Map<QName, String> otherAttributes = new HashMap<QName, String>();
 
     /**
-     * Gets the value of the encoding property.
+     * Recupera il valore della proprietà encoding.
      * 
      * @return
      *     possible object is
@@ -96,7 +96,7 @@ public class VideoEncoderConfiguration
     }
 
     /**
-     * Sets the value of the encoding property.
+     * Imposta il valore della proprietà encoding.
      * 
      * @param value
      *     allowed object is
@@ -108,7 +108,7 @@ public class VideoEncoderConfiguration
     }
 
     /**
-     * Gets the value of the resolution property.
+     * Recupera il valore della proprietà resolution.
      * 
      * @return
      *     possible object is
@@ -120,7 +120,7 @@ public class VideoEncoderConfiguration
     }
 
     /**
-     * Sets the value of the resolution property.
+     * Imposta il valore della proprietà resolution.
      * 
      * @param value
      *     allowed object is
@@ -132,7 +132,7 @@ public class VideoEncoderConfiguration
     }
 
     /**
-     * Gets the value of the quality property.
+     * Recupera il valore della proprietà quality.
      * 
      */
     public float getQuality() {
@@ -140,7 +140,7 @@ public class VideoEncoderConfiguration
     }
 
     /**
-     * Sets the value of the quality property.
+     * Imposta il valore della proprietà quality.
      * 
      */
     public void setQuality(float value) {
@@ -148,7 +148,7 @@ public class VideoEncoderConfiguration
     }
 
     /**
-     * Gets the value of the rateControl property.
+     * Recupera il valore della proprietà rateControl.
      * 
      * @return
      *     possible object is
@@ -160,7 +160,7 @@ public class VideoEncoderConfiguration
     }
 
     /**
-     * Sets the value of the rateControl property.
+     * Imposta il valore della proprietà rateControl.
      * 
      * @param value
      *     allowed object is
@@ -172,7 +172,7 @@ public class VideoEncoderConfiguration
     }
 
     /**
-     * Gets the value of the mpeg4 property.
+     * Recupera il valore della proprietà mpeg4.
      * 
      * @return
      *     possible object is
@@ -184,7 +184,7 @@ public class VideoEncoderConfiguration
     }
 
     /**
-     * Sets the value of the mpeg4 property.
+     * Imposta il valore della proprietà mpeg4.
      * 
      * @param value
      *     allowed object is
@@ -196,7 +196,7 @@ public class VideoEncoderConfiguration
     }
 
     /**
-     * Gets the value of the h264 property.
+     * Recupera il valore della proprietà h264.
      * 
      * @return
      *     possible object is
@@ -208,7 +208,7 @@ public class VideoEncoderConfiguration
     }
 
     /**
-     * Sets the value of the h264 property.
+     * Imposta il valore della proprietà h264.
      * 
      * @param value
      *     allowed object is
@@ -220,7 +220,7 @@ public class VideoEncoderConfiguration
     }
 
     /**
-     * Gets the value of the multicast property.
+     * Recupera il valore della proprietà multicast.
      * 
      * @return
      *     possible object is
@@ -232,7 +232,7 @@ public class VideoEncoderConfiguration
     }
 
     /**
-     * Sets the value of the multicast property.
+     * Imposta il valore della proprietà multicast.
      * 
      * @param value
      *     allowed object is
@@ -244,7 +244,7 @@ public class VideoEncoderConfiguration
     }
 
     /**
-     * Gets the value of the sessionTimeout property.
+     * Recupera il valore della proprietà sessionTimeout.
      * 
      * @return
      *     possible object is
@@ -256,7 +256,7 @@ public class VideoEncoderConfiguration
     }
 
     /**
-     * Sets the value of the sessionTimeout property.
+     * Imposta il valore della proprietà sessionTimeout.
      * 
      * @param value
      *     allowed object is
@@ -285,8 +285,8 @@ public class VideoEncoderConfiguration
      * 
      * <p>
      * Objects of the following type(s) are allowed in the list
-     * {@link java.lang.Object }
      * {@link Element }
+     * {@link java.lang.Object }
      * 
      * 
      */

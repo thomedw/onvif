@@ -16,9 +16,9 @@ import org.w3c.dom.Element;
 
 
 /**
- * <p>Java class for Capabilities complex type.
+ * <p>Classe Java per Capabilities complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>Il seguente frammento di schema specifica il contenuto previsto contenuto in questa classe.
  * 
  * <pre>
  * &lt;complexType name="Capabilities"&gt;
@@ -94,8 +94,8 @@ public class Capabilities {
      * 
      * <p>
      * Objects of the following type(s) are allowed in the list
-     * {@link Object }
      * {@link Element }
+     * {@link Object }
      * 
      * 
      */
@@ -107,7 +107,7 @@ public class Capabilities {
     }
 
     /**
-     * Gets the value of the dynamicRecordings property.
+     * Recupera il valore della proprietà dynamicRecordings.
      * This getter has been renamed from isDynamicRecordings() to getDynamicRecordings() by cxf-xjc-boolean plugin.
      * 
      * @return
@@ -120,7 +120,7 @@ public class Capabilities {
     }
 
     /**
-     * Sets the value of the dynamicRecordings property.
+     * Imposta il valore della proprietà dynamicRecordings.
      * 
      * @param value
      *     allowed object is
@@ -132,7 +132,7 @@ public class Capabilities {
     }
 
     /**
-     * Gets the value of the dynamicTracks property.
+     * Recupera il valore della proprietà dynamicTracks.
      * This getter has been renamed from isDynamicTracks() to getDynamicTracks() by cxf-xjc-boolean plugin.
      * 
      * @return
@@ -145,7 +145,7 @@ public class Capabilities {
     }
 
     /**
-     * Sets the value of the dynamicTracks property.
+     * Imposta il valore della proprietà dynamicTracks.
      * 
      * @param value
      *     allowed object is
@@ -186,7 +186,7 @@ public class Capabilities {
     }
 
     /**
-     * Gets the value of the maxRate property.
+     * Recupera il valore della proprietà maxRate.
      * 
      * @return
      *     possible object is
@@ -198,7 +198,7 @@ public class Capabilities {
     }
 
     /**
-     * Sets the value of the maxRate property.
+     * Imposta il valore della proprietà maxRate.
      * 
      * @param value
      *     allowed object is
@@ -210,7 +210,7 @@ public class Capabilities {
     }
 
     /**
-     * Gets the value of the maxTotalRate property.
+     * Recupera il valore della proprietà maxTotalRate.
      * 
      * @return
      *     possible object is
@@ -222,7 +222,7 @@ public class Capabilities {
     }
 
     /**
-     * Sets the value of the maxTotalRate property.
+     * Imposta il valore della proprietà maxTotalRate.
      * 
      * @param value
      *     allowed object is
@@ -234,7 +234,7 @@ public class Capabilities {
     }
 
     /**
-     * Gets the value of the maxRecordings property.
+     * Recupera il valore della proprietà maxRecordings.
      * 
      * @return
      *     possible object is
@@ -246,7 +246,7 @@ public class Capabilities {
     }
 
     /**
-     * Sets the value of the maxRecordings property.
+     * Imposta il valore della proprietà maxRecordings.
      * 
      * @param value
      *     allowed object is
@@ -258,7 +258,7 @@ public class Capabilities {
     }
 
     /**
-     * Gets the value of the maxRecordingJobs property.
+     * Recupera il valore della proprietà maxRecordingJobs.
      * 
      * @return
      *     possible object is
@@ -270,7 +270,7 @@ public class Capabilities {
     }
 
     /**
-     * Sets the value of the maxRecordingJobs property.
+     * Imposta il valore della proprietà maxRecordingJobs.
      * 
      * @param value
      *     allowed object is
@@ -282,7 +282,7 @@ public class Capabilities {
     }
 
     /**
-     * Gets the value of the options property.
+     * Recupera il valore della proprietà options.
      * This getter has been renamed from isOptions() to getOptions() by cxf-xjc-boolean plugin.
      * 
      * @return
@@ -295,7 +295,7 @@ public class Capabilities {
     }
 
     /**
-     * Sets the value of the options property.
+     * Imposta il valore della proprietà options.
      * 
      * @param value
      *     allowed object is
@@ -307,7 +307,7 @@ public class Capabilities {
     }
 
     /**
-     * Gets the value of the metadataRecording property.
+     * Recupera il valore della proprietà metadataRecording.
      * This getter has been renamed from isMetadataRecording() to getMetadataRecording() by cxf-xjc-boolean plugin.
      * 
      * @return
@@ -320,7 +320,7 @@ public class Capabilities {
     }
 
     /**
-     * Sets the value of the metadataRecording property.
+     * Imposta il valore della proprietà metadataRecording.
      * 
      * @param value
      *     allowed object is

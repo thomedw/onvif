@@ -12,9 +12,9 @@ import javax.xml.namespace.QName;
 
 
 /**
- * <p>Java class for VideoEncoderConfigurationOptions complex type.
+ * <p>Classe Java per VideoEncoderConfigurationOptions complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>Il seguente frammento di schema specifica il contenuto previsto contenuto in questa classe.
  * 
  * <pre>
  * &lt;complexType name="VideoEncoderConfigurationOptions"&gt;
@@ -59,7 +59,7 @@ public class VideoEncoderConfigurationOptions {
     private Map<QName, String> otherAttributes = new HashMap<QName, String>();
 
     /**
-     * Gets the value of the qualityRange property.
+     * Recupera il valore della proprietà qualityRange.
      * 
      * @return
      *     possible object is
@@ -71,7 +71,7 @@ public class VideoEncoderConfigurationOptions {
     }
 
     /**
-     * Sets the value of the qualityRange property.
+     * Imposta il valore della proprietà qualityRange.
      * 
      * @param value
      *     allowed object is
@@ -83,7 +83,7 @@ public class VideoEncoderConfigurationOptions {
     }
 
     /**
-     * Gets the value of the jpeg property.
+     * Recupera il valore della proprietà jpeg.
      * 
      * @return
      *     possible object is
@@ -95,7 +95,7 @@ public class VideoEncoderConfigurationOptions {
     }
 
     /**
-     * Sets the value of the jpeg property.
+     * Imposta il valore della proprietà jpeg.
      * 
      * @param value
      *     allowed object is
@@ -107,7 +107,7 @@ public class VideoEncoderConfigurationOptions {
     }
 
     /**
-     * Gets the value of the mpeg4 property.
+     * Recupera il valore della proprietà mpeg4.
      * 
      * @return
      *     possible object is
@@ -119,7 +119,7 @@ public class VideoEncoderConfigurationOptions {
     }
 
     /**
-     * Sets the value of the mpeg4 property.
+     * Imposta il valore della proprietà mpeg4.
      * 
      * @param value
      *     allowed object is
@@ -131,7 +131,7 @@ public class VideoEncoderConfigurationOptions {
     }
 
     /**
-     * Gets the value of the h264 property.
+     * Recupera il valore della proprietà h264.
      * 
      * @return
      *     possible object is
@@ -143,7 +143,7 @@ public class VideoEncoderConfigurationOptions {
     }
 
     /**
-     * Sets the value of the h264 property.
+     * Imposta il valore della proprietà h264.
      * 
      * @param value
      *     allowed object is
@@ -155,7 +155,7 @@ public class VideoEncoderConfigurationOptions {
     }
 
     /**
-     * Gets the value of the extension property.
+     * Recupera il valore della proprietà extension.
      * 
      * @return
      *     possible object is
@@ -167,7 +167,7 @@ public class VideoEncoderConfigurationOptions {
     }
 
     /**
-     * Sets the value of the extension property.
+     * Imposta il valore della proprietà extension.
      * 
      * @param value
      *     allowed object is

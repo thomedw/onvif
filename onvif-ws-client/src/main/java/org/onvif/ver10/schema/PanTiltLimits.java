@@ -8,9 +8,9 @@ import javax.xml.bind.annotation.XmlType;
 
 
 /**
- * <p>Java class for PanTiltLimits complex type.
+ * <p>Classe Java per PanTiltLimits complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>Il seguente frammento di schema specifica il contenuto previsto contenuto in questa classe.
  * 
  * <pre>
  * &lt;complexType name="PanTiltLimits"&gt;
@@ -36,7 +36,7 @@ public class PanTiltLimits {
     protected Space2DDescription range;
 
     /**
-     * Gets the value of the range property.
+     * Recupera il valore della proprietà range.
      * 
      * @return
      *     possible object is
@@ -48,7 +48,7 @@ public class PanTiltLimits {
     }
 
     /**
-     * Sets the value of the range property.
+     * Imposta il valore della proprietà range.
      * 
      * @param value
      *     allowed object is

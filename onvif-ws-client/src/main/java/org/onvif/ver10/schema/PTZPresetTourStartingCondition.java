@@ -15,9 +15,9 @@ import javax.xml.namespace.QName;
 
 
 /**
- * <p>Java class for PTZPresetTourStartingCondition complex type.
+ * <p>Classe Java per PTZPresetTourStartingCondition complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>Il seguente frammento di schema specifica il contenuto previsto contenuto in questa classe.
  * 
  * <pre>
  * &lt;complexType name="PTZPresetTourStartingCondition"&gt;
@@ -62,7 +62,7 @@ public class PTZPresetTourStartingCondition {
     private Map<QName, String> otherAttributes = new HashMap<QName, String>();
 
     /**
-     * Gets the value of the recurringTime property.
+     * Recupera il valore della proprietà recurringTime.
      * 
      * @return
      *     possible object is
@@ -74,7 +74,7 @@ public class PTZPresetTourStartingCondition {
     }
 
     /**
-     * Sets the value of the recurringTime property.
+     * Imposta il valore della proprietà recurringTime.
      * 
      * @param value
      *     allowed object is
@@ -86,7 +86,7 @@ public class PTZPresetTourStartingCondition {
     }
 
     /**
-     * Gets the value of the recurringDuration property.
+     * Recupera il valore della proprietà recurringDuration.
      * 
      * @return
      *     possible object is
@@ -98,7 +98,7 @@ public class PTZPresetTourStartingCondition {
     }
 
     /**
-     * Sets the value of the recurringDuration property.
+     * Imposta il valore della proprietà recurringDuration.
      * 
      * @param value
      *     allowed object is
@@ -110,7 +110,7 @@ public class PTZPresetTourStartingCondition {
     }
 
     /**
-     * Gets the value of the direction property.
+     * Recupera il valore della proprietà direction.
      * 
      * @return
      *     possible object is
@@ -122,7 +122,7 @@ public class PTZPresetTourStartingCondition {
     }
 
     /**
-     * Sets the value of the direction property.
+     * Imposta il valore della proprietà direction.
      * 
      * @param value
      *     allowed object is
@@ -134,7 +134,7 @@ public class PTZPresetTourStartingCondition {
     }
 
     /**
-     * Gets the value of the extension property.
+     * Recupera il valore della proprietà extension.
      * 
      * @return
      *     possible object is
@@ -146,7 +146,7 @@ public class PTZPresetTourStartingCondition {
     }
 
     /**
-     * Sets the value of the extension property.
+     * Imposta il valore della proprietà extension.
      * 
      * @param value
      *     allowed object is
@@ -158,7 +158,7 @@ public class PTZPresetTourStartingCondition {
     }
 
     /**
-     * Gets the value of the randomPresetOrder property.
+     * Recupera il valore della proprietà randomPresetOrder.
      * This getter has been renamed from isRandomPresetOrder() to getRandomPresetOrder() by cxf-xjc-boolean plugin.
      * 
      * @return
@@ -171,7 +171,7 @@ public class PTZPresetTourStartingCondition {
     }
 
     /**
-     * Sets the value of the randomPresetOrder property.
+     * Imposta il valore della proprietà randomPresetOrder.
      * 
      * @param value
      *     allowed object is

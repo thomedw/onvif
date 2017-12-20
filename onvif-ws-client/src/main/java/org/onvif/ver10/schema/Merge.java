@@ -10,9 +10,9 @@ import javax.xml.bind.annotation.XmlType;
 
 
 /**
- * <p>Java class for Merge complex type.
+ * <p>Classe Java per Merge complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>Il seguente frammento di schema specifica il contenuto previsto contenuto in questa classe.
  * 
  * <pre>
  * &lt;complexType name="Merge"&gt;
@@ -71,7 +71,7 @@ public class Merge {
     }
 
     /**
-     * Gets the value of the to property.
+     * Recupera il valore della proprietà to.
      * 
      * @return
      *     possible object is
@@ -83,7 +83,7 @@ public class Merge {
     }
 
     /**
-     * Sets the value of the to property.
+     * Imposta il valore della proprietà to.
      * 
      * @param value
      *     allowed object is

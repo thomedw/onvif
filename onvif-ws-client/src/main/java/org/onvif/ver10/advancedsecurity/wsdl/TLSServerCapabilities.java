@@ -20,9 +20,9 @@ import org.w3c.dom.Element;
 /**
  * The capabilities of a TLS server implementation on a device.
  * 
- * <p>Java class for TLSServerCapabilities complex type.
+ * <p>Classe Java per TLSServerCapabilities complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>Il seguente frammento di schema specifica il contenuto previsto contenuto in questa classe.
  * 
  * <pre>
  * &lt;complexType name="TLSServerCapabilities"&gt;
@@ -82,8 +82,8 @@ public class TLSServerCapabilities {
      * 
      * <p>
      * Objects of the following type(s) are allowed in the list
-     * {@link Object }
      * {@link Element }
+     * {@link Object }
      * 
      * 
      */
@@ -124,7 +124,7 @@ public class TLSServerCapabilities {
     }
 
     /**
-     * Gets the value of the maximumNumberOfTLSCertificationPaths property.
+     * Recupera il valore della proprietà maximumNumberOfTLSCertificationPaths.
      * 
      * @return
      *     possible object is
@@ -136,7 +136,7 @@ public class TLSServerCapabilities {
     }
 
     /**
-     * Sets the value of the maximumNumberOfTLSCertificationPaths property.
+     * Imposta il valore della proprietà maximumNumberOfTLSCertificationPaths.
      * 
      * @param value
      *     allowed object is
@@ -148,7 +148,7 @@ public class TLSServerCapabilities {
     }
 
     /**
-     * Gets the value of the tlsClientAuthSupported property.
+     * Recupera il valore della proprietà tlsClientAuthSupported.
      * This getter has been renamed from isTLSClientAuthSupported() to getTLSClientAuthSupported() by cxf-xjc-boolean plugin.
      * 
      * @return
@@ -161,7 +161,7 @@ public class TLSServerCapabilities {
     }
 
     /**
-     * Sets the value of the tlsClientAuthSupported property.
+     * Imposta il valore della proprietà tlsClientAuthSupported.
      * 
      * @param value
      *     allowed object is
@@ -173,7 +173,7 @@ public class TLSServerCapabilities {
     }
 
     /**
-     * Gets the value of the maximumNumberOfTLSCertificationPathValidationPolicies property.
+     * Recupera il valore della proprietà maximumNumberOfTLSCertificationPathValidationPolicies.
      * 
      * @return
      *     possible object is
@@ -185,7 +185,7 @@ public class TLSServerCapabilities {
     }
 
     /**
-     * Sets the value of the maximumNumberOfTLSCertificationPathValidationPolicies property.
+     * Imposta il valore della proprietà maximumNumberOfTLSCertificationPathValidationPolicies.
      * 
      * @param value
      *     allowed object is

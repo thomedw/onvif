@@ -21,9 +21,9 @@ import org.w3c.dom.Element;
  * 			Describes the configuration of a receiver.
  * 		
  * 
- * <p>Java class for ReceiverConfiguration complex type.
+ * <p>Classe Java per ReceiverConfiguration complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>Il seguente frammento di schema specifica il contenuto previsto contenuto in questa classe.
  * 
  * <pre>
  * &lt;complexType name="ReceiverConfiguration"&gt;
@@ -66,7 +66,7 @@ public class ReceiverConfiguration {
     private Map<QName, String> otherAttributes = new HashMap<QName, String>();
 
     /**
-     * Gets the value of the mode property.
+     * Recupera il valore della proprietà mode.
      * 
      * @return
      *     possible object is
@@ -78,7 +78,7 @@ public class ReceiverConfiguration {
     }
 
     /**
-     * Sets the value of the mode property.
+     * Imposta il valore della proprietà mode.
      * 
      * @param value
      *     allowed object is
@@ -90,7 +90,7 @@ public class ReceiverConfiguration {
     }
 
     /**
-     * Gets the value of the mediaUri property.
+     * Recupera il valore della proprietà mediaUri.
      * 
      * @return
      *     possible object is
@@ -102,7 +102,7 @@ public class ReceiverConfiguration {
     }
 
     /**
-     * Sets the value of the mediaUri property.
+     * Imposta il valore della proprietà mediaUri.
      * 
      * @param value
      *     allowed object is
@@ -114,7 +114,7 @@ public class ReceiverConfiguration {
     }
 
     /**
-     * Gets the value of the streamSetup property.
+     * Recupera il valore della proprietà streamSetup.
      * 
      * @return
      *     possible object is
@@ -126,7 +126,7 @@ public class ReceiverConfiguration {
     }
 
     /**
-     * Sets the value of the streamSetup property.
+     * Imposta il valore della proprietà streamSetup.
      * 
      * @param value
      *     allowed object is
@@ -155,8 +155,8 @@ public class ReceiverConfiguration {
      * 
      * <p>
      * Objects of the following type(s) are allowed in the list
-     * {@link java.lang.Object }
      * {@link Element }
+     * {@link java.lang.Object }
      * 
      * 
      */

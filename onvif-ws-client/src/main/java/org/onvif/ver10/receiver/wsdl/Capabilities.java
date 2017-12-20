@@ -16,9 +16,9 @@ import org.w3c.dom.Element;
 
 
 /**
- * <p>Java class for Capabilities complex type.
+ * <p>Classe Java per Capabilities complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>Il seguente frammento di schema specifica il contenuto previsto contenuto in questa classe.
  * 
  * <pre>
  * &lt;complexType name="Capabilities"&gt;
@@ -79,8 +79,8 @@ public class Capabilities {
      * 
      * <p>
      * Objects of the following type(s) are allowed in the list
-     * {@link Object }
      * {@link Element }
+     * {@link Object }
      * 
      * 
      */
@@ -92,7 +92,7 @@ public class Capabilities {
     }
 
     /**
-     * Gets the value of the rtpMulticast property.
+     * Recupera il valore della proprietà rtpMulticast.
      * This getter has been renamed from isRTPMulticast() to getRTPMulticast() by cxf-xjc-boolean plugin.
      * 
      * @return
@@ -105,7 +105,7 @@ public class Capabilities {
     }
 
     /**
-     * Sets the value of the rtpMulticast property.
+     * Imposta il valore della proprietà rtpMulticast.
      * 
      * @param value
      *     allowed object is
@@ -117,7 +117,7 @@ public class Capabilities {
     }
 
     /**
-     * Gets the value of the rtptcp property.
+     * Recupera il valore della proprietà rtptcp.
      * This getter has been renamed from isRTPTCP() to getRTPTCP() by cxf-xjc-boolean plugin.
      * 
      * @return
@@ -130,7 +130,7 @@ public class Capabilities {
     }
 
     /**
-     * Sets the value of the rtptcp property.
+     * Imposta il valore della proprietà rtptcp.
      * 
      * @param value
      *     allowed object is
@@ -142,7 +142,7 @@ public class Capabilities {
     }
 
     /**
-     * Gets the value of the rtprtsptcp property.
+     * Recupera il valore della proprietà rtprtsptcp.
      * This getter has been renamed from isRTPRTSPTCP() to getRTPRTSPTCP() by cxf-xjc-boolean plugin.
      * 
      * @return
@@ -155,7 +155,7 @@ public class Capabilities {
     }
 
     /**
-     * Sets the value of the rtprtsptcp property.
+     * Imposta il valore della proprietà rtprtsptcp.
      * 
      * @param value
      *     allowed object is
@@ -167,7 +167,7 @@ public class Capabilities {
     }
 
     /**
-     * Gets the value of the supportedReceivers property.
+     * Recupera il valore della proprietà supportedReceivers.
      * 
      */
     public int getSupportedReceivers() {
@@ -175,7 +175,7 @@ public class Capabilities {
     }
 
     /**
-     * Sets the value of the supportedReceivers property.
+     * Imposta il valore della proprietà supportedReceivers.
      * 
      */
     public void setSupportedReceivers(int value) {
@@ -183,7 +183,7 @@ public class Capabilities {
     }
 
     /**
-     * Gets the value of the maximumRTSPURILength property.
+     * Recupera il valore della proprietà maximumRTSPURILength.
      * 
      * @return
      *     possible object is
@@ -195,7 +195,7 @@ public class Capabilities {
     }
 
     /**
-     * Sets the value of the maximumRTSPURILength property.
+     * Imposta il valore della proprietà maximumRTSPURILength.
      * 
      * @param value
      *     allowed object is

@@ -19,9 +19,9 @@ import org.xmlsoap.schemas.ws._2004._08.addressing.EndpointReferenceType;
 
 
 /**
- * <p>Java class for ByeType complex type.
+ * <p>Classe Java per ByeType complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>Il seguente frammento di schema specifica il contenuto previsto contenuto in questa classe.
  * 
  * <pre>
  * &lt;complexType name="ByeType"&gt;
@@ -75,7 +75,7 @@ public class ByeType {
     private Map<QName, String> otherAttributes = new HashMap<QName, String>();
 
     /**
-     * Gets the value of the endpointReference property.
+     * Recupera il valore della proprietà endpointReference.
      * 
      * @return
      *     possible object is
@@ -87,7 +87,7 @@ public class ByeType {
     }
 
     /**
-     * Sets the value of the endpointReference property.
+     * Imposta il valore della proprietà endpointReference.
      * 
      * @param value
      *     allowed object is
@@ -128,7 +128,7 @@ public class ByeType {
     }
 
     /**
-     * Gets the value of the scopes property.
+     * Recupera il valore della proprietà scopes.
      * 
      * @return
      *     possible object is
@@ -140,7 +140,7 @@ public class ByeType {
     }
 
     /**
-     * Sets the value of the scopes property.
+     * Imposta il valore della proprietà scopes.
      * 
      * @param value
      *     allowed object is
@@ -181,7 +181,7 @@ public class ByeType {
     }
 
     /**
-     * Gets the value of the metadataVersion property.
+     * Recupera il valore della proprietà metadataVersion.
      * 
      * @return
      *     possible object is
@@ -193,7 +193,7 @@ public class ByeType {
     }
 
     /**
-     * Sets the value of the metadataVersion property.
+     * Imposta il valore della proprietà metadataVersion.
      * 
      * @param value
      *     allowed object is
@@ -222,8 +222,8 @@ public class ByeType {
      * 
      * <p>
      * Objects of the following type(s) are allowed in the list
-     * {@link Object }
      * {@link Element }
+     * {@link Object }
      * 
      * 
      */

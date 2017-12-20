@@ -14,9 +14,9 @@ import org.onvif.ver10.schema.DynamicDNSType;
 
 
 /**
- * <p>Java class for anonymous complex type.
+ * <p>Classe Java per anonymous complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>Il seguente frammento di schema specifica il contenuto previsto contenuto in questa classe.
  * 
  * <pre>
  * &lt;complexType&gt;
@@ -54,7 +54,7 @@ public class SetDynamicDNS {
     protected Duration ttl;
 
     /**
-     * Gets the value of the type property.
+     * Recupera il valore della proprietà type.
      * 
      * @return
      *     possible object is
@@ -66,7 +66,7 @@ public class SetDynamicDNS {
     }
 
     /**
-     * Sets the value of the type property.
+     * Imposta il valore della proprietà type.
      * 
      * @param value
      *     allowed object is
@@ -78,7 +78,7 @@ public class SetDynamicDNS {
     }
 
     /**
-     * Gets the value of the name property.
+     * Recupera il valore della proprietà name.
      * 
      * @return
      *     possible object is
@@ -90,7 +90,7 @@ public class SetDynamicDNS {
     }
 
     /**
-     * Sets the value of the name property.
+     * Imposta il valore della proprietà name.
      * 
      * @param value
      *     allowed object is
@@ -102,7 +102,7 @@ public class SetDynamicDNS {
     }
 
     /**
-     * Gets the value of the ttl property.
+     * Recupera il valore della proprietà ttl.
      * 
      * @return
      *     possible object is
@@ -114,7 +114,7 @@ public class SetDynamicDNS {
     }
 
     /**
-     * Sets the value of the ttl property.
+     * Imposta il valore della proprietà ttl.
      * 
      * @param value
      *     allowed object is

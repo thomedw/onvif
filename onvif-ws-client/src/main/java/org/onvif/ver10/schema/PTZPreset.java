@@ -13,9 +13,9 @@ import javax.xml.namespace.QName;
 
 
 /**
- * <p>Java class for PTZPreset complex type.
+ * <p>Classe Java per PTZPreset complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>Il seguente frammento di schema specifica il contenuto previsto contenuto in questa classe.
  * 
  * <pre>
  * &lt;complexType name="PTZPreset"&gt;
@@ -51,7 +51,7 @@ public class PTZPreset {
     private Map<QName, String> otherAttributes = new HashMap<QName, String>();
 
     /**
-     * Gets the value of the name property.
+     * Recupera il valore della proprietà name.
      * 
      * @return
      *     possible object is
@@ -63,7 +63,7 @@ public class PTZPreset {
     }
 
     /**
-     * Sets the value of the name property.
+     * Imposta il valore della proprietà name.
      * 
      * @param value
      *     allowed object is
@@ -75,7 +75,7 @@ public class PTZPreset {
     }
 
     /**
-     * Gets the value of the ptzPosition property.
+     * Recupera il valore della proprietà ptzPosition.
      * 
      * @return
      *     possible object is
@@ -87,7 +87,7 @@ public class PTZPreset {
     }
 
     /**
-     * Sets the value of the ptzPosition property.
+     * Imposta il valore della proprietà ptzPosition.
      * 
      * @param value
      *     allowed object is
@@ -99,7 +99,7 @@ public class PTZPreset {
     }
 
     /**
-     * Gets the value of the token property.
+     * Recupera il valore della proprietà token.
      * 
      * @return
      *     possible object is
@@ -111,7 +111,7 @@ public class PTZPreset {
     }
 
     /**
-     * Sets the value of the token property.
+     * Imposta il valore della proprietà token.
      * 
      * @param value
      *     allowed object is

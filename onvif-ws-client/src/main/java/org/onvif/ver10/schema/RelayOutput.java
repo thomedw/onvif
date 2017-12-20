@@ -16,9 +16,9 @@ import org.w3c.dom.Element;
 
 
 /**
- * <p>Java class for RelayOutput complex type.
+ * <p>Classe Java per RelayOutput complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>Il seguente frammento di schema specifica il contenuto previsto contenuto in questa classe.
  * 
  * <pre>
  * &lt;complexType name="RelayOutput"&gt;
@@ -53,7 +53,7 @@ public class RelayOutput
     private Map<QName, String> otherAttributes = new HashMap<QName, String>();
 
     /**
-     * Gets the value of the properties property.
+     * Recupera il valore della proprietà properties.
      * 
      * @return
      *     possible object is
@@ -65,7 +65,7 @@ public class RelayOutput
     }
 
     /**
-     * Sets the value of the properties property.
+     * Imposta il valore della proprietà properties.
      * 
      * @param value
      *     allowed object is
@@ -94,8 +94,8 @@ public class RelayOutput
      * 
      * <p>
      * Objects of the following type(s) are allowed in the list
-     * {@link java.lang.Object }
      * {@link Element }
+     * {@link java.lang.Object }
      * 
      * 
      */

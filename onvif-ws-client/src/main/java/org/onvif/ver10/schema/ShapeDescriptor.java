@@ -14,9 +14,9 @@ import javax.xml.namespace.QName;
 
 
 /**
- * <p>Java class for ShapeDescriptor complex type.
+ * <p>Classe Java per ShapeDescriptor complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>Il seguente frammento di schema specifica il contenuto previsto contenuto in questa classe.
  * 
  * <pre>
  * &lt;complexType name="ShapeDescriptor"&gt;
@@ -57,7 +57,7 @@ public class ShapeDescriptor {
     private Map<QName, String> otherAttributes = new HashMap<QName, String>();
 
     /**
-     * Gets the value of the boundingBox property.
+     * Recupera il valore della proprietà boundingBox.
      * 
      * @return
      *     possible object is
@@ -69,7 +69,7 @@ public class ShapeDescriptor {
     }
 
     /**
-     * Sets the value of the boundingBox property.
+     * Imposta il valore della proprietà boundingBox.
      * 
      * @param value
      *     allowed object is
@@ -81,7 +81,7 @@ public class ShapeDescriptor {
     }
 
     /**
-     * Gets the value of the centerOfGravity property.
+     * Recupera il valore della proprietà centerOfGravity.
      * 
      * @return
      *     possible object is
@@ -93,7 +93,7 @@ public class ShapeDescriptor {
     }
 
     /**
-     * Sets the value of the centerOfGravity property.
+     * Imposta il valore della proprietà centerOfGravity.
      * 
      * @param value
      *     allowed object is
@@ -134,7 +134,7 @@ public class ShapeDescriptor {
     }
 
     /**
-     * Gets the value of the extension property.
+     * Recupera il valore della proprietà extension.
      * 
      * @return
      *     possible object is
@@ -146,7 +146,7 @@ public class ShapeDescriptor {
     }
 
     /**
-     * Sets the value of the extension property.
+     * Imposta il valore della proprietà extension.
      * 
      * @param value
      *     allowed object is

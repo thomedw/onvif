@@ -17,9 +17,9 @@ import org.w3c.dom.Element;
 
 
 /**
- * <p>Java class for EventCapabilities complex type.
+ * <p>Classe Java per EventCapabilities complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>Il seguente frammento di schema specifica il contenuto previsto contenuto in questa classe.
  * 
  * <pre>
  * &lt;complexType name="EventCapabilities"&gt;
@@ -65,7 +65,7 @@ public class EventCapabilities {
     private Map<QName, String> otherAttributes = new HashMap<QName, String>();
 
     /**
-     * Gets the value of the xAddr property.
+     * Recupera il valore della proprietà xAddr.
      * 
      * @return
      *     possible object is
@@ -77,7 +77,7 @@ public class EventCapabilities {
     }
 
     /**
-     * Sets the value of the xAddr property.
+     * Imposta il valore della proprietà xAddr.
      * 
      * @param value
      *     allowed object is
@@ -89,7 +89,7 @@ public class EventCapabilities {
     }
 
     /**
-     * Gets the value of the wsSubscriptionPolicySupport property.
+     * Recupera il valore della proprietà wsSubscriptionPolicySupport.
      * This getter has been renamed from isWSSubscriptionPolicySupport() to getWSSubscriptionPolicySupport() by cxf-xjc-boolean plugin.
      * 
      */
@@ -98,7 +98,7 @@ public class EventCapabilities {
     }
 
     /**
-     * Sets the value of the wsSubscriptionPolicySupport property.
+     * Imposta il valore della proprietà wsSubscriptionPolicySupport.
      * 
      */
     public void setWSSubscriptionPolicySupport(boolean value) {
@@ -106,7 +106,7 @@ public class EventCapabilities {
     }
 
     /**
-     * Gets the value of the wsPullPointSupport property.
+     * Recupera il valore della proprietà wsPullPointSupport.
      * This getter has been renamed from isWSPullPointSupport() to getWSPullPointSupport() by cxf-xjc-boolean plugin.
      * 
      */
@@ -115,7 +115,7 @@ public class EventCapabilities {
     }
 
     /**
-     * Sets the value of the wsPullPointSupport property.
+     * Imposta il valore della proprietà wsPullPointSupport.
      * 
      */
     public void setWSPullPointSupport(boolean value) {
@@ -123,7 +123,7 @@ public class EventCapabilities {
     }
 
     /**
-     * Gets the value of the wsPausableSubscriptionManagerInterfaceSupport property.
+     * Recupera il valore della proprietà wsPausableSubscriptionManagerInterfaceSupport.
      * This getter has been renamed from isWSPausableSubscriptionManagerInterfaceSupport() to getWSPausableSubscriptionManagerInterfaceSupport() by cxf-xjc-boolean plugin.
      * 
      */
@@ -132,7 +132,7 @@ public class EventCapabilities {
     }
 
     /**
-     * Sets the value of the wsPausableSubscriptionManagerInterfaceSupport property.
+     * Imposta il valore della proprietà wsPausableSubscriptionManagerInterfaceSupport.
      * 
      */
     public void setWSPausableSubscriptionManagerInterfaceSupport(boolean value) {
@@ -157,8 +157,8 @@ public class EventCapabilities {
      * 
      * <p>
      * Objects of the following type(s) are allowed in the list
-     * {@link java.lang.Object }
      * {@link Element }
+     * {@link java.lang.Object }
      * 
      * 
      */

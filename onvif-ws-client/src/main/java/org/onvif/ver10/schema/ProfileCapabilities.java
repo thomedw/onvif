@@ -16,9 +16,9 @@ import org.w3c.dom.Element;
 
 
 /**
- * <p>Java class for ProfileCapabilities complex type.
+ * <p>Classe Java per ProfileCapabilities complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>Il seguente frammento di schema specifica il contenuto previsto contenuto in questa classe.
  * 
  * <pre>
  * &lt;complexType name="ProfileCapabilities"&gt;
@@ -51,7 +51,7 @@ public class ProfileCapabilities {
     private Map<QName, String> otherAttributes = new HashMap<QName, String>();
 
     /**
-     * Gets the value of the maximumNumberOfProfiles property.
+     * Recupera il valore della proprietà maximumNumberOfProfiles.
      * 
      */
     public int getMaximumNumberOfProfiles() {
@@ -59,7 +59,7 @@ public class ProfileCapabilities {
     }
 
     /**
-     * Sets the value of the maximumNumberOfProfiles property.
+     * Imposta il valore della proprietà maximumNumberOfProfiles.
      * 
      */
     public void setMaximumNumberOfProfiles(int value) {
@@ -84,8 +84,8 @@ public class ProfileCapabilities {
      * 
      * <p>
      * Objects of the following type(s) are allowed in the list
-     * {@link java.lang.Object }
      * {@link Element }
+     * {@link java.lang.Object }
      * 
      * 
      */

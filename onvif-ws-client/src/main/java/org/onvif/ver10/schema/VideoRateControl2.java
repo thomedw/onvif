@@ -17,9 +17,9 @@ import org.w3c.dom.Element;
 
 
 /**
- * <p>Java class for VideoRateControl2 complex type.
+ * <p>Classe Java per VideoRateControl2 complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>Il seguente frammento di schema specifica il contenuto previsto contenuto in questa classe.
  * 
  * <pre>
  * &lt;complexType name="VideoRateControl2"&gt;
@@ -59,7 +59,7 @@ public class VideoRateControl2 {
     private Map<QName, String> otherAttributes = new HashMap<QName, String>();
 
     /**
-     * Gets the value of the frameRateLimit property.
+     * Recupera il valore della proprietà frameRateLimit.
      * 
      */
     public float getFrameRateLimit() {
@@ -67,7 +67,7 @@ public class VideoRateControl2 {
     }
 
     /**
-     * Sets the value of the frameRateLimit property.
+     * Imposta il valore della proprietà frameRateLimit.
      * 
      */
     public void setFrameRateLimit(float value) {
@@ -75,7 +75,7 @@ public class VideoRateControl2 {
     }
 
     /**
-     * Gets the value of the bitrateLimit property.
+     * Recupera il valore della proprietà bitrateLimit.
      * 
      */
     public int getBitrateLimit() {
@@ -83,7 +83,7 @@ public class VideoRateControl2 {
     }
 
     /**
-     * Sets the value of the bitrateLimit property.
+     * Imposta il valore della proprietà bitrateLimit.
      * 
      */
     public void setBitrateLimit(int value) {
@@ -108,8 +108,8 @@ public class VideoRateControl2 {
      * 
      * <p>
      * Objects of the following type(s) are allowed in the list
-     * {@link java.lang.Object }
      * {@link Element }
+     * {@link java.lang.Object }
      * 
      * 
      */
@@ -121,7 +121,7 @@ public class VideoRateControl2 {
     }
 
     /**
-     * Gets the value of the constantBitRate property.
+     * Recupera il valore della proprietà constantBitRate.
      * This getter has been renamed from isConstantBitRate() to getConstantBitRate() by cxf-xjc-boolean plugin.
      * 
      * @return
@@ -134,7 +134,7 @@ public class VideoRateControl2 {
     }
 
     /**
-     * Sets the value of the constantBitRate property.
+     * Imposta il valore della proprietà constantBitRate.
      * 
      * @param value
      *     allowed object is

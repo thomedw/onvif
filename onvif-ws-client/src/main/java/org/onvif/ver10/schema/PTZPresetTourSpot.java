@@ -13,9 +13,9 @@ import javax.xml.namespace.QName;
 
 
 /**
- * <p>Java class for PTZPresetTourSpot complex type.
+ * <p>Classe Java per PTZPresetTourSpot complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>Il seguente frammento di schema specifica il contenuto previsto contenuto in questa classe.
  * 
  * <pre>
  * &lt;complexType name="PTZPresetTourSpot"&gt;
@@ -56,7 +56,7 @@ public class PTZPresetTourSpot {
     private Map<QName, String> otherAttributes = new HashMap<QName, String>();
 
     /**
-     * Gets the value of the presetDetail property.
+     * Recupera il valore della proprietà presetDetail.
      * 
      * @return
      *     possible object is
@@ -68,7 +68,7 @@ public class PTZPresetTourSpot {
     }
 
     /**
-     * Sets the value of the presetDetail property.
+     * Imposta il valore della proprietà presetDetail.
      * 
      * @param value
      *     allowed object is
@@ -80,7 +80,7 @@ public class PTZPresetTourSpot {
     }
 
     /**
-     * Gets the value of the speed property.
+     * Recupera il valore della proprietà speed.
      * 
      * @return
      *     possible object is
@@ -92,7 +92,7 @@ public class PTZPresetTourSpot {
     }
 
     /**
-     * Sets the value of the speed property.
+     * Imposta il valore della proprietà speed.
      * 
      * @param value
      *     allowed object is
@@ -104,7 +104,7 @@ public class PTZPresetTourSpot {
     }
 
     /**
-     * Gets the value of the stayTime property.
+     * Recupera il valore della proprietà stayTime.
      * 
      * @return
      *     possible object is
@@ -116,7 +116,7 @@ public class PTZPresetTourSpot {
     }
 
     /**
-     * Sets the value of the stayTime property.
+     * Imposta il valore della proprietà stayTime.
      * 
      * @param value
      *     allowed object is
@@ -128,7 +128,7 @@ public class PTZPresetTourSpot {
     }
 
     /**
-     * Gets the value of the extension property.
+     * Recupera il valore della proprietà extension.
      * 
      * @return
      *     possible object is
@@ -140,7 +140,7 @@ public class PTZPresetTourSpot {
     }
 
     /**
-     * Sets the value of the extension property.
+     * Imposta il valore della proprietà extension.
      * 
      * @param value
      *     allowed object is

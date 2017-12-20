@@ -8,9 +8,9 @@ import javax.xml.bind.annotation.XmlType;
 
 
 /**
- * <p>Java class for BackupFile complex type.
+ * <p>Classe Java per BackupFile complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>Il seguente frammento di schema specifica il contenuto previsto contenuto in questa classe.
  * 
  * <pre>
  * &lt;complexType name="BackupFile"&gt;
@@ -40,7 +40,7 @@ public class BackupFile {
     protected AttachmentData data;
 
     /**
-     * Gets the value of the name property.
+     * Recupera il valore della proprietà name.
      * 
      * @return
      *     possible object is
@@ -52,7 +52,7 @@ public class BackupFile {
     }
 
     /**
-     * Sets the value of the name property.
+     * Imposta il valore della proprietà name.
      * 
      * @param value
      *     allowed object is
@@ -64,7 +64,7 @@ public class BackupFile {
     }
 
     /**
-     * Gets the value of the data property.
+     * Recupera il valore della proprietà data.
      * 
      * @return
      *     possible object is
@@ -76,7 +76,7 @@ public class BackupFile {
     }
 
     /**
-     * Sets the value of the data property.
+     * Imposta il valore della proprietà data.
      * 
      * @param value
      *     allowed object is

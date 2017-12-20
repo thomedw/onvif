@@ -13,9 +13,9 @@ import javax.xml.namespace.QName;
 
 
 /**
- * <p>Java class for DeviceCapabilities complex type.
+ * <p>Classe Java per DeviceCapabilities complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>Il seguente frammento di schema specifica il contenuto previsto contenuto in questa classe.
  * 
  * <pre>
  * &lt;complexType name="DeviceCapabilities"&gt;
@@ -65,7 +65,7 @@ public class DeviceCapabilities {
     private Map<QName, String> otherAttributes = new HashMap<QName, String>();
 
     /**
-     * Gets the value of the xAddr property.
+     * Recupera il valore della proprietà xAddr.
      * 
      * @return
      *     possible object is
@@ -77,7 +77,7 @@ public class DeviceCapabilities {
     }
 
     /**
-     * Sets the value of the xAddr property.
+     * Imposta il valore della proprietà xAddr.
      * 
      * @param value
      *     allowed object is
@@ -89,7 +89,7 @@ public class DeviceCapabilities {
     }
 
     /**
-     * Gets the value of the network property.
+     * Recupera il valore della proprietà network.
      * 
      * @return
      *     possible object is
@@ -101,7 +101,7 @@ public class DeviceCapabilities {
     }
 
     /**
-     * Sets the value of the network property.
+     * Imposta il valore della proprietà network.
      * 
      * @param value
      *     allowed object is
@@ -113,7 +113,7 @@ public class DeviceCapabilities {
     }
 
     /**
-     * Gets the value of the system property.
+     * Recupera il valore della proprietà system.
      * 
      * @return
      *     possible object is
@@ -125,7 +125,7 @@ public class DeviceCapabilities {
     }
 
     /**
-     * Sets the value of the system property.
+     * Imposta il valore della proprietà system.
      * 
      * @param value
      *     allowed object is
@@ -137,7 +137,7 @@ public class DeviceCapabilities {
     }
 
     /**
-     * Gets the value of the io property.
+     * Recupera il valore della proprietà io.
      * 
      * @return
      *     possible object is
@@ -149,7 +149,7 @@ public class DeviceCapabilities {
     }
 
     /**
-     * Sets the value of the io property.
+     * Imposta il valore della proprietà io.
      * 
      * @param value
      *     allowed object is
@@ -161,7 +161,7 @@ public class DeviceCapabilities {
     }
 
     /**
-     * Gets the value of the security property.
+     * Recupera il valore della proprietà security.
      * 
      * @return
      *     possible object is
@@ -173,7 +173,7 @@ public class DeviceCapabilities {
     }
 
     /**
-     * Sets the value of the security property.
+     * Imposta il valore della proprietà security.
      * 
      * @param value
      *     allowed object is
@@ -185,7 +185,7 @@ public class DeviceCapabilities {
     }
 
     /**
-     * Gets the value of the extension property.
+     * Recupera il valore della proprietà extension.
      * 
      * @return
      *     possible object is
@@ -197,7 +197,7 @@ public class DeviceCapabilities {
     }
 
     /**
-     * Sets the value of the extension property.
+     * Imposta il valore della proprietà extension.
      * 
      * @param value
      *     allowed object is

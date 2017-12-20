@@ -16,9 +16,9 @@ import org.w3c.dom.Element;
 
 
 /**
- * <p>Java class for anonymous complex type.
+ * <p>Classe Java per anonymous complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>Il seguente frammento di schema specifica il contenuto previsto contenuto in questa classe.
  * 
  * <pre>
  * &lt;complexType&gt;
@@ -59,7 +59,7 @@ public class SubscribeResponse {
     protected List<Object> any;
 
     /**
-     * Gets the value of the subscriptionReference property.
+     * Recupera il valore della proprietà subscriptionReference.
      * 
      * @return
      *     possible object is
@@ -71,7 +71,7 @@ public class SubscribeResponse {
     }
 
     /**
-     * Sets the value of the subscriptionReference property.
+     * Imposta il valore della proprietà subscriptionReference.
      * 
      * @param value
      *     allowed object is
@@ -83,7 +83,7 @@ public class SubscribeResponse {
     }
 
     /**
-     * Gets the value of the currentTime property.
+     * Recupera il valore della proprietà currentTime.
      * 
      * @return
      *     possible object is
@@ -95,7 +95,7 @@ public class SubscribeResponse {
     }
 
     /**
-     * Sets the value of the currentTime property.
+     * Imposta il valore della proprietà currentTime.
      * 
      * @param value
      *     allowed object is
@@ -107,7 +107,7 @@ public class SubscribeResponse {
     }
 
     /**
-     * Gets the value of the terminationTime property.
+     * Recupera il valore della proprietà terminationTime.
      * 
      * @return
      *     possible object is
@@ -119,7 +119,7 @@ public class SubscribeResponse {
     }
 
     /**
-     * Sets the value of the terminationTime property.
+     * Imposta il valore della proprietà terminationTime.
      * 
      * @param value
      *     allowed object is
@@ -148,8 +148,8 @@ public class SubscribeResponse {
      * 
      * <p>
      * Objects of the following type(s) are allowed in the list
-     * {@link Object }
      * {@link Element }
+     * {@link Object }
      * 
      * 
      */

@@ -21,9 +21,9 @@ import org.w3c.dom.Element;
 /**
  * An X.509 certification path as defined in RFC 5280.
  * 
- * <p>Java class for CertificationPath complex type.
+ * <p>Classe Java per CertificationPath complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>Il seguente frammento di schema specifica il contenuto previsto contenuto in questa classe.
  * 
  * <pre>
  * &lt;complexType name="CertificationPath"&gt;
@@ -100,7 +100,7 @@ public class CertificationPath {
     }
 
     /**
-     * Gets the value of the alias property.
+     * Recupera il valore della proprietà alias.
      * 
      * @return
      *     possible object is
@@ -112,7 +112,7 @@ public class CertificationPath {
     }
 
     /**
-     * Sets the value of the alias property.
+     * Imposta il valore della proprietà alias.
      * 
      * @param value
      *     allowed object is
@@ -124,7 +124,7 @@ public class CertificationPath {
     }
 
     /**
-     * Gets the value of the anyElement property.
+     * Recupera il valore della proprietà anyElement.
      * 
      * @return
      *     possible object is
@@ -136,7 +136,7 @@ public class CertificationPath {
     }
 
     /**
-     * Sets the value of the anyElement property.
+     * Imposta il valore della proprietà anyElement.
      * 
      * @param value
      *     allowed object is
@@ -167,9 +167,9 @@ public class CertificationPath {
 
 
     /**
-     * <p>Java class for anonymous complex type.
+     * <p>Classe Java per anonymous complex type.
      * 
-     * <p>The following schema fragment specifies the expected content contained within this class.
+     * <p>Il seguente frammento di schema specifica il contenuto previsto contenuto in questa classe.
      * 
      * <pre>
      * &lt;complexType&gt;
@@ -212,8 +212,8 @@ public class CertificationPath {
          * 
          * <p>
          * Objects of the following type(s) are allowed in the list
-         * {@link Object }
          * {@link Element }
+         * {@link Object }
          * 
          * 
          */

@@ -15,9 +15,9 @@ import javax.xml.namespace.QName;
 
 
 /**
- * <p>Java class for PresetTour complex type.
+ * <p>Classe Java per PresetTour complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>Il seguente frammento di schema specifica il contenuto previsto contenuto in questa classe.
  * 
  * <pre>
  * &lt;complexType name="PresetTour"&gt;
@@ -69,7 +69,7 @@ public class PresetTour {
     private Map<QName, String> otherAttributes = new HashMap<QName, String>();
 
     /**
-     * Gets the value of the name property.
+     * Recupera il valore della proprietà name.
      * 
      * @return
      *     possible object is
@@ -81,7 +81,7 @@ public class PresetTour {
     }
 
     /**
-     * Sets the value of the name property.
+     * Imposta il valore della proprietà name.
      * 
      * @param value
      *     allowed object is
@@ -93,7 +93,7 @@ public class PresetTour {
     }
 
     /**
-     * Gets the value of the status property.
+     * Recupera il valore della proprietà status.
      * 
      * @return
      *     possible object is
@@ -105,7 +105,7 @@ public class PresetTour {
     }
 
     /**
-     * Sets the value of the status property.
+     * Imposta il valore della proprietà status.
      * 
      * @param value
      *     allowed object is
@@ -117,7 +117,7 @@ public class PresetTour {
     }
 
     /**
-     * Gets the value of the autoStart property.
+     * Recupera il valore della proprietà autoStart.
      * This getter has been renamed from isAutoStart() to getAutoStart() by cxf-xjc-boolean plugin.
      * 
      */
@@ -126,7 +126,7 @@ public class PresetTour {
     }
 
     /**
-     * Sets the value of the autoStart property.
+     * Imposta il valore della proprietà autoStart.
      * 
      */
     public void setAutoStart(boolean value) {
@@ -134,7 +134,7 @@ public class PresetTour {
     }
 
     /**
-     * Gets the value of the startingCondition property.
+     * Recupera il valore della proprietà startingCondition.
      * 
      * @return
      *     possible object is
@@ -146,7 +146,7 @@ public class PresetTour {
     }
 
     /**
-     * Sets the value of the startingCondition property.
+     * Imposta il valore della proprietà startingCondition.
      * 
      * @param value
      *     allowed object is
@@ -187,7 +187,7 @@ public class PresetTour {
     }
 
     /**
-     * Gets the value of the extension property.
+     * Recupera il valore della proprietà extension.
      * 
      * @return
      *     possible object is
@@ -199,7 +199,7 @@ public class PresetTour {
     }
 
     /**
-     * Sets the value of the extension property.
+     * Imposta il valore della proprietà extension.
      * 
      * @param value
      *     allowed object is
@@ -211,7 +211,7 @@ public class PresetTour {
     }
 
     /**
-     * Gets the value of the token property.
+     * Recupera il valore della proprietà token.
      * 
      * @return
      *     possible object is
@@ -223,7 +223,7 @@ public class PresetTour {
     }
 
     /**
-     * Sets the value of the token property.
+     * Imposta il valore della proprietà token.
      * 
      * @param value
      *     allowed object is

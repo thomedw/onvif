@@ -10,9 +10,9 @@ import org.w3._2004._08.xop.include.Include;
 
 
 /**
- * <p>Java class for AttachmentData complex type.
+ * <p>Classe Java per AttachmentData complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>Il seguente frammento di schema specifica il contenuto previsto contenuto in questa classe.
  * 
  * <pre>
  * &lt;complexType name="AttachmentData"&gt;
@@ -41,7 +41,7 @@ public class AttachmentData {
     protected String contentType;
 
     /**
-     * Gets the value of the include property.
+     * Recupera il valore della proprietà include.
      * 
      * @return
      *     possible object is
@@ -53,7 +53,7 @@ public class AttachmentData {
     }
 
     /**
-     * Sets the value of the include property.
+     * Imposta il valore della proprietà include.
      * 
      * @param value
      *     allowed object is
@@ -65,7 +65,7 @@ public class AttachmentData {
     }
 
     /**
-     * Gets the value of the contentType property.
+     * Recupera il valore della proprietà contentType.
      * 
      * @return
      *     possible object is
@@ -77,7 +77,7 @@ public class AttachmentData {
     }
 
     /**
-     * Sets the value of the contentType property.
+     * Imposta il valore della proprietà contentType.
      * 
      * @param value
      *     allowed object is

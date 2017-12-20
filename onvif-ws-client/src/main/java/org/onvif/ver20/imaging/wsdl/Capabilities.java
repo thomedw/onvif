@@ -16,9 +16,9 @@ import org.w3c.dom.Element;
 
 
 /**
- * <p>Java class for Capabilities complex type.
+ * <p>Classe Java per Capabilities complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>Il seguente frammento di schema specifica il contenuto previsto contenuto in questa classe.
  * 
  * <pre>
  * &lt;complexType name="Capabilities"&gt;
@@ -67,8 +67,8 @@ public class Capabilities {
      * 
      * <p>
      * Objects of the following type(s) are allowed in the list
-     * {@link Object }
      * {@link Element }
+     * {@link Object }
      * 
      * 
      */
@@ -80,7 +80,7 @@ public class Capabilities {
     }
 
     /**
-     * Gets the value of the imageStabilization property.
+     * Recupera il valore della proprietà imageStabilization.
      * This getter has been renamed from isImageStabilization() to getImageStabilization() by cxf-xjc-boolean plugin.
      * 
      * @return
@@ -93,7 +93,7 @@ public class Capabilities {
     }
 
     /**
-     * Sets the value of the imageStabilization property.
+     * Imposta il valore della proprietà imageStabilization.
      * 
      * @param value
      *     allowed object is

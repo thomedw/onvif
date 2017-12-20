@@ -17,9 +17,9 @@ import javax.xml.namespace.QName;
 
 
 /**
- * <p>Java class for TopicType complex type.
+ * <p>Classe Java per TopicType complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>Il seguente frammento di schema specifica il contenuto previsto contenuto in questa classe.
  * 
  * <pre>
  * &lt;complexType name="TopicType"&gt;
@@ -74,7 +74,7 @@ public class TopicType
     protected Boolean _final;
 
     /**
-     * Gets the value of the messagePattern property.
+     * Recupera il valore della proprietà messagePattern.
      * 
      * @return
      *     possible object is
@@ -86,7 +86,7 @@ public class TopicType
     }
 
     /**
-     * Sets the value of the messagePattern property.
+     * Imposta il valore della proprietà messagePattern.
      * 
      * @param value
      *     allowed object is
@@ -156,7 +156,7 @@ public class TopicType
     }
 
     /**
-     * Gets the value of the name property.
+     * Recupera il valore della proprietà name.
      * 
      * @return
      *     possible object is
@@ -168,7 +168,7 @@ public class TopicType
     }
 
     /**
-     * Sets the value of the name property.
+     * Imposta il valore della proprietà name.
      * 
      * @param value
      *     allowed object is
@@ -209,7 +209,7 @@ public class TopicType
     }
 
     /**
-     * Gets the value of the final property.
+     * Recupera il valore della proprietà final.
      * This getter has been renamed from isFinal() to getFinal() by cxf-xjc-boolean plugin.
      * 
      * @return
@@ -226,7 +226,7 @@ public class TopicType
     }
 
     /**
-     * Sets the value of the final property.
+     * Imposta il valore della proprietà final.
      * 
      * @param value
      *     allowed object is

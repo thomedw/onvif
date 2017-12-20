@@ -12,9 +12,9 @@ import org.w3c.dom.Element;
 
 
 /**
- * <p>Java class for anonymous complex type.
+ * <p>Classe Java per anonymous complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>Il seguente frammento di schema specifica il contenuto previsto contenuto in questa classe.
  * 
  * <pre>
  * &lt;complexType&gt;
@@ -49,7 +49,7 @@ public class StopExportRecordedDataResponse {
     protected Object any;
 
     /**
-     * Gets the value of the progress property.
+     * Recupera il valore della proprietà progress.
      * 
      */
     public float getProgress() {
@@ -57,7 +57,7 @@ public class StopExportRecordedDataResponse {
     }
 
     /**
-     * Sets the value of the progress property.
+     * Imposta il valore della proprietà progress.
      * 
      */
     public void setProgress(float value) {
@@ -65,7 +65,7 @@ public class StopExportRecordedDataResponse {
     }
 
     /**
-     * Gets the value of the fileProgressStatus property.
+     * Recupera il valore della proprietà fileProgressStatus.
      * 
      * @return
      *     possible object is
@@ -77,7 +77,7 @@ public class StopExportRecordedDataResponse {
     }
 
     /**
-     * Sets the value of the fileProgressStatus property.
+     * Imposta il valore della proprietà fileProgressStatus.
      * 
      * @param value
      *     allowed object is
@@ -89,12 +89,12 @@ public class StopExportRecordedDataResponse {
     }
 
     /**
-     * Gets the value of the any property.
+     * Recupera il valore della proprietà any.
      * 
      * @return
      *     possible object is
-     *     {@link Object }
      *     {@link Element }
+     *     {@link Object }
      *     
      */
     public Object getAny() {
@@ -102,12 +102,12 @@ public class StopExportRecordedDataResponse {
     }
 
     /**
-     * Sets the value of the any property.
+     * Imposta il valore della proprietà any.
      * 
      * @param value
      *     allowed object is
-     *     {@link Object }
      *     {@link Element }
+     *     {@link Object }
      *     
      */
     public void setAny(Object value) {

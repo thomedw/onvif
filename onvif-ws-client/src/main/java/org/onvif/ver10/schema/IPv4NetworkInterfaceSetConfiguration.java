@@ -10,9 +10,9 @@ import javax.xml.bind.annotation.XmlType;
 
 
 /**
- * <p>Java class for IPv4NetworkInterfaceSetConfiguration complex type.
+ * <p>Classe Java per IPv4NetworkInterfaceSetConfiguration complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>Il seguente frammento di schema specifica il contenuto previsto contenuto in questa classe.
  * 
  * <pre>
  * &lt;complexType name="IPv4NetworkInterfaceSetConfiguration"&gt;
@@ -46,7 +46,7 @@ public class IPv4NetworkInterfaceSetConfiguration {
     protected Boolean dhcp;
 
     /**
-     * Gets the value of the enabled property.
+     * Recupera il valore della proprietà enabled.
      * This getter has been renamed from isEnabled() to getEnabled() by cxf-xjc-boolean plugin.
      * 
      * @return
@@ -59,7 +59,7 @@ public class IPv4NetworkInterfaceSetConfiguration {
     }
 
     /**
-     * Sets the value of the enabled property.
+     * Imposta il valore della proprietà enabled.
      * 
      * @param value
      *     allowed object is
@@ -100,7 +100,7 @@ public class IPv4NetworkInterfaceSetConfiguration {
     }
 
     /**
-     * Gets the value of the dhcp property.
+     * Recupera il valore della proprietà dhcp.
      * This getter has been renamed from isDHCP() to getDHCP() by cxf-xjc-boolean plugin.
      * 
      * @return
@@ -113,7 +113,7 @@ public class IPv4NetworkInterfaceSetConfiguration {
     }
 
     /**
-     * Sets the value of the dhcp property.
+     * Imposta il valore della proprietà dhcp.
      * 
      * @param value
      *     allowed object is

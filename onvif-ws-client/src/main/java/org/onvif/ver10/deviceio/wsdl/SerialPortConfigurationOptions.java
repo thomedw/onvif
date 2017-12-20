@@ -21,9 +21,9 @@ import org.w3c.dom.Element;
 /**
  * The configuration options that relates to serial port.
  * 
- * <p>Java class for SerialPortConfigurationOptions complex type.
+ * <p>Classe Java per SerialPortConfigurationOptions complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>Il seguente frammento di schema specifica il contenuto previsto contenuto in questa classe.
  * 
  * <pre>
  * &lt;complexType name="SerialPortConfigurationOptions"&gt;
@@ -71,7 +71,7 @@ public class SerialPortConfigurationOptions {
     private Map<QName, String> otherAttributes = new HashMap<QName, String>();
 
     /**
-     * Gets the value of the baudRateList property.
+     * Recupera il valore della proprietà baudRateList.
      * 
      * @return
      *     possible object is
@@ -83,7 +83,7 @@ public class SerialPortConfigurationOptions {
     }
 
     /**
-     * Sets the value of the baudRateList property.
+     * Imposta il valore della proprietà baudRateList.
      * 
      * @param value
      *     allowed object is
@@ -95,7 +95,7 @@ public class SerialPortConfigurationOptions {
     }
 
     /**
-     * Gets the value of the parityBitList property.
+     * Recupera il valore della proprietà parityBitList.
      * 
      * @return
      *     possible object is
@@ -107,7 +107,7 @@ public class SerialPortConfigurationOptions {
     }
 
     /**
-     * Sets the value of the parityBitList property.
+     * Imposta il valore della proprietà parityBitList.
      * 
      * @param value
      *     allowed object is
@@ -119,7 +119,7 @@ public class SerialPortConfigurationOptions {
     }
 
     /**
-     * Gets the value of the characterLengthList property.
+     * Recupera il valore della proprietà characterLengthList.
      * 
      * @return
      *     possible object is
@@ -131,7 +131,7 @@ public class SerialPortConfigurationOptions {
     }
 
     /**
-     * Sets the value of the characterLengthList property.
+     * Imposta il valore della proprietà characterLengthList.
      * 
      * @param value
      *     allowed object is
@@ -143,7 +143,7 @@ public class SerialPortConfigurationOptions {
     }
 
     /**
-     * Gets the value of the stopBitList property.
+     * Recupera il valore della proprietà stopBitList.
      * 
      * @return
      *     possible object is
@@ -155,7 +155,7 @@ public class SerialPortConfigurationOptions {
     }
 
     /**
-     * Sets the value of the stopBitList property.
+     * Imposta il valore della proprietà stopBitList.
      * 
      * @param value
      *     allowed object is
@@ -184,8 +184,8 @@ public class SerialPortConfigurationOptions {
      * 
      * <p>
      * Objects of the following type(s) are allowed in the list
-     * {@link Object }
      * {@link Element }
+     * {@link Object }
      * 
      * 
      */
@@ -197,7 +197,7 @@ public class SerialPortConfigurationOptions {
     }
 
     /**
-     * Gets the value of the token property.
+     * Recupera il valore della proprietà token.
      * 
      * @return
      *     possible object is
@@ -209,7 +209,7 @@ public class SerialPortConfigurationOptions {
     }
 
     /**
-     * Sets the value of the token property.
+     * Imposta il valore della proprietà token.
      * 
      * @param value
      *     allowed object is

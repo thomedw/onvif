@@ -18,9 +18,9 @@ import org.onvif.ver10.schema.RelayMode;
 
 
 /**
- * <p>Java class for RelayOutputOptions complex type.
+ * <p>Classe Java per RelayOutputOptions complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>Il seguente frammento di schema specifica il contenuto previsto contenuto in questa classe.
  * 
  * <pre>
  * &lt;complexType name="RelayOutputOptions"&gt;
@@ -125,7 +125,7 @@ public class RelayOutputOptions {
     }
 
     /**
-     * Gets the value of the discrete property.
+     * Recupera il valore della proprietà discrete.
      * This getter has been renamed from isDiscrete() to getDiscrete() by cxf-xjc-boolean plugin.
      * 
      * @return
@@ -138,7 +138,7 @@ public class RelayOutputOptions {
     }
 
     /**
-     * Sets the value of the discrete property.
+     * Imposta il valore della proprietà discrete.
      * 
      * @param value
      *     allowed object is
@@ -150,7 +150,7 @@ public class RelayOutputOptions {
     }
 
     /**
-     * Gets the value of the extension property.
+     * Recupera il valore della proprietà extension.
      * 
      * @return
      *     possible object is
@@ -162,7 +162,7 @@ public class RelayOutputOptions {
     }
 
     /**
-     * Sets the value of the extension property.
+     * Imposta il valore della proprietà extension.
      * 
      * @param value
      *     allowed object is
@@ -174,7 +174,7 @@ public class RelayOutputOptions {
     }
 
     /**
-     * Gets the value of the token property.
+     * Recupera il valore della proprietà token.
      * 
      * @return
      *     possible object is
@@ -186,7 +186,7 @@ public class RelayOutputOptions {
     }
 
     /**
-     * Sets the value of the token property.
+     * Imposta il valore della proprietà token.
      * 
      * @param value
      *     allowed object is

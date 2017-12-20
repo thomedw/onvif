@@ -12,9 +12,9 @@ import javax.xml.namespace.QName;
 
 
 /**
- * <p>Java class for TrackOptions complex type.
+ * <p>Classe Java per TrackOptions complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>Il seguente frammento di schema specifica il contenuto previsto contenuto in questa classe.
  * 
  * <pre>
  * &lt;complexType name="TrackOptions"&gt;
@@ -48,7 +48,7 @@ public class TrackOptions {
     private Map<QName, String> otherAttributes = new HashMap<QName, String>();
 
     /**
-     * Gets the value of the spareTotal property.
+     * Recupera il valore della proprietà spareTotal.
      * 
      * @return
      *     possible object is
@@ -60,7 +60,7 @@ public class TrackOptions {
     }
 
     /**
-     * Sets the value of the spareTotal property.
+     * Imposta il valore della proprietà spareTotal.
      * 
      * @param value
      *     allowed object is
@@ -72,7 +72,7 @@ public class TrackOptions {
     }
 
     /**
-     * Gets the value of the spareVideo property.
+     * Recupera il valore della proprietà spareVideo.
      * 
      * @return
      *     possible object is
@@ -84,7 +84,7 @@ public class TrackOptions {
     }
 
     /**
-     * Sets the value of the spareVideo property.
+     * Imposta il valore della proprietà spareVideo.
      * 
      * @param value
      *     allowed object is
@@ -96,7 +96,7 @@ public class TrackOptions {
     }
 
     /**
-     * Gets the value of the spareAudio property.
+     * Recupera il valore della proprietà spareAudio.
      * 
      * @return
      *     possible object is
@@ -108,7 +108,7 @@ public class TrackOptions {
     }
 
     /**
-     * Sets the value of the spareAudio property.
+     * Imposta il valore della proprietà spareAudio.
      * 
      * @param value
      *     allowed object is
@@ -120,7 +120,7 @@ public class TrackOptions {
     }
 
     /**
-     * Gets the value of the spareMetadata property.
+     * Recupera il valore della proprietà spareMetadata.
      * 
      * @return
      *     possible object is
@@ -132,7 +132,7 @@ public class TrackOptions {
     }
 
     /**
-     * Sets the value of the spareMetadata property.
+     * Imposta il valore della proprietà spareMetadata.
      * 
      * @param value
      *     allowed object is

@@ -18,9 +18,9 @@ import org.w3c.dom.Element;
 /**
  * A CSR attribute as specified in PKCS#10.
  * 
- * <p>Java class for CSRAttribute complex type.
+ * <p>Classe Java per CSRAttribute complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>Il seguente frammento di schema specifica il contenuto previsto contenuto in questa classe.
  * 
  * <pre>
  * &lt;complexType name="CSRAttribute"&gt;
@@ -66,7 +66,7 @@ public class CSRAttribute {
     private Map<QName, String> otherAttributes = new HashMap<QName, String>();
 
     /**
-     * Gets the value of the x509V3Extension property.
+     * Recupera il valore della proprietà x509V3Extension.
      * 
      * @return
      *     possible object is
@@ -78,7 +78,7 @@ public class CSRAttribute {
     }
 
     /**
-     * Sets the value of the x509V3Extension property.
+     * Imposta il valore della proprietà x509V3Extension.
      * 
      * @param value
      *     allowed object is
@@ -90,7 +90,7 @@ public class CSRAttribute {
     }
 
     /**
-     * Gets the value of the basicRequestAttribute property.
+     * Recupera il valore della proprietà basicRequestAttribute.
      * 
      * @return
      *     possible object is
@@ -102,7 +102,7 @@ public class CSRAttribute {
     }
 
     /**
-     * Sets the value of the basicRequestAttribute property.
+     * Imposta il valore della proprietà basicRequestAttribute.
      * 
      * @param value
      *     allowed object is
@@ -114,7 +114,7 @@ public class CSRAttribute {
     }
 
     /**
-     * Gets the value of the anyAttribute property.
+     * Recupera il valore della proprietà anyAttribute.
      * 
      * @return
      *     possible object is
@@ -126,7 +126,7 @@ public class CSRAttribute {
     }
 
     /**
-     * Sets the value of the anyAttribute property.
+     * Imposta il valore della proprietà anyAttribute.
      * 
      * @param value
      *     allowed object is
@@ -157,9 +157,9 @@ public class CSRAttribute {
 
 
     /**
-     * <p>Java class for anonymous complex type.
+     * <p>Classe Java per anonymous complex type.
      * 
-     * <p>The following schema fragment specifies the expected content contained within this class.
+     * <p>Il seguente frammento di schema specifica il contenuto previsto contenuto in questa classe.
      * 
      * <pre>
      * &lt;complexType&gt;
@@ -202,8 +202,8 @@ public class CSRAttribute {
          * 
          * <p>
          * Objects of the following type(s) are allowed in the list
-         * {@link Object }
          * {@link Element }
+         * {@link Object }
          * 
          * 
          */

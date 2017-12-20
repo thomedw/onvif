@@ -13,9 +13,9 @@ import javax.xml.bind.annotation.adapters.XmlJavaTypeAdapter;
 
 
 /**
- * <p>Java class for anonymous complex type.
+ * <p>Classe Java per anonymous complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>Il seguente frammento di schema specifica il contenuto previsto contenuto in questa classe.
  * 
  * <pre>
  * &lt;complexType&gt;
@@ -45,7 +45,7 @@ public class RemoveCertPathValidationPolicyAssignment {
     protected String certPathValidationPolicyID;
 
     /**
-     * Gets the value of the certPathValidationPolicyID property.
+     * Recupera il valore della proprietà certPathValidationPolicyID.
      * 
      * @return
      *     possible object is
@@ -57,7 +57,7 @@ public class RemoveCertPathValidationPolicyAssignment {
     }
 
     /**
-     * Sets the value of the certPathValidationPolicyID property.
+     * Imposta il valore della proprietà certPathValidationPolicyID.
      * 
      * @param value
      *     allowed object is

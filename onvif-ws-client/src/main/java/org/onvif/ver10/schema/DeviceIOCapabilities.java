@@ -17,9 +17,9 @@ import org.w3c.dom.Element;
 
 
 /**
- * <p>Java class for DeviceIOCapabilities complex type.
+ * <p>Classe Java per DeviceIOCapabilities complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>Il seguente frammento di schema specifica il contenuto previsto contenuto in questa classe.
  * 
  * <pre>
  * &lt;complexType name="DeviceIOCapabilities"&gt;
@@ -73,7 +73,7 @@ public class DeviceIOCapabilities {
     private Map<QName, String> otherAttributes = new HashMap<QName, String>();
 
     /**
-     * Gets the value of the xAddr property.
+     * Recupera il valore della proprietà xAddr.
      * 
      * @return
      *     possible object is
@@ -85,7 +85,7 @@ public class DeviceIOCapabilities {
     }
 
     /**
-     * Sets the value of the xAddr property.
+     * Imposta il valore della proprietà xAddr.
      * 
      * @param value
      *     allowed object is
@@ -97,7 +97,7 @@ public class DeviceIOCapabilities {
     }
 
     /**
-     * Gets the value of the videoSources property.
+     * Recupera il valore della proprietà videoSources.
      * 
      */
     public int getVideoSources() {
@@ -105,7 +105,7 @@ public class DeviceIOCapabilities {
     }
 
     /**
-     * Sets the value of the videoSources property.
+     * Imposta il valore della proprietà videoSources.
      * 
      */
     public void setVideoSources(int value) {
@@ -113,7 +113,7 @@ public class DeviceIOCapabilities {
     }
 
     /**
-     * Gets the value of the videoOutputs property.
+     * Recupera il valore della proprietà videoOutputs.
      * 
      */
     public int getVideoOutputs() {
@@ -121,7 +121,7 @@ public class DeviceIOCapabilities {
     }
 
     /**
-     * Sets the value of the videoOutputs property.
+     * Imposta il valore della proprietà videoOutputs.
      * 
      */
     public void setVideoOutputs(int value) {
@@ -129,7 +129,7 @@ public class DeviceIOCapabilities {
     }
 
     /**
-     * Gets the value of the audioSources property.
+     * Recupera il valore della proprietà audioSources.
      * 
      */
     public int getAudioSources() {
@@ -137,7 +137,7 @@ public class DeviceIOCapabilities {
     }
 
     /**
-     * Sets the value of the audioSources property.
+     * Imposta il valore della proprietà audioSources.
      * 
      */
     public void setAudioSources(int value) {
@@ -145,7 +145,7 @@ public class DeviceIOCapabilities {
     }
 
     /**
-     * Gets the value of the audioOutputs property.
+     * Recupera il valore della proprietà audioOutputs.
      * 
      */
     public int getAudioOutputs() {
@@ -153,7 +153,7 @@ public class DeviceIOCapabilities {
     }
 
     /**
-     * Sets the value of the audioOutputs property.
+     * Imposta il valore della proprietà audioOutputs.
      * 
      */
     public void setAudioOutputs(int value) {
@@ -161,7 +161,7 @@ public class DeviceIOCapabilities {
     }
 
     /**
-     * Gets the value of the relayOutputs property.
+     * Recupera il valore della proprietà relayOutputs.
      * 
      */
     public int getRelayOutputs() {
@@ -169,7 +169,7 @@ public class DeviceIOCapabilities {
     }
 
     /**
-     * Sets the value of the relayOutputs property.
+     * Imposta il valore della proprietà relayOutputs.
      * 
      */
     public void setRelayOutputs(int value) {
@@ -194,8 +194,8 @@ public class DeviceIOCapabilities {
      * 
      * <p>
      * Objects of the following type(s) are allowed in the list
-     * {@link java.lang.Object }
      * {@link Element }
+     * {@link java.lang.Object }
      * 
      * 
      */

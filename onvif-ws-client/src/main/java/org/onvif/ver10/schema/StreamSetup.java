@@ -17,9 +17,9 @@ import org.w3c.dom.Element;
 
 
 /**
- * <p>Java class for StreamSetup complex type.
+ * <p>Classe Java per StreamSetup complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>Il seguente frammento di schema specifica il contenuto previsto contenuto in questa classe.
  * 
  * <pre>
  * &lt;complexType name="StreamSetup"&gt;
@@ -57,7 +57,7 @@ public class StreamSetup {
     private Map<QName, String> otherAttributes = new HashMap<QName, String>();
 
     /**
-     * Gets the value of the stream property.
+     * Recupera il valore della proprietà stream.
      * 
      * @return
      *     possible object is
@@ -69,7 +69,7 @@ public class StreamSetup {
     }
 
     /**
-     * Sets the value of the stream property.
+     * Imposta il valore della proprietà stream.
      * 
      * @param value
      *     allowed object is
@@ -81,7 +81,7 @@ public class StreamSetup {
     }
 
     /**
-     * Gets the value of the transport property.
+     * Recupera il valore della proprietà transport.
      * 
      * @return
      *     possible object is
@@ -93,7 +93,7 @@ public class StreamSetup {
     }
 
     /**
-     * Sets the value of the transport property.
+     * Imposta il valore della proprietà transport.
      * 
      * @param value
      *     allowed object is
@@ -122,8 +122,8 @@ public class StreamSetup {
      * 
      * <p>
      * Objects of the following type(s) are allowed in the list
-     * {@link java.lang.Object }
      * {@link Element }
+     * {@link java.lang.Object }
      * 
      * 
      */

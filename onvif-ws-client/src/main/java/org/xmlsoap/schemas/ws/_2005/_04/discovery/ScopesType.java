@@ -16,9 +16,9 @@ import javax.xml.namespace.QName;
 
 
 /**
- * <p>Java class for ScopesType complex type.
+ * <p>Classe Java per ScopesType complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>Il seguente frammento di schema specifica il contenuto previsto contenuto in questa classe.
  * 
  * <pre>
  * &lt;complexType name="ScopesType"&gt;
@@ -77,7 +77,7 @@ public class ScopesType {
     }
 
     /**
-     * Gets the value of the matchBy property.
+     * Recupera il valore della proprietà matchBy.
      * 
      * @return
      *     possible object is
@@ -89,7 +89,7 @@ public class ScopesType {
     }
 
     /**
-     * Sets the value of the matchBy property.
+     * Imposta il valore della proprietà matchBy.
      * 
      * @param value
      *     allowed object is

@@ -9,9 +9,9 @@ import javax.xml.bind.annotation.XmlType;
 
 
 /**
- * <p>Java class for Scope complex type.
+ * <p>Classe Java per Scope complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>Il seguente frammento di schema specifica il contenuto previsto contenuto in questa classe.
  * 
  * <pre>
  * &lt;complexType name="Scope"&gt;
@@ -43,7 +43,7 @@ public class Scope {
     protected String scopeItem;
 
     /**
-     * Gets the value of the scopeDef property.
+     * Recupera il valore della proprietà scopeDef.
      * 
      * @return
      *     possible object is
@@ -55,7 +55,7 @@ public class Scope {
     }
 
     /**
-     * Sets the value of the scopeDef property.
+     * Imposta il valore della proprietà scopeDef.
      * 
      * @param value
      *     allowed object is
@@ -67,7 +67,7 @@ public class Scope {
     }
 
     /**
-     * Gets the value of the scopeItem property.
+     * Recupera il valore della proprietà scopeItem.
      * 
      * @return
      *     possible object is
@@ -79,7 +79,7 @@ public class Scope {
     }
 
     /**
-     * Sets the value of the scopeItem property.
+     * Imposta il valore della proprietà scopeItem.
      * 
      * @param value
      *     allowed object is

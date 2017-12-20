@@ -17,9 +17,9 @@ import javax.xml.namespace.QName;
 
 
 /**
- * <p>Java class for Frame complex type.
+ * <p>Classe Java per Frame complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>Il seguente frammento di schema specifica il contenuto previsto contenuto in questa classe.
  * 
  * <pre>
  * &lt;complexType name="Frame"&gt;
@@ -68,7 +68,7 @@ public class Frame {
     private Map<QName, String> otherAttributes = new HashMap<QName, String>();
 
     /**
-     * Gets the value of the ptzStatus property.
+     * Recupera il valore della proprietà ptzStatus.
      * 
      * @return
      *     possible object is
@@ -80,7 +80,7 @@ public class Frame {
     }
 
     /**
-     * Sets the value of the ptzStatus property.
+     * Imposta il valore della proprietà ptzStatus.
      * 
      * @param value
      *     allowed object is
@@ -92,7 +92,7 @@ public class Frame {
     }
 
     /**
-     * Gets the value of the transformation property.
+     * Recupera il valore della proprietà transformation.
      * 
      * @return
      *     possible object is
@@ -104,7 +104,7 @@ public class Frame {
     }
 
     /**
-     * Sets the value of the transformation property.
+     * Imposta il valore della proprietà transformation.
      * 
      * @param value
      *     allowed object is
@@ -145,7 +145,7 @@ public class Frame {
     }
 
     /**
-     * Gets the value of the objectTree property.
+     * Recupera il valore della proprietà objectTree.
      * 
      * @return
      *     possible object is
@@ -157,7 +157,7 @@ public class Frame {
     }
 
     /**
-     * Sets the value of the objectTree property.
+     * Imposta il valore della proprietà objectTree.
      * 
      * @param value
      *     allowed object is
@@ -169,7 +169,7 @@ public class Frame {
     }
 
     /**
-     * Gets the value of the extension property.
+     * Recupera il valore della proprietà extension.
      * 
      * @return
      *     possible object is
@@ -181,7 +181,7 @@ public class Frame {
     }
 
     /**
-     * Sets the value of the extension property.
+     * Imposta il valore della proprietà extension.
      * 
      * @param value
      *     allowed object is
@@ -193,7 +193,7 @@ public class Frame {
     }
 
     /**
-     * Gets the value of the utcTime property.
+     * Recupera il valore della proprietà utcTime.
      * 
      * @return
      *     possible object is
@@ -205,7 +205,7 @@ public class Frame {
     }
 
     /**
-     * Sets the value of the utcTime property.
+     * Imposta il valore della proprietà utcTime.
      * 
      * @param value
      *     allowed object is

@@ -9,9 +9,9 @@ import javax.xml.bind.annotation.XmlValue;
 
 
 /**
- * <p>Java class for base64Binary complex type.
+ * <p>Classe Java per base64Binary complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>Il seguente frammento di schema specifica il contenuto previsto contenuto in questa classe.
  * 
  * <pre>
  * &lt;complexType name="base64Binary"&gt;
@@ -37,7 +37,7 @@ public class Base64Binary {
     protected String contentType;
 
     /**
-     * Gets the value of the value property.
+     * Recupera il valore della proprietà value.
      * 
      * @return
      *     possible object is
@@ -48,7 +48,7 @@ public class Base64Binary {
     }
 
     /**
-     * Sets the value of the value property.
+     * Imposta il valore della proprietà value.
      * 
      * @param value
      *     allowed object is
@@ -59,7 +59,7 @@ public class Base64Binary {
     }
 
     /**
-     * Gets the value of the contentType property.
+     * Recupera il valore della proprietà contentType.
      * 
      * @return
      *     possible object is
@@ -71,7 +71,7 @@ public class Base64Binary {
     }
 
     /**
-     * Sets the value of the contentType property.
+     * Imposta il valore della proprietà contentType.
      * 
      * @param value
      *     allowed object is

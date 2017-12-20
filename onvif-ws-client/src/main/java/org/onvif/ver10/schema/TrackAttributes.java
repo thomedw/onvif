@@ -12,9 +12,9 @@ import javax.xml.namespace.QName;
 
 
 /**
- * <p>Java class for TrackAttributes complex type.
+ * <p>Classe Java per TrackAttributes complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>Il seguente frammento di schema specifica il contenuto previsto contenuto in questa classe.
  * 
  * <pre>
  * &lt;complexType name="TrackAttributes"&gt;
@@ -59,7 +59,7 @@ public class TrackAttributes {
     private Map<QName, String> otherAttributes = new HashMap<QName, String>();
 
     /**
-     * Gets the value of the trackInformation property.
+     * Recupera il valore della proprietà trackInformation.
      * 
      * @return
      *     possible object is
@@ -71,7 +71,7 @@ public class TrackAttributes {
     }
 
     /**
-     * Sets the value of the trackInformation property.
+     * Imposta il valore della proprietà trackInformation.
      * 
      * @param value
      *     allowed object is
@@ -83,7 +83,7 @@ public class TrackAttributes {
     }
 
     /**
-     * Gets the value of the videoAttributes property.
+     * Recupera il valore della proprietà videoAttributes.
      * 
      * @return
      *     possible object is
@@ -95,7 +95,7 @@ public class TrackAttributes {
     }
 
     /**
-     * Sets the value of the videoAttributes property.
+     * Imposta il valore della proprietà videoAttributes.
      * 
      * @param value
      *     allowed object is
@@ -107,7 +107,7 @@ public class TrackAttributes {
     }
 
     /**
-     * Gets the value of the audioAttributes property.
+     * Recupera il valore della proprietà audioAttributes.
      * 
      * @return
      *     possible object is
@@ -119,7 +119,7 @@ public class TrackAttributes {
     }
 
     /**
-     * Sets the value of the audioAttributes property.
+     * Imposta il valore della proprietà audioAttributes.
      * 
      * @param value
      *     allowed object is
@@ -131,7 +131,7 @@ public class TrackAttributes {
     }
 
     /**
-     * Gets the value of the metadataAttributes property.
+     * Recupera il valore della proprietà metadataAttributes.
      * 
      * @return
      *     possible object is
@@ -143,7 +143,7 @@ public class TrackAttributes {
     }
 
     /**
-     * Sets the value of the metadataAttributes property.
+     * Imposta il valore della proprietà metadataAttributes.
      * 
      * @param value
      *     allowed object is
@@ -155,7 +155,7 @@ public class TrackAttributes {
     }
 
     /**
-     * Gets the value of the extension property.
+     * Recupera il valore della proprietà extension.
      * 
      * @return
      *     possible object is
@@ -167,7 +167,7 @@ public class TrackAttributes {
     }
 
     /**
-     * Sets the value of the extension property.
+     * Imposta il valore della proprietà extension.
      * 
      * @param value
      *     allowed object is

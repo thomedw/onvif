@@ -32,9 +32,9 @@ import org.w3c.dom.Element;
  * An ONVIF compliant device shall provide the following fields for each AccessPoint instance:
  * 
  * 
- * <p>Java class for AccessPointInfo complex type.
+ * <p>Classe Java per AccessPointInfo complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>Il seguente frammento di schema specifica il contenuto previsto contenuto in questa classe.
  * 
  * <pre>
  * &lt;complexType name="AccessPointInfo"&gt;
@@ -69,7 +69,7 @@ public class AccessPointInfo
     private Map<QName, String> otherAttributes = new HashMap<QName, String>();
 
     /**
-     * Gets the value of the capabilities property.
+     * Recupera il valore della proprietà capabilities.
      * 
      * @return
      *     possible object is
@@ -81,7 +81,7 @@ public class AccessPointInfo
     }
 
     /**
-     * Sets the value of the capabilities property.
+     * Imposta il valore della proprietà capabilities.
      * 
      * @param value
      *     allowed object is
@@ -110,8 +110,8 @@ public class AccessPointInfo
      * 
      * <p>
      * Objects of the following type(s) are allowed in the list
-     * {@link Object }
      * {@link Element }
+     * {@link Object }
      * 
      * 
      */

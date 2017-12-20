@@ -16,9 +16,9 @@ import org.w3c.dom.Element;
 
 
 /**
- * <p>Java class for PTZPresetTourOptions complex type.
+ * <p>Classe Java per PTZPresetTourOptions complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>Il seguente frammento di schema specifica il contenuto previsto contenuto in questa classe.
  * 
  * <pre>
  * &lt;complexType name="PTZPresetTourOptions"&gt;
@@ -59,7 +59,7 @@ public class PTZPresetTourOptions {
     private Map<QName, String> otherAttributes = new HashMap<QName, String>();
 
     /**
-     * Gets the value of the autoStart property.
+     * Recupera il valore della proprietà autoStart.
      * This getter has been renamed from isAutoStart() to getAutoStart() by cxf-xjc-boolean plugin.
      * 
      */
@@ -68,7 +68,7 @@ public class PTZPresetTourOptions {
     }
 
     /**
-     * Sets the value of the autoStart property.
+     * Imposta il valore della proprietà autoStart.
      * 
      */
     public void setAutoStart(boolean value) {
@@ -76,7 +76,7 @@ public class PTZPresetTourOptions {
     }
 
     /**
-     * Gets the value of the startingCondition property.
+     * Recupera il valore della proprietà startingCondition.
      * 
      * @return
      *     possible object is
@@ -88,7 +88,7 @@ public class PTZPresetTourOptions {
     }
 
     /**
-     * Sets the value of the startingCondition property.
+     * Imposta il valore della proprietà startingCondition.
      * 
      * @param value
      *     allowed object is
@@ -100,7 +100,7 @@ public class PTZPresetTourOptions {
     }
 
     /**
-     * Gets the value of the tourSpot property.
+     * Recupera il valore della proprietà tourSpot.
      * 
      * @return
      *     possible object is
@@ -112,7 +112,7 @@ public class PTZPresetTourOptions {
     }
 
     /**
-     * Sets the value of the tourSpot property.
+     * Imposta il valore della proprietà tourSpot.
      * 
      * @param value
      *     allowed object is
@@ -141,8 +141,8 @@ public class PTZPresetTourOptions {
      * 
      * <p>
      * Objects of the following type(s) are allowed in the list
-     * {@link java.lang.Object }
      * {@link Element }
+     * {@link java.lang.Object }
      * 
      * 
      */

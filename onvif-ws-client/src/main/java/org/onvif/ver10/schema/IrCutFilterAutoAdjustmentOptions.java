@@ -14,9 +14,9 @@ import javax.xml.namespace.QName;
 
 
 /**
- * <p>Java class for IrCutFilterAutoAdjustmentOptions complex type.
+ * <p>Classe Java per IrCutFilterAutoAdjustmentOptions complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>Il seguente frammento di schema specifica il contenuto previsto contenuto in questa classe.
  * 
  * <pre>
  * &lt;complexType name="IrCutFilterAutoAdjustmentOptions"&gt;
@@ -86,7 +86,7 @@ public class IrCutFilterAutoAdjustmentOptions {
     }
 
     /**
-     * Gets the value of the boundaryOffset property.
+     * Recupera il valore della proprietà boundaryOffset.
      * This getter has been renamed from isBoundaryOffset() to getBoundaryOffset() by cxf-xjc-boolean plugin.
      * 
      * @return
@@ -99,7 +99,7 @@ public class IrCutFilterAutoAdjustmentOptions {
     }
 
     /**
-     * Sets the value of the boundaryOffset property.
+     * Imposta il valore della proprietà boundaryOffset.
      * 
      * @param value
      *     allowed object is
@@ -111,7 +111,7 @@ public class IrCutFilterAutoAdjustmentOptions {
     }
 
     /**
-     * Gets the value of the responseTimeRange property.
+     * Recupera il valore della proprietà responseTimeRange.
      * 
      * @return
      *     possible object is
@@ -123,7 +123,7 @@ public class IrCutFilterAutoAdjustmentOptions {
     }
 
     /**
-     * Sets the value of the responseTimeRange property.
+     * Imposta il valore della proprietà responseTimeRange.
      * 
      * @param value
      *     allowed object is
@@ -135,7 +135,7 @@ public class IrCutFilterAutoAdjustmentOptions {
     }
 
     /**
-     * Gets the value of the extension property.
+     * Recupera il valore della proprietà extension.
      * 
      * @return
      *     possible object is
@@ -147,7 +147,7 @@ public class IrCutFilterAutoAdjustmentOptions {
     }
 
     /**
-     * Sets the value of the extension property.
+     * Imposta il valore della proprietà extension.
      * 
      * @param value
      *     allowed object is

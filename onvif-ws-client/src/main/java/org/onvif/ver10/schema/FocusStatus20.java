@@ -13,9 +13,9 @@ import javax.xml.namespace.QName;
 
 
 /**
- * <p>Java class for FocusStatus20 complex type.
+ * <p>Classe Java per FocusStatus20 complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>Il seguente frammento di schema specifica il contenuto previsto contenuto in questa classe.
  * 
  * <pre>
  * &lt;complexType name="FocusStatus20"&gt;
@@ -57,7 +57,7 @@ public class FocusStatus20 {
     private Map<QName, String> otherAttributes = new HashMap<QName, String>();
 
     /**
-     * Gets the value of the position property.
+     * Recupera il valore della proprietà position.
      * 
      */
     public float getPosition() {
@@ -65,7 +65,7 @@ public class FocusStatus20 {
     }
 
     /**
-     * Sets the value of the position property.
+     * Imposta il valore della proprietà position.
      * 
      */
     public void setPosition(float value) {
@@ -73,7 +73,7 @@ public class FocusStatus20 {
     }
 
     /**
-     * Gets the value of the moveStatus property.
+     * Recupera il valore della proprietà moveStatus.
      * 
      * @return
      *     possible object is
@@ -85,7 +85,7 @@ public class FocusStatus20 {
     }
 
     /**
-     * Sets the value of the moveStatus property.
+     * Imposta il valore della proprietà moveStatus.
      * 
      * @param value
      *     allowed object is
@@ -97,7 +97,7 @@ public class FocusStatus20 {
     }
 
     /**
-     * Gets the value of the error property.
+     * Recupera il valore della proprietà error.
      * 
      * @return
      *     possible object is
@@ -109,7 +109,7 @@ public class FocusStatus20 {
     }
 
     /**
-     * Sets the value of the error property.
+     * Imposta il valore della proprietà error.
      * 
      * @param value
      *     allowed object is
@@ -121,7 +121,7 @@ public class FocusStatus20 {
     }
 
     /**
-     * Gets the value of the extension property.
+     * Recupera il valore della proprietà extension.
      * 
      * @return
      *     possible object is
@@ -133,7 +133,7 @@ public class FocusStatus20 {
     }
 
     /**
-     * Sets the value of the extension property.
+     * Imposta il valore della proprietà extension.
      * 
      * @param value
      *     allowed object is

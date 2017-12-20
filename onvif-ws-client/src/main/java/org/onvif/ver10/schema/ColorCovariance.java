@@ -9,9 +9,9 @@ import javax.xml.bind.annotation.XmlType;
 
 
 /**
- * <p>Java class for ColorCovariance complex type.
+ * <p>Classe Java per ColorCovariance complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>Il seguente frammento di schema specifica il contenuto previsto contenuto in questa classe.
  * 
  * <pre>
  * &lt;complexType name="ColorCovariance"&gt;
@@ -52,7 +52,7 @@ public class ColorCovariance {
     protected String colorspace;
 
     /**
-     * Gets the value of the xx property.
+     * Recupera il valore della proprietà xx.
      * 
      */
     public float getXX() {
@@ -60,7 +60,7 @@ public class ColorCovariance {
     }
 
     /**
-     * Sets the value of the xx property.
+     * Imposta il valore della proprietà xx.
      * 
      */
     public void setXX(float value) {
@@ -68,7 +68,7 @@ public class ColorCovariance {
     }
 
     /**
-     * Gets the value of the yy property.
+     * Recupera il valore della proprietà yy.
      * 
      */
     public float getYY() {
@@ -76,7 +76,7 @@ public class ColorCovariance {
     }
 
     /**
-     * Sets the value of the yy property.
+     * Imposta il valore della proprietà yy.
      * 
      */
     public void setYY(float value) {
@@ -84,7 +84,7 @@ public class ColorCovariance {
     }
 
     /**
-     * Gets the value of the zz property.
+     * Recupera il valore della proprietà zz.
      * 
      */
     public float getZZ() {
@@ -92,7 +92,7 @@ public class ColorCovariance {
     }
 
     /**
-     * Sets the value of the zz property.
+     * Imposta il valore della proprietà zz.
      * 
      */
     public void setZZ(float value) {
@@ -100,7 +100,7 @@ public class ColorCovariance {
     }
 
     /**
-     * Gets the value of the xy property.
+     * Recupera il valore della proprietà xy.
      * 
      * @return
      *     possible object is
@@ -112,7 +112,7 @@ public class ColorCovariance {
     }
 
     /**
-     * Sets the value of the xy property.
+     * Imposta il valore della proprietà xy.
      * 
      * @param value
      *     allowed object is
@@ -124,7 +124,7 @@ public class ColorCovariance {
     }
 
     /**
-     * Gets the value of the xz property.
+     * Recupera il valore della proprietà xz.
      * 
      * @return
      *     possible object is
@@ -136,7 +136,7 @@ public class ColorCovariance {
     }
 
     /**
-     * Sets the value of the xz property.
+     * Imposta il valore della proprietà xz.
      * 
      * @param value
      *     allowed object is
@@ -148,7 +148,7 @@ public class ColorCovariance {
     }
 
     /**
-     * Gets the value of the yz property.
+     * Recupera il valore della proprietà yz.
      * 
      * @return
      *     possible object is
@@ -160,7 +160,7 @@ public class ColorCovariance {
     }
 
     /**
-     * Sets the value of the yz property.
+     * Imposta il valore della proprietà yz.
      * 
      * @param value
      *     allowed object is
@@ -172,7 +172,7 @@ public class ColorCovariance {
     }
 
     /**
-     * Gets the value of the colorspace property.
+     * Recupera il valore della proprietà colorspace.
      * 
      * @return
      *     possible object is
@@ -184,7 +184,7 @@ public class ColorCovariance {
     }
 
     /**
-     * Sets the value of the colorspace property.
+     * Imposta il valore della proprietà colorspace.
      * 
      * @param value
      *     allowed object is

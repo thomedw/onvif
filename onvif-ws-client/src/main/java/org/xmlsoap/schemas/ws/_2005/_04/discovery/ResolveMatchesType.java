@@ -16,9 +16,9 @@ import org.w3c.dom.Element;
 
 
 /**
- * <p>Java class for ResolveMatchesType complex type.
+ * <p>Classe Java per ResolveMatchesType complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>Il seguente frammento di schema specifica il contenuto previsto contenuto in questa classe.
  * 
  * <pre>
  * &lt;complexType name="ResolveMatchesType"&gt;
@@ -51,7 +51,7 @@ public class ResolveMatchesType {
     private Map<QName, String> otherAttributes = new HashMap<QName, String>();
 
     /**
-     * Gets the value of the resolveMatch property.
+     * Recupera il valore della proprietà resolveMatch.
      * 
      * @return
      *     possible object is
@@ -63,7 +63,7 @@ public class ResolveMatchesType {
     }
 
     /**
-     * Sets the value of the resolveMatch property.
+     * Imposta il valore della proprietà resolveMatch.
      * 
      * @param value
      *     allowed object is
@@ -92,8 +92,8 @@ public class ResolveMatchesType {
      * 
      * <p>
      * Objects of the following type(s) are allowed in the list
-     * {@link Object }
      * {@link Element }
+     * {@link Object }
      * 
      * 
      */

@@ -16,9 +16,9 @@ import javax.xml.datatype.XMLGregorianCalendar;
 
 
 /**
- * <p>Java class for anonymous complex type.
+ * <p>Classe Java per anonymous complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>Il seguente frammento di schema specifica il contenuto previsto contenuto in questa classe.
  * 
  * <pre>
  * &lt;complexType&gt;
@@ -76,7 +76,7 @@ public class CreateSelfSignedCertificate {
     protected List<X509V3Extension> extension;
 
     /**
-     * Gets the value of the x509Version property.
+     * Recupera il valore della proprietà x509Version.
      * 
      * @return
      *     possible object is
@@ -88,7 +88,7 @@ public class CreateSelfSignedCertificate {
     }
 
     /**
-     * Sets the value of the x509Version property.
+     * Imposta il valore della proprietà x509Version.
      * 
      * @param value
      *     allowed object is
@@ -100,7 +100,7 @@ public class CreateSelfSignedCertificate {
     }
 
     /**
-     * Gets the value of the subject property.
+     * Recupera il valore della proprietà subject.
      * 
      * @return
      *     possible object is
@@ -112,7 +112,7 @@ public class CreateSelfSignedCertificate {
     }
 
     /**
-     * Sets the value of the subject property.
+     * Imposta il valore della proprietà subject.
      * 
      * @param value
      *     allowed object is
@@ -124,7 +124,7 @@ public class CreateSelfSignedCertificate {
     }
 
     /**
-     * Gets the value of the keyID property.
+     * Recupera il valore della proprietà keyID.
      * 
      * @return
      *     possible object is
@@ -136,7 +136,7 @@ public class CreateSelfSignedCertificate {
     }
 
     /**
-     * Sets the value of the keyID property.
+     * Imposta il valore della proprietà keyID.
      * 
      * @param value
      *     allowed object is
@@ -148,7 +148,7 @@ public class CreateSelfSignedCertificate {
     }
 
     /**
-     * Gets the value of the alias property.
+     * Recupera il valore della proprietà alias.
      * 
      * @return
      *     possible object is
@@ -160,7 +160,7 @@ public class CreateSelfSignedCertificate {
     }
 
     /**
-     * Sets the value of the alias property.
+     * Imposta il valore della proprietà alias.
      * 
      * @param value
      *     allowed object is
@@ -172,7 +172,7 @@ public class CreateSelfSignedCertificate {
     }
 
     /**
-     * Gets the value of the notValidBefore property.
+     * Recupera il valore della proprietà notValidBefore.
      * 
      * @return
      *     possible object is
@@ -184,7 +184,7 @@ public class CreateSelfSignedCertificate {
     }
 
     /**
-     * Sets the value of the notValidBefore property.
+     * Imposta il valore della proprietà notValidBefore.
      * 
      * @param value
      *     allowed object is
@@ -196,7 +196,7 @@ public class CreateSelfSignedCertificate {
     }
 
     /**
-     * Gets the value of the notValidAfter property.
+     * Recupera il valore della proprietà notValidAfter.
      * 
      * @return
      *     possible object is
@@ -208,7 +208,7 @@ public class CreateSelfSignedCertificate {
     }
 
     /**
-     * Sets the value of the notValidAfter property.
+     * Imposta il valore della proprietà notValidAfter.
      * 
      * @param value
      *     allowed object is
@@ -220,7 +220,7 @@ public class CreateSelfSignedCertificate {
     }
 
     /**
-     * Gets the value of the signatureAlgorithm property.
+     * Recupera il valore della proprietà signatureAlgorithm.
      * 
      * @return
      *     possible object is
@@ -232,7 +232,7 @@ public class CreateSelfSignedCertificate {
     }
 
     /**
-     * Sets the value of the signatureAlgorithm property.
+     * Imposta il valore della proprietà signatureAlgorithm.
      * 
      * @param value
      *     allowed object is

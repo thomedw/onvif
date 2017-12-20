@@ -9,9 +9,9 @@ import javax.xml.bind.annotation.XmlType;
 
 
 /**
- * <p>Java class for H264Configuration complex type.
+ * <p>Classe Java per H264Configuration complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>Il seguente frammento di schema specifica il contenuto previsto contenuto in questa classe.
  * 
  * <pre>
  * &lt;complexType name="H264Configuration"&gt;
@@ -42,7 +42,7 @@ public class H264Configuration {
     protected H264Profile h264Profile;
 
     /**
-     * Gets the value of the govLength property.
+     * Recupera il valore della proprietà govLength.
      * 
      */
     public int getGovLength() {
@@ -50,7 +50,7 @@ public class H264Configuration {
     }
 
     /**
-     * Sets the value of the govLength property.
+     * Imposta il valore della proprietà govLength.
      * 
      */
     public void setGovLength(int value) {
@@ -58,7 +58,7 @@ public class H264Configuration {
     }
 
     /**
-     * Gets the value of the h264Profile property.
+     * Recupera il valore della proprietà h264Profile.
      * 
      * @return
      *     possible object is
@@ -70,7 +70,7 @@ public class H264Configuration {
     }
 
     /**
-     * Sets the value of the h264Profile property.
+     * Imposta il valore della proprietà h264Profile.
      * 
      * @param value
      *     allowed object is

@@ -18,9 +18,9 @@ import org.w3c.dom.Element;
 /**
  * The capabilities of an Advanced Security Service implementation on a device.
  * 
- * <p>Java class for Capabilities complex type.
+ * <p>Classe Java per Capabilities complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>Il seguente frammento di schema specifica il contenuto previsto contenuto in questa classe.
  * 
  * <pre>
  * &lt;complexType name="Capabilities"&gt;
@@ -57,7 +57,7 @@ public class Capabilities {
     private Map<QName, String> otherAttributes = new HashMap<QName, String>();
 
     /**
-     * Gets the value of the keystoreCapabilities property.
+     * Recupera il valore della proprietà keystoreCapabilities.
      * 
      * @return
      *     possible object is
@@ -69,7 +69,7 @@ public class Capabilities {
     }
 
     /**
-     * Sets the value of the keystoreCapabilities property.
+     * Imposta il valore della proprietà keystoreCapabilities.
      * 
      * @param value
      *     allowed object is
@@ -81,7 +81,7 @@ public class Capabilities {
     }
 
     /**
-     * Gets the value of the tlsServerCapabilities property.
+     * Recupera il valore della proprietà tlsServerCapabilities.
      * 
      * @return
      *     possible object is
@@ -93,7 +93,7 @@ public class Capabilities {
     }
 
     /**
-     * Sets the value of the tlsServerCapabilities property.
+     * Imposta il valore della proprietà tlsServerCapabilities.
      * 
      * @param value
      *     allowed object is
@@ -122,8 +122,8 @@ public class Capabilities {
      * 
      * <p>
      * Objects of the following type(s) are allowed in the list
-     * {@link Object }
      * {@link Element }
+     * {@link Object }
      * 
      * 
      */

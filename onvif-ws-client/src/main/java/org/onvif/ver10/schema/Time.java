@@ -8,9 +8,9 @@ import javax.xml.bind.annotation.XmlType;
 
 
 /**
- * <p>Java class for Time complex type.
+ * <p>Classe Java per Time complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>Il seguente frammento di schema specifica il contenuto previsto contenuto in questa classe.
  * 
  * <pre>
  * &lt;complexType name="Time"&gt;
@@ -44,7 +44,7 @@ public class Time {
     protected int second;
 
     /**
-     * Gets the value of the hour property.
+     * Recupera il valore della proprietà hour.
      * 
      */
     public int getHour() {
@@ -52,7 +52,7 @@ public class Time {
     }
 
     /**
-     * Sets the value of the hour property.
+     * Imposta il valore della proprietà hour.
      * 
      */
     public void setHour(int value) {
@@ -60,7 +60,7 @@ public class Time {
     }
 
     /**
-     * Gets the value of the minute property.
+     * Recupera il valore della proprietà minute.
      * 
      */
     public int getMinute() {
@@ -68,7 +68,7 @@ public class Time {
     }
 
     /**
-     * Sets the value of the minute property.
+     * Imposta il valore della proprietà minute.
      * 
      */
     public void setMinute(int value) {
@@ -76,7 +76,7 @@ public class Time {
     }
 
     /**
-     * Gets the value of the second property.
+     * Recupera il valore della proprietà second.
      * 
      */
     public int getSecond() {
@@ -84,7 +84,7 @@ public class Time {
     }
 
     /**
-     * Sets the value of the second property.
+     * Imposta il valore della proprietà second.
      * 
      */
     public void setSecond(int value) {

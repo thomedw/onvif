@@ -8,9 +8,9 @@ import javax.xml.bind.annotation.XmlType;
 
 
 /**
- * <p>Java class for DateTime complex type.
+ * <p>Classe Java per DateTime complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>Il seguente frammento di schema specifica il contenuto previsto contenuto in questa classe.
  * 
  * <pre>
  * &lt;complexType name="DateTime"&gt;
@@ -40,7 +40,7 @@ public class DateTime {
     protected Date date;
 
     /**
-     * Gets the value of the time property.
+     * Recupera il valore della proprietà time.
      * 
      * @return
      *     possible object is
@@ -52,7 +52,7 @@ public class DateTime {
     }
 
     /**
-     * Sets the value of the time property.
+     * Imposta il valore della proprietà time.
      * 
      * @param value
      *     allowed object is
@@ -64,7 +64,7 @@ public class DateTime {
     }
 
     /**
-     * Gets the value of the date property.
+     * Recupera il valore della proprietà date.
      * 
      * @return
      *     possible object is
@@ -76,7 +76,7 @@ public class DateTime {
     }
 
     /**
-     * Sets the value of the date property.
+     * Imposta il valore della proprietà date.
      * 
      * @param value
      *     allowed object is

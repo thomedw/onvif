@@ -18,9 +18,9 @@ import org.w3c.dom.Element;
 
 
 /**
- * <p>Java class for CellLayout complex type.
+ * <p>Classe Java per CellLayout complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>Il seguente frammento di schema specifica il contenuto previsto contenuto in questa classe.
  * 
  * <pre>
  * &lt;complexType name="CellLayout"&gt;
@@ -59,7 +59,7 @@ public class CellLayout {
     private Map<QName, String> otherAttributes = new HashMap<QName, String>();
 
     /**
-     * Gets the value of the transformation property.
+     * Recupera il valore della proprietà transformation.
      * 
      * @return
      *     possible object is
@@ -71,7 +71,7 @@ public class CellLayout {
     }
 
     /**
-     * Sets the value of the transformation property.
+     * Imposta il valore della proprietà transformation.
      * 
      * @param value
      *     allowed object is
@@ -100,8 +100,8 @@ public class CellLayout {
      * 
      * <p>
      * Objects of the following type(s) are allowed in the list
-     * {@link java.lang.Object }
      * {@link Element }
+     * {@link java.lang.Object }
      * 
      * 
      */
@@ -113,7 +113,7 @@ public class CellLayout {
     }
 
     /**
-     * Gets the value of the columns property.
+     * Recupera il valore della proprietà columns.
      * 
      * @return
      *     possible object is
@@ -125,7 +125,7 @@ public class CellLayout {
     }
 
     /**
-     * Sets the value of the columns property.
+     * Imposta il valore della proprietà columns.
      * 
      * @param value
      *     allowed object is
@@ -137,7 +137,7 @@ public class CellLayout {
     }
 
     /**
-     * Gets the value of the rows property.
+     * Recupera il valore della proprietà rows.
      * 
      * @return
      *     possible object is
@@ -149,7 +149,7 @@ public class CellLayout {
     }
 
     /**
-     * Sets the value of the rows property.
+     * Imposta il valore della proprietà rows.
      * 
      * @param value
      *     allowed object is

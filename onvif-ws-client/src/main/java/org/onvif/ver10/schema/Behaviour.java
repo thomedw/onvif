@@ -15,9 +15,9 @@ import javax.xml.namespace.QName;
 
 
 /**
- * <p>Java class for Behaviour complex type.
+ * <p>Classe Java per Behaviour complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>Il seguente frammento di schema specifica il contenuto previsto contenuto in questa classe.
  * 
  * <pre>
  * &lt;complexType name="Behaviour"&gt;
@@ -74,7 +74,7 @@ public class Behaviour {
     private Map<QName, String> otherAttributes = new HashMap<QName, String>();
 
     /**
-     * Gets the value of the removed property.
+     * Recupera il valore della proprietà removed.
      * 
      * @return
      *     possible object is
@@ -86,7 +86,7 @@ public class Behaviour {
     }
 
     /**
-     * Sets the value of the removed property.
+     * Imposta il valore della proprietà removed.
      * 
      * @param value
      *     allowed object is
@@ -98,7 +98,7 @@ public class Behaviour {
     }
 
     /**
-     * Gets the value of the idle property.
+     * Recupera il valore della proprietà idle.
      * 
      * @return
      *     possible object is
@@ -110,7 +110,7 @@ public class Behaviour {
     }
 
     /**
-     * Sets the value of the idle property.
+     * Imposta il valore della proprietà idle.
      * 
      * @param value
      *     allowed object is
@@ -122,7 +122,7 @@ public class Behaviour {
     }
 
     /**
-     * Gets the value of the extension property.
+     * Recupera il valore della proprietà extension.
      * 
      * @return
      *     possible object is
@@ -134,7 +134,7 @@ public class Behaviour {
     }
 
     /**
-     * Sets the value of the extension property.
+     * Imposta il valore della proprietà extension.
      * 
      * @param value
      *     allowed object is
@@ -165,9 +165,9 @@ public class Behaviour {
 
 
     /**
-     * <p>Java class for anonymous complex type.
+     * <p>Classe Java per anonymous complex type.
      * 
-     * <p>The following schema fragment specifies the expected content contained within this class.
+     * <p>Il seguente frammento di schema specifica il contenuto previsto contenuto in questa classe.
      * 
      * <pre>
      * &lt;complexType&gt;
@@ -225,9 +225,9 @@ public class Behaviour {
 
 
     /**
-     * <p>Java class for anonymous complex type.
+     * <p>Classe Java per anonymous complex type.
      * 
-     * <p>The following schema fragment specifies the expected content contained within this class.
+     * <p>Il seguente frammento di schema specifica il contenuto previsto contenuto in questa classe.
      * 
      * <pre>
      * &lt;complexType&gt;

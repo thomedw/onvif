@@ -16,9 +16,9 @@ import org.w3c.dom.Element;
 
 
 /**
- * <p>Java class for Capabilities complex type.
+ * <p>Classe Java per Capabilities complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>Il seguente frammento di schema specifica il contenuto previsto contenuto in questa classe.
  * 
  * <pre>
  * &lt;complexType name="Capabilities"&gt;
@@ -82,8 +82,8 @@ public class Capabilities {
      * 
      * <p>
      * Objects of the following type(s) are allowed in the list
-     * {@link Object }
      * {@link Element }
+     * {@link Object }
      * 
      * 
      */
@@ -95,7 +95,7 @@ public class Capabilities {
     }
 
     /**
-     * Gets the value of the wsSubscriptionPolicySupport property.
+     * Recupera il valore della proprietà wsSubscriptionPolicySupport.
      * This getter has been renamed from isWSSubscriptionPolicySupport() to getWSSubscriptionPolicySupport() by cxf-xjc-boolean plugin.
      * 
      * @return
@@ -108,7 +108,7 @@ public class Capabilities {
     }
 
     /**
-     * Sets the value of the wsSubscriptionPolicySupport property.
+     * Imposta il valore della proprietà wsSubscriptionPolicySupport.
      * 
      * @param value
      *     allowed object is
@@ -120,7 +120,7 @@ public class Capabilities {
     }
 
     /**
-     * Gets the value of the wsPullPointSupport property.
+     * Recupera il valore della proprietà wsPullPointSupport.
      * This getter has been renamed from isWSPullPointSupport() to getWSPullPointSupport() by cxf-xjc-boolean plugin.
      * 
      * @return
@@ -133,7 +133,7 @@ public class Capabilities {
     }
 
     /**
-     * Sets the value of the wsPullPointSupport property.
+     * Imposta il valore della proprietà wsPullPointSupport.
      * 
      * @param value
      *     allowed object is
@@ -145,7 +145,7 @@ public class Capabilities {
     }
 
     /**
-     * Gets the value of the wsPausableSubscriptionManagerInterfaceSupport property.
+     * Recupera il valore della proprietà wsPausableSubscriptionManagerInterfaceSupport.
      * This getter has been renamed from isWSPausableSubscriptionManagerInterfaceSupport() to getWSPausableSubscriptionManagerInterfaceSupport() by cxf-xjc-boolean plugin.
      * 
      * @return
@@ -158,7 +158,7 @@ public class Capabilities {
     }
 
     /**
-     * Sets the value of the wsPausableSubscriptionManagerInterfaceSupport property.
+     * Imposta il valore della proprietà wsPausableSubscriptionManagerInterfaceSupport.
      * 
      * @param value
      *     allowed object is
@@ -170,7 +170,7 @@ public class Capabilities {
     }
 
     /**
-     * Gets the value of the maxNotificationProducers property.
+     * Recupera il valore della proprietà maxNotificationProducers.
      * 
      * @return
      *     possible object is
@@ -182,7 +182,7 @@ public class Capabilities {
     }
 
     /**
-     * Sets the value of the maxNotificationProducers property.
+     * Imposta il valore della proprietà maxNotificationProducers.
      * 
      * @param value
      *     allowed object is
@@ -194,7 +194,7 @@ public class Capabilities {
     }
 
     /**
-     * Gets the value of the maxPullPoints property.
+     * Recupera il valore della proprietà maxPullPoints.
      * 
      * @return
      *     possible object is
@@ -206,7 +206,7 @@ public class Capabilities {
     }
 
     /**
-     * Sets the value of the maxPullPoints property.
+     * Imposta il valore della proprietà maxPullPoints.
      * 
      * @param value
      *     allowed object is
@@ -218,7 +218,7 @@ public class Capabilities {
     }
 
     /**
-     * Gets the value of the persistentNotificationStorage property.
+     * Recupera il valore della proprietà persistentNotificationStorage.
      * This getter has been renamed from isPersistentNotificationStorage() to getPersistentNotificationStorage() by cxf-xjc-boolean plugin.
      * 
      * @return
@@ -231,7 +231,7 @@ public class Capabilities {
     }
 
     /**
-     * Sets the value of the persistentNotificationStorage property.
+     * Imposta il valore della proprietà persistentNotificationStorage.
      * 
      * @param value
      *     allowed object is

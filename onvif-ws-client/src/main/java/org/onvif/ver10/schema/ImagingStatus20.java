@@ -12,9 +12,9 @@ import javax.xml.namespace.QName;
 
 
 /**
- * <p>Java class for ImagingStatus20 complex type.
+ * <p>Classe Java per ImagingStatus20 complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>Il seguente frammento di schema specifica il contenuto previsto contenuto in questa classe.
  * 
  * <pre>
  * &lt;complexType name="ImagingStatus20"&gt;
@@ -47,7 +47,7 @@ public class ImagingStatus20 {
     private Map<QName, String> otherAttributes = new HashMap<QName, String>();
 
     /**
-     * Gets the value of the focusStatus20 property.
+     * Recupera il valore della proprietà focusStatus20.
      * 
      * @return
      *     possible object is
@@ -59,7 +59,7 @@ public class ImagingStatus20 {
     }
 
     /**
-     * Sets the value of the focusStatus20 property.
+     * Imposta il valore della proprietà focusStatus20.
      * 
      * @param value
      *     allowed object is
@@ -71,7 +71,7 @@ public class ImagingStatus20 {
     }
 
     /**
-     * Gets the value of the extension property.
+     * Recupera il valore della proprietà extension.
      * 
      * @return
      *     possible object is
@@ -83,7 +83,7 @@ public class ImagingStatus20 {
     }
 
     /**
-     * Sets the value of the extension property.
+     * Imposta il valore della proprietà extension.
      * 
      * @param value
      *     allowed object is

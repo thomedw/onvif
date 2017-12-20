@@ -12,9 +12,9 @@ import javax.xml.bind.annotation.XmlType;
 /**
  * A multi-valued RDN
  * 
- * <p>Java class for MultiValuedRDN complex type.
+ * <p>Classe Java per MultiValuedRDN complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>Il seguente frammento di schema specifica il contenuto previsto contenuto in questa classe.
  * 
  * <pre>
  * &lt;complexType name="MultiValuedRDN"&gt;

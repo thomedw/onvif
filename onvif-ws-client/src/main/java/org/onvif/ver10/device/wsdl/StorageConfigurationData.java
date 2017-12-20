@@ -18,9 +18,9 @@ import org.w3c.dom.Element;
 
 
 /**
- * <p>Java class for StorageConfigurationData complex type.
+ * <p>Classe Java per StorageConfigurationData complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>Il seguente frammento di schema specifica il contenuto previsto contenuto in questa classe.
  * 
  * <pre>
  * &lt;complexType name="StorageConfigurationData"&gt;
@@ -76,7 +76,7 @@ public class StorageConfigurationData {
     private Map<QName, String> otherAttributes = new HashMap<QName, String>();
 
     /**
-     * Gets the value of the localPath property.
+     * Recupera il valore della proprietà localPath.
      * 
      * @return
      *     possible object is
@@ -88,7 +88,7 @@ public class StorageConfigurationData {
     }
 
     /**
-     * Sets the value of the localPath property.
+     * Imposta il valore della proprietà localPath.
      * 
      * @param value
      *     allowed object is
@@ -100,7 +100,7 @@ public class StorageConfigurationData {
     }
 
     /**
-     * Gets the value of the storageUri property.
+     * Recupera il valore della proprietà storageUri.
      * 
      * @return
      *     possible object is
@@ -112,7 +112,7 @@ public class StorageConfigurationData {
     }
 
     /**
-     * Sets the value of the storageUri property.
+     * Imposta il valore della proprietà storageUri.
      * 
      * @param value
      *     allowed object is
@@ -124,7 +124,7 @@ public class StorageConfigurationData {
     }
 
     /**
-     * Gets the value of the user property.
+     * Recupera il valore della proprietà user.
      * 
      * @return
      *     possible object is
@@ -136,7 +136,7 @@ public class StorageConfigurationData {
     }
 
     /**
-     * Sets the value of the user property.
+     * Imposta il valore della proprietà user.
      * 
      * @param value
      *     allowed object is
@@ -148,7 +148,7 @@ public class StorageConfigurationData {
     }
 
     /**
-     * Gets the value of the extension property.
+     * Recupera il valore della proprietà extension.
      * 
      * @return
      *     possible object is
@@ -160,7 +160,7 @@ public class StorageConfigurationData {
     }
 
     /**
-     * Sets the value of the extension property.
+     * Imposta il valore della proprietà extension.
      * 
      * @param value
      *     allowed object is
@@ -172,7 +172,7 @@ public class StorageConfigurationData {
     }
 
     /**
-     * Gets the value of the type property.
+     * Recupera il valore della proprietà type.
      * 
      * @return
      *     possible object is
@@ -184,7 +184,7 @@ public class StorageConfigurationData {
     }
 
     /**
-     * Sets the value of the type property.
+     * Imposta il valore della proprietà type.
      * 
      * @param value
      *     allowed object is
@@ -215,9 +215,9 @@ public class StorageConfigurationData {
 
 
     /**
-     * <p>Java class for anonymous complex type.
+     * <p>Classe Java per anonymous complex type.
      * 
-     * <p>The following schema fragment specifies the expected content contained within this class.
+     * <p>Il seguente frammento di schema specifica il contenuto previsto contenuto in questa classe.
      * 
      * <pre>
      * &lt;complexType&gt;
@@ -260,8 +260,8 @@ public class StorageConfigurationData {
          * 
          * <p>
          * Objects of the following type(s) are allowed in the list
-         * {@link Object }
          * {@link Element }
+         * {@link Object }
          * 
          * 
          */

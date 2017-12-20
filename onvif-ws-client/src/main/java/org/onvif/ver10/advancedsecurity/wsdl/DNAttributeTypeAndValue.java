@@ -18,9 +18,9 @@ import org.w3c.dom.Element;
 /**
  * A distinguished name attribute type and value pair.
  * 
- * <p>Java class for DNAttributeTypeAndValue complex type.
+ * <p>Classe Java per DNAttributeTypeAndValue complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>Il seguente frammento di schema specifica il contenuto previsto contenuto in questa classe.
  * 
  * <pre>
  * &lt;complexType name="DNAttributeTypeAndValue"&gt;
@@ -57,7 +57,7 @@ public class DNAttributeTypeAndValue {
     private Map<QName, String> otherAttributes = new HashMap<QName, String>();
 
     /**
-     * Gets the value of the type property.
+     * Recupera il valore della proprietà type.
      * 
      * @return
      *     possible object is
@@ -69,7 +69,7 @@ public class DNAttributeTypeAndValue {
     }
 
     /**
-     * Sets the value of the type property.
+     * Imposta il valore della proprietà type.
      * 
      * @param value
      *     allowed object is
@@ -81,7 +81,7 @@ public class DNAttributeTypeAndValue {
     }
 
     /**
-     * Gets the value of the value property.
+     * Recupera il valore della proprietà value.
      * 
      * @return
      *     possible object is
@@ -93,7 +93,7 @@ public class DNAttributeTypeAndValue {
     }
 
     /**
-     * Sets the value of the value property.
+     * Imposta il valore della proprietà value.
      * 
      * @param value
      *     allowed object is
@@ -122,8 +122,8 @@ public class DNAttributeTypeAndValue {
      * 
      * <p>
      * Objects of the following type(s) are allowed in the list
-     * {@link Object }
      * {@link Element }
+     * {@link Object }
      * 
      * 
      */

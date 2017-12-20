@@ -11,9 +11,9 @@ import org.w3c.dom.Element;
 
 
 /**
- * <p>Java class for NotificationMessageHolderType complex type.
+ * <p>Classe Java per NotificationMessageHolderType complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>Il seguente frammento di schema specifica il contenuto previsto contenuto in questa classe.
  * 
  * <pre>
  * &lt;complexType name="NotificationMessageHolderType"&gt;
@@ -61,7 +61,7 @@ public class NotificationMessageHolderType {
     protected NotificationMessageHolderType.Message message;
 
     /**
-     * Gets the value of the subscriptionReference property.
+     * Recupera il valore della proprietà subscriptionReference.
      * 
      * @return
      *     possible object is
@@ -73,7 +73,7 @@ public class NotificationMessageHolderType {
     }
 
     /**
-     * Sets the value of the subscriptionReference property.
+     * Imposta il valore della proprietà subscriptionReference.
      * 
      * @param value
      *     allowed object is
@@ -85,7 +85,7 @@ public class NotificationMessageHolderType {
     }
 
     /**
-     * Gets the value of the topic property.
+     * Recupera il valore della proprietà topic.
      * 
      * @return
      *     possible object is
@@ -97,7 +97,7 @@ public class NotificationMessageHolderType {
     }
 
     /**
-     * Sets the value of the topic property.
+     * Imposta il valore della proprietà topic.
      * 
      * @param value
      *     allowed object is
@@ -109,7 +109,7 @@ public class NotificationMessageHolderType {
     }
 
     /**
-     * Gets the value of the producerReference property.
+     * Recupera il valore della proprietà producerReference.
      * 
      * @return
      *     possible object is
@@ -121,7 +121,7 @@ public class NotificationMessageHolderType {
     }
 
     /**
-     * Sets the value of the producerReference property.
+     * Imposta il valore della proprietà producerReference.
      * 
      * @param value
      *     allowed object is
@@ -133,7 +133,7 @@ public class NotificationMessageHolderType {
     }
 
     /**
-     * Gets the value of the message property.
+     * Recupera il valore della proprietà message.
      * 
      * @return
      *     possible object is
@@ -145,7 +145,7 @@ public class NotificationMessageHolderType {
     }
 
     /**
-     * Sets the value of the message property.
+     * Imposta il valore della proprietà message.
      * 
      * @param value
      *     allowed object is
@@ -158,9 +158,9 @@ public class NotificationMessageHolderType {
 
 
     /**
-     * <p>Java class for anonymous complex type.
+     * <p>Classe Java per anonymous complex type.
      * 
-     * <p>The following schema fragment specifies the expected content contained within this class.
+     * <p>Il seguente frammento di schema specifica il contenuto previsto contenuto in questa classe.
      * 
      * <pre>
      * &lt;complexType&gt;
@@ -186,12 +186,12 @@ public class NotificationMessageHolderType {
         protected Object any;
 
         /**
-         * Gets the value of the any property.
+         * Recupera il valore della proprietà any.
          * 
          * @return
          *     possible object is
-         *     {@link Object }
          *     {@link Element }
+         *     {@link Object }
          *     
          */
         public Object getAny() {
@@ -199,12 +199,12 @@ public class NotificationMessageHolderType {
         }
 
         /**
-         * Sets the value of the any property.
+         * Imposta il valore della proprietà any.
          * 
          * @param value
          *     allowed object is
-         *     {@link Object }
          *     {@link Element }
+         *     {@link Object }
          *     
          */
         public void setAny(Object value) {

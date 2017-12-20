@@ -17,9 +17,9 @@ import org.w3c.dom.Element;
 
 
 /**
- * <p>Java class for AudioOutputConfiguration complex type.
+ * <p>Classe Java per AudioOutputConfiguration complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>Il seguente frammento di schema specifica il contenuto previsto contenuto in questa classe.
  * 
  * <pre>
  * &lt;complexType name="AudioOutputConfiguration"&gt;
@@ -63,7 +63,7 @@ public class AudioOutputConfiguration
     private Map<QName, String> otherAttributes = new HashMap<QName, String>();
 
     /**
-     * Gets the value of the outputToken property.
+     * Recupera il valore della proprietà outputToken.
      * 
      * @return
      *     possible object is
@@ -75,7 +75,7 @@ public class AudioOutputConfiguration
     }
 
     /**
-     * Sets the value of the outputToken property.
+     * Imposta il valore della proprietà outputToken.
      * 
      * @param value
      *     allowed object is
@@ -87,7 +87,7 @@ public class AudioOutputConfiguration
     }
 
     /**
-     * Gets the value of the sendPrimacy property.
+     * Recupera il valore della proprietà sendPrimacy.
      * 
      * @return
      *     possible object is
@@ -99,7 +99,7 @@ public class AudioOutputConfiguration
     }
 
     /**
-     * Sets the value of the sendPrimacy property.
+     * Imposta il valore della proprietà sendPrimacy.
      * 
      * @param value
      *     allowed object is
@@ -111,7 +111,7 @@ public class AudioOutputConfiguration
     }
 
     /**
-     * Gets the value of the outputLevel property.
+     * Recupera il valore della proprietà outputLevel.
      * 
      */
     public int getOutputLevel() {
@@ -119,7 +119,7 @@ public class AudioOutputConfiguration
     }
 
     /**
-     * Sets the value of the outputLevel property.
+     * Imposta il valore della proprietà outputLevel.
      * 
      */
     public void setOutputLevel(int value) {
@@ -144,8 +144,8 @@ public class AudioOutputConfiguration
      * 
      * <p>
      * Objects of the following type(s) are allowed in the list
-     * {@link java.lang.Object }
      * {@link Element }
+     * {@link java.lang.Object }
      * 
      * 
      */

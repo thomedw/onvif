@@ -9,9 +9,9 @@ import javax.xml.bind.annotation.XmlType;
 
 
 /**
- * <p>Java class for anonymous complex type.
+ * <p>Classe Java per anonymous complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>Il seguente frammento di schema specifica il contenuto previsto contenuto in questa classe.
  * 
  * <pre>
  * &lt;complexType&gt;
@@ -54,7 +54,7 @@ public class GetDeviceInformationResponse {
     protected String hardwareId;
 
     /**
-     * Gets the value of the manufacturer property.
+     * Recupera il valore della proprietà manufacturer.
      * 
      * @return
      *     possible object is
@@ -66,7 +66,7 @@ public class GetDeviceInformationResponse {
     }
 
     /**
-     * Sets the value of the manufacturer property.
+     * Imposta il valore della proprietà manufacturer.
      * 
      * @param value
      *     allowed object is
@@ -78,7 +78,7 @@ public class GetDeviceInformationResponse {
     }
 
     /**
-     * Gets the value of the model property.
+     * Recupera il valore della proprietà model.
      * 
      * @return
      *     possible object is
@@ -90,7 +90,7 @@ public class GetDeviceInformationResponse {
     }
 
     /**
-     * Sets the value of the model property.
+     * Imposta il valore della proprietà model.
      * 
      * @param value
      *     allowed object is
@@ -102,7 +102,7 @@ public class GetDeviceInformationResponse {
     }
 
     /**
-     * Gets the value of the firmwareVersion property.
+     * Recupera il valore della proprietà firmwareVersion.
      * 
      * @return
      *     possible object is
@@ -114,7 +114,7 @@ public class GetDeviceInformationResponse {
     }
 
     /**
-     * Sets the value of the firmwareVersion property.
+     * Imposta il valore della proprietà firmwareVersion.
      * 
      * @param value
      *     allowed object is
@@ -126,7 +126,7 @@ public class GetDeviceInformationResponse {
     }
 
     /**
-     * Gets the value of the serialNumber property.
+     * Recupera il valore della proprietà serialNumber.
      * 
      * @return
      *     possible object is
@@ -138,7 +138,7 @@ public class GetDeviceInformationResponse {
     }
 
     /**
-     * Sets the value of the serialNumber property.
+     * Imposta il valore della proprietà serialNumber.
      * 
      * @param value
      *     allowed object is
@@ -150,7 +150,7 @@ public class GetDeviceInformationResponse {
     }
 
     /**
-     * Gets the value of the hardwareId property.
+     * Recupera il valore della proprietà hardwareId.
      * 
      * @return
      *     possible object is
@@ -162,7 +162,7 @@ public class GetDeviceInformationResponse {
     }
 
     /**
-     * Sets the value of the hardwareId property.
+     * Imposta il valore della proprietà hardwareId.
      * 
      * @param value
      *     allowed object is

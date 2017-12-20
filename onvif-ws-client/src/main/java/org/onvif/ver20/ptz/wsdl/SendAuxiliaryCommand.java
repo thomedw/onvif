@@ -9,9 +9,9 @@ import javax.xml.bind.annotation.XmlType;
 
 
 /**
- * <p>Java class for anonymous complex type.
+ * <p>Classe Java per anonymous complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>Il seguente frammento di schema specifica il contenuto previsto contenuto in questa classe.
  * 
  * <pre>
  * &lt;complexType&gt;
@@ -42,7 +42,7 @@ public class SendAuxiliaryCommand {
     protected String auxiliaryData;
 
     /**
-     * Gets the value of the profileToken property.
+     * Recupera il valore della proprietà profileToken.
      * 
      * @return
      *     possible object is
@@ -54,7 +54,7 @@ public class SendAuxiliaryCommand {
     }
 
     /**
-     * Sets the value of the profileToken property.
+     * Imposta il valore della proprietà profileToken.
      * 
      * @param value
      *     allowed object is
@@ -66,7 +66,7 @@ public class SendAuxiliaryCommand {
     }
 
     /**
-     * Gets the value of the auxiliaryData property.
+     * Recupera il valore della proprietà auxiliaryData.
      * 
      * @return
      *     possible object is
@@ -78,7 +78,7 @@ public class SendAuxiliaryCommand {
     }
 
     /**
-     * Sets the value of the auxiliaryData property.
+     * Imposta il valore della proprietà auxiliaryData.
      * 
      * @param value
      *     allowed object is

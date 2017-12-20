@@ -13,9 +13,9 @@ import javax.xml.namespace.QName;
 
 
 /**
- * <p>Java class for PTZPresetTourStatus complex type.
+ * <p>Classe Java per PTZPresetTourStatus complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>Il seguente frammento di schema specifica il contenuto previsto contenuto in questa classe.
  * 
  * <pre>
  * &lt;complexType name="PTZPresetTourStatus"&gt;
@@ -53,7 +53,7 @@ public class PTZPresetTourStatus {
     private Map<QName, String> otherAttributes = new HashMap<QName, String>();
 
     /**
-     * Gets the value of the state property.
+     * Recupera il valore della proprietà state.
      * 
      * @return
      *     possible object is
@@ -65,7 +65,7 @@ public class PTZPresetTourStatus {
     }
 
     /**
-     * Sets the value of the state property.
+     * Imposta il valore della proprietà state.
      * 
      * @param value
      *     allowed object is
@@ -77,7 +77,7 @@ public class PTZPresetTourStatus {
     }
 
     /**
-     * Gets the value of the currentTourSpot property.
+     * Recupera il valore della proprietà currentTourSpot.
      * 
      * @return
      *     possible object is
@@ -89,7 +89,7 @@ public class PTZPresetTourStatus {
     }
 
     /**
-     * Sets the value of the currentTourSpot property.
+     * Imposta il valore della proprietà currentTourSpot.
      * 
      * @param value
      *     allowed object is
@@ -101,7 +101,7 @@ public class PTZPresetTourStatus {
     }
 
     /**
-     * Gets the value of the extension property.
+     * Recupera il valore della proprietà extension.
      * 
      * @return
      *     possible object is
@@ -113,7 +113,7 @@ public class PTZPresetTourStatus {
     }
 
     /**
-     * Sets the value of the extension property.
+     * Imposta il valore della proprietà extension.
      * 
      * @param value
      *     allowed object is

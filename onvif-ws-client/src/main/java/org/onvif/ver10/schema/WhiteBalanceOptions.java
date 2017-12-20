@@ -11,9 +11,9 @@ import javax.xml.bind.annotation.XmlType;
 
 
 /**
- * <p>Java class for WhiteBalanceOptions complex type.
+ * <p>Classe Java per WhiteBalanceOptions complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>Il seguente frammento di schema specifica il contenuto previsto contenuto in questa classe.
  * 
  * <pre>
  * &lt;complexType name="WhiteBalanceOptions"&gt;
@@ -77,7 +77,7 @@ public class WhiteBalanceOptions {
     }
 
     /**
-     * Gets the value of the yrGain property.
+     * Recupera il valore della proprietà yrGain.
      * 
      * @return
      *     possible object is
@@ -89,7 +89,7 @@ public class WhiteBalanceOptions {
     }
 
     /**
-     * Sets the value of the yrGain property.
+     * Imposta il valore della proprietà yrGain.
      * 
      * @param value
      *     allowed object is
@@ -101,7 +101,7 @@ public class WhiteBalanceOptions {
     }
 
     /**
-     * Gets the value of the ybGain property.
+     * Recupera il valore della proprietà ybGain.
      * 
      * @return
      *     possible object is
@@ -113,7 +113,7 @@ public class WhiteBalanceOptions {
     }
 
     /**
-     * Sets the value of the ybGain property.
+     * Imposta il valore della proprietà ybGain.
      * 
      * @param value
      *     allowed object is

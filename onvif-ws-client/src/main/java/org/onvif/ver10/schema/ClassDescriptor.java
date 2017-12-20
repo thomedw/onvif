@@ -11,9 +11,9 @@ import javax.xml.bind.annotation.XmlType;
 
 
 /**
- * <p>Java class for ClassDescriptor complex type.
+ * <p>Classe Java per ClassDescriptor complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>Il seguente frammento di schema specifica il contenuto previsto contenuto in questa classe.
  * 
  * <pre>
  * &lt;complexType name="ClassDescriptor"&gt;
@@ -83,7 +83,7 @@ public class ClassDescriptor {
     }
 
     /**
-     * Gets the value of the extension property.
+     * Recupera il valore della proprietà extension.
      * 
      * @return
      *     possible object is
@@ -95,7 +95,7 @@ public class ClassDescriptor {
     }
 
     /**
-     * Sets the value of the extension property.
+     * Imposta il valore della proprietà extension.
      * 
      * @param value
      *     allowed object is
@@ -108,9 +108,9 @@ public class ClassDescriptor {
 
 
     /**
-     * <p>Java class for anonymous complex type.
+     * <p>Classe Java per anonymous complex type.
      * 
-     * <p>The following schema fragment specifies the expected content contained within this class.
+     * <p>Il seguente frammento di schema specifica il contenuto previsto contenuto in questa classe.
      * 
      * <pre>
      * &lt;complexType&gt;
@@ -141,7 +141,7 @@ public class ClassDescriptor {
         protected float likelihood;
 
         /**
-         * Gets the value of the type property.
+         * Recupera il valore della proprietà type.
          * 
          * @return
          *     possible object is
@@ -153,7 +153,7 @@ public class ClassDescriptor {
         }
 
         /**
-         * Sets the value of the type property.
+         * Imposta il valore della proprietà type.
          * 
          * @param value
          *     allowed object is
@@ -165,7 +165,7 @@ public class ClassDescriptor {
         }
 
         /**
-         * Gets the value of the likelihood property.
+         * Recupera il valore della proprietà likelihood.
          * 
          */
         public float getLikelihood() {
@@ -173,7 +173,7 @@ public class ClassDescriptor {
         }
 
         /**
-         * Sets the value of the likelihood property.
+         * Imposta il valore della proprietà likelihood.
          * 
          */
         public void setLikelihood(float value) {

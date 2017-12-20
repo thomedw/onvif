@@ -15,9 +15,9 @@ import javax.xml.namespace.QName;
 
 
 /**
- * <p>Java class for CertificateGenerationParameters complex type.
+ * <p>Classe Java per CertificateGenerationParameters complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>Il seguente frammento di schema specifica il contenuto previsto contenuto in questa classe.
  * 
  * <pre>
  * &lt;complexType name="CertificateGenerationParameters"&gt;
@@ -68,7 +68,7 @@ public class CertificateGenerationParameters {
     private Map<QName, String> otherAttributes = new HashMap<QName, String>();
 
     /**
-     * Gets the value of the certificateID property.
+     * Recupera il valore della proprietà certificateID.
      * 
      * @return
      *     possible object is
@@ -80,7 +80,7 @@ public class CertificateGenerationParameters {
     }
 
     /**
-     * Sets the value of the certificateID property.
+     * Imposta il valore della proprietà certificateID.
      * 
      * @param value
      *     allowed object is
@@ -92,7 +92,7 @@ public class CertificateGenerationParameters {
     }
 
     /**
-     * Gets the value of the subject property.
+     * Recupera il valore della proprietà subject.
      * 
      * @return
      *     possible object is
@@ -104,7 +104,7 @@ public class CertificateGenerationParameters {
     }
 
     /**
-     * Sets the value of the subject property.
+     * Imposta il valore della proprietà subject.
      * 
      * @param value
      *     allowed object is
@@ -116,7 +116,7 @@ public class CertificateGenerationParameters {
     }
 
     /**
-     * Gets the value of the validNotBefore property.
+     * Recupera il valore della proprietà validNotBefore.
      * 
      * @return
      *     possible object is
@@ -128,7 +128,7 @@ public class CertificateGenerationParameters {
     }
 
     /**
-     * Sets the value of the validNotBefore property.
+     * Imposta il valore della proprietà validNotBefore.
      * 
      * @param value
      *     allowed object is
@@ -140,7 +140,7 @@ public class CertificateGenerationParameters {
     }
 
     /**
-     * Gets the value of the validNotAfter property.
+     * Recupera il valore della proprietà validNotAfter.
      * 
      * @return
      *     possible object is
@@ -152,7 +152,7 @@ public class CertificateGenerationParameters {
     }
 
     /**
-     * Sets the value of the validNotAfter property.
+     * Imposta il valore della proprietà validNotAfter.
      * 
      * @param value
      *     allowed object is
@@ -164,7 +164,7 @@ public class CertificateGenerationParameters {
     }
 
     /**
-     * Gets the value of the extension property.
+     * Recupera il valore della proprietà extension.
      * 
      * @return
      *     possible object is
@@ -176,7 +176,7 @@ public class CertificateGenerationParameters {
     }
 
     /**
-     * Sets the value of the extension property.
+     * Imposta il valore della proprietà extension.
      * 
      * @param value
      *     allowed object is

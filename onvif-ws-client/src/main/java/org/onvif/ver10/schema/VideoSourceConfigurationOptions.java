@@ -14,9 +14,9 @@ import javax.xml.namespace.QName;
 
 
 /**
- * <p>Java class for VideoSourceConfigurationOptions complex type.
+ * <p>Classe Java per VideoSourceConfigurationOptions complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>Il seguente frammento di schema specifica il contenuto previsto contenuto in questa classe.
  * 
  * <pre>
  * &lt;complexType name="VideoSourceConfigurationOptions"&gt;
@@ -53,7 +53,7 @@ public class VideoSourceConfigurationOptions {
     private Map<QName, String> otherAttributes = new HashMap<QName, String>();
 
     /**
-     * Gets the value of the boundsRange property.
+     * Recupera il valore della proprietà boundsRange.
      * 
      * @return
      *     possible object is
@@ -65,7 +65,7 @@ public class VideoSourceConfigurationOptions {
     }
 
     /**
-     * Sets the value of the boundsRange property.
+     * Imposta il valore della proprietà boundsRange.
      * 
      * @param value
      *     allowed object is
@@ -106,7 +106,7 @@ public class VideoSourceConfigurationOptions {
     }
 
     /**
-     * Gets the value of the extension property.
+     * Recupera il valore della proprietà extension.
      * 
      * @return
      *     possible object is
@@ -118,7 +118,7 @@ public class VideoSourceConfigurationOptions {
     }
 
     /**
-     * Sets the value of the extension property.
+     * Imposta il valore della proprietà extension.
      * 
      * @param value
      *     allowed object is

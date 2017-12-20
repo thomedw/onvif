@@ -19,9 +19,9 @@ import org.w3c.dom.Element;
 
 
 /**
- * <p>Java class for anonymous complex type.
+ * <p>Classe Java per anonymous complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>Il seguente frammento di schema specifica il contenuto previsto contenuto in questa classe.
  * 
  * <pre>
  * &lt;complexType&gt;
@@ -56,7 +56,7 @@ public class GetMessages {
     private Map<QName, String> otherAttributes = new HashMap<QName, String>();
 
     /**
-     * Gets the value of the maximumNumber property.
+     * Recupera il valore della proprietà maximumNumber.
      * 
      * @return
      *     possible object is
@@ -68,7 +68,7 @@ public class GetMessages {
     }
 
     /**
-     * Sets the value of the maximumNumber property.
+     * Imposta il valore della proprietà maximumNumber.
      * 
      * @param value
      *     allowed object is
@@ -97,8 +97,8 @@ public class GetMessages {
      * 
      * <p>
      * Objects of the following type(s) are allowed in the list
-     * {@link Object }
      * {@link Element }
+     * {@link Object }
      * 
      * 
      */

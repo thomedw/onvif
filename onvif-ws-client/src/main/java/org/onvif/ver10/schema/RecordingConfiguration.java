@@ -17,9 +17,9 @@ import org.w3c.dom.Element;
 
 
 /**
- * <p>Java class for RecordingConfiguration complex type.
+ * <p>Classe Java per RecordingConfiguration complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>Il seguente frammento di schema specifica il contenuto previsto contenuto in questa classe.
  * 
  * <pre>
  * &lt;complexType name="RecordingConfiguration"&gt;
@@ -60,7 +60,7 @@ public class RecordingConfiguration {
     private Map<QName, String> otherAttributes = new HashMap<QName, String>();
 
     /**
-     * Gets the value of the source property.
+     * Recupera il valore della proprietà source.
      * 
      * @return
      *     possible object is
@@ -72,7 +72,7 @@ public class RecordingConfiguration {
     }
 
     /**
-     * Sets the value of the source property.
+     * Imposta il valore della proprietà source.
      * 
      * @param value
      *     allowed object is
@@ -84,7 +84,7 @@ public class RecordingConfiguration {
     }
 
     /**
-     * Gets the value of the content property.
+     * Recupera il valore della proprietà content.
      * 
      * @return
      *     possible object is
@@ -96,7 +96,7 @@ public class RecordingConfiguration {
     }
 
     /**
-     * Sets the value of the content property.
+     * Imposta il valore della proprietà content.
      * 
      * @param value
      *     allowed object is
@@ -108,7 +108,7 @@ public class RecordingConfiguration {
     }
 
     /**
-     * Gets the value of the maximumRetentionTime property.
+     * Recupera il valore della proprietà maximumRetentionTime.
      * 
      * @return
      *     possible object is
@@ -120,7 +120,7 @@ public class RecordingConfiguration {
     }
 
     /**
-     * Sets the value of the maximumRetentionTime property.
+     * Imposta il valore della proprietà maximumRetentionTime.
      * 
      * @param value
      *     allowed object is
@@ -149,8 +149,8 @@ public class RecordingConfiguration {
      * 
      * <p>
      * Objects of the following type(s) are allowed in the list
-     * {@link java.lang.Object }
      * {@link Element }
+     * {@link java.lang.Object }
      * 
      * 
      */

@@ -16,9 +16,9 @@ import org.w3c.dom.Element;
 
 
 /**
- * <p>Java class for EngineConfiguration complex type.
+ * <p>Classe Java per EngineConfiguration complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>Il seguente frammento di schema specifica il contenuto previsto contenuto in questa classe.
  * 
  * <pre>
  * &lt;complexType name="EngineConfiguration"&gt;
@@ -55,7 +55,7 @@ public class EngineConfiguration {
     private Map<QName, String> otherAttributes = new HashMap<QName, String>();
 
     /**
-     * Gets the value of the videoAnalyticsConfiguration property.
+     * Recupera il valore della proprietà videoAnalyticsConfiguration.
      * 
      * @return
      *     possible object is
@@ -67,7 +67,7 @@ public class EngineConfiguration {
     }
 
     /**
-     * Sets the value of the videoAnalyticsConfiguration property.
+     * Imposta il valore della proprietà videoAnalyticsConfiguration.
      * 
      * @param value
      *     allowed object is
@@ -79,7 +79,7 @@ public class EngineConfiguration {
     }
 
     /**
-     * Gets the value of the analyticsEngineInputInfo property.
+     * Recupera il valore della proprietà analyticsEngineInputInfo.
      * 
      * @return
      *     possible object is
@@ -91,7 +91,7 @@ public class EngineConfiguration {
     }
 
     /**
-     * Sets the value of the analyticsEngineInputInfo property.
+     * Imposta il valore della proprietà analyticsEngineInputInfo.
      * 
      * @param value
      *     allowed object is
@@ -120,8 +120,8 @@ public class EngineConfiguration {
      * 
      * <p>
      * Objects of the following type(s) are allowed in the list
-     * {@link java.lang.Object }
      * {@link Element }
+     * {@link java.lang.Object }
      * 
      * 
      */

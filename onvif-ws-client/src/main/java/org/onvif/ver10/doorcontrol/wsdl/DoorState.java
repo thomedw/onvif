@@ -21,9 +21,9 @@ import org.w3c.dom.Element;
  * The DoorState structure contains current aggregate runtime status of Door.
  * 
  * 
- * <p>Java class for DoorState complex type.
+ * <p>Classe Java per DoorState complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>Il seguente frammento di schema specifica il contenuto previsto contenuto in questa classe.
  * 
  * <pre>
  * &lt;complexType name="DoorState"&gt;
@@ -85,7 +85,7 @@ public class DoorState {
     private Map<QName, String> otherAttributes = new HashMap<QName, String>();
 
     /**
-     * Gets the value of the doorPhysicalState property.
+     * Recupera il valore della proprietà doorPhysicalState.
      * 
      * @return
      *     possible object is
@@ -97,7 +97,7 @@ public class DoorState {
     }
 
     /**
-     * Sets the value of the doorPhysicalState property.
+     * Imposta il valore della proprietà doorPhysicalState.
      * 
      * @param value
      *     allowed object is
@@ -109,7 +109,7 @@ public class DoorState {
     }
 
     /**
-     * Gets the value of the lockPhysicalState property.
+     * Recupera il valore della proprietà lockPhysicalState.
      * 
      * @return
      *     possible object is
@@ -121,7 +121,7 @@ public class DoorState {
     }
 
     /**
-     * Sets the value of the lockPhysicalState property.
+     * Imposta il valore della proprietà lockPhysicalState.
      * 
      * @param value
      *     allowed object is
@@ -133,7 +133,7 @@ public class DoorState {
     }
 
     /**
-     * Gets the value of the doubleLockPhysicalState property.
+     * Recupera il valore della proprietà doubleLockPhysicalState.
      * 
      * @return
      *     possible object is
@@ -145,7 +145,7 @@ public class DoorState {
     }
 
     /**
-     * Sets the value of the doubleLockPhysicalState property.
+     * Imposta il valore della proprietà doubleLockPhysicalState.
      * 
      * @param value
      *     allowed object is
@@ -157,7 +157,7 @@ public class DoorState {
     }
 
     /**
-     * Gets the value of the alarm property.
+     * Recupera il valore della proprietà alarm.
      * 
      * @return
      *     possible object is
@@ -169,7 +169,7 @@ public class DoorState {
     }
 
     /**
-     * Sets the value of the alarm property.
+     * Imposta il valore della proprietà alarm.
      * 
      * @param value
      *     allowed object is
@@ -181,7 +181,7 @@ public class DoorState {
     }
 
     /**
-     * Gets the value of the tamper property.
+     * Recupera il valore della proprietà tamper.
      * 
      * @return
      *     possible object is
@@ -193,7 +193,7 @@ public class DoorState {
     }
 
     /**
-     * Sets the value of the tamper property.
+     * Imposta il valore della proprietà tamper.
      * 
      * @param value
      *     allowed object is
@@ -205,7 +205,7 @@ public class DoorState {
     }
 
     /**
-     * Gets the value of the fault property.
+     * Recupera il valore della proprietà fault.
      * 
      * @return
      *     possible object is
@@ -217,7 +217,7 @@ public class DoorState {
     }
 
     /**
-     * Sets the value of the fault property.
+     * Imposta il valore della proprietà fault.
      * 
      * @param value
      *     allowed object is
@@ -229,7 +229,7 @@ public class DoorState {
     }
 
     /**
-     * Gets the value of the doorMode property.
+     * Recupera il valore della proprietà doorMode.
      * 
      * @return
      *     possible object is
@@ -241,7 +241,7 @@ public class DoorState {
     }
 
     /**
-     * Sets the value of the doorMode property.
+     * Imposta il valore della proprietà doorMode.
      * 
      * @param value
      *     allowed object is
@@ -270,8 +270,8 @@ public class DoorState {
      * 
      * <p>
      * Objects of the following type(s) are allowed in the list
-     * {@link Object }
      * {@link Element }
+     * {@link Object }
      * 
      * 
      */

@@ -16,9 +16,9 @@ import org.w3c.dom.Element;
 
 
 /**
- * <p>Java class for GetTracksResponseItem complex type.
+ * <p>Classe Java per GetTracksResponseItem complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>Il seguente frammento di schema specifica il contenuto previsto contenuto in questa classe.
  * 
  * <pre>
  * &lt;complexType name="GetTracksResponseItem"&gt;
@@ -55,7 +55,7 @@ public class GetTracksResponseItem {
     private Map<QName, String> otherAttributes = new HashMap<QName, String>();
 
     /**
-     * Gets the value of the trackToken property.
+     * Recupera il valore della proprietà trackToken.
      * 
      * @return
      *     possible object is
@@ -67,7 +67,7 @@ public class GetTracksResponseItem {
     }
 
     /**
-     * Sets the value of the trackToken property.
+     * Imposta il valore della proprietà trackToken.
      * 
      * @param value
      *     allowed object is
@@ -79,7 +79,7 @@ public class GetTracksResponseItem {
     }
 
     /**
-     * Gets the value of the configuration property.
+     * Recupera il valore della proprietà configuration.
      * 
      * @return
      *     possible object is
@@ -91,7 +91,7 @@ public class GetTracksResponseItem {
     }
 
     /**
-     * Sets the value of the configuration property.
+     * Imposta il valore della proprietà configuration.
      * 
      * @param value
      *     allowed object is
@@ -120,8 +120,8 @@ public class GetTracksResponseItem {
      * 
      * <p>
      * Objects of the following type(s) are allowed in the list
-     * {@link java.lang.Object }
      * {@link Element }
+     * {@link java.lang.Object }
      * 
      * 
      */

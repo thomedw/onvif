@@ -17,9 +17,9 @@ import org.w3c.dom.Element;
 
 
 /**
- * <p>Java class for MediaCapabilities complex type.
+ * <p>Classe Java per MediaCapabilities complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>Il seguente frammento di schema specifica il contenuto previsto contenuto in questa classe.
  * 
  * <pre>
  * &lt;complexType name="MediaCapabilities"&gt;
@@ -61,7 +61,7 @@ public class MediaCapabilities {
     private Map<QName, String> otherAttributes = new HashMap<QName, String>();
 
     /**
-     * Gets the value of the xAddr property.
+     * Recupera il valore della proprietà xAddr.
      * 
      * @return
      *     possible object is
@@ -73,7 +73,7 @@ public class MediaCapabilities {
     }
 
     /**
-     * Sets the value of the xAddr property.
+     * Imposta il valore della proprietà xAddr.
      * 
      * @param value
      *     allowed object is
@@ -85,7 +85,7 @@ public class MediaCapabilities {
     }
 
     /**
-     * Gets the value of the streamingCapabilities property.
+     * Recupera il valore della proprietà streamingCapabilities.
      * 
      * @return
      *     possible object is
@@ -97,7 +97,7 @@ public class MediaCapabilities {
     }
 
     /**
-     * Sets the value of the streamingCapabilities property.
+     * Imposta il valore della proprietà streamingCapabilities.
      * 
      * @param value
      *     allowed object is
@@ -126,8 +126,8 @@ public class MediaCapabilities {
      * 
      * <p>
      * Objects of the following type(s) are allowed in the list
-     * {@link java.lang.Object }
      * {@link Element }
+     * {@link java.lang.Object }
      * 
      * 
      */
@@ -139,7 +139,7 @@ public class MediaCapabilities {
     }
 
     /**
-     * Gets the value of the extension property.
+     * Recupera il valore della proprietà extension.
      * 
      * @return
      *     possible object is
@@ -151,7 +151,7 @@ public class MediaCapabilities {
     }
 
     /**
-     * Sets the value of the extension property.
+     * Imposta il valore della proprietà extension.
      * 
      * @param value
      *     allowed object is

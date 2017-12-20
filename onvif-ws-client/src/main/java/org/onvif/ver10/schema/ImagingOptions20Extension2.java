@@ -8,9 +8,9 @@ import javax.xml.bind.annotation.XmlType;
 
 
 /**
- * <p>Java class for ImagingOptions20Extension2 complex type.
+ * <p>Classe Java per ImagingOptions20Extension2 complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>Il seguente frammento di schema specifica il contenuto previsto contenuto in questa classe.
  * 
  * <pre>
  * &lt;complexType name="ImagingOptions20Extension2"&gt;
@@ -40,7 +40,7 @@ public class ImagingOptions20Extension2 {
     protected ImagingOptions20Extension3 extension;
 
     /**
-     * Gets the value of the irCutFilterAutoAdjustment property.
+     * Recupera il valore della proprietà irCutFilterAutoAdjustment.
      * 
      * @return
      *     possible object is
@@ -52,7 +52,7 @@ public class ImagingOptions20Extension2 {
     }
 
     /**
-     * Sets the value of the irCutFilterAutoAdjustment property.
+     * Imposta il valore della proprietà irCutFilterAutoAdjustment.
      * 
      * @param value
      *     allowed object is
@@ -64,7 +64,7 @@ public class ImagingOptions20Extension2 {
     }
 
     /**
-     * Gets the value of the extension property.
+     * Recupera il valore della proprietà extension.
      * 
      * @return
      *     possible object is
@@ -76,7 +76,7 @@ public class ImagingOptions20Extension2 {
     }
 
     /**
-     * Sets the value of the extension property.
+     * Imposta il valore della proprietà extension.
      * 
      * @param value
      *     allowed object is

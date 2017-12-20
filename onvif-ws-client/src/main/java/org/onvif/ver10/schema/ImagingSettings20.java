@@ -15,9 +15,9 @@ import javax.xml.namespace.QName;
 /**
  * Type describing the ImagingSettings of a VideoSource. The supported options and ranges can be obtained via the GetOptions command.
  * 
- * <p>Java class for ImagingSettings20 complex type.
+ * <p>Classe Java per ImagingSettings20 complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>Il seguente frammento di schema specifica il contenuto previsto contenuto in questa classe.
  * 
  * <pre>
  * &lt;complexType name="ImagingSettings20"&gt;
@@ -87,7 +87,7 @@ public class ImagingSettings20 {
     private Map<QName, String> otherAttributes = new HashMap<QName, String>();
 
     /**
-     * Gets the value of the backlightCompensation property.
+     * Recupera il valore della proprietà backlightCompensation.
      * 
      * @return
      *     possible object is
@@ -99,7 +99,7 @@ public class ImagingSettings20 {
     }
 
     /**
-     * Sets the value of the backlightCompensation property.
+     * Imposta il valore della proprietà backlightCompensation.
      * 
      * @param value
      *     allowed object is
@@ -111,7 +111,7 @@ public class ImagingSettings20 {
     }
 
     /**
-     * Gets the value of the brightness property.
+     * Recupera il valore della proprietà brightness.
      * 
      * @return
      *     possible object is
@@ -123,7 +123,7 @@ public class ImagingSettings20 {
     }
 
     /**
-     * Sets the value of the brightness property.
+     * Imposta il valore della proprietà brightness.
      * 
      * @param value
      *     allowed object is
@@ -135,7 +135,7 @@ public class ImagingSettings20 {
     }
 
     /**
-     * Gets the value of the colorSaturation property.
+     * Recupera il valore della proprietà colorSaturation.
      * 
      * @return
      *     possible object is
@@ -147,7 +147,7 @@ public class ImagingSettings20 {
     }
 
     /**
-     * Sets the value of the colorSaturation property.
+     * Imposta il valore della proprietà colorSaturation.
      * 
      * @param value
      *     allowed object is
@@ -159,7 +159,7 @@ public class ImagingSettings20 {
     }
 
     /**
-     * Gets the value of the contrast property.
+     * Recupera il valore della proprietà contrast.
      * 
      * @return
      *     possible object is
@@ -171,7 +171,7 @@ public class ImagingSettings20 {
     }
 
     /**
-     * Sets the value of the contrast property.
+     * Imposta il valore della proprietà contrast.
      * 
      * @param value
      *     allowed object is
@@ -183,7 +183,7 @@ public class ImagingSettings20 {
     }
 
     /**
-     * Gets the value of the exposure property.
+     * Recupera il valore della proprietà exposure.
      * 
      * @return
      *     possible object is
@@ -195,7 +195,7 @@ public class ImagingSettings20 {
     }
 
     /**
-     * Sets the value of the exposure property.
+     * Imposta il valore della proprietà exposure.
      * 
      * @param value
      *     allowed object is
@@ -207,7 +207,7 @@ public class ImagingSettings20 {
     }
 
     /**
-     * Gets the value of the focus property.
+     * Recupera il valore della proprietà focus.
      * 
      * @return
      *     possible object is
@@ -219,7 +219,7 @@ public class ImagingSettings20 {
     }
 
     /**
-     * Sets the value of the focus property.
+     * Imposta il valore della proprietà focus.
      * 
      * @param value
      *     allowed object is
@@ -231,7 +231,7 @@ public class ImagingSettings20 {
     }
 
     /**
-     * Gets the value of the irCutFilter property.
+     * Recupera il valore della proprietà irCutFilter.
      * 
      * @return
      *     possible object is
@@ -243,7 +243,7 @@ public class ImagingSettings20 {
     }
 
     /**
-     * Sets the value of the irCutFilter property.
+     * Imposta il valore della proprietà irCutFilter.
      * 
      * @param value
      *     allowed object is
@@ -255,7 +255,7 @@ public class ImagingSettings20 {
     }
 
     /**
-     * Gets the value of the sharpness property.
+     * Recupera il valore della proprietà sharpness.
      * 
      * @return
      *     possible object is
@@ -267,7 +267,7 @@ public class ImagingSettings20 {
     }
 
     /**
-     * Sets the value of the sharpness property.
+     * Imposta il valore della proprietà sharpness.
      * 
      * @param value
      *     allowed object is
@@ -279,7 +279,7 @@ public class ImagingSettings20 {
     }
 
     /**
-     * Gets the value of the wideDynamicRange property.
+     * Recupera il valore della proprietà wideDynamicRange.
      * 
      * @return
      *     possible object is
@@ -291,7 +291,7 @@ public class ImagingSettings20 {
     }
 
     /**
-     * Sets the value of the wideDynamicRange property.
+     * Imposta il valore della proprietà wideDynamicRange.
      * 
      * @param value
      *     allowed object is
@@ -303,7 +303,7 @@ public class ImagingSettings20 {
     }
 
     /**
-     * Gets the value of the whiteBalance property.
+     * Recupera il valore della proprietà whiteBalance.
      * 
      * @return
      *     possible object is
@@ -315,7 +315,7 @@ public class ImagingSettings20 {
     }
 
     /**
-     * Sets the value of the whiteBalance property.
+     * Imposta il valore della proprietà whiteBalance.
      * 
      * @param value
      *     allowed object is
@@ -327,7 +327,7 @@ public class ImagingSettings20 {
     }
 
     /**
-     * Gets the value of the extension property.
+     * Recupera il valore della proprietà extension.
      * 
      * @return
      *     possible object is
@@ -339,7 +339,7 @@ public class ImagingSettings20 {
     }
 
     /**
-     * Sets the value of the extension property.
+     * Imposta il valore della proprietà extension.
      * 
      * @param value
      *     allowed object is

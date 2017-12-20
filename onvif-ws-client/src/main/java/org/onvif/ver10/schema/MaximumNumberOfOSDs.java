@@ -12,9 +12,9 @@ import javax.xml.namespace.QName;
 
 
 /**
- * <p>Java class for MaximumNumberOfOSDs complex type.
+ * <p>Classe Java per MaximumNumberOfOSDs complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>Il seguente frammento di schema specifica il contenuto previsto contenuto in questa classe.
  * 
  * <pre>
  * &lt;complexType name="MaximumNumberOfOSDs"&gt;
@@ -54,7 +54,7 @@ public class MaximumNumberOfOSDs {
     private Map<QName, String> otherAttributes = new HashMap<QName, String>();
 
     /**
-     * Gets the value of the total property.
+     * Recupera il valore della proprietà total.
      * 
      */
     public int getTotal() {
@@ -62,7 +62,7 @@ public class MaximumNumberOfOSDs {
     }
 
     /**
-     * Sets the value of the total property.
+     * Imposta il valore della proprietà total.
      * 
      */
     public void setTotal(int value) {
@@ -70,7 +70,7 @@ public class MaximumNumberOfOSDs {
     }
 
     /**
-     * Gets the value of the image property.
+     * Recupera il valore della proprietà image.
      * 
      * @return
      *     possible object is
@@ -82,7 +82,7 @@ public class MaximumNumberOfOSDs {
     }
 
     /**
-     * Sets the value of the image property.
+     * Imposta il valore della proprietà image.
      * 
      * @param value
      *     allowed object is
@@ -94,7 +94,7 @@ public class MaximumNumberOfOSDs {
     }
 
     /**
-     * Gets the value of the plainText property.
+     * Recupera il valore della proprietà plainText.
      * 
      * @return
      *     possible object is
@@ -106,7 +106,7 @@ public class MaximumNumberOfOSDs {
     }
 
     /**
-     * Sets the value of the plainText property.
+     * Imposta il valore della proprietà plainText.
      * 
      * @param value
      *     allowed object is
@@ -118,7 +118,7 @@ public class MaximumNumberOfOSDs {
     }
 
     /**
-     * Gets the value of the date property.
+     * Recupera il valore della proprietà date.
      * 
      * @return
      *     possible object is
@@ -130,7 +130,7 @@ public class MaximumNumberOfOSDs {
     }
 
     /**
-     * Sets the value of the date property.
+     * Imposta il valore della proprietà date.
      * 
      * @param value
      *     allowed object is
@@ -142,7 +142,7 @@ public class MaximumNumberOfOSDs {
     }
 
     /**
-     * Gets the value of the time property.
+     * Recupera il valore della proprietà time.
      * 
      * @return
      *     possible object is
@@ -154,7 +154,7 @@ public class MaximumNumberOfOSDs {
     }
 
     /**
-     * Sets the value of the time property.
+     * Imposta il valore della proprietà time.
      * 
      * @param value
      *     allowed object is
@@ -166,7 +166,7 @@ public class MaximumNumberOfOSDs {
     }
 
     /**
-     * Gets the value of the dateAndTime property.
+     * Recupera il valore della proprietà dateAndTime.
      * 
      * @return
      *     possible object is
@@ -178,7 +178,7 @@ public class MaximumNumberOfOSDs {
     }
 
     /**
-     * Sets the value of the dateAndTime property.
+     * Imposta il valore della proprietà dateAndTime.
      * 
      * @param value
      *     allowed object is

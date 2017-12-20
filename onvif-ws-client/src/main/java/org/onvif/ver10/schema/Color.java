@@ -9,9 +9,9 @@ import javax.xml.bind.annotation.XmlType;
 
 
 /**
- * <p>Java class for Color complex type.
+ * <p>Classe Java per Color complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>Il seguente frammento di schema specifica il contenuto previsto contenuto in questa classe.
  * 
  * <pre>
  * &lt;complexType name="Color"&gt;
@@ -43,7 +43,7 @@ public class Color {
     protected String colorspace;
 
     /**
-     * Gets the value of the x property.
+     * Recupera il valore della proprietà x.
      * 
      */
     public float getX() {
@@ -51,7 +51,7 @@ public class Color {
     }
 
     /**
-     * Sets the value of the x property.
+     * Imposta il valore della proprietà x.
      * 
      */
     public void setX(float value) {
@@ -59,7 +59,7 @@ public class Color {
     }
 
     /**
-     * Gets the value of the y property.
+     * Recupera il valore della proprietà y.
      * 
      */
     public float getY() {
@@ -67,7 +67,7 @@ public class Color {
     }
 
     /**
-     * Sets the value of the y property.
+     * Imposta il valore della proprietà y.
      * 
      */
     public void setY(float value) {
@@ -75,7 +75,7 @@ public class Color {
     }
 
     /**
-     * Gets the value of the z property.
+     * Recupera il valore della proprietà z.
      * 
      */
     public float getZ() {
@@ -83,7 +83,7 @@ public class Color {
     }
 
     /**
-     * Sets the value of the z property.
+     * Imposta il valore della proprietà z.
      * 
      */
     public void setZ(float value) {
@@ -91,7 +91,7 @@ public class Color {
     }
 
     /**
-     * Gets the value of the colorspace property.
+     * Recupera il valore della proprietà colorspace.
      * 
      * @return
      *     possible object is
@@ -103,7 +103,7 @@ public class Color {
     }
 
     /**
-     * Sets the value of the colorspace property.
+     * Imposta il valore della proprietà colorspace.
      * 
      * @param value
      *     allowed object is

@@ -17,9 +17,9 @@ import org.w3c.dom.Element;
 
 
 /**
- * <p>Java class for PTZConfigurationOptions complex type.
+ * <p>Classe Java per PTZConfigurationOptions complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>Il seguente frammento di schema specifica il contenuto previsto contenuto in questa classe.
  * 
  * <pre>
  * &lt;complexType name="PTZConfigurationOptions"&gt;
@@ -67,7 +67,7 @@ public class PTZConfigurationOptions {
     private Map<QName, String> otherAttributes = new HashMap<QName, String>();
 
     /**
-     * Gets the value of the spaces property.
+     * Recupera il valore della proprietà spaces.
      * 
      * @return
      *     possible object is
@@ -79,7 +79,7 @@ public class PTZConfigurationOptions {
     }
 
     /**
-     * Sets the value of the spaces property.
+     * Imposta il valore della proprietà spaces.
      * 
      * @param value
      *     allowed object is
@@ -91,7 +91,7 @@ public class PTZConfigurationOptions {
     }
 
     /**
-     * Gets the value of the ptzTimeout property.
+     * Recupera il valore della proprietà ptzTimeout.
      * 
      * @return
      *     possible object is
@@ -103,7 +103,7 @@ public class PTZConfigurationOptions {
     }
 
     /**
-     * Sets the value of the ptzTimeout property.
+     * Imposta il valore della proprietà ptzTimeout.
      * 
      * @param value
      *     allowed object is
@@ -132,8 +132,8 @@ public class PTZConfigurationOptions {
      * 
      * <p>
      * Objects of the following type(s) are allowed in the list
-     * {@link java.lang.Object }
      * {@link Element }
+     * {@link java.lang.Object }
      * 
      * 
      */
@@ -145,7 +145,7 @@ public class PTZConfigurationOptions {
     }
 
     /**
-     * Gets the value of the ptControlDirection property.
+     * Recupera il valore della proprietà ptControlDirection.
      * 
      * @return
      *     possible object is
@@ -157,7 +157,7 @@ public class PTZConfigurationOptions {
     }
 
     /**
-     * Sets the value of the ptControlDirection property.
+     * Imposta il valore della proprietà ptControlDirection.
      * 
      * @param value
      *     allowed object is
@@ -169,7 +169,7 @@ public class PTZConfigurationOptions {
     }
 
     /**
-     * Gets the value of the extension property.
+     * Recupera il valore della proprietà extension.
      * 
      * @return
      *     possible object is
@@ -181,7 +181,7 @@ public class PTZConfigurationOptions {
     }
 
     /**
-     * Sets the value of the extension property.
+     * Imposta il valore della proprietà extension.
      * 
      * @param value
      *     allowed object is

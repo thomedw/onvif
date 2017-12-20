@@ -17,9 +17,9 @@ import javax.xml.namespace.QName;
 
 
 /**
- * <p>Java class for Dot1XConfiguration complex type.
+ * <p>Classe Java per Dot1XConfiguration complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>Il seguente frammento di schema specifica il contenuto previsto contenuto in questa classe.
  * 
  * <pre>
  * &lt;complexType name="Dot1XConfiguration"&gt;
@@ -74,7 +74,7 @@ public class Dot1XConfiguration {
     private Map<QName, String> otherAttributes = new HashMap<QName, String>();
 
     /**
-     * Gets the value of the dot1XConfigurationToken property.
+     * Recupera il valore della proprietà dot1XConfigurationToken.
      * 
      * @return
      *     possible object is
@@ -86,7 +86,7 @@ public class Dot1XConfiguration {
     }
 
     /**
-     * Sets the value of the dot1XConfigurationToken property.
+     * Imposta il valore della proprietà dot1XConfigurationToken.
      * 
      * @param value
      *     allowed object is
@@ -98,7 +98,7 @@ public class Dot1XConfiguration {
     }
 
     /**
-     * Gets the value of the identity property.
+     * Recupera il valore della proprietà identity.
      * 
      * @return
      *     possible object is
@@ -110,7 +110,7 @@ public class Dot1XConfiguration {
     }
 
     /**
-     * Sets the value of the identity property.
+     * Imposta il valore della proprietà identity.
      * 
      * @param value
      *     allowed object is
@@ -122,7 +122,7 @@ public class Dot1XConfiguration {
     }
 
     /**
-     * Gets the value of the anonymousID property.
+     * Recupera il valore della proprietà anonymousID.
      * 
      * @return
      *     possible object is
@@ -134,7 +134,7 @@ public class Dot1XConfiguration {
     }
 
     /**
-     * Sets the value of the anonymousID property.
+     * Imposta il valore della proprietà anonymousID.
      * 
      * @param value
      *     allowed object is
@@ -146,7 +146,7 @@ public class Dot1XConfiguration {
     }
 
     /**
-     * Gets the value of the eapMethod property.
+     * Recupera il valore della proprietà eapMethod.
      * 
      */
     public int getEAPMethod() {
@@ -154,7 +154,7 @@ public class Dot1XConfiguration {
     }
 
     /**
-     * Sets the value of the eapMethod property.
+     * Imposta il valore della proprietà eapMethod.
      * 
      */
     public void setEAPMethod(int value) {
@@ -191,7 +191,7 @@ public class Dot1XConfiguration {
     }
 
     /**
-     * Gets the value of the eapMethodConfiguration property.
+     * Recupera il valore della proprietà eapMethodConfiguration.
      * 
      * @return
      *     possible object is
@@ -203,7 +203,7 @@ public class Dot1XConfiguration {
     }
 
     /**
-     * Sets the value of the eapMethodConfiguration property.
+     * Imposta il valore della proprietà eapMethodConfiguration.
      * 
      * @param value
      *     allowed object is
@@ -215,7 +215,7 @@ public class Dot1XConfiguration {
     }
 
     /**
-     * Gets the value of the extension property.
+     * Recupera il valore della proprietà extension.
      * 
      * @return
      *     possible object is
@@ -227,7 +227,7 @@ public class Dot1XConfiguration {
     }
 
     /**
-     * Sets the value of the extension property.
+     * Imposta il valore della proprietà extension.
      * 
      * @param value
      *     allowed object is

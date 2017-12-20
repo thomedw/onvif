@@ -17,9 +17,9 @@ import org.w3c.dom.Element;
 
 
 /**
- * <p>Java class for AnalyticsEngineControl complex type.
+ * <p>Classe Java per AnalyticsEngineControl complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>Il seguente frammento di schema specifica il contenuto previsto contenuto in questa classe.
  * 
  * <pre>
  * &lt;complexType name="AnalyticsEngineControl"&gt;
@@ -79,7 +79,7 @@ public class AnalyticsEngineControl
     private Map<QName, String> otherAttributes = new HashMap<QName, String>();
 
     /**
-     * Gets the value of the engineToken property.
+     * Recupera il valore della proprietà engineToken.
      * 
      * @return
      *     possible object is
@@ -91,7 +91,7 @@ public class AnalyticsEngineControl
     }
 
     /**
-     * Sets the value of the engineToken property.
+     * Imposta il valore della proprietà engineToken.
      * 
      * @param value
      *     allowed object is
@@ -103,7 +103,7 @@ public class AnalyticsEngineControl
     }
 
     /**
-     * Gets the value of the engineConfigToken property.
+     * Recupera il valore della proprietà engineConfigToken.
      * 
      * @return
      *     possible object is
@@ -115,7 +115,7 @@ public class AnalyticsEngineControl
     }
 
     /**
-     * Sets the value of the engineConfigToken property.
+     * Imposta il valore della proprietà engineConfigToken.
      * 
      * @param value
      *     allowed object is
@@ -185,7 +185,7 @@ public class AnalyticsEngineControl
     }
 
     /**
-     * Gets the value of the multicast property.
+     * Recupera il valore della proprietà multicast.
      * 
      * @return
      *     possible object is
@@ -197,7 +197,7 @@ public class AnalyticsEngineControl
     }
 
     /**
-     * Sets the value of the multicast property.
+     * Imposta il valore della proprietà multicast.
      * 
      * @param value
      *     allowed object is
@@ -209,7 +209,7 @@ public class AnalyticsEngineControl
     }
 
     /**
-     * Gets the value of the subscription property.
+     * Recupera il valore della proprietà subscription.
      * 
      * @return
      *     possible object is
@@ -221,7 +221,7 @@ public class AnalyticsEngineControl
     }
 
     /**
-     * Sets the value of the subscription property.
+     * Imposta il valore della proprietà subscription.
      * 
      * @param value
      *     allowed object is
@@ -233,7 +233,7 @@ public class AnalyticsEngineControl
     }
 
     /**
-     * Gets the value of the mode property.
+     * Recupera il valore della proprietà mode.
      * 
      * @return
      *     possible object is
@@ -245,7 +245,7 @@ public class AnalyticsEngineControl
     }
 
     /**
-     * Sets the value of the mode property.
+     * Imposta il valore della proprietà mode.
      * 
      * @param value
      *     allowed object is
@@ -274,8 +274,8 @@ public class AnalyticsEngineControl
      * 
      * <p>
      * Objects of the following type(s) are allowed in the list
-     * {@link java.lang.Object }
      * {@link Element }
+     * {@link java.lang.Object }
      * 
      * 
      */

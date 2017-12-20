@@ -10,9 +10,9 @@ import org.onvif.ver10.schema.ImagingSettings20;
 
 
 /**
- * <p>Java class for anonymous complex type.
+ * <p>Classe Java per anonymous complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>Il seguente frammento di schema specifica il contenuto previsto contenuto in questa classe.
  * 
  * <pre>
  * &lt;complexType&gt;
@@ -47,7 +47,7 @@ public class SetImagingSettings {
     protected Boolean forcePersistence;
 
     /**
-     * Gets the value of the videoSourceToken property.
+     * Recupera il valore della proprietà videoSourceToken.
      * 
      * @return
      *     possible object is
@@ -59,7 +59,7 @@ public class SetImagingSettings {
     }
 
     /**
-     * Sets the value of the videoSourceToken property.
+     * Imposta il valore della proprietà videoSourceToken.
      * 
      * @param value
      *     allowed object is
@@ -71,7 +71,7 @@ public class SetImagingSettings {
     }
 
     /**
-     * Gets the value of the imagingSettings property.
+     * Recupera il valore della proprietà imagingSettings.
      * 
      * @return
      *     possible object is
@@ -83,7 +83,7 @@ public class SetImagingSettings {
     }
 
     /**
-     * Sets the value of the imagingSettings property.
+     * Imposta il valore della proprietà imagingSettings.
      * 
      * @param value
      *     allowed object is
@@ -95,7 +95,7 @@ public class SetImagingSettings {
     }
 
     /**
-     * Gets the value of the forcePersistence property.
+     * Recupera il valore della proprietà forcePersistence.
      * This getter has been renamed from isForcePersistence() to getForcePersistence() by cxf-xjc-boolean plugin.
      * 
      * @return
@@ -108,7 +108,7 @@ public class SetImagingSettings {
     }
 
     /**
-     * Sets the value of the forcePersistence property.
+     * Imposta il valore della proprietà forcePersistence.
      * 
      * @param value
      *     allowed object is

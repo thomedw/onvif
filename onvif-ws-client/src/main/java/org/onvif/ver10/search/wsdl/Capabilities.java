@@ -16,9 +16,9 @@ import org.w3c.dom.Element;
 
 
 /**
- * <p>Java class for Capabilities complex type.
+ * <p>Classe Java per Capabilities complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>Il seguente frammento di schema specifica il contenuto previsto contenuto in questa classe.
  * 
  * <pre>
  * &lt;complexType name="Capabilities"&gt;
@@ -70,8 +70,8 @@ public class Capabilities {
      * 
      * <p>
      * Objects of the following type(s) are allowed in the list
-     * {@link Object }
      * {@link Element }
+     * {@link Object }
      * 
      * 
      */
@@ -83,7 +83,7 @@ public class Capabilities {
     }
 
     /**
-     * Gets the value of the metadataSearch property.
+     * Recupera il valore della proprietà metadataSearch.
      * This getter has been renamed from isMetadataSearch() to getMetadataSearch() by cxf-xjc-boolean plugin.
      * 
      * @return
@@ -96,7 +96,7 @@ public class Capabilities {
     }
 
     /**
-     * Sets the value of the metadataSearch property.
+     * Imposta il valore della proprietà metadataSearch.
      * 
      * @param value
      *     allowed object is
@@ -108,7 +108,7 @@ public class Capabilities {
     }
 
     /**
-     * Gets the value of the generalStartEvents property.
+     * Recupera il valore della proprietà generalStartEvents.
      * This getter has been renamed from isGeneralStartEvents() to getGeneralStartEvents() by cxf-xjc-boolean plugin.
      * 
      * @return
@@ -121,7 +121,7 @@ public class Capabilities {
     }
 
     /**
-     * Sets the value of the generalStartEvents property.
+     * Imposta il valore della proprietà generalStartEvents.
      * 
      * @param value
      *     allowed object is

@@ -12,9 +12,9 @@ import javax.xml.bind.annotation.adapters.XmlJavaTypeAdapter;
 
 
 /**
- * <p>Java class for hexBinary complex type.
+ * <p>Classe Java per hexBinary complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>Il seguente frammento di schema specifica il contenuto previsto contenuto in questa classe.
  * 
  * <pre>
  * &lt;complexType name="hexBinary"&gt;
@@ -42,7 +42,7 @@ public class HexBinary {
     protected String contentType;
 
     /**
-     * Gets the value of the value property.
+     * Recupera il valore della proprietà value.
      * 
      * @return
      *     possible object is
@@ -54,7 +54,7 @@ public class HexBinary {
     }
 
     /**
-     * Sets the value of the value property.
+     * Imposta il valore della proprietà value.
      * 
      * @param value
      *     allowed object is
@@ -66,7 +66,7 @@ public class HexBinary {
     }
 
     /**
-     * Gets the value of the contentType property.
+     * Recupera il valore della proprietà contentType.
      * 
      * @return
      *     possible object is
@@ -78,7 +78,7 @@ public class HexBinary {
     }
 
     /**
-     * Sets the value of the contentType property.
+     * Imposta il valore della proprietà contentType.
      * 
      * @param value
      *     allowed object is

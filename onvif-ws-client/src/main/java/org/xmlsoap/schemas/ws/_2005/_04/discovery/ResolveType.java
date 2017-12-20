@@ -17,9 +17,9 @@ import org.xmlsoap.schemas.ws._2004._08.addressing.EndpointReferenceType;
 
 
 /**
- * <p>Java class for ResolveType complex type.
+ * <p>Classe Java per ResolveType complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>Il seguente frammento di schema specifica il contenuto previsto contenuto in questa classe.
  * 
  * <pre>
  * &lt;complexType name="ResolveType"&gt;
@@ -52,7 +52,7 @@ public class ResolveType {
     private Map<QName, String> otherAttributes = new HashMap<QName, String>();
 
     /**
-     * Gets the value of the endpointReference property.
+     * Recupera il valore della proprietà endpointReference.
      * 
      * @return
      *     possible object is
@@ -64,7 +64,7 @@ public class ResolveType {
     }
 
     /**
-     * Sets the value of the endpointReference property.
+     * Imposta il valore della proprietà endpointReference.
      * 
      * @param value
      *     allowed object is
@@ -93,8 +93,8 @@ public class ResolveType {
      * 
      * <p>
      * Objects of the following type(s) are allowed in the list
-     * {@link Object }
      * {@link Element }
+     * {@link Object }
      * 
      * 
      */

@@ -11,9 +11,9 @@ import org.onvif.ver10.schema.SearchScope;
 
 
 /**
- * <p>Java class for anonymous complex type.
+ * <p>Classe Java per anonymous complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>Il seguente frammento di schema specifica il contenuto previsto contenuto in questa classe.
  * 
  * <pre>
  * &lt;complexType&gt;
@@ -48,7 +48,7 @@ public class FindRecordings {
     protected Duration keepAliveTime;
 
     /**
-     * Gets the value of the scope property.
+     * Recupera il valore della proprietà scope.
      * 
      * @return
      *     possible object is
@@ -60,7 +60,7 @@ public class FindRecordings {
     }
 
     /**
-     * Sets the value of the scope property.
+     * Imposta il valore della proprietà scope.
      * 
      * @param value
      *     allowed object is
@@ -72,7 +72,7 @@ public class FindRecordings {
     }
 
     /**
-     * Gets the value of the maxMatches property.
+     * Recupera il valore della proprietà maxMatches.
      * 
      * @return
      *     possible object is
@@ -84,7 +84,7 @@ public class FindRecordings {
     }
 
     /**
-     * Sets the value of the maxMatches property.
+     * Imposta il valore della proprietà maxMatches.
      * 
      * @param value
      *     allowed object is
@@ -96,7 +96,7 @@ public class FindRecordings {
     }
 
     /**
-     * Gets the value of the keepAliveTime property.
+     * Recupera il valore della proprietà keepAliveTime.
      * 
      * @return
      *     possible object is
@@ -108,7 +108,7 @@ public class FindRecordings {
     }
 
     /**
-     * Sets the value of the keepAliveTime property.
+     * Imposta il valore della proprietà keepAliveTime.
      * 
      * @param value
      *     allowed object is

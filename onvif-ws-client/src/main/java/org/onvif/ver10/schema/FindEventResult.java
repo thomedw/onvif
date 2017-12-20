@@ -19,9 +19,9 @@ import org.w3c.dom.Element;
 
 
 /**
- * <p>Java class for FindEventResult complex type.
+ * <p>Classe Java per FindEventResult complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>Il seguente frammento di schema specifica il contenuto previsto contenuto in questa classe.
  * 
  * <pre>
  * &lt;complexType name="FindEventResult"&gt;
@@ -71,7 +71,7 @@ public class FindEventResult {
     private Map<QName, String> otherAttributes = new HashMap<QName, String>();
 
     /**
-     * Gets the value of the recordingToken property.
+     * Recupera il valore della proprietà recordingToken.
      * 
      * @return
      *     possible object is
@@ -83,7 +83,7 @@ public class FindEventResult {
     }
 
     /**
-     * Sets the value of the recordingToken property.
+     * Imposta il valore della proprietà recordingToken.
      * 
      * @param value
      *     allowed object is
@@ -95,7 +95,7 @@ public class FindEventResult {
     }
 
     /**
-     * Gets the value of the trackToken property.
+     * Recupera il valore della proprietà trackToken.
      * 
      * @return
      *     possible object is
@@ -107,7 +107,7 @@ public class FindEventResult {
     }
 
     /**
-     * Sets the value of the trackToken property.
+     * Imposta il valore della proprietà trackToken.
      * 
      * @param value
      *     allowed object is
@@ -119,7 +119,7 @@ public class FindEventResult {
     }
 
     /**
-     * Gets the value of the time property.
+     * Recupera il valore della proprietà time.
      * 
      * @return
      *     possible object is
@@ -131,7 +131,7 @@ public class FindEventResult {
     }
 
     /**
-     * Sets the value of the time property.
+     * Imposta il valore della proprietà time.
      * 
      * @param value
      *     allowed object is
@@ -143,7 +143,7 @@ public class FindEventResult {
     }
 
     /**
-     * Gets the value of the event property.
+     * Recupera il valore della proprietà event.
      * 
      * @return
      *     possible object is
@@ -155,7 +155,7 @@ public class FindEventResult {
     }
 
     /**
-     * Sets the value of the event property.
+     * Imposta il valore della proprietà event.
      * 
      * @param value
      *     allowed object is
@@ -167,7 +167,7 @@ public class FindEventResult {
     }
 
     /**
-     * Gets the value of the startStateEvent property.
+     * Recupera il valore della proprietà startStateEvent.
      * This getter has been renamed from isStartStateEvent() to getStartStateEvent() by cxf-xjc-boolean plugin.
      * 
      */
@@ -176,7 +176,7 @@ public class FindEventResult {
     }
 
     /**
-     * Sets the value of the startStateEvent property.
+     * Imposta il valore della proprietà startStateEvent.
      * 
      */
     public void setStartStateEvent(boolean value) {
@@ -201,8 +201,8 @@ public class FindEventResult {
      * 
      * <p>
      * Objects of the following type(s) are allowed in the list
-     * {@link java.lang.Object }
      * {@link Element }
+     * {@link java.lang.Object }
      * 
      * 
      */

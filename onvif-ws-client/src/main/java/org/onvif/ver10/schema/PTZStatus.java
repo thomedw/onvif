@@ -18,9 +18,9 @@ import org.w3c.dom.Element;
 
 
 /**
- * <p>Java class for PTZStatus complex type.
+ * <p>Classe Java per PTZStatus complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>Il seguente frammento di schema specifica il contenuto previsto contenuto in questa classe.
  * 
  * <pre>
  * &lt;complexType name="PTZStatus"&gt;
@@ -66,7 +66,7 @@ public class PTZStatus {
     private Map<QName, String> otherAttributes = new HashMap<QName, String>();
 
     /**
-     * Gets the value of the position property.
+     * Recupera il valore della proprietà position.
      * 
      * @return
      *     possible object is
@@ -78,7 +78,7 @@ public class PTZStatus {
     }
 
     /**
-     * Sets the value of the position property.
+     * Imposta il valore della proprietà position.
      * 
      * @param value
      *     allowed object is
@@ -90,7 +90,7 @@ public class PTZStatus {
     }
 
     /**
-     * Gets the value of the moveStatus property.
+     * Recupera il valore della proprietà moveStatus.
      * 
      * @return
      *     possible object is
@@ -102,7 +102,7 @@ public class PTZStatus {
     }
 
     /**
-     * Sets the value of the moveStatus property.
+     * Imposta il valore della proprietà moveStatus.
      * 
      * @param value
      *     allowed object is
@@ -114,7 +114,7 @@ public class PTZStatus {
     }
 
     /**
-     * Gets the value of the error property.
+     * Recupera il valore della proprietà error.
      * 
      * @return
      *     possible object is
@@ -126,7 +126,7 @@ public class PTZStatus {
     }
 
     /**
-     * Sets the value of the error property.
+     * Imposta il valore della proprietà error.
      * 
      * @param value
      *     allowed object is
@@ -138,7 +138,7 @@ public class PTZStatus {
     }
 
     /**
-     * Gets the value of the utcTime property.
+     * Recupera il valore della proprietà utcTime.
      * 
      * @return
      *     possible object is
@@ -150,7 +150,7 @@ public class PTZStatus {
     }
 
     /**
-     * Sets the value of the utcTime property.
+     * Imposta il valore della proprietà utcTime.
      * 
      * @param value
      *     allowed object is
@@ -179,8 +179,8 @@ public class PTZStatus {
      * 
      * <p>
      * Objects of the following type(s) are allowed in the list
-     * {@link java.lang.Object }
      * {@link Element }
+     * {@link java.lang.Object }
      * 
      * 
      */

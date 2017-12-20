@@ -17,9 +17,9 @@ import org.w3c.dom.Element;
 
 
 /**
- * <p>Java class for DisplayCapabilities complex type.
+ * <p>Classe Java per DisplayCapabilities complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>Il seguente frammento di schema specifica il contenuto previsto contenuto in questa classe.
  * 
  * <pre>
  * &lt;complexType name="DisplayCapabilities"&gt;
@@ -57,7 +57,7 @@ public class DisplayCapabilities {
     private Map<QName, String> otherAttributes = new HashMap<QName, String>();
 
     /**
-     * Gets the value of the xAddr property.
+     * Recupera il valore della proprietà xAddr.
      * 
      * @return
      *     possible object is
@@ -69,7 +69,7 @@ public class DisplayCapabilities {
     }
 
     /**
-     * Sets the value of the xAddr property.
+     * Imposta il valore della proprietà xAddr.
      * 
      * @param value
      *     allowed object is
@@ -81,7 +81,7 @@ public class DisplayCapabilities {
     }
 
     /**
-     * Gets the value of the fixedLayout property.
+     * Recupera il valore della proprietà fixedLayout.
      * This getter has been renamed from isFixedLayout() to getFixedLayout() by cxf-xjc-boolean plugin.
      * 
      */
@@ -90,7 +90,7 @@ public class DisplayCapabilities {
     }
 
     /**
-     * Sets the value of the fixedLayout property.
+     * Imposta il valore della proprietà fixedLayout.
      * 
      */
     public void setFixedLayout(boolean value) {
@@ -115,8 +115,8 @@ public class DisplayCapabilities {
      * 
      * <p>
      * Objects of the following type(s) are allowed in the list
-     * {@link java.lang.Object }
      * {@link Element }
+     * {@link java.lang.Object }
      * 
      * 
      */

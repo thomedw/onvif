@@ -13,9 +13,9 @@ import javax.xml.namespace.QName;
 
 
 /**
- * <p>Java class for OSDConfiguration complex type.
+ * <p>Classe Java per OSDConfiguration complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>Il seguente frammento di schema specifica il contenuto previsto contenuto in questa classe.
  * 
  * <pre>
  * &lt;complexType name="OSDConfiguration"&gt;
@@ -67,7 +67,7 @@ public class OSDConfiguration
     private Map<QName, String> otherAttributes = new HashMap<QName, String>();
 
     /**
-     * Gets the value of the videoSourceConfigurationToken property.
+     * Recupera il valore della proprietà videoSourceConfigurationToken.
      * 
      * @return
      *     possible object is
@@ -79,7 +79,7 @@ public class OSDConfiguration
     }
 
     /**
-     * Sets the value of the videoSourceConfigurationToken property.
+     * Imposta il valore della proprietà videoSourceConfigurationToken.
      * 
      * @param value
      *     allowed object is
@@ -91,7 +91,7 @@ public class OSDConfiguration
     }
 
     /**
-     * Gets the value of the type property.
+     * Recupera il valore della proprietà type.
      * 
      * @return
      *     possible object is
@@ -103,7 +103,7 @@ public class OSDConfiguration
     }
 
     /**
-     * Sets the value of the type property.
+     * Imposta il valore della proprietà type.
      * 
      * @param value
      *     allowed object is
@@ -115,7 +115,7 @@ public class OSDConfiguration
     }
 
     /**
-     * Gets the value of the position property.
+     * Recupera il valore della proprietà position.
      * 
      * @return
      *     possible object is
@@ -127,7 +127,7 @@ public class OSDConfiguration
     }
 
     /**
-     * Sets the value of the position property.
+     * Imposta il valore della proprietà position.
      * 
      * @param value
      *     allowed object is
@@ -139,7 +139,7 @@ public class OSDConfiguration
     }
 
     /**
-     * Gets the value of the textString property.
+     * Recupera il valore della proprietà textString.
      * 
      * @return
      *     possible object is
@@ -151,7 +151,7 @@ public class OSDConfiguration
     }
 
     /**
-     * Sets the value of the textString property.
+     * Imposta il valore della proprietà textString.
      * 
      * @param value
      *     allowed object is
@@ -163,7 +163,7 @@ public class OSDConfiguration
     }
 
     /**
-     * Gets the value of the image property.
+     * Recupera il valore della proprietà image.
      * 
      * @return
      *     possible object is
@@ -175,7 +175,7 @@ public class OSDConfiguration
     }
 
     /**
-     * Sets the value of the image property.
+     * Imposta il valore della proprietà image.
      * 
      * @param value
      *     allowed object is
@@ -187,7 +187,7 @@ public class OSDConfiguration
     }
 
     /**
-     * Gets the value of the extension property.
+     * Recupera il valore della proprietà extension.
      * 
      * @return
      *     possible object is
@@ -199,7 +199,7 @@ public class OSDConfiguration
     }
 
     /**
-     * Sets the value of the extension property.
+     * Imposta il valore della proprietà extension.
      * 
      * @param value
      *     allowed object is

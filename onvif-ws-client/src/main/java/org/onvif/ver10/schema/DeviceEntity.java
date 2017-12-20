@@ -6,16 +6,14 @@ import javax.xml.bind.annotation.XmlAccessorType;
 import javax.xml.bind.annotation.XmlAttribute;
 import javax.xml.bind.annotation.XmlSeeAlso;
 import javax.xml.bind.annotation.XmlType;
-import org.onvif.ver10.device.wsdl.StorageConfiguration;
-import org.onvif.ver10.deviceio.wsdl.SerialPort;
 
 
 /**
  * Base class for physical entities like inputs and outputs.
  * 
- * <p>Java class for DeviceEntity complex type.
+ * <p>Classe Java per DeviceEntity complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>Il seguente frammento di schema specifica il contenuto previsto contenuto in questa classe.
  * 
  * <pre>
  * &lt;complexType name="DeviceEntity"&gt;
@@ -40,9 +38,7 @@ import org.onvif.ver10.deviceio.wsdl.SerialPort;
     RelayOutput.class,
     DigitalInput.class,
     PTZNode.class,
-    OSDConfiguration.class,
-    SerialPort.class,
-    StorageConfiguration.class
+    OSDConfiguration.class
 })
 public class DeviceEntity {
 
@@ -50,7 +46,7 @@ public class DeviceEntity {
     protected String token;
 
     /**
-     * Gets the value of the token property.
+     * Recupera il valore della proprietà token.
      * 
      * @return
      *     possible object is
@@ -62,7 +58,7 @@ public class DeviceEntity {
     }
 
     /**
-     * Sets the value of the token property.
+     * Imposta il valore della proprietà token.
      * 
      * @param value
      *     allowed object is

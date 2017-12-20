@@ -8,9 +8,9 @@ import javax.xml.bind.annotation.XmlType;
 
 
 /**
- * <p>Java class for OnvifVersion complex type.
+ * <p>Classe Java per OnvifVersion complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>Il seguente frammento di schema specifica il contenuto previsto contenuto in questa classe.
  * 
  * <pre>
  * &lt;complexType name="OnvifVersion"&gt;
@@ -40,7 +40,7 @@ public class OnvifVersion {
     protected int minor;
 
     /**
-     * Gets the value of the major property.
+     * Recupera il valore della proprietà major.
      * 
      */
     public int getMajor() {
@@ -48,7 +48,7 @@ public class OnvifVersion {
     }
 
     /**
-     * Sets the value of the major property.
+     * Imposta il valore della proprietà major.
      * 
      */
     public void setMajor(int value) {
@@ -56,7 +56,7 @@ public class OnvifVersion {
     }
 
     /**
-     * Gets the value of the minor property.
+     * Recupera il valore della proprietà minor.
      * 
      */
     public int getMinor() {
@@ -64,7 +64,7 @@ public class OnvifVersion {
     }
 
     /**
-     * Sets the value of the minor property.
+     * Imposta il valore della proprietà minor.
      * 
      */
     public void setMinor(int value) {

@@ -17,9 +17,9 @@ import org.w3c.dom.Element;
 
 
 /**
- * <p>Java class for Capabilities complex type.
+ * <p>Classe Java per Capabilities complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>Il seguente frammento di schema specifica il contenuto previsto contenuto in questa classe.
  * 
  * <pre>
  * &lt;complexType name="Capabilities"&gt;
@@ -71,7 +71,7 @@ public class Capabilities {
     private Map<QName, String> otherAttributes = new HashMap<QName, String>();
 
     /**
-     * Gets the value of the profileCapabilities property.
+     * Recupera il valore della proprietà profileCapabilities.
      * 
      * @return
      *     possible object is
@@ -83,7 +83,7 @@ public class Capabilities {
     }
 
     /**
-     * Sets the value of the profileCapabilities property.
+     * Imposta il valore della proprietà profileCapabilities.
      * 
      * @param value
      *     allowed object is
@@ -95,7 +95,7 @@ public class Capabilities {
     }
 
     /**
-     * Gets the value of the streamingCapabilities property.
+     * Recupera il valore della proprietà streamingCapabilities.
      * 
      * @return
      *     possible object is
@@ -107,7 +107,7 @@ public class Capabilities {
     }
 
     /**
-     * Sets the value of the streamingCapabilities property.
+     * Imposta il valore della proprietà streamingCapabilities.
      * 
      * @param value
      *     allowed object is
@@ -136,8 +136,8 @@ public class Capabilities {
      * 
      * <p>
      * Objects of the following type(s) are allowed in the list
-     * {@link Object }
      * {@link Element }
+     * {@link Object }
      * 
      * 
      */
@@ -149,7 +149,7 @@ public class Capabilities {
     }
 
     /**
-     * Gets the value of the snapshotUri property.
+     * Recupera il valore della proprietà snapshotUri.
      * This getter has been renamed from isSnapshotUri() to getSnapshotUri() by cxf-xjc-boolean plugin.
      * 
      * @return
@@ -162,7 +162,7 @@ public class Capabilities {
     }
 
     /**
-     * Sets the value of the snapshotUri property.
+     * Imposta il valore della proprietà snapshotUri.
      * 
      * @param value
      *     allowed object is
@@ -174,7 +174,7 @@ public class Capabilities {
     }
 
     /**
-     * Gets the value of the rotation property.
+     * Recupera il valore della proprietà rotation.
      * This getter has been renamed from isRotation() to getRotation() by cxf-xjc-boolean plugin.
      * 
      * @return
@@ -187,7 +187,7 @@ public class Capabilities {
     }
 
     /**
-     * Sets the value of the rotation property.
+     * Imposta il valore della proprietà rotation.
      * 
      * @param value
      *     allowed object is
@@ -199,7 +199,7 @@ public class Capabilities {
     }
 
     /**
-     * Gets the value of the videoSourceMode property.
+     * Recupera il valore della proprietà videoSourceMode.
      * This getter has been renamed from isVideoSourceMode() to getVideoSourceMode() by cxf-xjc-boolean plugin.
      * 
      * @return
@@ -212,7 +212,7 @@ public class Capabilities {
     }
 
     /**
-     * Sets the value of the videoSourceMode property.
+     * Imposta il valore della proprietà videoSourceMode.
      * 
      * @param value
      *     allowed object is
@@ -224,7 +224,7 @@ public class Capabilities {
     }
 
     /**
-     * Gets the value of the osd property.
+     * Recupera il valore della proprietà osd.
      * This getter has been renamed from isOSD() to getOSD() by cxf-xjc-boolean plugin.
      * 
      * @return
@@ -237,7 +237,7 @@ public class Capabilities {
     }
 
     /**
-     * Sets the value of the osd property.
+     * Imposta il valore della proprietà osd.
      * 
      * @param value
      *     allowed object is
@@ -249,7 +249,7 @@ public class Capabilities {
     }
 
     /**
-     * Gets the value of the exiCompression property.
+     * Recupera il valore della proprietà exiCompression.
      * This getter has been renamed from isEXICompression() to getEXICompression() by cxf-xjc-boolean plugin.
      * 
      * @return
@@ -262,7 +262,7 @@ public class Capabilities {
     }
 
     /**
-     * Sets the value of the exiCompression property.
+     * Imposta il valore della proprietà exiCompression.
      * 
      * @param value
      *     allowed object is

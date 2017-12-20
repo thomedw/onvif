@@ -14,9 +14,9 @@ import org.oasis_open.docs.wsn.t_1.TopicSetType;
 
 
 /**
- * <p>Java class for anonymous complex type.
+ * <p>Classe Java per anonymous complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>Il seguente frammento di schema specifica il contenuto previsto contenuto in questa classe.
  * 
  * <pre>
  * &lt;complexType&gt;
@@ -114,7 +114,7 @@ public class GetEventPropertiesResponse {
     }
 
     /**
-     * Sets the value of the fixedTopicSet property.
+     * Imposta il valore della proprietà fixedTopicSet.
      * 
      */
     public void setFixedTopicSet(boolean value) {
@@ -134,7 +134,7 @@ public class GetEventPropertiesResponse {
     }
 
     /**
-     * Sets the value of the topicSet property.
+     * Imposta il valore della proprietà topicSet.
      * 
      * @param value
      *     allowed object is

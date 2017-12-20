@@ -16,9 +16,9 @@ import org.w3c.dom.Element;
 
 
 /**
- * <p>Java class for MulticastConfiguration complex type.
+ * <p>Classe Java per MulticastConfiguration complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>Il seguente frammento di schema specifica il contenuto previsto contenuto in questa classe.
  * 
  * <pre>
  * &lt;complexType name="MulticastConfiguration"&gt;
@@ -63,7 +63,7 @@ public class MulticastConfiguration {
     private Map<QName, String> otherAttributes = new HashMap<QName, String>();
 
     /**
-     * Gets the value of the address property.
+     * Recupera il valore della proprietà address.
      * 
      * @return
      *     possible object is
@@ -75,7 +75,7 @@ public class MulticastConfiguration {
     }
 
     /**
-     * Sets the value of the address property.
+     * Imposta il valore della proprietà address.
      * 
      * @param value
      *     allowed object is
@@ -87,7 +87,7 @@ public class MulticastConfiguration {
     }
 
     /**
-     * Gets the value of the port property.
+     * Recupera il valore della proprietà port.
      * 
      */
     public int getPort() {
@@ -95,7 +95,7 @@ public class MulticastConfiguration {
     }
 
     /**
-     * Sets the value of the port property.
+     * Imposta il valore della proprietà port.
      * 
      */
     public void setPort(int value) {
@@ -103,7 +103,7 @@ public class MulticastConfiguration {
     }
 
     /**
-     * Gets the value of the ttl property.
+     * Recupera il valore della proprietà ttl.
      * 
      */
     public int getTTL() {
@@ -111,7 +111,7 @@ public class MulticastConfiguration {
     }
 
     /**
-     * Sets the value of the ttl property.
+     * Imposta il valore della proprietà ttl.
      * 
      */
     public void setTTL(int value) {
@@ -119,7 +119,7 @@ public class MulticastConfiguration {
     }
 
     /**
-     * Gets the value of the autoStart property.
+     * Recupera il valore della proprietà autoStart.
      * This getter has been renamed from isAutoStart() to getAutoStart() by cxf-xjc-boolean plugin.
      * 
      */
@@ -128,7 +128,7 @@ public class MulticastConfiguration {
     }
 
     /**
-     * Sets the value of the autoStart property.
+     * Imposta il valore della proprietà autoStart.
      * 
      */
     public void setAutoStart(boolean value) {
@@ -153,8 +153,8 @@ public class MulticastConfiguration {
      * 
      * <p>
      * Objects of the following type(s) are allowed in the list
-     * {@link java.lang.Object }
      * {@link Element }
+     * {@link java.lang.Object }
      * 
      * 
      */

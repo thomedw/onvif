@@ -9,9 +9,9 @@ import javax.xml.bind.annotation.XmlType;
 
 
 /**
- * <p>Java class for anonymous complex type.
+ * <p>Classe Java per anonymous complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>Il seguente frammento di schema specifica il contenuto previsto contenuto in questa classe.
  * 
  * <pre>
  * &lt;complexType&gt;
@@ -50,7 +50,7 @@ public class GetGuaranteedNumberOfVideoEncoderInstancesResponse {
     protected Integer mpeg4;
 
     /**
-     * Gets the value of the totalNumber property.
+     * Recupera il valore della proprietà totalNumber.
      * 
      */
     public int getTotalNumber() {
@@ -58,7 +58,7 @@ public class GetGuaranteedNumberOfVideoEncoderInstancesResponse {
     }
 
     /**
-     * Sets the value of the totalNumber property.
+     * Imposta il valore della proprietà totalNumber.
      * 
      */
     public void setTotalNumber(int value) {
@@ -66,7 +66,7 @@ public class GetGuaranteedNumberOfVideoEncoderInstancesResponse {
     }
 
     /**
-     * Gets the value of the jpeg property.
+     * Recupera il valore della proprietà jpeg.
      * 
      * @return
      *     possible object is
@@ -78,7 +78,7 @@ public class GetGuaranteedNumberOfVideoEncoderInstancesResponse {
     }
 
     /**
-     * Sets the value of the jpeg property.
+     * Imposta il valore della proprietà jpeg.
      * 
      * @param value
      *     allowed object is
@@ -90,7 +90,7 @@ public class GetGuaranteedNumberOfVideoEncoderInstancesResponse {
     }
 
     /**
-     * Gets the value of the h264 property.
+     * Recupera il valore della proprietà h264.
      * 
      * @return
      *     possible object is
@@ -102,7 +102,7 @@ public class GetGuaranteedNumberOfVideoEncoderInstancesResponse {
     }
 
     /**
-     * Sets the value of the h264 property.
+     * Imposta il valore della proprietà h264.
      * 
      * @param value
      *     allowed object is
@@ -114,7 +114,7 @@ public class GetGuaranteedNumberOfVideoEncoderInstancesResponse {
     }
 
     /**
-     * Gets the value of the mpeg4 property.
+     * Recupera il valore della proprietà mpeg4.
      * 
      * @return
      *     possible object is
@@ -126,7 +126,7 @@ public class GetGuaranteedNumberOfVideoEncoderInstancesResponse {
     }
 
     /**
-     * Sets the value of the mpeg4 property.
+     * Imposta il valore della proprietà mpeg4.
      * 
      * @param value
      *     allowed object is

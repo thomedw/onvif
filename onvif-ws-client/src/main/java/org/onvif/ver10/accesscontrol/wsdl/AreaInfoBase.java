@@ -14,9 +14,9 @@ import org.onvif.ver10.pacs.DataEntity;
  * Basic information about an Area. Used as extension base.
  * 
  * 
- * <p>Java class for AreaInfoBase complex type.
+ * <p>Classe Java per AreaInfoBase complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>Il seguente frammento di schema specifica il contenuto previsto contenuto in questa classe.
  * 
  * <pre>
  * &lt;complexType name="AreaInfoBase"&gt;
@@ -51,7 +51,7 @@ public class AreaInfoBase
     protected String description;
 
     /**
-     * Gets the value of the name property.
+     * Recupera il valore della proprietà name.
      * 
      * @return
      *     possible object is
@@ -63,7 +63,7 @@ public class AreaInfoBase
     }
 
     /**
-     * Sets the value of the name property.
+     * Imposta il valore della proprietà name.
      * 
      * @param value
      *     allowed object is
@@ -75,7 +75,7 @@ public class AreaInfoBase
     }
 
     /**
-     * Gets the value of the description property.
+     * Recupera il valore della proprietà description.
      * 
      * @return
      *     possible object is
@@ -87,7 +87,7 @@ public class AreaInfoBase
     }
 
     /**
-     * Sets the value of the description property.
+     * Imposta il valore della proprietà description.
      * 
      * @param value
      *     allowed object is

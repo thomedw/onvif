@@ -21,9 +21,9 @@ import org.w3c.dom.Element;
  * Fault information for a Door.
  * This can be extended with optional attributes in the future.
  * 
- * <p>Java class for DoorFault complex type.
+ * <p>Classe Java per DoorFault complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>Il seguente frammento di schema specifica il contenuto previsto contenuto in questa classe.
  * 
  * <pre>
  * &lt;complexType name="DoorFault"&gt;
@@ -61,7 +61,7 @@ public class DoorFault {
     private Map<QName, String> otherAttributes = new HashMap<QName, String>();
 
     /**
-     * Gets the value of the reason property.
+     * Recupera il valore della proprietà reason.
      * 
      * @return
      *     possible object is
@@ -73,7 +73,7 @@ public class DoorFault {
     }
 
     /**
-     * Sets the value of the reason property.
+     * Imposta il valore della proprietà reason.
      * 
      * @param value
      *     allowed object is
@@ -85,7 +85,7 @@ public class DoorFault {
     }
 
     /**
-     * Gets the value of the state property.
+     * Recupera il valore della proprietà state.
      * 
      * @return
      *     possible object is
@@ -97,7 +97,7 @@ public class DoorFault {
     }
 
     /**
-     * Sets the value of the state property.
+     * Imposta il valore della proprietà state.
      * 
      * @param value
      *     allowed object is
@@ -126,8 +126,8 @@ public class DoorFault {
      * 
      * <p>
      * Objects of the following type(s) are allowed in the list
-     * {@link Object }
      * {@link Element }
+     * {@link Object }
      * 
      * 
      */

@@ -21,9 +21,9 @@ import org.w3c.dom.Element;
  * 			Contains information about a receiver's current state.
  * 		
  * 
- * <p>Java class for ReceiverStateInformation complex type.
+ * <p>Classe Java per ReceiverStateInformation complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>Il seguente frammento di schema specifica il contenuto previsto contenuto in questa classe.
  * 
  * <pre>
  * &lt;complexType name="ReceiverStateInformation"&gt;
@@ -61,7 +61,7 @@ public class ReceiverStateInformation {
     private Map<QName, String> otherAttributes = new HashMap<QName, String>();
 
     /**
-     * Gets the value of the state property.
+     * Recupera il valore della proprietà state.
      * 
      * @return
      *     possible object is
@@ -73,7 +73,7 @@ public class ReceiverStateInformation {
     }
 
     /**
-     * Sets the value of the state property.
+     * Imposta il valore della proprietà state.
      * 
      * @param value
      *     allowed object is
@@ -85,7 +85,7 @@ public class ReceiverStateInformation {
     }
 
     /**
-     * Gets the value of the autoCreated property.
+     * Recupera il valore della proprietà autoCreated.
      * This getter has been renamed from isAutoCreated() to getAutoCreated() by cxf-xjc-boolean plugin.
      * 
      */
@@ -94,7 +94,7 @@ public class ReceiverStateInformation {
     }
 
     /**
-     * Sets the value of the autoCreated property.
+     * Imposta il valore della proprietà autoCreated.
      * 
      */
     public void setAutoCreated(boolean value) {
@@ -119,8 +119,8 @@ public class ReceiverStateInformation {
      * 
      * <p>
      * Objects of the following type(s) are allowed in the list
-     * {@link java.lang.Object }
      * {@link Element }
+     * {@link java.lang.Object }
      * 
      * 
      */

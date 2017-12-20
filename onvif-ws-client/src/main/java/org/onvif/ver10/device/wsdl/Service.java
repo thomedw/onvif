@@ -18,9 +18,9 @@ import org.w3c.dom.Element;
 
 
 /**
- * <p>Java class for Service complex type.
+ * <p>Classe Java per Service complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>Il seguente frammento di schema specifica il contenuto previsto contenuto in questa classe.
  * 
  * <pre>
  * &lt;complexType name="Service"&gt;
@@ -77,7 +77,7 @@ public class Service {
     private Map<QName, String> otherAttributes = new HashMap<QName, String>();
 
     /**
-     * Gets the value of the namespace property.
+     * Recupera il valore della proprietà namespace.
      * 
      * @return
      *     possible object is
@@ -89,7 +89,7 @@ public class Service {
     }
 
     /**
-     * Sets the value of the namespace property.
+     * Imposta il valore della proprietà namespace.
      * 
      * @param value
      *     allowed object is
@@ -101,7 +101,7 @@ public class Service {
     }
 
     /**
-     * Gets the value of the xAddr property.
+     * Recupera il valore della proprietà xAddr.
      * 
      * @return
      *     possible object is
@@ -113,7 +113,7 @@ public class Service {
     }
 
     /**
-     * Sets the value of the xAddr property.
+     * Imposta il valore della proprietà xAddr.
      * 
      * @param value
      *     allowed object is
@@ -125,7 +125,7 @@ public class Service {
     }
 
     /**
-     * Gets the value of the capabilities property.
+     * Recupera il valore della proprietà capabilities.
      * 
      * @return
      *     possible object is
@@ -137,7 +137,7 @@ public class Service {
     }
 
     /**
-     * Sets the value of the capabilities property.
+     * Imposta il valore della proprietà capabilities.
      * 
      * @param value
      *     allowed object is
@@ -149,7 +149,7 @@ public class Service {
     }
 
     /**
-     * Gets the value of the version property.
+     * Recupera il valore della proprietà version.
      * 
      * @return
      *     possible object is
@@ -161,7 +161,7 @@ public class Service {
     }
 
     /**
-     * Sets the value of the version property.
+     * Imposta il valore della proprietà version.
      * 
      * @param value
      *     allowed object is
@@ -190,8 +190,8 @@ public class Service {
      * 
      * <p>
      * Objects of the following type(s) are allowed in the list
-     * {@link Object }
      * {@link Element }
+     * {@link Object }
      * 
      * 
      */
@@ -222,9 +222,9 @@ public class Service {
 
 
     /**
-     * <p>Java class for anonymous complex type.
+     * <p>Classe Java per anonymous complex type.
      * 
-     * <p>The following schema fragment specifies the expected content contained within this class.
+     * <p>Il seguente frammento di schema specifica il contenuto previsto contenuto in questa classe.
      * 
      * <pre>
      * &lt;complexType&gt;
@@ -250,12 +250,12 @@ public class Service {
         protected Object any;
 
         /**
-         * Gets the value of the any property.
+         * Recupera il valore della proprietà any.
          * 
          * @return
          *     possible object is
-         *     {@link Object }
          *     {@link Element }
+         *     {@link Object }
          *     
          */
         public Object getAny() {
@@ -263,12 +263,12 @@ public class Service {
         }
 
         /**
-         * Sets the value of the any property.
+         * Imposta il valore della proprietà any.
          * 
          * @param value
          *     allowed object is
-         *     {@link Object }
          *     {@link Element }
+         *     {@link Object }
          *     
          */
         public void setAny(Object value) {

@@ -12,9 +12,9 @@ import org.w3c.dom.Element;
 
 
 /**
- * <p>Java class for CertPathValidationParameters complex type.
+ * <p>Classe Java per CertPathValidationParameters complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>Il seguente frammento di schema specifica il contenuto previsto contenuto in questa classe.
  * 
  * <pre>
  * &lt;complexType name="CertPathValidationParameters"&gt;
@@ -57,7 +57,7 @@ public class CertPathValidationParameters {
     protected CertPathValidationParameters.AnyParameters anyParameters;
 
     /**
-     * Gets the value of the requireTLSWWWClientAuthExtendedKeyUsage property.
+     * Recupera il valore della proprietà requireTLSWWWClientAuthExtendedKeyUsage.
      * This getter has been renamed from isRequireTLSWWWClientAuthExtendedKeyUsage() to getRequireTLSWWWClientAuthExtendedKeyUsage() by cxf-xjc-boolean plugin.
      * 
      * @return
@@ -70,7 +70,7 @@ public class CertPathValidationParameters {
     }
 
     /**
-     * Sets the value of the requireTLSWWWClientAuthExtendedKeyUsage property.
+     * Imposta il valore della proprietà requireTLSWWWClientAuthExtendedKeyUsage.
      * 
      * @param value
      *     allowed object is
@@ -82,7 +82,7 @@ public class CertPathValidationParameters {
     }
 
     /**
-     * Gets the value of the useDeltaCRLs property.
+     * Recupera il valore della proprietà useDeltaCRLs.
      * This getter has been renamed from isUseDeltaCRLs() to getUseDeltaCRLs() by cxf-xjc-boolean plugin.
      * 
      * @return
@@ -95,7 +95,7 @@ public class CertPathValidationParameters {
     }
 
     /**
-     * Sets the value of the useDeltaCRLs property.
+     * Imposta il valore della proprietà useDeltaCRLs.
      * 
      * @param value
      *     allowed object is
@@ -107,7 +107,7 @@ public class CertPathValidationParameters {
     }
 
     /**
-     * Gets the value of the anyParameters property.
+     * Recupera il valore della proprietà anyParameters.
      * 
      * @return
      *     possible object is
@@ -119,7 +119,7 @@ public class CertPathValidationParameters {
     }
 
     /**
-     * Sets the value of the anyParameters property.
+     * Imposta il valore della proprietà anyParameters.
      * 
      * @param value
      *     allowed object is
@@ -132,9 +132,9 @@ public class CertPathValidationParameters {
 
 
     /**
-     * <p>Java class for anonymous complex type.
+     * <p>Classe Java per anonymous complex type.
      * 
-     * <p>The following schema fragment specifies the expected content contained within this class.
+     * <p>Il seguente frammento di schema specifica il contenuto previsto contenuto in questa classe.
      * 
      * <pre>
      * &lt;complexType&gt;
@@ -177,8 +177,8 @@ public class CertPathValidationParameters {
          * 
          * <p>
          * Objects of the following type(s) are allowed in the list
-         * {@link Object }
          * {@link Element }
+         * {@link Object }
          * 
          * 
          */

@@ -11,9 +11,9 @@ import javax.xml.datatype.Duration;
 /**
  * Range of duration greater equal Min duration and less equal Max duration.
  * 
- * <p>Java class for DurationRange complex type.
+ * <p>Classe Java per DurationRange complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>Il seguente frammento di schema specifica il contenuto previsto contenuto in questa classe.
  * 
  * <pre>
  * &lt;complexType name="DurationRange"&gt;
@@ -43,7 +43,7 @@ public class DurationRange {
     protected Duration max;
 
     /**
-     * Gets the value of the min property.
+     * Recupera il valore della proprietà min.
      * 
      * @return
      *     possible object is
@@ -55,7 +55,7 @@ public class DurationRange {
     }
 
     /**
-     * Sets the value of the min property.
+     * Imposta il valore della proprietà min.
      * 
      * @param value
      *     allowed object is
@@ -67,7 +67,7 @@ public class DurationRange {
     }
 
     /**
-     * Gets the value of the max property.
+     * Recupera il valore della proprietà max.
      * 
      * @return
      *     possible object is
@@ -79,7 +79,7 @@ public class DurationRange {
     }
 
     /**
-     * Sets the value of the max property.
+     * Imposta il valore della proprietà max.
      * 
      * @param value
      *     allowed object is

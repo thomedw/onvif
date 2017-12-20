@@ -16,9 +16,9 @@ import org.w3c.dom.Element;
 
 
 /**
- * <p>Java class for AudioEncoder2Configuration complex type.
+ * <p>Classe Java per AudioEncoder2Configuration complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>Il seguente frammento di schema specifica il contenuto previsto contenuto in questa classe.
  * 
  * <pre>
  * &lt;complexType name="AudioEncoder2Configuration"&gt;
@@ -65,7 +65,7 @@ public class AudioEncoder2Configuration
     private Map<QName, String> otherAttributes = new HashMap<QName, String>();
 
     /**
-     * Gets the value of the encoding property.
+     * Recupera il valore della proprietà encoding.
      * 
      * @return
      *     possible object is
@@ -77,7 +77,7 @@ public class AudioEncoder2Configuration
     }
 
     /**
-     * Sets the value of the encoding property.
+     * Imposta il valore della proprietà encoding.
      * 
      * @param value
      *     allowed object is
@@ -89,7 +89,7 @@ public class AudioEncoder2Configuration
     }
 
     /**
-     * Gets the value of the multicast property.
+     * Recupera il valore della proprietà multicast.
      * 
      * @return
      *     possible object is
@@ -101,7 +101,7 @@ public class AudioEncoder2Configuration
     }
 
     /**
-     * Sets the value of the multicast property.
+     * Imposta il valore della proprietà multicast.
      * 
      * @param value
      *     allowed object is
@@ -113,7 +113,7 @@ public class AudioEncoder2Configuration
     }
 
     /**
-     * Gets the value of the bitrate property.
+     * Recupera il valore della proprietà bitrate.
      * 
      */
     public int getBitrate() {
@@ -121,7 +121,7 @@ public class AudioEncoder2Configuration
     }
 
     /**
-     * Sets the value of the bitrate property.
+     * Imposta il valore della proprietà bitrate.
      * 
      */
     public void setBitrate(int value) {
@@ -129,7 +129,7 @@ public class AudioEncoder2Configuration
     }
 
     /**
-     * Gets the value of the sampleRate property.
+     * Recupera il valore della proprietà sampleRate.
      * 
      */
     public int getSampleRate() {
@@ -137,7 +137,7 @@ public class AudioEncoder2Configuration
     }
 
     /**
-     * Sets the value of the sampleRate property.
+     * Imposta il valore della proprietà sampleRate.
      * 
      */
     public void setSampleRate(int value) {
@@ -162,8 +162,8 @@ public class AudioEncoder2Configuration
      * 
      * <p>
      * Objects of the following type(s) are allowed in the list
-     * {@link java.lang.Object }
      * {@link Element }
+     * {@link java.lang.Object }
      * 
      * 
      */

@@ -8,9 +8,9 @@ import javax.xml.bind.annotation.XmlType;
 
 
 /**
- * <p>Java class for VideoSourceConfigurationExtension complex type.
+ * <p>Classe Java per VideoSourceConfigurationExtension complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>Il seguente frammento di schema specifica il contenuto previsto contenuto in questa classe.
  * 
  * <pre>
  * &lt;complexType name="VideoSourceConfigurationExtension"&gt;
@@ -40,7 +40,7 @@ public class VideoSourceConfigurationExtension {
     protected VideoSourceConfigurationExtension2 extension;
 
     /**
-     * Gets the value of the rotate property.
+     * Recupera il valore della proprietà rotate.
      * 
      * @return
      *     possible object is
@@ -52,7 +52,7 @@ public class VideoSourceConfigurationExtension {
     }
 
     /**
-     * Sets the value of the rotate property.
+     * Imposta il valore della proprietà rotate.
      * 
      * @param value
      *     allowed object is
@@ -64,7 +64,7 @@ public class VideoSourceConfigurationExtension {
     }
 
     /**
-     * Gets the value of the extension property.
+     * Recupera il valore della proprietà extension.
      * 
      * @return
      *     possible object is
@@ -76,7 +76,7 @@ public class VideoSourceConfigurationExtension {
     }
 
     /**
-     * Sets the value of the extension property.
+     * Imposta il valore della proprietà extension.
      * 
      * @param value
      *     allowed object is

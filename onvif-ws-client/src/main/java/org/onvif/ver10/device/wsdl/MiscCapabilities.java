@@ -14,9 +14,9 @@ import javax.xml.namespace.QName;
 
 
 /**
- * <p>Java class for MiscCapabilities complex type.
+ * <p>Classe Java per MiscCapabilities complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>Il seguente frammento di schema specifica il contenuto previsto contenuto in questa classe.
  * 
  * <pre>
  * &lt;complexType name="MiscCapabilities"&gt;

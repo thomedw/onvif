@@ -15,9 +15,9 @@ import javax.xml.namespace.QName;
 
 
 /**
- * <p>Java class for ConfigDescription complex type.
+ * <p>Classe Java per ConfigDescription complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>Il seguente frammento di schema specifica il contenuto previsto contenuto in questa classe.
  * 
  * <pre>
  * &lt;complexType name="ConfigDescription"&gt;
@@ -68,7 +68,7 @@ public class ConfigDescription {
     private Map<QName, String> otherAttributes = new HashMap<QName, String>();
 
     /**
-     * Gets the value of the parameters property.
+     * Recupera il valore della proprietà parameters.
      * 
      * @return
      *     possible object is
@@ -80,7 +80,7 @@ public class ConfigDescription {
     }
 
     /**
-     * Sets the value of the parameters property.
+     * Imposta il valore della proprietà parameters.
      * 
      * @param value
      *     allowed object is
@@ -121,7 +121,7 @@ public class ConfigDescription {
     }
 
     /**
-     * Gets the value of the extension property.
+     * Recupera il valore della proprietà extension.
      * 
      * @return
      *     possible object is
@@ -133,7 +133,7 @@ public class ConfigDescription {
     }
 
     /**
-     * Sets the value of the extension property.
+     * Imposta il valore della proprietà extension.
      * 
      * @param value
      *     allowed object is
@@ -145,7 +145,7 @@ public class ConfigDescription {
     }
 
     /**
-     * Gets the value of the name property.
+     * Recupera il valore della proprietà name.
      * 
      * @return
      *     possible object is
@@ -157,7 +157,7 @@ public class ConfigDescription {
     }
 
     /**
-     * Sets the value of the name property.
+     * Imposta il valore della proprietà name.
      * 
      * @param value
      *     allowed object is
@@ -188,9 +188,9 @@ public class ConfigDescription {
 
 
     /**
-     * <p>Java class for anonymous complex type.
+     * <p>Classe Java per anonymous complex type.
      * 
-     * <p>The following schema fragment specifies the expected content contained within this class.
+     * <p>Il seguente frammento di schema specifica il contenuto previsto contenuto in questa classe.
      * 
      * <pre>
      * &lt;complexType&gt;
@@ -219,7 +219,7 @@ public class ConfigDescription {
         protected String parentTopic;
 
         /**
-         * Gets the value of the parentTopic property.
+         * Recupera il valore della proprietà parentTopic.
          * 
          * @return
          *     possible object is
@@ -231,7 +231,7 @@ public class ConfigDescription {
         }
 
         /**
-         * Sets the value of the parentTopic property.
+         * Imposta il valore della proprietà parentTopic.
          * 
          * @param value
          *     allowed object is

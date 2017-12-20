@@ -17,9 +17,9 @@ import org.w3c.dom.Element;
 
 
 /**
- * <p>Java class for SearchCapabilities complex type.
+ * <p>Classe Java per SearchCapabilities complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>Il seguente frammento di schema specifica il contenuto previsto contenuto in questa classe.
  * 
  * <pre>
  * &lt;complexType name="SearchCapabilities"&gt;
@@ -57,7 +57,7 @@ public class SearchCapabilities {
     private Map<QName, String> otherAttributes = new HashMap<QName, String>();
 
     /**
-     * Gets the value of the xAddr property.
+     * Recupera il valore della proprietà xAddr.
      * 
      * @return
      *     possible object is
@@ -69,7 +69,7 @@ public class SearchCapabilities {
     }
 
     /**
-     * Sets the value of the xAddr property.
+     * Imposta il valore della proprietà xAddr.
      * 
      * @param value
      *     allowed object is
@@ -81,7 +81,7 @@ public class SearchCapabilities {
     }
 
     /**
-     * Gets the value of the metadataSearch property.
+     * Recupera il valore della proprietà metadataSearch.
      * This getter has been renamed from isMetadataSearch() to getMetadataSearch() by cxf-xjc-boolean plugin.
      * 
      */
@@ -90,7 +90,7 @@ public class SearchCapabilities {
     }
 
     /**
-     * Sets the value of the metadataSearch property.
+     * Imposta il valore della proprietà metadataSearch.
      * 
      */
     public void setMetadataSearch(boolean value) {
@@ -115,8 +115,8 @@ public class SearchCapabilities {
      * 
      * <p>
      * Objects of the following type(s) are allowed in the list
-     * {@link java.lang.Object }
      * {@link Element }
+     * {@link java.lang.Object }
      * 
      * 
      */

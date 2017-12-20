@@ -16,9 +16,9 @@ import org.w3c.dom.Element;
 
 
 /**
- * <p>Java class for RecordingJobTrack complex type.
+ * <p>Classe Java per RecordingJobTrack complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>Il seguente frammento di schema specifica il contenuto previsto contenuto in questa classe.
  * 
  * <pre>
  * &lt;complexType name="RecordingJobTrack"&gt;
@@ -55,7 +55,7 @@ public class RecordingJobTrack {
     private Map<QName, String> otherAttributes = new HashMap<QName, String>();
 
     /**
-     * Gets the value of the sourceTag property.
+     * Recupera il valore della proprietà sourceTag.
      * 
      * @return
      *     possible object is
@@ -67,7 +67,7 @@ public class RecordingJobTrack {
     }
 
     /**
-     * Sets the value of the sourceTag property.
+     * Imposta il valore della proprietà sourceTag.
      * 
      * @param value
      *     allowed object is
@@ -79,7 +79,7 @@ public class RecordingJobTrack {
     }
 
     /**
-     * Gets the value of the destination property.
+     * Recupera il valore della proprietà destination.
      * 
      * @return
      *     possible object is
@@ -91,7 +91,7 @@ public class RecordingJobTrack {
     }
 
     /**
-     * Sets the value of the destination property.
+     * Imposta il valore della proprietà destination.
      * 
      * @param value
      *     allowed object is
@@ -120,8 +120,8 @@ public class RecordingJobTrack {
      * 
      * <p>
      * Objects of the following type(s) are allowed in the list
-     * {@link java.lang.Object }
      * {@link Element }
+     * {@link java.lang.Object }
      * 
      * 
      */

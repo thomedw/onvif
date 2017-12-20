@@ -11,9 +11,9 @@ import javax.xml.bind.annotation.XmlType;
 
 
 /**
- * <p>Java class for BacklightCompensationOptions complex type.
+ * <p>Classe Java per BacklightCompensationOptions complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>Il seguente frammento di schema specifica il contenuto previsto contenuto in questa classe.
  * 
  * <pre>
  * &lt;complexType name="BacklightCompensationOptions"&gt;
@@ -73,7 +73,7 @@ public class BacklightCompensationOptions {
     }
 
     /**
-     * Gets the value of the level property.
+     * Recupera il valore della proprietà level.
      * 
      * @return
      *     possible object is
@@ -85,7 +85,7 @@ public class BacklightCompensationOptions {
     }
 
     /**
-     * Sets the value of the level property.
+     * Imposta il valore della proprietà level.
      * 
      * @param value
      *     allowed object is

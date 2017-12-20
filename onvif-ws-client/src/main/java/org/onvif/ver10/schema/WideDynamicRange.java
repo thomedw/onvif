@@ -9,9 +9,9 @@ import javax.xml.bind.annotation.XmlType;
 
 
 /**
- * <p>Java class for WideDynamicRange complex type.
+ * <p>Classe Java per WideDynamicRange complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>Il seguente frammento di schema specifica il contenuto previsto contenuto in questa classe.
  * 
  * <pre>
  * &lt;complexType name="WideDynamicRange"&gt;
@@ -42,7 +42,7 @@ public class WideDynamicRange {
     protected float level;
 
     /**
-     * Gets the value of the mode property.
+     * Recupera il valore della proprietà mode.
      * 
      * @return
      *     possible object is
@@ -54,7 +54,7 @@ public class WideDynamicRange {
     }
 
     /**
-     * Sets the value of the mode property.
+     * Imposta il valore della proprietà mode.
      * 
      * @param value
      *     allowed object is
@@ -66,7 +66,7 @@ public class WideDynamicRange {
     }
 
     /**
-     * Gets the value of the level property.
+     * Recupera il valore della proprietà level.
      * 
      */
     public float getLevel() {
@@ -74,7 +74,7 @@ public class WideDynamicRange {
     }
 
     /**
-     * Sets the value of the level property.
+     * Imposta il valore della proprietà level.
      * 
      */
     public void setLevel(float value) {

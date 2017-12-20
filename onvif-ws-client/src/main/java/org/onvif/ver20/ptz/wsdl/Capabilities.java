@@ -16,9 +16,9 @@ import org.w3c.dom.Element;
 
 
 /**
- * <p>Java class for Capabilities complex type.
+ * <p>Classe Java per Capabilities complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>Il seguente frammento di schema specifica il contenuto previsto contenuto in questa classe.
  * 
  * <pre>
  * &lt;complexType name="Capabilities"&gt;
@@ -79,8 +79,8 @@ public class Capabilities {
      * 
      * <p>
      * Objects of the following type(s) are allowed in the list
-     * {@link Object }
      * {@link Element }
+     * {@link Object }
      * 
      * 
      */
@@ -92,7 +92,7 @@ public class Capabilities {
     }
 
     /**
-     * Gets the value of the eFlip property.
+     * Recupera il valore della proprietà eFlip.
      * This getter has been renamed from isEFlip() to getEFlip() by cxf-xjc-boolean plugin.
      * 
      * @return
@@ -105,7 +105,7 @@ public class Capabilities {
     }
 
     /**
-     * Sets the value of the eFlip property.
+     * Imposta il valore della proprietà eFlip.
      * 
      * @param value
      *     allowed object is
@@ -117,7 +117,7 @@ public class Capabilities {
     }
 
     /**
-     * Gets the value of the reverse property.
+     * Recupera il valore della proprietà reverse.
      * This getter has been renamed from isReverse() to getReverse() by cxf-xjc-boolean plugin.
      * 
      * @return
@@ -130,7 +130,7 @@ public class Capabilities {
     }
 
     /**
-     * Sets the value of the reverse property.
+     * Imposta il valore della proprietà reverse.
      * 
      * @param value
      *     allowed object is
@@ -142,7 +142,7 @@ public class Capabilities {
     }
 
     /**
-     * Gets the value of the getCompatibleConfigurations property.
+     * Recupera il valore della proprietà getCompatibleConfigurations.
      * This getter has been renamed from isGetCompatibleConfigurations() to getGetCompatibleConfigurations() by cxf-xjc-boolean plugin.
      * 
      * @return
@@ -155,7 +155,7 @@ public class Capabilities {
     }
 
     /**
-     * Sets the value of the getCompatibleConfigurations property.
+     * Imposta il valore della proprietà getCompatibleConfigurations.
      * 
      * @param value
      *     allowed object is
@@ -167,7 +167,7 @@ public class Capabilities {
     }
 
     /**
-     * Gets the value of the moveStatus property.
+     * Recupera il valore della proprietà moveStatus.
      * This getter has been renamed from isMoveStatus() to getMoveStatus() by cxf-xjc-boolean plugin.
      * 
      * @return
@@ -180,7 +180,7 @@ public class Capabilities {
     }
 
     /**
-     * Sets the value of the moveStatus property.
+     * Imposta il valore della proprietà moveStatus.
      * 
      * @param value
      *     allowed object is
@@ -192,7 +192,7 @@ public class Capabilities {
     }
 
     /**
-     * Gets the value of the statusPosition property.
+     * Recupera il valore della proprietà statusPosition.
      * This getter has been renamed from isStatusPosition() to getStatusPosition() by cxf-xjc-boolean plugin.
      * 
      * @return
@@ -205,7 +205,7 @@ public class Capabilities {
     }
 
     /**
-     * Sets the value of the statusPosition property.
+     * Imposta il valore della proprietà statusPosition.
      * 
      * @param value
      *     allowed object is

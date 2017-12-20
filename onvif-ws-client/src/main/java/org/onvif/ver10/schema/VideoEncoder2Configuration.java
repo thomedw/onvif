@@ -17,9 +17,9 @@ import org.w3c.dom.Element;
 
 
 /**
- * <p>Java class for VideoEncoder2Configuration complex type.
+ * <p>Classe Java per VideoEncoder2Configuration complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>Il seguente frammento di schema specifica il contenuto previsto contenuto in questa classe.
  * 
  * <pre>
  * &lt;complexType name="VideoEncoder2Configuration"&gt;
@@ -76,7 +76,7 @@ public class VideoEncoder2Configuration
     private Map<QName, String> otherAttributes = new HashMap<QName, String>();
 
     /**
-     * Gets the value of the encoding property.
+     * Recupera il valore della proprietà encoding.
      * 
      * @return
      *     possible object is
@@ -88,7 +88,7 @@ public class VideoEncoder2Configuration
     }
 
     /**
-     * Sets the value of the encoding property.
+     * Imposta il valore della proprietà encoding.
      * 
      * @param value
      *     allowed object is
@@ -100,7 +100,7 @@ public class VideoEncoder2Configuration
     }
 
     /**
-     * Gets the value of the resolution property.
+     * Recupera il valore della proprietà resolution.
      * 
      * @return
      *     possible object is
@@ -112,7 +112,7 @@ public class VideoEncoder2Configuration
     }
 
     /**
-     * Sets the value of the resolution property.
+     * Imposta il valore della proprietà resolution.
      * 
      * @param value
      *     allowed object is
@@ -124,7 +124,7 @@ public class VideoEncoder2Configuration
     }
 
     /**
-     * Gets the value of the rateControl property.
+     * Recupera il valore della proprietà rateControl.
      * 
      * @return
      *     possible object is
@@ -136,7 +136,7 @@ public class VideoEncoder2Configuration
     }
 
     /**
-     * Sets the value of the rateControl property.
+     * Imposta il valore della proprietà rateControl.
      * 
      * @param value
      *     allowed object is
@@ -148,7 +148,7 @@ public class VideoEncoder2Configuration
     }
 
     /**
-     * Gets the value of the multicast property.
+     * Recupera il valore della proprietà multicast.
      * 
      * @return
      *     possible object is
@@ -160,7 +160,7 @@ public class VideoEncoder2Configuration
     }
 
     /**
-     * Sets the value of the multicast property.
+     * Imposta il valore della proprietà multicast.
      * 
      * @param value
      *     allowed object is
@@ -172,7 +172,7 @@ public class VideoEncoder2Configuration
     }
 
     /**
-     * Gets the value of the quality property.
+     * Recupera il valore della proprietà quality.
      * 
      */
     public float getQuality() {
@@ -180,7 +180,7 @@ public class VideoEncoder2Configuration
     }
 
     /**
-     * Sets the value of the quality property.
+     * Imposta il valore della proprietà quality.
      * 
      */
     public void setQuality(float value) {
@@ -205,8 +205,8 @@ public class VideoEncoder2Configuration
      * 
      * <p>
      * Objects of the following type(s) are allowed in the list
-     * {@link java.lang.Object }
      * {@link Element }
+     * {@link java.lang.Object }
      * 
      * 
      */
@@ -218,7 +218,7 @@ public class VideoEncoder2Configuration
     }
 
     /**
-     * Gets the value of the govLength property.
+     * Recupera il valore della proprietà govLength.
      * 
      * @return
      *     possible object is
@@ -230,7 +230,7 @@ public class VideoEncoder2Configuration
     }
 
     /**
-     * Sets the value of the govLength property.
+     * Imposta il valore della proprietà govLength.
      * 
      * @param value
      *     allowed object is
@@ -242,7 +242,7 @@ public class VideoEncoder2Configuration
     }
 
     /**
-     * Gets the value of the profile property.
+     * Recupera il valore della proprietà profile.
      * 
      * @return
      *     possible object is
@@ -254,7 +254,7 @@ public class VideoEncoder2Configuration
     }
 
     /**
-     * Sets the value of the profile property.
+     * Imposta il valore della proprietà profile.
      * 
      * @param value
      *     allowed object is

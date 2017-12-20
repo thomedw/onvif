@@ -14,9 +14,9 @@ import javax.xml.namespace.QName;
 
 
 /**
- * <p>Java class for ColorDescriptor complex type.
+ * <p>Classe Java per ColorDescriptor complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>Il seguente frammento di schema specifica il contenuto previsto contenuto in questa classe.
  * 
  * <pre>
  * &lt;complexType name="ColorDescriptor"&gt;
@@ -90,7 +90,7 @@ public class ColorDescriptor {
     }
 
     /**
-     * Gets the value of the extension property.
+     * Recupera il valore della proprietà extension.
      * 
      * @return
      *     possible object is
@@ -102,7 +102,7 @@ public class ColorDescriptor {
     }
 
     /**
-     * Sets the value of the extension property.
+     * Imposta il valore della proprietà extension.
      * 
      * @param value
      *     allowed object is
@@ -133,9 +133,9 @@ public class ColorDescriptor {
 
 
     /**
-     * <p>Java class for anonymous complex type.
+     * <p>Classe Java per anonymous complex type.
      * 
-     * <p>The following schema fragment specifies the expected content contained within this class.
+     * <p>Il seguente frammento di schema specifica il contenuto previsto contenuto in questa classe.
      * 
      * <pre>
      * &lt;complexType&gt;
@@ -169,7 +169,7 @@ public class ColorDescriptor {
         protected ColorCovariance covariance;
 
         /**
-         * Gets the value of the color property.
+         * Recupera il valore della proprietà color.
          * 
          * @return
          *     possible object is
@@ -181,7 +181,7 @@ public class ColorDescriptor {
         }
 
         /**
-         * Sets the value of the color property.
+         * Imposta il valore della proprietà color.
          * 
          * @param value
          *     allowed object is
@@ -193,7 +193,7 @@ public class ColorDescriptor {
         }
 
         /**
-         * Gets the value of the weight property.
+         * Recupera il valore della proprietà weight.
          * 
          * @return
          *     possible object is
@@ -205,7 +205,7 @@ public class ColorDescriptor {
         }
 
         /**
-         * Sets the value of the weight property.
+         * Imposta il valore della proprietà weight.
          * 
          * @param value
          *     allowed object is
@@ -217,7 +217,7 @@ public class ColorDescriptor {
         }
 
         /**
-         * Gets the value of the covariance property.
+         * Recupera il valore della proprietà covariance.
          * 
          * @return
          *     possible object is
@@ -229,7 +229,7 @@ public class ColorDescriptor {
         }
 
         /**
-         * Sets the value of the covariance property.
+         * Imposta il valore della proprietà covariance.
          * 
          * @param value
          *     allowed object is

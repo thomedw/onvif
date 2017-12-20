@@ -17,9 +17,9 @@ import org.w3c.dom.Element;
 
 
 /**
- * <p>Java class for AudioEncoderConfigurationOption complex type.
+ * <p>Classe Java per AudioEncoderConfigurationOption complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>Il seguente frammento di schema specifica il contenuto previsto contenuto in questa classe.
  * 
  * <pre>
  * &lt;complexType name="AudioEncoderConfigurationOption"&gt;
@@ -61,7 +61,7 @@ public class AudioEncoderConfigurationOption {
     private Map<QName, String> otherAttributes = new HashMap<QName, String>();
 
     /**
-     * Gets the value of the encoding property.
+     * Recupera il valore della proprietà encoding.
      * 
      * @return
      *     possible object is
@@ -73,7 +73,7 @@ public class AudioEncoderConfigurationOption {
     }
 
     /**
-     * Sets the value of the encoding property.
+     * Imposta il valore della proprietà encoding.
      * 
      * @param value
      *     allowed object is
@@ -85,7 +85,7 @@ public class AudioEncoderConfigurationOption {
     }
 
     /**
-     * Gets the value of the bitrateList property.
+     * Recupera il valore della proprietà bitrateList.
      * 
      * @return
      *     possible object is
@@ -97,7 +97,7 @@ public class AudioEncoderConfigurationOption {
     }
 
     /**
-     * Sets the value of the bitrateList property.
+     * Imposta il valore della proprietà bitrateList.
      * 
      * @param value
      *     allowed object is
@@ -109,7 +109,7 @@ public class AudioEncoderConfigurationOption {
     }
 
     /**
-     * Gets the value of the sampleRateList property.
+     * Recupera il valore della proprietà sampleRateList.
      * 
      * @return
      *     possible object is
@@ -121,7 +121,7 @@ public class AudioEncoderConfigurationOption {
     }
 
     /**
-     * Sets the value of the sampleRateList property.
+     * Imposta il valore della proprietà sampleRateList.
      * 
      * @param value
      *     allowed object is
@@ -150,8 +150,8 @@ public class AudioEncoderConfigurationOption {
      * 
      * <p>
      * Objects of the following type(s) are allowed in the list
-     * {@link java.lang.Object }
      * {@link Element }
+     * {@link java.lang.Object }
      * 
      * 
      */

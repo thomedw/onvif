@@ -14,9 +14,9 @@ import javax.xml.namespace.QName;
 
 
 /**
- * <p>Java class for Relationship complex type.
+ * <p>Classe Java per Relationship complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>Il seguente frammento di schema specifica il contenuto previsto contenuto in questa classe.
  * 
  * <pre>
  * &lt;complexType name="Relationship"&gt;
@@ -46,7 +46,7 @@ public class Relationship {
     private Map<QName, String> otherAttributes = new HashMap<QName, String>();
 
     /**
-     * Gets the value of the value property.
+     * Recupera il valore della proprietà value.
      * 
      * @return
      *     possible object is
@@ -58,7 +58,7 @@ public class Relationship {
     }
 
     /**
-     * Sets the value of the value property.
+     * Imposta il valore della proprietà value.
      * 
      * @param value
      *     allowed object is
@@ -70,7 +70,7 @@ public class Relationship {
     }
 
     /**
-     * Gets the value of the relationshipType property.
+     * Recupera il valore della proprietà relationshipType.
      * 
      * @return
      *     possible object is
@@ -82,7 +82,7 @@ public class Relationship {
     }
 
     /**
-     * Sets the value of the relationshipType property.
+     * Imposta il valore della proprietà relationshipType.
      * 
      * @param value
      *     allowed object is

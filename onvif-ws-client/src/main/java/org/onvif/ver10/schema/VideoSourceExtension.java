@@ -12,9 +12,9 @@ import org.w3c.dom.Element;
 
 
 /**
- * <p>Java class for VideoSourceExtension complex type.
+ * <p>Classe Java per VideoSourceExtension complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>Il seguente frammento di schema specifica il contenuto previsto contenuto in questa classe.
  * 
  * <pre>
  * &lt;complexType name="VideoSourceExtension"&gt;
@@ -65,8 +65,8 @@ public class VideoSourceExtension {
      * 
      * <p>
      * Objects of the following type(s) are allowed in the list
-     * {@link java.lang.Object }
      * {@link Element }
+     * {@link java.lang.Object }
      * 
      * 
      */
@@ -78,7 +78,7 @@ public class VideoSourceExtension {
     }
 
     /**
-     * Gets the value of the imaging property.
+     * Recupera il valore della proprietà imaging.
      * 
      * @return
      *     possible object is
@@ -90,7 +90,7 @@ public class VideoSourceExtension {
     }
 
     /**
-     * Sets the value of the imaging property.
+     * Imposta il valore della proprietà imaging.
      * 
      * @param value
      *     allowed object is
@@ -102,7 +102,7 @@ public class VideoSourceExtension {
     }
 
     /**
-     * Gets the value of the extension property.
+     * Recupera il valore della proprietà extension.
      * 
      * @return
      *     possible object is
@@ -114,7 +114,7 @@ public class VideoSourceExtension {
     }
 
     /**
-     * Sets the value of the extension property.
+     * Imposta il valore della proprietà extension.
      * 
      * @param value
      *     allowed object is

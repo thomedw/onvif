@@ -16,9 +16,9 @@ import org.w3c.dom.Element;
 
 
 /**
- * <p>Java class for DigitalInput complex type.
+ * <p>Classe Java per DigitalInput complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>Il seguente frammento di schema specifica il contenuto previsto contenuto in questa classe.
  * 
  * <pre>
  * &lt;complexType name="DigitalInput"&gt;
@@ -69,8 +69,8 @@ public class DigitalInput
      * 
      * <p>
      * Objects of the following type(s) are allowed in the list
-     * {@link java.lang.Object }
      * {@link Element }
+     * {@link java.lang.Object }
      * 
      * 
      */
@@ -82,7 +82,7 @@ public class DigitalInput
     }
 
     /**
-     * Gets the value of the idleState property.
+     * Recupera il valore della proprietà idleState.
      * 
      * @return
      *     possible object is
@@ -94,7 +94,7 @@ public class DigitalInput
     }
 
     /**
-     * Sets the value of the idleState property.
+     * Imposta il valore della proprietà idleState.
      * 
      * @param value
      *     allowed object is

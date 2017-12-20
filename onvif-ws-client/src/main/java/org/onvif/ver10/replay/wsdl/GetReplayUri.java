@@ -10,9 +10,9 @@ import org.onvif.ver10.schema.StreamSetup;
 
 
 /**
- * <p>Java class for anonymous complex type.
+ * <p>Classe Java per anonymous complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>Il seguente frammento di schema specifica il contenuto previsto contenuto in questa classe.
  * 
  * <pre>
  * &lt;complexType&gt;
@@ -43,7 +43,7 @@ public class GetReplayUri {
     protected String recordingToken;
 
     /**
-     * Gets the value of the streamSetup property.
+     * Recupera il valore della proprietà streamSetup.
      * 
      * @return
      *     possible object is
@@ -55,7 +55,7 @@ public class GetReplayUri {
     }
 
     /**
-     * Sets the value of the streamSetup property.
+     * Imposta il valore della proprietà streamSetup.
      * 
      * @param value
      *     allowed object is
@@ -67,7 +67,7 @@ public class GetReplayUri {
     }
 
     /**
-     * Gets the value of the recordingToken property.
+     * Recupera il valore della proprietà recordingToken.
      * 
      * @return
      *     possible object is
@@ -79,7 +79,7 @@ public class GetReplayUri {
     }
 
     /**
-     * Sets the value of the recordingToken property.
+     * Imposta il valore della proprietà recordingToken.
      * 
      * @param value
      *     allowed object is

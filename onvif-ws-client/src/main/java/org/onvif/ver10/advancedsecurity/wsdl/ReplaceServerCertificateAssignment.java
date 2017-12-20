@@ -12,9 +12,9 @@ import javax.xml.bind.annotation.adapters.XmlJavaTypeAdapter;
 
 
 /**
- * <p>Java class for anonymous complex type.
+ * <p>Classe Java per anonymous complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>Il seguente frammento di schema specifica il contenuto previsto contenuto in questa classe.
  * 
  * <pre>
  * &lt;complexType&gt;
@@ -49,7 +49,7 @@ public class ReplaceServerCertificateAssignment {
     protected String newCertificationPathID;
 
     /**
-     * Gets the value of the oldCertificationPathID property.
+     * Recupera il valore della proprietà oldCertificationPathID.
      * 
      * @return
      *     possible object is
@@ -61,7 +61,7 @@ public class ReplaceServerCertificateAssignment {
     }
 
     /**
-     * Sets the value of the oldCertificationPathID property.
+     * Imposta il valore della proprietà oldCertificationPathID.
      * 
      * @param value
      *     allowed object is
@@ -73,7 +73,7 @@ public class ReplaceServerCertificateAssignment {
     }
 
     /**
-     * Gets the value of the newCertificationPathID property.
+     * Recupera il valore della proprietà newCertificationPathID.
      * 
      * @return
      *     possible object is
@@ -85,7 +85,7 @@ public class ReplaceServerCertificateAssignment {
     }
 
     /**
-     * Sets the value of the newCertificationPathID property.
+     * Imposta il valore della proprietà newCertificationPathID.
      * 
      * @param value
      *     allowed object is

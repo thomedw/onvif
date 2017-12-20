@@ -9,9 +9,9 @@ import javax.xml.bind.annotation.XmlValue;
 
 
 /**
- * <p>Java class for CertificateUsage complex type.
+ * <p>Classe Java per CertificateUsage complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>Il seguente frammento di schema specifica il contenuto previsto contenuto in questa classe.
  * 
  * <pre>
  * &lt;complexType name="CertificateUsage"&gt;
@@ -37,7 +37,7 @@ public class CertificateUsage {
     protected boolean critical;
 
     /**
-     * Gets the value of the value property.
+     * Recupera il valore della proprietà value.
      * 
      * @return
      *     possible object is
@@ -49,7 +49,7 @@ public class CertificateUsage {
     }
 
     /**
-     * Sets the value of the value property.
+     * Imposta il valore della proprietà value.
      * 
      * @param value
      *     allowed object is
@@ -61,7 +61,7 @@ public class CertificateUsage {
     }
 
     /**
-     * Gets the value of the critical property.
+     * Recupera il valore della proprietà critical.
      * This getter has been renamed from isCritical() to getCritical() by cxf-xjc-boolean plugin.
      * 
      */
@@ -70,7 +70,7 @@ public class CertificateUsage {
     }
 
     /**
-     * Sets the value of the critical property.
+     * Imposta il valore della proprietà critical.
      * 
      */
     public void setCritical(boolean value) {

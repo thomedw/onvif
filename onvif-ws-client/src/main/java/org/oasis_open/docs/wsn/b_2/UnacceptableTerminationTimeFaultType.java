@@ -11,9 +11,9 @@ import org.oasis_open.docs.wsrf.bf_2.BaseFaultType;
 
 
 /**
- * <p>Java class for UnacceptableTerminationTimeFaultType complex type.
+ * <p>Classe Java per UnacceptableTerminationTimeFaultType complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>Il seguente frammento di schema specifica il contenuto previsto contenuto in questa classe.
  * 
  * <pre>
  * &lt;complexType name="UnacceptableTerminationTimeFaultType"&gt;
@@ -48,7 +48,7 @@ public class UnacceptableTerminationTimeFaultType
     protected XMLGregorianCalendar maximumTime;
 
     /**
-     * Gets the value of the minimumTime property.
+     * Recupera il valore della proprietà minimumTime.
      * 
      * @return
      *     possible object is
@@ -60,7 +60,7 @@ public class UnacceptableTerminationTimeFaultType
     }
 
     /**
-     * Sets the value of the minimumTime property.
+     * Imposta il valore della proprietà minimumTime.
      * 
      * @param value
      *     allowed object is
@@ -72,7 +72,7 @@ public class UnacceptableTerminationTimeFaultType
     }
 
     /**
-     * Gets the value of the maximumTime property.
+     * Recupera il valore della proprietà maximumTime.
      * 
      * @return
      *     possible object is
@@ -84,7 +84,7 @@ public class UnacceptableTerminationTimeFaultType
     }
 
     /**
-     * Sets the value of the maximumTime property.
+     * Imposta il valore della proprietà maximumTime.
      * 
      * @param value
      *     allowed object is

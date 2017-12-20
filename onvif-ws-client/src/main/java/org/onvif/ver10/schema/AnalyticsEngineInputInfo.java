@@ -12,9 +12,9 @@ import javax.xml.namespace.QName;
 
 
 /**
- * <p>Java class for AnalyticsEngineInputInfo complex type.
+ * <p>Classe Java per AnalyticsEngineInputInfo complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>Il seguente frammento di schema specifica il contenuto previsto contenuto in questa classe.
  * 
  * <pre>
  * &lt;complexType name="AnalyticsEngineInputInfo"&gt;
@@ -47,7 +47,7 @@ public class AnalyticsEngineInputInfo {
     private Map<QName, String> otherAttributes = new HashMap<QName, String>();
 
     /**
-     * Gets the value of the inputInfo property.
+     * Recupera il valore della proprietà inputInfo.
      * 
      * @return
      *     possible object is
@@ -59,7 +59,7 @@ public class AnalyticsEngineInputInfo {
     }
 
     /**
-     * Sets the value of the inputInfo property.
+     * Imposta il valore della proprietà inputInfo.
      * 
      * @param value
      *     allowed object is
@@ -71,7 +71,7 @@ public class AnalyticsEngineInputInfo {
     }
 
     /**
-     * Gets the value of the extension property.
+     * Recupera il valore della proprietà extension.
      * 
      * @return
      *     possible object is
@@ -83,7 +83,7 @@ public class AnalyticsEngineInputInfo {
     }
 
     /**
-     * Sets the value of the extension property.
+     * Imposta il valore della proprietà extension.
      * 
      * @param value
      *     allowed object is

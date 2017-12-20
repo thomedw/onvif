@@ -16,9 +16,9 @@ import org.w3c.dom.Element;
 
 
 /**
- * <p>Java class for RemoteUser complex type.
+ * <p>Classe Java per RemoteUser complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>Il seguente frammento di schema specifica il contenuto previsto contenuto in questa classe.
  * 
  * <pre>
  * &lt;complexType name="RemoteUser"&gt;
@@ -59,7 +59,7 @@ public class RemoteUser {
     private Map<QName, String> otherAttributes = new HashMap<QName, String>();
 
     /**
-     * Gets the value of the username property.
+     * Recupera il valore della proprietà username.
      * 
      * @return
      *     possible object is
@@ -71,7 +71,7 @@ public class RemoteUser {
     }
 
     /**
-     * Sets the value of the username property.
+     * Imposta il valore della proprietà username.
      * 
      * @param value
      *     allowed object is
@@ -83,7 +83,7 @@ public class RemoteUser {
     }
 
     /**
-     * Gets the value of the password property.
+     * Recupera il valore della proprietà password.
      * 
      * @return
      *     possible object is
@@ -95,7 +95,7 @@ public class RemoteUser {
     }
 
     /**
-     * Sets the value of the password property.
+     * Imposta il valore della proprietà password.
      * 
      * @param value
      *     allowed object is
@@ -107,7 +107,7 @@ public class RemoteUser {
     }
 
     /**
-     * Gets the value of the useDerivedPassword property.
+     * Recupera il valore della proprietà useDerivedPassword.
      * This getter has been renamed from isUseDerivedPassword() to getUseDerivedPassword() by cxf-xjc-boolean plugin.
      * 
      */
@@ -116,7 +116,7 @@ public class RemoteUser {
     }
 
     /**
-     * Sets the value of the useDerivedPassword property.
+     * Imposta il valore della proprietà useDerivedPassword.
      * 
      */
     public void setUseDerivedPassword(boolean value) {
@@ -141,8 +141,8 @@ public class RemoteUser {
      * 
      * <p>
      * Objects of the following type(s) are allowed in the list
-     * {@link java.lang.Object }
      * {@link Element }
+     * {@link java.lang.Object }
      * 
      * 
      */

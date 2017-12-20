@@ -13,9 +13,9 @@ import javax.xml.namespace.QName;
 
 
 /**
- * <p>Java class for IrCutFilterAutoAdjustment complex type.
+ * <p>Classe Java per IrCutFilterAutoAdjustment complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>Il seguente frammento di schema specifica il contenuto previsto contenuto in questa classe.
  * 
  * <pre>
  * &lt;complexType name="IrCutFilterAutoAdjustment"&gt;
@@ -56,7 +56,7 @@ public class IrCutFilterAutoAdjustment {
     private Map<QName, String> otherAttributes = new HashMap<QName, String>();
 
     /**
-     * Gets the value of the boundaryType property.
+     * Recupera il valore della proprietà boundaryType.
      * 
      * @return
      *     possible object is
@@ -68,7 +68,7 @@ public class IrCutFilterAutoAdjustment {
     }
 
     /**
-     * Sets the value of the boundaryType property.
+     * Imposta il valore della proprietà boundaryType.
      * 
      * @param value
      *     allowed object is
@@ -80,7 +80,7 @@ public class IrCutFilterAutoAdjustment {
     }
 
     /**
-     * Gets the value of the boundaryOffset property.
+     * Recupera il valore della proprietà boundaryOffset.
      * 
      * @return
      *     possible object is
@@ -92,7 +92,7 @@ public class IrCutFilterAutoAdjustment {
     }
 
     /**
-     * Sets the value of the boundaryOffset property.
+     * Imposta il valore della proprietà boundaryOffset.
      * 
      * @param value
      *     allowed object is
@@ -104,7 +104,7 @@ public class IrCutFilterAutoAdjustment {
     }
 
     /**
-     * Gets the value of the responseTime property.
+     * Recupera il valore della proprietà responseTime.
      * 
      * @return
      *     possible object is
@@ -116,7 +116,7 @@ public class IrCutFilterAutoAdjustment {
     }
 
     /**
-     * Sets the value of the responseTime property.
+     * Imposta il valore della proprietà responseTime.
      * 
      * @param value
      *     allowed object is
@@ -128,7 +128,7 @@ public class IrCutFilterAutoAdjustment {
     }
 
     /**
-     * Gets the value of the extension property.
+     * Recupera il valore della proprietà extension.
      * 
      * @return
      *     possible object is
@@ -140,7 +140,7 @@ public class IrCutFilterAutoAdjustment {
     }
 
     /**
-     * Sets the value of the extension property.
+     * Imposta il valore della proprietà extension.
      * 
      * @param value
      *     allowed object is

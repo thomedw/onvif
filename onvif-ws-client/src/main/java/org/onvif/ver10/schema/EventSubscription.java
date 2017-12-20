@@ -19,9 +19,9 @@ import org.w3c.dom.Element;
 /**
  * Subcription handling in the same way as base notification subscription.
  * 
- * <p>Java class for EventSubscription complex type.
+ * <p>Classe Java per EventSubscription complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>Il seguente frammento di schema specifica il contenuto previsto contenuto in questa classe.
  * 
  * <pre>
  * &lt;complexType name="EventSubscription"&gt;
@@ -68,7 +68,7 @@ public class EventSubscription {
     private Map<QName, String> otherAttributes = new HashMap<QName, String>();
 
     /**
-     * Gets the value of the filter property.
+     * Recupera il valore della proprietà filter.
      * 
      * @return
      *     possible object is
@@ -80,7 +80,7 @@ public class EventSubscription {
     }
 
     /**
-     * Sets the value of the filter property.
+     * Imposta il valore della proprietà filter.
      * 
      * @param value
      *     allowed object is
@@ -92,7 +92,7 @@ public class EventSubscription {
     }
 
     /**
-     * Gets the value of the subscriptionPolicy property.
+     * Recupera il valore della proprietà subscriptionPolicy.
      * 
      * @return
      *     possible object is
@@ -104,7 +104,7 @@ public class EventSubscription {
     }
 
     /**
-     * Sets the value of the subscriptionPolicy property.
+     * Imposta il valore della proprietà subscriptionPolicy.
      * 
      * @param value
      *     allowed object is
@@ -133,8 +133,8 @@ public class EventSubscription {
      * 
      * <p>
      * Objects of the following type(s) are allowed in the list
-     * {@link java.lang.Object }
      * {@link Element }
+     * {@link java.lang.Object }
      * 
      * 
      */
@@ -165,9 +165,9 @@ public class EventSubscription {
 
 
     /**
-     * <p>Java class for anonymous complex type.
+     * <p>Classe Java per anonymous complex type.
      * 
-     * <p>The following schema fragment specifies the expected content contained within this class.
+     * <p>Il seguente frammento di schema specifica il contenuto previsto contenuto in questa classe.
      * 
      * <pre>
      * &lt;complexType&gt;
@@ -210,8 +210,8 @@ public class EventSubscription {
          * 
          * <p>
          * Objects of the following type(s) are allowed in the list
-         * {@link java.lang.Object }
          * {@link Element }
+         * {@link java.lang.Object }
          * 
          * 
          */

@@ -17,9 +17,9 @@ import org.w3c.dom.Element;
 
 
 /**
- * <p>Java class for H264DecOptions complex type.
+ * <p>Classe Java per H264DecOptions complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>Il seguente frammento di schema specifica il contenuto previsto contenuto in questa classe.
  * 
  * <pre>
  * &lt;complexType name="H264DecOptions"&gt;
@@ -123,7 +123,7 @@ public class H264DecOptions {
     }
 
     /**
-     * Gets the value of the supportedInputBitrate property.
+     * Recupera il valore della proprietà supportedInputBitrate.
      * 
      * @return
      *     possible object is
@@ -135,7 +135,7 @@ public class H264DecOptions {
     }
 
     /**
-     * Sets the value of the supportedInputBitrate property.
+     * Imposta il valore della proprietà supportedInputBitrate.
      * 
      * @param value
      *     allowed object is
@@ -147,7 +147,7 @@ public class H264DecOptions {
     }
 
     /**
-     * Gets the value of the supportedFrameRate property.
+     * Recupera il valore della proprietà supportedFrameRate.
      * 
      * @return
      *     possible object is
@@ -159,7 +159,7 @@ public class H264DecOptions {
     }
 
     /**
-     * Sets the value of the supportedFrameRate property.
+     * Imposta il valore della proprietà supportedFrameRate.
      * 
      * @param value
      *     allowed object is
@@ -188,8 +188,8 @@ public class H264DecOptions {
      * 
      * <p>
      * Objects of the following type(s) are allowed in the list
-     * {@link java.lang.Object }
      * {@link Element }
+     * {@link java.lang.Object }
      * 
      * 
      */

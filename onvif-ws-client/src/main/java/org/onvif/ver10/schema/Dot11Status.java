@@ -19,9 +19,9 @@ import org.w3c.dom.Element;
 
 
 /**
- * <p>Java class for Dot11Status complex type.
+ * <p>Classe Java per Dot11Status complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>Il seguente frammento di schema specifica il contenuto previsto contenuto in questa classe.
  * 
  * <pre>
  * &lt;complexType name="Dot11Status"&gt;
@@ -79,7 +79,7 @@ public class Dot11Status {
     private Map<QName, String> otherAttributes = new HashMap<QName, String>();
 
     /**
-     * Gets the value of the ssid property.
+     * Recupera il valore della proprietà ssid.
      * 
      * @return
      *     possible object is
@@ -91,7 +91,7 @@ public class Dot11Status {
     }
 
     /**
-     * Sets the value of the ssid property.
+     * Imposta il valore della proprietà ssid.
      * 
      * @param value
      *     allowed object is
@@ -103,7 +103,7 @@ public class Dot11Status {
     }
 
     /**
-     * Gets the value of the bssid property.
+     * Recupera il valore della proprietà bssid.
      * 
      * @return
      *     possible object is
@@ -115,7 +115,7 @@ public class Dot11Status {
     }
 
     /**
-     * Sets the value of the bssid property.
+     * Imposta il valore della proprietà bssid.
      * 
      * @param value
      *     allowed object is
@@ -127,7 +127,7 @@ public class Dot11Status {
     }
 
     /**
-     * Gets the value of the pairCipher property.
+     * Recupera il valore della proprietà pairCipher.
      * 
      * @return
      *     possible object is
@@ -139,7 +139,7 @@ public class Dot11Status {
     }
 
     /**
-     * Sets the value of the pairCipher property.
+     * Imposta il valore della proprietà pairCipher.
      * 
      * @param value
      *     allowed object is
@@ -151,7 +151,7 @@ public class Dot11Status {
     }
 
     /**
-     * Gets the value of the groupCipher property.
+     * Recupera il valore della proprietà groupCipher.
      * 
      * @return
      *     possible object is
@@ -163,7 +163,7 @@ public class Dot11Status {
     }
 
     /**
-     * Sets the value of the groupCipher property.
+     * Imposta il valore della proprietà groupCipher.
      * 
      * @param value
      *     allowed object is
@@ -175,7 +175,7 @@ public class Dot11Status {
     }
 
     /**
-     * Gets the value of the signalStrength property.
+     * Recupera il valore della proprietà signalStrength.
      * 
      * @return
      *     possible object is
@@ -187,7 +187,7 @@ public class Dot11Status {
     }
 
     /**
-     * Sets the value of the signalStrength property.
+     * Imposta il valore della proprietà signalStrength.
      * 
      * @param value
      *     allowed object is
@@ -199,7 +199,7 @@ public class Dot11Status {
     }
 
     /**
-     * Gets the value of the activeConfigAlias property.
+     * Recupera il valore della proprietà activeConfigAlias.
      * 
      * @return
      *     possible object is
@@ -211,7 +211,7 @@ public class Dot11Status {
     }
 
     /**
-     * Sets the value of the activeConfigAlias property.
+     * Imposta il valore della proprietà activeConfigAlias.
      * 
      * @param value
      *     allowed object is
@@ -240,8 +240,8 @@ public class Dot11Status {
      * 
      * <p>
      * Objects of the following type(s) are allowed in the list
-     * {@link java.lang.Object }
      * {@link Element }
+     * {@link java.lang.Object }
      * 
      * 
      */

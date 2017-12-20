@@ -15,9 +15,9 @@ import javax.xml.namespace.QName;
 
 
 /**
- * <p>Java class for PTZPresetTourStartingConditionOptions complex type.
+ * <p>Classe Java per PTZPresetTourStartingConditionOptions complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>Il seguente frammento di schema specifica il contenuto previsto contenuto in questa classe.
  * 
  * <pre>
  * &lt;complexType name="PTZPresetTourStartingConditionOptions"&gt;
@@ -59,7 +59,7 @@ public class PTZPresetTourStartingConditionOptions {
     private Map<QName, String> otherAttributes = new HashMap<QName, String>();
 
     /**
-     * Gets the value of the recurringTime property.
+     * Recupera il valore della proprietà recurringTime.
      * 
      * @return
      *     possible object is
@@ -71,7 +71,7 @@ public class PTZPresetTourStartingConditionOptions {
     }
 
     /**
-     * Sets the value of the recurringTime property.
+     * Imposta il valore della proprietà recurringTime.
      * 
      * @param value
      *     allowed object is
@@ -83,7 +83,7 @@ public class PTZPresetTourStartingConditionOptions {
     }
 
     /**
-     * Gets the value of the recurringDuration property.
+     * Recupera il valore della proprietà recurringDuration.
      * 
      * @return
      *     possible object is
@@ -95,7 +95,7 @@ public class PTZPresetTourStartingConditionOptions {
     }
 
     /**
-     * Sets the value of the recurringDuration property.
+     * Imposta il valore della proprietà recurringDuration.
      * 
      * @param value
      *     allowed object is
@@ -136,7 +136,7 @@ public class PTZPresetTourStartingConditionOptions {
     }
 
     /**
-     * Gets the value of the extension property.
+     * Recupera il valore della proprietà extension.
      * 
      * @return
      *     possible object is
@@ -148,7 +148,7 @@ public class PTZPresetTourStartingConditionOptions {
     }
 
     /**
-     * Sets the value of the extension property.
+     * Imposta il valore della proprietà extension.
      * 
      * @param value
      *     allowed object is

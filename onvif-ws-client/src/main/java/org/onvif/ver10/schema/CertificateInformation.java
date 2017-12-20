@@ -15,9 +15,9 @@ import javax.xml.namespace.QName;
 
 
 /**
- * <p>Java class for CertificateInformation complex type.
+ * <p>Classe Java per CertificateInformation complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>Il seguente frammento di schema specifica il contenuto previsto contenuto in questa classe.
  * 
  * <pre>
  * &lt;complexType name="CertificateInformation"&gt;
@@ -88,7 +88,7 @@ public class CertificateInformation {
     private Map<QName, String> otherAttributes = new HashMap<QName, String>();
 
     /**
-     * Gets the value of the certificateID property.
+     * Recupera il valore della proprietà certificateID.
      * 
      * @return
      *     possible object is
@@ -100,7 +100,7 @@ public class CertificateInformation {
     }
 
     /**
-     * Sets the value of the certificateID property.
+     * Imposta il valore della proprietà certificateID.
      * 
      * @param value
      *     allowed object is
@@ -112,7 +112,7 @@ public class CertificateInformation {
     }
 
     /**
-     * Gets the value of the issuerDN property.
+     * Recupera il valore della proprietà issuerDN.
      * 
      * @return
      *     possible object is
@@ -124,7 +124,7 @@ public class CertificateInformation {
     }
 
     /**
-     * Sets the value of the issuerDN property.
+     * Imposta il valore della proprietà issuerDN.
      * 
      * @param value
      *     allowed object is
@@ -136,7 +136,7 @@ public class CertificateInformation {
     }
 
     /**
-     * Gets the value of the subjectDN property.
+     * Recupera il valore della proprietà subjectDN.
      * 
      * @return
      *     possible object is
@@ -148,7 +148,7 @@ public class CertificateInformation {
     }
 
     /**
-     * Sets the value of the subjectDN property.
+     * Imposta il valore della proprietà subjectDN.
      * 
      * @param value
      *     allowed object is
@@ -160,7 +160,7 @@ public class CertificateInformation {
     }
 
     /**
-     * Gets the value of the keyUsage property.
+     * Recupera il valore della proprietà keyUsage.
      * 
      * @return
      *     possible object is
@@ -172,7 +172,7 @@ public class CertificateInformation {
     }
 
     /**
-     * Sets the value of the keyUsage property.
+     * Imposta il valore della proprietà keyUsage.
      * 
      * @param value
      *     allowed object is
@@ -184,7 +184,7 @@ public class CertificateInformation {
     }
 
     /**
-     * Gets the value of the extendedKeyUsage property.
+     * Recupera il valore della proprietà extendedKeyUsage.
      * 
      * @return
      *     possible object is
@@ -196,7 +196,7 @@ public class CertificateInformation {
     }
 
     /**
-     * Sets the value of the extendedKeyUsage property.
+     * Imposta il valore della proprietà extendedKeyUsage.
      * 
      * @param value
      *     allowed object is
@@ -208,7 +208,7 @@ public class CertificateInformation {
     }
 
     /**
-     * Gets the value of the keyLength property.
+     * Recupera il valore della proprietà keyLength.
      * 
      * @return
      *     possible object is
@@ -220,7 +220,7 @@ public class CertificateInformation {
     }
 
     /**
-     * Sets the value of the keyLength property.
+     * Imposta il valore della proprietà keyLength.
      * 
      * @param value
      *     allowed object is
@@ -232,7 +232,7 @@ public class CertificateInformation {
     }
 
     /**
-     * Gets the value of the version property.
+     * Recupera il valore della proprietà version.
      * 
      * @return
      *     possible object is
@@ -244,7 +244,7 @@ public class CertificateInformation {
     }
 
     /**
-     * Sets the value of the version property.
+     * Imposta il valore della proprietà version.
      * 
      * @param value
      *     allowed object is
@@ -256,7 +256,7 @@ public class CertificateInformation {
     }
 
     /**
-     * Gets the value of the serialNum property.
+     * Recupera il valore della proprietà serialNum.
      * 
      * @return
      *     possible object is
@@ -268,7 +268,7 @@ public class CertificateInformation {
     }
 
     /**
-     * Sets the value of the serialNum property.
+     * Imposta il valore della proprietà serialNum.
      * 
      * @param value
      *     allowed object is
@@ -280,7 +280,7 @@ public class CertificateInformation {
     }
 
     /**
-     * Gets the value of the signatureAlgorithm property.
+     * Recupera il valore della proprietà signatureAlgorithm.
      * 
      * @return
      *     possible object is
@@ -292,7 +292,7 @@ public class CertificateInformation {
     }
 
     /**
-     * Sets the value of the signatureAlgorithm property.
+     * Imposta il valore della proprietà signatureAlgorithm.
      * 
      * @param value
      *     allowed object is
@@ -304,7 +304,7 @@ public class CertificateInformation {
     }
 
     /**
-     * Gets the value of the validity property.
+     * Recupera il valore della proprietà validity.
      * 
      * @return
      *     possible object is
@@ -316,7 +316,7 @@ public class CertificateInformation {
     }
 
     /**
-     * Sets the value of the validity property.
+     * Imposta il valore della proprietà validity.
      * 
      * @param value
      *     allowed object is
@@ -328,7 +328,7 @@ public class CertificateInformation {
     }
 
     /**
-     * Gets the value of the extension property.
+     * Recupera il valore della proprietà extension.
      * 
      * @return
      *     possible object is
@@ -340,7 +340,7 @@ public class CertificateInformation {
     }
 
     /**
-     * Sets the value of the extension property.
+     * Imposta il valore della proprietà extension.
      * 
      * @param value
      *     allowed object is

@@ -8,9 +8,9 @@ import javax.xml.bind.annotation.XmlType;
 
 
 /**
- * <p>Java class for DeviceServiceCapabilities complex type.
+ * <p>Classe Java per DeviceServiceCapabilities complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>Il seguente frammento di schema specifica il contenuto previsto contenuto in questa classe.
  * 
  * <pre>
  * &lt;complexType name="DeviceServiceCapabilities"&gt;
@@ -48,7 +48,7 @@ public class DeviceServiceCapabilities {
     protected MiscCapabilities misc;
 
     /**
-     * Gets the value of the network property.
+     * Recupera il valore della proprietà network.
      * 
      * @return
      *     possible object is
@@ -60,7 +60,7 @@ public class DeviceServiceCapabilities {
     }
 
     /**
-     * Sets the value of the network property.
+     * Imposta il valore della proprietà network.
      * 
      * @param value
      *     allowed object is
@@ -72,7 +72,7 @@ public class DeviceServiceCapabilities {
     }
 
     /**
-     * Gets the value of the security property.
+     * Recupera il valore della proprietà security.
      * 
      * @return
      *     possible object is
@@ -84,7 +84,7 @@ public class DeviceServiceCapabilities {
     }
 
     /**
-     * Sets the value of the security property.
+     * Imposta il valore della proprietà security.
      * 
      * @param value
      *     allowed object is
@@ -96,7 +96,7 @@ public class DeviceServiceCapabilities {
     }
 
     /**
-     * Gets the value of the system property.
+     * Recupera il valore della proprietà system.
      * 
      * @return
      *     possible object is
@@ -108,7 +108,7 @@ public class DeviceServiceCapabilities {
     }
 
     /**
-     * Sets the value of the system property.
+     * Imposta il valore della proprietà system.
      * 
      * @param value
      *     allowed object is
@@ -120,7 +120,7 @@ public class DeviceServiceCapabilities {
     }
 
     /**
-     * Gets the value of the misc property.
+     * Recupera il valore della proprietà misc.
      * 
      * @return
      *     possible object is
@@ -132,7 +132,7 @@ public class DeviceServiceCapabilities {
     }
 
     /**
-     * Sets the value of the misc property.
+     * Imposta il valore della proprietà misc.
      * 
      * @param value
      *     allowed object is

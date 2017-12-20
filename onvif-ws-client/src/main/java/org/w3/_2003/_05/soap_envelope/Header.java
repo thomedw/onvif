@@ -19,9 +19,9 @@ import org.w3c.dom.Element;
  * 	  Elements replacing the wildcard MUST be namespace qualified, but can be in the targetNamespace
  * 	  
  * 
- * <p>Java class for Header complex type.
+ * <p>Classe Java per Header complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>Il seguente frammento di schema specifica il contenuto previsto contenuto in questa classe.
  * 
  * <pre>
  * &lt;complexType name="Header"&gt;
@@ -67,8 +67,8 @@ public class Header {
      * 
      * <p>
      * Objects of the following type(s) are allowed in the list
-     * {@link Object }
      * {@link Element }
+     * {@link Object }
      * 
      * 
      */

@@ -16,9 +16,9 @@ import org.w3c.dom.Element;
 
 
 /**
- * <p>Java class for IPv4Configuration complex type.
+ * <p>Classe Java per IPv4Configuration complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>Il seguente frammento di schema specifica il contenuto previsto contenuto in questa classe.
  * 
  * <pre>
  * &lt;complexType name="IPv4Configuration"&gt;
@@ -92,7 +92,7 @@ public class IPv4Configuration {
     }
 
     /**
-     * Gets the value of the linkLocal property.
+     * Recupera il valore della proprietà linkLocal.
      * 
      * @return
      *     possible object is
@@ -104,7 +104,7 @@ public class IPv4Configuration {
     }
 
     /**
-     * Sets the value of the linkLocal property.
+     * Imposta il valore della proprietà linkLocal.
      * 
      * @param value
      *     allowed object is
@@ -116,7 +116,7 @@ public class IPv4Configuration {
     }
 
     /**
-     * Gets the value of the fromDHCP property.
+     * Recupera il valore della proprietà fromDHCP.
      * 
      * @return
      *     possible object is
@@ -128,7 +128,7 @@ public class IPv4Configuration {
     }
 
     /**
-     * Sets the value of the fromDHCP property.
+     * Imposta il valore della proprietà fromDHCP.
      * 
      * @param value
      *     allowed object is
@@ -140,7 +140,7 @@ public class IPv4Configuration {
     }
 
     /**
-     * Gets the value of the dhcp property.
+     * Recupera il valore della proprietà dhcp.
      * This getter has been renamed from isDHCP() to getDHCP() by cxf-xjc-boolean plugin.
      * 
      */
@@ -149,7 +149,7 @@ public class IPv4Configuration {
     }
 
     /**
-     * Sets the value of the dhcp property.
+     * Imposta il valore della proprietà dhcp.
      * 
      */
     public void setDHCP(boolean value) {
@@ -174,8 +174,8 @@ public class IPv4Configuration {
      * 
      * <p>
      * Objects of the following type(s) are allowed in the list
-     * {@link java.lang.Object }
      * {@link Element }
+     * {@link java.lang.Object }
      * 
      * 
      */

@@ -9,9 +9,9 @@ import javax.xml.bind.annotation.XmlType;
 
 
 /**
- * <p>Java class for anonymous complex type.
+ * <p>Classe Java per anonymous complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>Il seguente frammento di schema specifica il contenuto previsto contenuto in questa classe.
  * 
  * <pre>
  * &lt;complexType&gt;
@@ -38,7 +38,7 @@ public class SendAuxiliaryCommandResponse {
     protected String auxiliaryResponse;
 
     /**
-     * Gets the value of the auxiliaryResponse property.
+     * Recupera il valore della proprietà auxiliaryResponse.
      * 
      * @return
      *     possible object is
@@ -50,7 +50,7 @@ public class SendAuxiliaryCommandResponse {
     }
 
     /**
-     * Sets the value of the auxiliaryResponse property.
+     * Imposta il valore della proprietà auxiliaryResponse.
      * 
      * @param value
      *     allowed object is

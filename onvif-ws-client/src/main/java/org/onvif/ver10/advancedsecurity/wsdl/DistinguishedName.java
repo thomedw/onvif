@@ -16,9 +16,9 @@ import org.w3c.dom.Element;
 
 
 /**
- * <p>Java class for DistinguishedName complex type.
+ * <p>Classe Java per DistinguishedName complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>Il seguente frammento di schema specifica il contenuto previsto contenuto in questa classe.
  * 
  * <pre>
  * &lt;complexType name="DistinguishedName"&gt;
@@ -584,7 +584,7 @@ public class DistinguishedName {
     }
 
     /**
-     * Gets the value of the anyAttribute property.
+     * Recupera il valore della proprietà anyAttribute.
      * 
      * @return
      *     possible object is
@@ -596,7 +596,7 @@ public class DistinguishedName {
     }
 
     /**
-     * Sets the value of the anyAttribute property.
+     * Imposta il valore della proprietà anyAttribute.
      * 
      * @param value
      *     allowed object is
@@ -627,9 +627,9 @@ public class DistinguishedName {
 
 
     /**
-     * <p>Java class for anonymous complex type.
+     * <p>Classe Java per anonymous complex type.
      * 
-     * <p>The following schema fragment specifies the expected content contained within this class.
+     * <p>Il seguente frammento di schema specifica il contenuto previsto contenuto in questa classe.
      * 
      * <pre>
      * &lt;complexType&gt;
@@ -672,8 +672,8 @@ public class DistinguishedName {
          * 
          * <p>
          * Objects of the following type(s) are allowed in the list
-         * {@link Object }
          * {@link Element }
+         * {@link Object }
          * 
          * 
          */

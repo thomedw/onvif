@@ -11,9 +11,9 @@ import org.onvif.ver10.schema.PTZSpeed;
 
 
 /**
- * <p>Java class for anonymous complex type.
+ * <p>Classe Java per anonymous complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>Il seguente frammento di schema specifica il contenuto previsto contenuto in questa classe.
  * 
  * <pre>
  * &lt;complexType&gt;
@@ -48,7 +48,7 @@ public class ContinuousMove {
     protected Duration timeout;
 
     /**
-     * Gets the value of the profileToken property.
+     * Recupera il valore della proprietà profileToken.
      * 
      * @return
      *     possible object is
@@ -60,7 +60,7 @@ public class ContinuousMove {
     }
 
     /**
-     * Sets the value of the profileToken property.
+     * Imposta il valore della proprietà profileToken.
      * 
      * @param value
      *     allowed object is
@@ -72,7 +72,7 @@ public class ContinuousMove {
     }
 
     /**
-     * Gets the value of the velocity property.
+     * Recupera il valore della proprietà velocity.
      * 
      * @return
      *     possible object is
@@ -84,7 +84,7 @@ public class ContinuousMove {
     }
 
     /**
-     * Sets the value of the velocity property.
+     * Imposta il valore della proprietà velocity.
      * 
      * @param value
      *     allowed object is
@@ -96,7 +96,7 @@ public class ContinuousMove {
     }
 
     /**
-     * Gets the value of the timeout property.
+     * Recupera il valore della proprietà timeout.
      * 
      * @return
      *     possible object is
@@ -108,7 +108,7 @@ public class ContinuousMove {
     }
 
     /**
-     * Sets the value of the timeout property.
+     * Imposta il valore della proprietà timeout.
      * 
      * @param value
      *     allowed object is

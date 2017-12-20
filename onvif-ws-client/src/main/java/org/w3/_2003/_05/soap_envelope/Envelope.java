@@ -12,9 +12,9 @@ import javax.xml.namespace.QName;
 
 
 /**
- * <p>Java class for Envelope complex type.
+ * <p>Classe Java per Envelope complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>Il seguente frammento di schema specifica il contenuto previsto contenuto in questa classe.
  * 
  * <pre>
  * &lt;complexType name="Envelope"&gt;
@@ -47,7 +47,7 @@ public class Envelope {
     private Map<QName, String> otherAttributes = new HashMap<QName, String>();
 
     /**
-     * Gets the value of the header property.
+     * Recupera il valore della proprietà header.
      * 
      * @return
      *     possible object is
@@ -59,7 +59,7 @@ public class Envelope {
     }
 
     /**
-     * Sets the value of the header property.
+     * Imposta il valore della proprietà header.
      * 
      * @param value
      *     allowed object is
@@ -71,7 +71,7 @@ public class Envelope {
     }
 
     /**
-     * Gets the value of the body property.
+     * Recupera il valore della proprietà body.
      * 
      * @return
      *     possible object is
@@ -83,7 +83,7 @@ public class Envelope {
     }
 
     /**
-     * Sets the value of the body property.
+     * Imposta il valore della proprietà body.
      * 
      * @param value
      *     allowed object is

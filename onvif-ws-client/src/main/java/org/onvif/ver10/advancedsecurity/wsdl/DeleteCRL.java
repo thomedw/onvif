@@ -13,9 +13,9 @@ import javax.xml.bind.annotation.adapters.XmlJavaTypeAdapter;
 
 
 /**
- * <p>Java class for anonymous complex type.
+ * <p>Classe Java per anonymous complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>Il seguente frammento di schema specifica il contenuto previsto contenuto in questa classe.
  * 
  * <pre>
  * &lt;complexType&gt;
@@ -45,7 +45,7 @@ public class DeleteCRL {
     protected String crlID;
 
     /**
-     * Gets the value of the crlID property.
+     * Recupera il valore della proprietà crlID.
      * 
      * @return
      *     possible object is
@@ -57,7 +57,7 @@ public class DeleteCRL {
     }
 
     /**
-     * Sets the value of the crlID property.
+     * Imposta il valore della proprietà crlID.
      * 
      * @param value
      *     allowed object is

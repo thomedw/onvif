@@ -10,9 +10,9 @@ import javax.xml.namespace.QName;
 
 
 /**
- * <p>Java class for Config complex type.
+ * <p>Classe Java per Config complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>Il seguente frammento di schema specifica il contenuto previsto contenuto in questa classe.
  * 
  * <pre>
  * &lt;complexType name="Config"&gt;
@@ -44,7 +44,7 @@ public class Config {
     protected QName type;
 
     /**
-     * Gets the value of the parameters property.
+     * Recupera il valore della proprietà parameters.
      * 
      * @return
      *     possible object is
@@ -56,7 +56,7 @@ public class Config {
     }
 
     /**
-     * Sets the value of the parameters property.
+     * Imposta il valore della proprietà parameters.
      * 
      * @param value
      *     allowed object is
@@ -68,7 +68,7 @@ public class Config {
     }
 
     /**
-     * Gets the value of the name property.
+     * Recupera il valore della proprietà name.
      * 
      * @return
      *     possible object is
@@ -80,7 +80,7 @@ public class Config {
     }
 
     /**
-     * Sets the value of the name property.
+     * Imposta il valore della proprietà name.
      * 
      * @param value
      *     allowed object is
@@ -92,7 +92,7 @@ public class Config {
     }
 
     /**
-     * Gets the value of the type property.
+     * Recupera il valore della proprietà type.
      * 
      * @return
      *     possible object is
@@ -104,7 +104,7 @@ public class Config {
     }
 
     /**
-     * Sets the value of the type property.
+     * Imposta il valore della proprietà type.
      * 
      * @param value
      *     allowed object is

@@ -8,9 +8,9 @@ import javax.xml.bind.annotation.XmlType;
 
 
 /**
- * <p>Java class for FocusMove complex type.
+ * <p>Classe Java per FocusMove complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>Il seguente frammento di schema specifica il contenuto previsto contenuto in questa classe.
  * 
  * <pre>
  * &lt;complexType name="FocusMove"&gt;
@@ -44,7 +44,7 @@ public class FocusMove {
     protected ContinuousFocus continuous;
 
     /**
-     * Gets the value of the absolute property.
+     * Recupera il valore della proprietà absolute.
      * 
      * @return
      *     possible object is
@@ -56,7 +56,7 @@ public class FocusMove {
     }
 
     /**
-     * Sets the value of the absolute property.
+     * Imposta il valore della proprietà absolute.
      * 
      * @param value
      *     allowed object is
@@ -68,7 +68,7 @@ public class FocusMove {
     }
 
     /**
-     * Gets the value of the relative property.
+     * Recupera il valore della proprietà relative.
      * 
      * @return
      *     possible object is
@@ -80,7 +80,7 @@ public class FocusMove {
     }
 
     /**
-     * Sets the value of the relative property.
+     * Imposta il valore della proprietà relative.
      * 
      * @param value
      *     allowed object is
@@ -92,7 +92,7 @@ public class FocusMove {
     }
 
     /**
-     * Gets the value of the continuous property.
+     * Recupera il valore della proprietà continuous.
      * 
      * @return
      *     possible object is
@@ -104,7 +104,7 @@ public class FocusMove {
     }
 
     /**
-     * Sets the value of the continuous property.
+     * Imposta il valore della proprietà continuous.
      * 
      * @param value
      *     allowed object is

@@ -12,9 +12,9 @@ import org.oasis_open.docs.wsn.b_2.FilterType;
 
 
 /**
- * <p>Java class for EventFilter complex type.
+ * <p>Classe Java per EventFilter complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>Il seguente frammento di schema specifica il contenuto previsto contenuto in questa classe.
  * 
  * <pre>
  * &lt;complexType name="EventFilter"&gt;

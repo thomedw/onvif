@@ -17,9 +17,9 @@ import org.w3c.dom.Element;
 
 
 /**
- * <p>Java class for RecordingCapabilities complex type.
+ * <p>Classe Java per RecordingCapabilities complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>Il seguente frammento di schema specifica il contenuto previsto contenuto in questa classe.
  * 
  * <pre>
  * &lt;complexType name="RecordingCapabilities"&gt;
@@ -73,7 +73,7 @@ public class RecordingCapabilities {
     private Map<QName, String> otherAttributes = new HashMap<QName, String>();
 
     /**
-     * Gets the value of the xAddr property.
+     * Recupera il valore della proprietà xAddr.
      * 
      * @return
      *     possible object is
@@ -85,7 +85,7 @@ public class RecordingCapabilities {
     }
 
     /**
-     * Sets the value of the xAddr property.
+     * Imposta il valore della proprietà xAddr.
      * 
      * @param value
      *     allowed object is
@@ -97,7 +97,7 @@ public class RecordingCapabilities {
     }
 
     /**
-     * Gets the value of the receiverSource property.
+     * Recupera il valore della proprietà receiverSource.
      * This getter has been renamed from isReceiverSource() to getReceiverSource() by cxf-xjc-boolean plugin.
      * 
      */
@@ -106,7 +106,7 @@ public class RecordingCapabilities {
     }
 
     /**
-     * Sets the value of the receiverSource property.
+     * Imposta il valore della proprietà receiverSource.
      * 
      */
     public void setReceiverSource(boolean value) {
@@ -114,7 +114,7 @@ public class RecordingCapabilities {
     }
 
     /**
-     * Gets the value of the mediaProfileSource property.
+     * Recupera il valore della proprietà mediaProfileSource.
      * This getter has been renamed from isMediaProfileSource() to getMediaProfileSource() by cxf-xjc-boolean plugin.
      * 
      */
@@ -123,7 +123,7 @@ public class RecordingCapabilities {
     }
 
     /**
-     * Sets the value of the mediaProfileSource property.
+     * Imposta il valore della proprietà mediaProfileSource.
      * 
      */
     public void setMediaProfileSource(boolean value) {
@@ -131,7 +131,7 @@ public class RecordingCapabilities {
     }
 
     /**
-     * Gets the value of the dynamicRecordings property.
+     * Recupera il valore della proprietà dynamicRecordings.
      * This getter has been renamed from isDynamicRecordings() to getDynamicRecordings() by cxf-xjc-boolean plugin.
      * 
      */
@@ -140,7 +140,7 @@ public class RecordingCapabilities {
     }
 
     /**
-     * Sets the value of the dynamicRecordings property.
+     * Imposta il valore della proprietà dynamicRecordings.
      * 
      */
     public void setDynamicRecordings(boolean value) {
@@ -148,7 +148,7 @@ public class RecordingCapabilities {
     }
 
     /**
-     * Gets the value of the dynamicTracks property.
+     * Recupera il valore della proprietà dynamicTracks.
      * This getter has been renamed from isDynamicTracks() to getDynamicTracks() by cxf-xjc-boolean plugin.
      * 
      */
@@ -157,7 +157,7 @@ public class RecordingCapabilities {
     }
 
     /**
-     * Sets the value of the dynamicTracks property.
+     * Imposta il valore della proprietà dynamicTracks.
      * 
      */
     public void setDynamicTracks(boolean value) {
@@ -165,7 +165,7 @@ public class RecordingCapabilities {
     }
 
     /**
-     * Gets the value of the maxStringLength property.
+     * Recupera il valore della proprietà maxStringLength.
      * 
      */
     public int getMaxStringLength() {
@@ -173,7 +173,7 @@ public class RecordingCapabilities {
     }
 
     /**
-     * Sets the value of the maxStringLength property.
+     * Imposta il valore della proprietà maxStringLength.
      * 
      */
     public void setMaxStringLength(int value) {
@@ -198,8 +198,8 @@ public class RecordingCapabilities {
      * 
      * <p>
      * Objects of the following type(s) are allowed in the list
-     * {@link java.lang.Object }
      * {@link Element }
+     * {@link java.lang.Object }
      * 
      * 
      */

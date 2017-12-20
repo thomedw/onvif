@@ -16,9 +16,9 @@ import javax.xml.namespace.QName;
 
 
 /**
- * <p>Java class for ServiceNameType complex type.
+ * <p>Classe Java per ServiceNameType complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>Il seguente frammento di schema specifica il contenuto previsto contenuto in questa classe.
  * 
  * <pre>
  * &lt;complexType name="ServiceNameType"&gt;
@@ -49,7 +49,7 @@ public class ServiceNameType {
     private Map<QName, String> otherAttributes = new HashMap<QName, String>();
 
     /**
-     * Gets the value of the value property.
+     * Recupera il valore della proprietà value.
      * 
      * @return
      *     possible object is
@@ -61,7 +61,7 @@ public class ServiceNameType {
     }
 
     /**
-     * Sets the value of the value property.
+     * Imposta il valore della proprietà value.
      * 
      * @param value
      *     allowed object is
@@ -73,7 +73,7 @@ public class ServiceNameType {
     }
 
     /**
-     * Gets the value of the portName property.
+     * Recupera il valore della proprietà portName.
      * 
      * @return
      *     possible object is
@@ -85,7 +85,7 @@ public class ServiceNameType {
     }
 
     /**
-     * Sets the value of the portName property.
+     * Imposta il valore della proprietà portName.
      * 
      * @param value
      *     allowed object is

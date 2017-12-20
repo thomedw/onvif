@@ -15,9 +15,9 @@ import javax.xml.namespace.QName;
 
 
 /**
- * <p>Java class for OSDConfigurationOptions complex type.
+ * <p>Classe Java per OSDConfigurationOptions complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>Il seguente frammento di schema specifica il contenuto previsto contenuto in questa classe.
  * 
  * <pre>
  * &lt;complexType name="OSDConfigurationOptions"&gt;
@@ -67,7 +67,7 @@ public class OSDConfigurationOptions {
     private Map<QName, String> otherAttributes = new HashMap<QName, String>();
 
     /**
-     * Gets the value of the maximumNumberOfOSDs property.
+     * Recupera il valore della proprietà maximumNumberOfOSDs.
      * 
      * @return
      *     possible object is
@@ -79,7 +79,7 @@ public class OSDConfigurationOptions {
     }
 
     /**
-     * Sets the value of the maximumNumberOfOSDs property.
+     * Imposta il valore della proprietà maximumNumberOfOSDs.
      * 
      * @param value
      *     allowed object is
@@ -149,7 +149,7 @@ public class OSDConfigurationOptions {
     }
 
     /**
-     * Gets the value of the textOption property.
+     * Recupera il valore della proprietà textOption.
      * 
      * @return
      *     possible object is
@@ -161,7 +161,7 @@ public class OSDConfigurationOptions {
     }
 
     /**
-     * Sets the value of the textOption property.
+     * Imposta il valore della proprietà textOption.
      * 
      * @param value
      *     allowed object is
@@ -173,7 +173,7 @@ public class OSDConfigurationOptions {
     }
 
     /**
-     * Gets the value of the imageOption property.
+     * Recupera il valore della proprietà imageOption.
      * 
      * @return
      *     possible object is
@@ -185,7 +185,7 @@ public class OSDConfigurationOptions {
     }
 
     /**
-     * Sets the value of the imageOption property.
+     * Imposta il valore della proprietà imageOption.
      * 
      * @param value
      *     allowed object is
@@ -197,7 +197,7 @@ public class OSDConfigurationOptions {
     }
 
     /**
-     * Gets the value of the extension property.
+     * Recupera il valore della proprietà extension.
      * 
      * @return
      *     possible object is
@@ -209,7 +209,7 @@ public class OSDConfigurationOptions {
     }
 
     /**
-     * Sets the value of the extension property.
+     * Imposta il valore della proprietà extension.
      * 
      * @param value
      *     allowed object is

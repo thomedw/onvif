@@ -13,9 +13,9 @@ import org.w3c.dom.Element;
 
 
 /**
- * <p>Java class for anonymous complex type.
+ * <p>Classe Java per anonymous complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>Il seguente frammento di schema specifica il contenuto previsto contenuto in questa classe.
  * 
  * <pre>
  * &lt;complexType&gt;
@@ -50,7 +50,7 @@ public class GetPaneConfiguration {
     protected List<Object> any;
 
     /**
-     * Gets the value of the videoOutput property.
+     * Recupera il valore della proprietà videoOutput.
      * 
      * @return
      *     possible object is
@@ -62,7 +62,7 @@ public class GetPaneConfiguration {
     }
 
     /**
-     * Sets the value of the videoOutput property.
+     * Imposta il valore della proprietà videoOutput.
      * 
      * @param value
      *     allowed object is
@@ -74,7 +74,7 @@ public class GetPaneConfiguration {
     }
 
     /**
-     * Gets the value of the pane property.
+     * Recupera il valore della proprietà pane.
      * 
      * @return
      *     possible object is
@@ -86,7 +86,7 @@ public class GetPaneConfiguration {
     }
 
     /**
-     * Sets the value of the pane property.
+     * Imposta il valore della proprietà pane.
      * 
      * @param value
      *     allowed object is
@@ -115,8 +115,8 @@ public class GetPaneConfiguration {
      * 
      * <p>
      * Objects of the following type(s) are allowed in the list
-     * {@link Object }
      * {@link Element }
+     * {@link Object }
      * 
      * 
      */

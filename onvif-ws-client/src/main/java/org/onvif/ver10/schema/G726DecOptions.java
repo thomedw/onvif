@@ -16,9 +16,9 @@ import org.w3c.dom.Element;
 
 
 /**
- * <p>Java class for G726DecOptions complex type.
+ * <p>Classe Java per G726DecOptions complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>Il seguente frammento di schema specifica il contenuto previsto contenuto in questa classe.
  * 
  * <pre>
  * &lt;complexType name="G726DecOptions"&gt;
@@ -55,7 +55,7 @@ public class G726DecOptions {
     private Map<QName, String> otherAttributes = new HashMap<QName, String>();
 
     /**
-     * Gets the value of the bitrate property.
+     * Recupera il valore della proprietà bitrate.
      * 
      * @return
      *     possible object is
@@ -67,7 +67,7 @@ public class G726DecOptions {
     }
 
     /**
-     * Sets the value of the bitrate property.
+     * Imposta il valore della proprietà bitrate.
      * 
      * @param value
      *     allowed object is
@@ -79,7 +79,7 @@ public class G726DecOptions {
     }
 
     /**
-     * Gets the value of the sampleRateRange property.
+     * Recupera il valore della proprietà sampleRateRange.
      * 
      * @return
      *     possible object is
@@ -91,7 +91,7 @@ public class G726DecOptions {
     }
 
     /**
-     * Sets the value of the sampleRateRange property.
+     * Imposta il valore della proprietà sampleRateRange.
      * 
      * @param value
      *     allowed object is
@@ -120,8 +120,8 @@ public class G726DecOptions {
      * 
      * <p>
      * Objects of the following type(s) are allowed in the list
-     * {@link java.lang.Object }
      * {@link Element }
+     * {@link java.lang.Object }
      * 
      * 
      */

@@ -19,9 +19,9 @@ import org.w3c.dom.Element;
 
 
 /**
- * <p>Java class for CertificateStatus complex type.
+ * <p>Classe Java per CertificateStatus complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>Il seguente frammento di schema specifica il contenuto previsto contenuto in questa classe.
  * 
  * <pre>
  * &lt;complexType name="CertificateStatus"&gt;
@@ -60,7 +60,7 @@ public class CertificateStatus {
     private Map<QName, String> otherAttributes = new HashMap<QName, String>();
 
     /**
-     * Gets the value of the certificateID property.
+     * Recupera il valore della proprietà certificateID.
      * 
      * @return
      *     possible object is
@@ -72,7 +72,7 @@ public class CertificateStatus {
     }
 
     /**
-     * Sets the value of the certificateID property.
+     * Imposta il valore della proprietà certificateID.
      * 
      * @param value
      *     allowed object is
@@ -84,7 +84,7 @@ public class CertificateStatus {
     }
 
     /**
-     * Gets the value of the status property.
+     * Recupera il valore della proprietà status.
      * This getter has been renamed from isStatus() to getStatus() by cxf-xjc-boolean plugin.
      * 
      */
@@ -93,7 +93,7 @@ public class CertificateStatus {
     }
 
     /**
-     * Sets the value of the status property.
+     * Imposta il valore della proprietà status.
      * 
      */
     public void setStatus(boolean value) {
@@ -118,8 +118,8 @@ public class CertificateStatus {
      * 
      * <p>
      * Objects of the following type(s) are allowed in the list
-     * {@link java.lang.Object }
      * {@link Element }
+     * {@link java.lang.Object }
      * 
      * 
      */

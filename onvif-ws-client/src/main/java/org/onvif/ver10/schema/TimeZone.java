@@ -63,9 +63,9 @@ import javax.xml.bind.annotation.adapters.XmlJavaTypeAdapter;
  * </pre>
  * 
  * 
- * <p>Java class for TimeZone complex type.
+ * <p>Classe Java per TimeZone complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>Il seguente frammento di schema specifica il contenuto previsto contenuto in questa classe.
  * 
  * <pre>
  * &lt;complexType name="TimeZone"&gt;
@@ -93,7 +93,7 @@ public class TimeZone {
     protected String tz;
 
     /**
-     * Gets the value of the tz property.
+     * Recupera il valore della proprietà tz.
      * 
      * @return
      *     possible object is
@@ -105,7 +105,7 @@ public class TimeZone {
     }
 
     /**
-     * Sets the value of the tz property.
+     * Imposta il valore della proprietà tz.
      * 
      * @param value
      *     allowed object is

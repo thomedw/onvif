@@ -8,9 +8,9 @@ import javax.xml.bind.annotation.XmlType;
 
 
 /**
- * <p>Java class for SystemLog complex type.
+ * <p>Classe Java per SystemLog complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>Il seguente frammento di schema specifica il contenuto previsto contenuto in questa classe.
  * 
  * <pre>
  * &lt;complexType name="SystemLog"&gt;
@@ -40,7 +40,7 @@ public class SystemLog {
     protected String string;
 
     /**
-     * Gets the value of the binary property.
+     * Recupera il valore della proprietà binary.
      * 
      * @return
      *     possible object is
@@ -52,7 +52,7 @@ public class SystemLog {
     }
 
     /**
-     * Sets the value of the binary property.
+     * Imposta il valore della proprietà binary.
      * 
      * @param value
      *     allowed object is
@@ -64,7 +64,7 @@ public class SystemLog {
     }
 
     /**
-     * Gets the value of the string property.
+     * Recupera il valore della proprietà string.
      * 
      * @return
      *     possible object is
@@ -76,7 +76,7 @@ public class SystemLog {
     }
 
     /**
-     * Sets the value of the string property.
+     * Imposta il valore della proprietà string.
      * 
      * @param value
      *     allowed object is

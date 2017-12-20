@@ -8,9 +8,9 @@ import javax.xml.bind.annotation.XmlType;
 
 
 /**
- * <p>Java class for ImagingSettingsExtension203 complex type.
+ * <p>Classe Java per ImagingSettingsExtension203 complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>Il seguente frammento di schema specifica il contenuto previsto contenuto in questa classe.
  * 
  * <pre>
  * &lt;complexType name="ImagingSettingsExtension203"&gt;
@@ -48,7 +48,7 @@ public class ImagingSettingsExtension203 {
     protected ImagingSettingsExtension204 extension;
 
     /**
-     * Gets the value of the toneCompensation property.
+     * Recupera il valore della proprietà toneCompensation.
      * 
      * @return
      *     possible object is
@@ -60,7 +60,7 @@ public class ImagingSettingsExtension203 {
     }
 
     /**
-     * Sets the value of the toneCompensation property.
+     * Imposta il valore della proprietà toneCompensation.
      * 
      * @param value
      *     allowed object is
@@ -72,7 +72,7 @@ public class ImagingSettingsExtension203 {
     }
 
     /**
-     * Gets the value of the defogging property.
+     * Recupera il valore della proprietà defogging.
      * 
      * @return
      *     possible object is
@@ -84,7 +84,7 @@ public class ImagingSettingsExtension203 {
     }
 
     /**
-     * Sets the value of the defogging property.
+     * Imposta il valore della proprietà defogging.
      * 
      * @param value
      *     allowed object is
@@ -96,7 +96,7 @@ public class ImagingSettingsExtension203 {
     }
 
     /**
-     * Gets the value of the noiseReduction property.
+     * Recupera il valore della proprietà noiseReduction.
      * 
      * @return
      *     possible object is
@@ -108,7 +108,7 @@ public class ImagingSettingsExtension203 {
     }
 
     /**
-     * Sets the value of the noiseReduction property.
+     * Imposta il valore della proprietà noiseReduction.
      * 
      * @param value
      *     allowed object is
@@ -120,7 +120,7 @@ public class ImagingSettingsExtension203 {
     }
 
     /**
-     * Gets the value of the extension property.
+     * Recupera il valore della proprietà extension.
      * 
      * @return
      *     possible object is
@@ -132,7 +132,7 @@ public class ImagingSettingsExtension203 {
     }
 
     /**
-     * Sets the value of the extension property.
+     * Imposta il valore della proprietà extension.
      * 
      * @param value
      *     allowed object is

@@ -8,9 +8,9 @@ import javax.xml.bind.annotation.XmlType;
 
 
 /**
- * <p>Java class for IPv6NetworkInterface complex type.
+ * <p>Classe Java per IPv6NetworkInterface complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>Il seguente frammento di schema specifica il contenuto previsto contenuto in questa classe.
  * 
  * <pre>
  * &lt;complexType name="IPv6NetworkInterface"&gt;
@@ -40,7 +40,7 @@ public class IPv6NetworkInterface {
     protected IPv6Configuration config;
 
     /**
-     * Gets the value of the enabled property.
+     * Recupera il valore della proprietà enabled.
      * This getter has been renamed from isEnabled() to getEnabled() by cxf-xjc-boolean plugin.
      * 
      */
@@ -49,7 +49,7 @@ public class IPv6NetworkInterface {
     }
 
     /**
-     * Sets the value of the enabled property.
+     * Imposta il valore della proprietà enabled.
      * 
      */
     public void setEnabled(boolean value) {
@@ -57,7 +57,7 @@ public class IPv6NetworkInterface {
     }
 
     /**
-     * Gets the value of the config property.
+     * Recupera il valore della proprietà config.
      * 
      * @return
      *     possible object is
@@ -69,7 +69,7 @@ public class IPv6NetworkInterface {
     }
 
     /**
-     * Sets the value of the config property.
+     * Imposta il valore della proprietà config.
      * 
      * @param value
      *     allowed object is

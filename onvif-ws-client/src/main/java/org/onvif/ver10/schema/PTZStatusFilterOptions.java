@@ -16,9 +16,9 @@ import org.w3c.dom.Element;
 
 
 /**
- * <p>Java class for PTZStatusFilterOptions complex type.
+ * <p>Classe Java per PTZStatusFilterOptions complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>Il seguente frammento di schema specifica il contenuto previsto contenuto in questa classe.
  * 
  * <pre>
  * &lt;complexType name="PTZStatusFilterOptions"&gt;
@@ -67,7 +67,7 @@ public class PTZStatusFilterOptions {
     private Map<QName, String> otherAttributes = new HashMap<QName, String>();
 
     /**
-     * Gets the value of the panTiltStatusSupported property.
+     * Recupera il valore della proprietà panTiltStatusSupported.
      * This getter has been renamed from isPanTiltStatusSupported() to getPanTiltStatusSupported() by cxf-xjc-boolean plugin.
      * 
      */
@@ -76,7 +76,7 @@ public class PTZStatusFilterOptions {
     }
 
     /**
-     * Sets the value of the panTiltStatusSupported property.
+     * Imposta il valore della proprietà panTiltStatusSupported.
      * 
      */
     public void setPanTiltStatusSupported(boolean value) {
@@ -84,7 +84,7 @@ public class PTZStatusFilterOptions {
     }
 
     /**
-     * Gets the value of the zoomStatusSupported property.
+     * Recupera il valore della proprietà zoomStatusSupported.
      * This getter has been renamed from isZoomStatusSupported() to getZoomStatusSupported() by cxf-xjc-boolean plugin.
      * 
      */
@@ -93,7 +93,7 @@ public class PTZStatusFilterOptions {
     }
 
     /**
-     * Sets the value of the zoomStatusSupported property.
+     * Imposta il valore della proprietà zoomStatusSupported.
      * 
      */
     public void setZoomStatusSupported(boolean value) {
@@ -118,8 +118,8 @@ public class PTZStatusFilterOptions {
      * 
      * <p>
      * Objects of the following type(s) are allowed in the list
-     * {@link java.lang.Object }
      * {@link Element }
+     * {@link java.lang.Object }
      * 
      * 
      */
@@ -131,7 +131,7 @@ public class PTZStatusFilterOptions {
     }
 
     /**
-     * Gets the value of the panTiltPositionSupported property.
+     * Recupera il valore della proprietà panTiltPositionSupported.
      * This getter has been renamed from isPanTiltPositionSupported() to getPanTiltPositionSupported() by cxf-xjc-boolean plugin.
      * 
      * @return
@@ -144,7 +144,7 @@ public class PTZStatusFilterOptions {
     }
 
     /**
-     * Sets the value of the panTiltPositionSupported property.
+     * Imposta il valore della proprietà panTiltPositionSupported.
      * 
      * @param value
      *     allowed object is
@@ -156,7 +156,7 @@ public class PTZStatusFilterOptions {
     }
 
     /**
-     * Gets the value of the zoomPositionSupported property.
+     * Recupera il valore della proprietà zoomPositionSupported.
      * This getter has been renamed from isZoomPositionSupported() to getZoomPositionSupported() by cxf-xjc-boolean plugin.
      * 
      * @return
@@ -169,7 +169,7 @@ public class PTZStatusFilterOptions {
     }
 
     /**
-     * Sets the value of the zoomPositionSupported property.
+     * Imposta il valore della proprietà zoomPositionSupported.
      * 
      * @param value
      *     allowed object is
@@ -181,7 +181,7 @@ public class PTZStatusFilterOptions {
     }
 
     /**
-     * Gets the value of the extension property.
+     * Recupera il valore della proprietà extension.
      * 
      * @return
      *     possible object is
@@ -193,7 +193,7 @@ public class PTZStatusFilterOptions {
     }
 
     /**
-     * Sets the value of the extension property.
+     * Imposta il valore della proprietà extension.
      * 
      * @param value
      *     allowed object is

@@ -19,9 +19,9 @@ import org.w3c.dom.Element;
 
 
 /**
- * <p>Java class for Dot11Configuration complex type.
+ * <p>Classe Java per Dot11Configuration complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>Il seguente frammento di schema specifica il contenuto previsto contenuto in questa classe.
  * 
  * <pre>
  * &lt;complexType name="Dot11Configuration"&gt;
@@ -74,7 +74,7 @@ public class Dot11Configuration {
     private Map<QName, String> otherAttributes = new HashMap<QName, String>();
 
     /**
-     * Gets the value of the ssid property.
+     * Recupera il valore della proprietà ssid.
      * 
      * @return
      *     possible object is
@@ -86,7 +86,7 @@ public class Dot11Configuration {
     }
 
     /**
-     * Sets the value of the ssid property.
+     * Imposta il valore della proprietà ssid.
      * 
      * @param value
      *     allowed object is
@@ -98,7 +98,7 @@ public class Dot11Configuration {
     }
 
     /**
-     * Gets the value of the mode property.
+     * Recupera il valore della proprietà mode.
      * 
      * @return
      *     possible object is
@@ -110,7 +110,7 @@ public class Dot11Configuration {
     }
 
     /**
-     * Sets the value of the mode property.
+     * Imposta il valore della proprietà mode.
      * 
      * @param value
      *     allowed object is
@@ -122,7 +122,7 @@ public class Dot11Configuration {
     }
 
     /**
-     * Gets the value of the alias property.
+     * Recupera il valore della proprietà alias.
      * 
      * @return
      *     possible object is
@@ -134,7 +134,7 @@ public class Dot11Configuration {
     }
 
     /**
-     * Sets the value of the alias property.
+     * Imposta il valore della proprietà alias.
      * 
      * @param value
      *     allowed object is
@@ -146,7 +146,7 @@ public class Dot11Configuration {
     }
 
     /**
-     * Gets the value of the priority property.
+     * Recupera il valore della proprietà priority.
      * 
      */
     public int getPriority() {
@@ -154,7 +154,7 @@ public class Dot11Configuration {
     }
 
     /**
-     * Sets the value of the priority property.
+     * Imposta il valore della proprietà priority.
      * 
      */
     public void setPriority(int value) {
@@ -162,7 +162,7 @@ public class Dot11Configuration {
     }
 
     /**
-     * Gets the value of the security property.
+     * Recupera il valore della proprietà security.
      * 
      * @return
      *     possible object is
@@ -174,7 +174,7 @@ public class Dot11Configuration {
     }
 
     /**
-     * Sets the value of the security property.
+     * Imposta il valore della proprietà security.
      * 
      * @param value
      *     allowed object is
@@ -203,8 +203,8 @@ public class Dot11Configuration {
      * 
      * <p>
      * Objects of the following type(s) are allowed in the list
-     * {@link java.lang.Object }
      * {@link Element }
+     * {@link java.lang.Object }
      * 
      * 
      */

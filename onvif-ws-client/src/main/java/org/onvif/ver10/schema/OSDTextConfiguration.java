@@ -12,9 +12,9 @@ import javax.xml.namespace.QName;
 
 
 /**
- * <p>Java class for OSDTextConfiguration complex type.
+ * <p>Classe Java per OSDTextConfiguration complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>Il seguente frammento di schema specifica il contenuto previsto contenuto in questa classe.
  * 
  * <pre>
  * &lt;complexType name="OSDTextConfiguration"&gt;
@@ -71,7 +71,7 @@ public class OSDTextConfiguration {
     private Map<QName, String> otherAttributes = new HashMap<QName, String>();
 
     /**
-     * Gets the value of the type property.
+     * Recupera il valore della proprietà type.
      * 
      * @return
      *     possible object is
@@ -83,7 +83,7 @@ public class OSDTextConfiguration {
     }
 
     /**
-     * Sets the value of the type property.
+     * Imposta il valore della proprietà type.
      * 
      * @param value
      *     allowed object is
@@ -95,7 +95,7 @@ public class OSDTextConfiguration {
     }
 
     /**
-     * Gets the value of the dateFormat property.
+     * Recupera il valore della proprietà dateFormat.
      * 
      * @return
      *     possible object is
@@ -107,7 +107,7 @@ public class OSDTextConfiguration {
     }
 
     /**
-     * Sets the value of the dateFormat property.
+     * Imposta il valore della proprietà dateFormat.
      * 
      * @param value
      *     allowed object is
@@ -119,7 +119,7 @@ public class OSDTextConfiguration {
     }
 
     /**
-     * Gets the value of the timeFormat property.
+     * Recupera il valore della proprietà timeFormat.
      * 
      * @return
      *     possible object is
@@ -131,7 +131,7 @@ public class OSDTextConfiguration {
     }
 
     /**
-     * Sets the value of the timeFormat property.
+     * Imposta il valore della proprietà timeFormat.
      * 
      * @param value
      *     allowed object is
@@ -143,7 +143,7 @@ public class OSDTextConfiguration {
     }
 
     /**
-     * Gets the value of the fontSize property.
+     * Recupera il valore della proprietà fontSize.
      * 
      * @return
      *     possible object is
@@ -155,7 +155,7 @@ public class OSDTextConfiguration {
     }
 
     /**
-     * Sets the value of the fontSize property.
+     * Imposta il valore della proprietà fontSize.
      * 
      * @param value
      *     allowed object is
@@ -167,7 +167,7 @@ public class OSDTextConfiguration {
     }
 
     /**
-     * Gets the value of the fontColor property.
+     * Recupera il valore della proprietà fontColor.
      * 
      * @return
      *     possible object is
@@ -179,7 +179,7 @@ public class OSDTextConfiguration {
     }
 
     /**
-     * Sets the value of the fontColor property.
+     * Imposta il valore della proprietà fontColor.
      * 
      * @param value
      *     allowed object is
@@ -191,7 +191,7 @@ public class OSDTextConfiguration {
     }
 
     /**
-     * Gets the value of the backgroundColor property.
+     * Recupera il valore della proprietà backgroundColor.
      * 
      * @return
      *     possible object is
@@ -203,7 +203,7 @@ public class OSDTextConfiguration {
     }
 
     /**
-     * Sets the value of the backgroundColor property.
+     * Imposta il valore della proprietà backgroundColor.
      * 
      * @param value
      *     allowed object is
@@ -215,7 +215,7 @@ public class OSDTextConfiguration {
     }
 
     /**
-     * Gets the value of the plainText property.
+     * Recupera il valore della proprietà plainText.
      * 
      * @return
      *     possible object is
@@ -227,7 +227,7 @@ public class OSDTextConfiguration {
     }
 
     /**
-     * Sets the value of the plainText property.
+     * Imposta il valore della proprietà plainText.
      * 
      * @param value
      *     allowed object is
@@ -239,7 +239,7 @@ public class OSDTextConfiguration {
     }
 
     /**
-     * Gets the value of the extension property.
+     * Recupera il valore della proprietà extension.
      * 
      * @return
      *     possible object is
@@ -251,7 +251,7 @@ public class OSDTextConfiguration {
     }
 
     /**
-     * Sets the value of the extension property.
+     * Imposta il valore della proprietà extension.
      * 
      * @param value
      *     allowed object is

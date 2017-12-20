@@ -9,9 +9,9 @@ import javax.xml.bind.annotation.XmlType;
 
 
 /**
- * <p>Java class for Exposure complex type.
+ * <p>Classe Java per Exposure complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>Il seguente frammento di schema specifica il contenuto previsto contenuto in questa classe.
  * 
  * <pre>
  * &lt;complexType name="Exposure"&gt;
@@ -83,7 +83,7 @@ public class Exposure {
     protected float iris;
 
     /**
-     * Gets the value of the mode property.
+     * Recupera il valore della proprietà mode.
      * 
      * @return
      *     possible object is
@@ -95,7 +95,7 @@ public class Exposure {
     }
 
     /**
-     * Sets the value of the mode property.
+     * Imposta il valore della proprietà mode.
      * 
      * @param value
      *     allowed object is
@@ -107,7 +107,7 @@ public class Exposure {
     }
 
     /**
-     * Gets the value of the priority property.
+     * Recupera il valore della proprietà priority.
      * 
      * @return
      *     possible object is
@@ -119,7 +119,7 @@ public class Exposure {
     }
 
     /**
-     * Sets the value of the priority property.
+     * Imposta il valore della proprietà priority.
      * 
      * @param value
      *     allowed object is
@@ -131,7 +131,7 @@ public class Exposure {
     }
 
     /**
-     * Gets the value of the window property.
+     * Recupera il valore della proprietà window.
      * 
      * @return
      *     possible object is
@@ -143,7 +143,7 @@ public class Exposure {
     }
 
     /**
-     * Sets the value of the window property.
+     * Imposta il valore della proprietà window.
      * 
      * @param value
      *     allowed object is
@@ -155,7 +155,7 @@ public class Exposure {
     }
 
     /**
-     * Gets the value of the minExposureTime property.
+     * Recupera il valore della proprietà minExposureTime.
      * 
      */
     public float getMinExposureTime() {
@@ -163,7 +163,7 @@ public class Exposure {
     }
 
     /**
-     * Sets the value of the minExposureTime property.
+     * Imposta il valore della proprietà minExposureTime.
      * 
      */
     public void setMinExposureTime(float value) {
@@ -171,7 +171,7 @@ public class Exposure {
     }
 
     /**
-     * Gets the value of the maxExposureTime property.
+     * Recupera il valore della proprietà maxExposureTime.
      * 
      */
     public float getMaxExposureTime() {
@@ -179,7 +179,7 @@ public class Exposure {
     }
 
     /**
-     * Sets the value of the maxExposureTime property.
+     * Imposta il valore della proprietà maxExposureTime.
      * 
      */
     public void setMaxExposureTime(float value) {
@@ -187,7 +187,7 @@ public class Exposure {
     }
 
     /**
-     * Gets the value of the minGain property.
+     * Recupera il valore della proprietà minGain.
      * 
      */
     public float getMinGain() {
@@ -195,7 +195,7 @@ public class Exposure {
     }
 
     /**
-     * Sets the value of the minGain property.
+     * Imposta il valore della proprietà minGain.
      * 
      */
     public void setMinGain(float value) {
@@ -203,7 +203,7 @@ public class Exposure {
     }
 
     /**
-     * Gets the value of the maxGain property.
+     * Recupera il valore della proprietà maxGain.
      * 
      */
     public float getMaxGain() {
@@ -211,7 +211,7 @@ public class Exposure {
     }
 
     /**
-     * Sets the value of the maxGain property.
+     * Imposta il valore della proprietà maxGain.
      * 
      */
     public void setMaxGain(float value) {
@@ -219,7 +219,7 @@ public class Exposure {
     }
 
     /**
-     * Gets the value of the minIris property.
+     * Recupera il valore della proprietà minIris.
      * 
      */
     public float getMinIris() {
@@ -227,7 +227,7 @@ public class Exposure {
     }
 
     /**
-     * Sets the value of the minIris property.
+     * Imposta il valore della proprietà minIris.
      * 
      */
     public void setMinIris(float value) {
@@ -235,7 +235,7 @@ public class Exposure {
     }
 
     /**
-     * Gets the value of the maxIris property.
+     * Recupera il valore della proprietà maxIris.
      * 
      */
     public float getMaxIris() {
@@ -243,7 +243,7 @@ public class Exposure {
     }
 
     /**
-     * Sets the value of the maxIris property.
+     * Imposta il valore della proprietà maxIris.
      * 
      */
     public void setMaxIris(float value) {
@@ -251,7 +251,7 @@ public class Exposure {
     }
 
     /**
-     * Gets the value of the exposureTime property.
+     * Recupera il valore della proprietà exposureTime.
      * 
      */
     public float getExposureTime() {
@@ -259,7 +259,7 @@ public class Exposure {
     }
 
     /**
-     * Sets the value of the exposureTime property.
+     * Imposta il valore della proprietà exposureTime.
      * 
      */
     public void setExposureTime(float value) {
@@ -267,7 +267,7 @@ public class Exposure {
     }
 
     /**
-     * Gets the value of the gain property.
+     * Recupera il valore della proprietà gain.
      * 
      */
     public float getGain() {
@@ -275,7 +275,7 @@ public class Exposure {
     }
 
     /**
-     * Sets the value of the gain property.
+     * Imposta il valore della proprietà gain.
      * 
      */
     public void setGain(float value) {
@@ -283,7 +283,7 @@ public class Exposure {
     }
 
     /**
-     * Gets the value of the iris property.
+     * Recupera il valore della proprietà iris.
      * 
      */
     public float getIris() {
@@ -291,7 +291,7 @@ public class Exposure {
     }
 
     /**
-     * Sets the value of the iris property.
+     * Imposta il valore della proprietà iris.
      * 
      */
     public void setIris(float value) {

@@ -17,9 +17,9 @@ import org.w3c.dom.Element;
 
 
 /**
- * <p>Java class for VideoEncoder2ConfigurationOptions complex type.
+ * <p>Classe Java per VideoEncoder2ConfigurationOptions complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>Il seguente frammento di schema specifica il contenuto previsto contenuto in questa classe.
  * 
  * <pre>
  * &lt;complexType name="VideoEncoder2ConfigurationOptions"&gt;
@@ -79,7 +79,7 @@ public class VideoEncoder2ConfigurationOptions {
     private Map<QName, String> otherAttributes = new HashMap<QName, String>();
 
     /**
-     * Gets the value of the encoding property.
+     * Recupera il valore della proprietà encoding.
      * 
      * @return
      *     possible object is
@@ -91,7 +91,7 @@ public class VideoEncoder2ConfigurationOptions {
     }
 
     /**
-     * Sets the value of the encoding property.
+     * Imposta il valore della proprietà encoding.
      * 
      * @param value
      *     allowed object is
@@ -103,7 +103,7 @@ public class VideoEncoder2ConfigurationOptions {
     }
 
     /**
-     * Gets the value of the qualityRange property.
+     * Recupera il valore della proprietà qualityRange.
      * 
      * @return
      *     possible object is
@@ -115,7 +115,7 @@ public class VideoEncoder2ConfigurationOptions {
     }
 
     /**
-     * Sets the value of the qualityRange property.
+     * Imposta il valore della proprietà qualityRange.
      * 
      * @param value
      *     allowed object is
@@ -156,7 +156,7 @@ public class VideoEncoder2ConfigurationOptions {
     }
 
     /**
-     * Gets the value of the bitrateRange property.
+     * Recupera il valore della proprietà bitrateRange.
      * 
      * @return
      *     possible object is
@@ -168,7 +168,7 @@ public class VideoEncoder2ConfigurationOptions {
     }
 
     /**
-     * Sets the value of the bitrateRange property.
+     * Imposta il valore della proprietà bitrateRange.
      * 
      * @param value
      *     allowed object is
@@ -197,8 +197,8 @@ public class VideoEncoder2ConfigurationOptions {
      * 
      * <p>
      * Objects of the following type(s) are allowed in the list
-     * {@link java.lang.Object }
      * {@link Element }
+     * {@link java.lang.Object }
      * 
      * 
      */
@@ -297,7 +297,7 @@ public class VideoEncoder2ConfigurationOptions {
     }
 
     /**
-     * Gets the value of the constantBitRateSupported property.
+     * Recupera il valore della proprietà constantBitRateSupported.
      * This getter has been renamed from isConstantBitRateSupported() to getConstantBitRateSupported() by cxf-xjc-boolean plugin.
      * 
      * @return
@@ -310,7 +310,7 @@ public class VideoEncoder2ConfigurationOptions {
     }
 
     /**
-     * Sets the value of the constantBitRateSupported property.
+     * Imposta il valore della proprietà constantBitRateSupported.
      * 
      * @param value
      *     allowed object is
@@ -322,7 +322,7 @@ public class VideoEncoder2ConfigurationOptions {
     }
 
     /**
-     * Gets the value of the guaranteedInstances property.
+     * Recupera il valore della proprietà guaranteedInstances.
      * 
      * @return
      *     possible object is
@@ -334,7 +334,7 @@ public class VideoEncoder2ConfigurationOptions {
     }
 
     /**
-     * Sets the value of the guaranteedInstances property.
+     * Imposta il valore della proprietà guaranteedInstances.
      * 
      * @param value
      *     allowed object is

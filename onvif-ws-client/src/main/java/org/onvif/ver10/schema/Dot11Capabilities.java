@@ -16,9 +16,9 @@ import org.w3c.dom.Element;
 
 
 /**
- * <p>Java class for Dot11Capabilities complex type.
+ * <p>Classe Java per Dot11Capabilities complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>Il seguente frammento di schema specifica il contenuto previsto contenuto in questa classe.
  * 
  * <pre>
  * &lt;complexType name="Dot11Capabilities"&gt;
@@ -67,7 +67,7 @@ public class Dot11Capabilities {
     private Map<QName, String> otherAttributes = new HashMap<QName, String>();
 
     /**
-     * Gets the value of the tkip property.
+     * Recupera il valore della proprietà tkip.
      * This getter has been renamed from isTKIP() to getTKIP() by cxf-xjc-boolean plugin.
      * 
      */
@@ -76,7 +76,7 @@ public class Dot11Capabilities {
     }
 
     /**
-     * Sets the value of the tkip property.
+     * Imposta il valore della proprietà tkip.
      * 
      */
     public void setTKIP(boolean value) {
@@ -84,7 +84,7 @@ public class Dot11Capabilities {
     }
 
     /**
-     * Gets the value of the scanAvailableNetworks property.
+     * Recupera il valore della proprietà scanAvailableNetworks.
      * This getter has been renamed from isScanAvailableNetworks() to getScanAvailableNetworks() by cxf-xjc-boolean plugin.
      * 
      */
@@ -93,7 +93,7 @@ public class Dot11Capabilities {
     }
 
     /**
-     * Sets the value of the scanAvailableNetworks property.
+     * Imposta il valore della proprietà scanAvailableNetworks.
      * 
      */
     public void setScanAvailableNetworks(boolean value) {
@@ -101,7 +101,7 @@ public class Dot11Capabilities {
     }
 
     /**
-     * Gets the value of the multipleConfiguration property.
+     * Recupera il valore della proprietà multipleConfiguration.
      * This getter has been renamed from isMultipleConfiguration() to getMultipleConfiguration() by cxf-xjc-boolean plugin.
      * 
      */
@@ -110,7 +110,7 @@ public class Dot11Capabilities {
     }
 
     /**
-     * Sets the value of the multipleConfiguration property.
+     * Imposta il valore della proprietà multipleConfiguration.
      * 
      */
     public void setMultipleConfiguration(boolean value) {
@@ -118,7 +118,7 @@ public class Dot11Capabilities {
     }
 
     /**
-     * Gets the value of the adHocStationMode property.
+     * Recupera il valore della proprietà adHocStationMode.
      * This getter has been renamed from isAdHocStationMode() to getAdHocStationMode() by cxf-xjc-boolean plugin.
      * 
      */
@@ -127,7 +127,7 @@ public class Dot11Capabilities {
     }
 
     /**
-     * Sets the value of the adHocStationMode property.
+     * Imposta il valore della proprietà adHocStationMode.
      * 
      */
     public void setAdHocStationMode(boolean value) {
@@ -135,7 +135,7 @@ public class Dot11Capabilities {
     }
 
     /**
-     * Gets the value of the wep property.
+     * Recupera il valore della proprietà wep.
      * This getter has been renamed from isWEP() to getWEP() by cxf-xjc-boolean plugin.
      * 
      */
@@ -144,7 +144,7 @@ public class Dot11Capabilities {
     }
 
     /**
-     * Sets the value of the wep property.
+     * Imposta il valore della proprietà wep.
      * 
      */
     public void setWEP(boolean value) {
@@ -169,8 +169,8 @@ public class Dot11Capabilities {
      * 
      * <p>
      * Objects of the following type(s) are allowed in the list
-     * {@link java.lang.Object }
      * {@link Element }
+     * {@link java.lang.Object }
      * 
      * 
      */

@@ -8,9 +8,9 @@ import javax.xml.bind.annotation.XmlType;
 
 
 /**
- * <p>Java class for ContinuousFocusOptions complex type.
+ * <p>Classe Java per ContinuousFocusOptions complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>Il seguente frammento di schema specifica il contenuto previsto contenuto in questa classe.
  * 
  * <pre>
  * &lt;complexType name="ContinuousFocusOptions"&gt;
@@ -36,7 +36,7 @@ public class ContinuousFocusOptions {
     protected FloatRange speed;
 
     /**
-     * Gets the value of the speed property.
+     * Recupera il valore della proprietà speed.
      * 
      * @return
      *     possible object is
@@ -48,7 +48,7 @@ public class ContinuousFocusOptions {
     }
 
     /**
-     * Sets the value of the speed property.
+     * Imposta il valore della proprietà speed.
      * 
      * @param value
      *     allowed object is

@@ -14,9 +14,9 @@ import javax.xml.namespace.QName;
 
 
 /**
- * <p>Java class for SecurityCapabilities complex type.
+ * <p>Classe Java per SecurityCapabilities complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>Il seguente frammento di schema specifica il contenuto previsto contenuto in questa classe.
  * 
  * <pre>
  * &lt;complexType name="SecurityCapabilities"&gt;
@@ -92,7 +92,7 @@ public class SecurityCapabilities {
     private Map<QName, String> otherAttributes = new HashMap<QName, String>();
 
     /**
-     * Gets the value of the tls10 property.
+     * Recupera il valore della proprietà tls10.
      * This getter has been renamed from isTLS10() to getTLS10() by cxf-xjc-boolean plugin.
      * 
      * @return
@@ -105,7 +105,7 @@ public class SecurityCapabilities {
     }
 
     /**
-     * Sets the value of the tls10 property.
+     * Imposta il valore della proprietà tls10.
      * 
      * @param value
      *     allowed object is
@@ -117,7 +117,7 @@ public class SecurityCapabilities {
     }
 
     /**
-     * Gets the value of the tls11 property.
+     * Recupera il valore della proprietà tls11.
      * This getter has been renamed from isTLS11() to getTLS11() by cxf-xjc-boolean plugin.
      * 
      * @return
@@ -130,7 +130,7 @@ public class SecurityCapabilities {
     }
 
     /**
-     * Sets the value of the tls11 property.
+     * Imposta il valore della proprietà tls11.
      * 
      * @param value
      *     allowed object is
@@ -142,7 +142,7 @@ public class SecurityCapabilities {
     }
 
     /**
-     * Gets the value of the tls12 property.
+     * Recupera il valore della proprietà tls12.
      * This getter has been renamed from isTLS12() to getTLS12() by cxf-xjc-boolean plugin.
      * 
      * @return
@@ -155,7 +155,7 @@ public class SecurityCapabilities {
     }
 
     /**
-     * Sets the value of the tls12 property.
+     * Imposta il valore della proprietà tls12.
      * 
      * @param value
      *     allowed object is
@@ -167,7 +167,7 @@ public class SecurityCapabilities {
     }
 
     /**
-     * Gets the value of the onboardKeyGeneration property.
+     * Recupera il valore della proprietà onboardKeyGeneration.
      * This getter has been renamed from isOnboardKeyGeneration() to getOnboardKeyGeneration() by cxf-xjc-boolean plugin.
      * 
      * @return
@@ -180,7 +180,7 @@ public class SecurityCapabilities {
     }
 
     /**
-     * Sets the value of the onboardKeyGeneration property.
+     * Imposta il valore della proprietà onboardKeyGeneration.
      * 
      * @param value
      *     allowed object is
@@ -192,7 +192,7 @@ public class SecurityCapabilities {
     }
 
     /**
-     * Gets the value of the accessPolicyConfig property.
+     * Recupera il valore della proprietà accessPolicyConfig.
      * This getter has been renamed from isAccessPolicyConfig() to getAccessPolicyConfig() by cxf-xjc-boolean plugin.
      * 
      * @return
@@ -205,7 +205,7 @@ public class SecurityCapabilities {
     }
 
     /**
-     * Sets the value of the accessPolicyConfig property.
+     * Imposta il valore della proprietà accessPolicyConfig.
      * 
      * @param value
      *     allowed object is
@@ -217,7 +217,7 @@ public class SecurityCapabilities {
     }
 
     /**
-     * Gets the value of the defaultAccessPolicy property.
+     * Recupera il valore della proprietà defaultAccessPolicy.
      * This getter has been renamed from isDefaultAccessPolicy() to getDefaultAccessPolicy() by cxf-xjc-boolean plugin.
      * 
      * @return
@@ -230,7 +230,7 @@ public class SecurityCapabilities {
     }
 
     /**
-     * Sets the value of the defaultAccessPolicy property.
+     * Imposta il valore della proprietà defaultAccessPolicy.
      * 
      * @param value
      *     allowed object is
@@ -242,7 +242,7 @@ public class SecurityCapabilities {
     }
 
     /**
-     * Gets the value of the dot1X property.
+     * Recupera il valore della proprietà dot1X.
      * This getter has been renamed from isDot1X() to getDot1X() by cxf-xjc-boolean plugin.
      * 
      * @return
@@ -255,7 +255,7 @@ public class SecurityCapabilities {
     }
 
     /**
-     * Sets the value of the dot1X property.
+     * Imposta il valore della proprietà dot1X.
      * 
      * @param value
      *     allowed object is
@@ -267,7 +267,7 @@ public class SecurityCapabilities {
     }
 
     /**
-     * Gets the value of the remoteUserHandling property.
+     * Recupera il valore della proprietà remoteUserHandling.
      * This getter has been renamed from isRemoteUserHandling() to getRemoteUserHandling() by cxf-xjc-boolean plugin.
      * 
      * @return
@@ -280,7 +280,7 @@ public class SecurityCapabilities {
     }
 
     /**
-     * Sets the value of the remoteUserHandling property.
+     * Imposta il valore della proprietà remoteUserHandling.
      * 
      * @param value
      *     allowed object is
@@ -292,7 +292,7 @@ public class SecurityCapabilities {
     }
 
     /**
-     * Gets the value of the x509Token property.
+     * Recupera il valore della proprietà x509Token.
      * This getter has been renamed from isX509Token() to getX509Token() by cxf-xjc-boolean plugin.
      * 
      * @return
@@ -305,7 +305,7 @@ public class SecurityCapabilities {
     }
 
     /**
-     * Sets the value of the x509Token property.
+     * Imposta il valore della proprietà x509Token.
      * 
      * @param value
      *     allowed object is
@@ -317,7 +317,7 @@ public class SecurityCapabilities {
     }
 
     /**
-     * Gets the value of the samlToken property.
+     * Recupera il valore della proprietà samlToken.
      * This getter has been renamed from isSAMLToken() to getSAMLToken() by cxf-xjc-boolean plugin.
      * 
      * @return
@@ -330,7 +330,7 @@ public class SecurityCapabilities {
     }
 
     /**
-     * Sets the value of the samlToken property.
+     * Imposta il valore della proprietà samlToken.
      * 
      * @param value
      *     allowed object is
@@ -342,7 +342,7 @@ public class SecurityCapabilities {
     }
 
     /**
-     * Gets the value of the kerberosToken property.
+     * Recupera il valore della proprietà kerberosToken.
      * This getter has been renamed from isKerberosToken() to getKerberosToken() by cxf-xjc-boolean plugin.
      * 
      * @return
@@ -355,7 +355,7 @@ public class SecurityCapabilities {
     }
 
     /**
-     * Sets the value of the kerberosToken property.
+     * Imposta il valore della proprietà kerberosToken.
      * 
      * @param value
      *     allowed object is
@@ -367,7 +367,7 @@ public class SecurityCapabilities {
     }
 
     /**
-     * Gets the value of the usernameToken property.
+     * Recupera il valore della proprietà usernameToken.
      * This getter has been renamed from isUsernameToken() to getUsernameToken() by cxf-xjc-boolean plugin.
      * 
      * @return
@@ -380,7 +380,7 @@ public class SecurityCapabilities {
     }
 
     /**
-     * Sets the value of the usernameToken property.
+     * Imposta il valore della proprietà usernameToken.
      * 
      * @param value
      *     allowed object is
@@ -392,7 +392,7 @@ public class SecurityCapabilities {
     }
 
     /**
-     * Gets the value of the httpDigest property.
+     * Recupera il valore della proprietà httpDigest.
      * This getter has been renamed from isHttpDigest() to getHttpDigest() by cxf-xjc-boolean plugin.
      * 
      * @return
@@ -405,7 +405,7 @@ public class SecurityCapabilities {
     }
 
     /**
-     * Sets the value of the httpDigest property.
+     * Imposta il valore della proprietà httpDigest.
      * 
      * @param value
      *     allowed object is
@@ -417,7 +417,7 @@ public class SecurityCapabilities {
     }
 
     /**
-     * Gets the value of the relToken property.
+     * Recupera il valore della proprietà relToken.
      * This getter has been renamed from isRELToken() to getRELToken() by cxf-xjc-boolean plugin.
      * 
      * @return
@@ -430,7 +430,7 @@ public class SecurityCapabilities {
     }
 
     /**
-     * Sets the value of the relToken property.
+     * Imposta il valore della proprietà relToken.
      * 
      * @param value
      *     allowed object is
@@ -471,7 +471,7 @@ public class SecurityCapabilities {
     }
 
     /**
-     * Gets the value of the maxUsers property.
+     * Recupera il valore della proprietà maxUsers.
      * 
      * @return
      *     possible object is
@@ -483,7 +483,7 @@ public class SecurityCapabilities {
     }
 
     /**
-     * Sets the value of the maxUsers property.
+     * Imposta il valore della proprietà maxUsers.
      * 
      * @param value
      *     allowed object is
@@ -495,7 +495,7 @@ public class SecurityCapabilities {
     }
 
     /**
-     * Gets the value of the maxUserNameLength property.
+     * Recupera il valore della proprietà maxUserNameLength.
      * 
      * @return
      *     possible object is
@@ -507,7 +507,7 @@ public class SecurityCapabilities {
     }
 
     /**
-     * Sets the value of the maxUserNameLength property.
+     * Imposta il valore della proprietà maxUserNameLength.
      * 
      * @param value
      *     allowed object is
@@ -519,7 +519,7 @@ public class SecurityCapabilities {
     }
 
     /**
-     * Gets the value of the maxPasswordLength property.
+     * Recupera il valore della proprietà maxPasswordLength.
      * 
      * @return
      *     possible object is
@@ -531,7 +531,7 @@ public class SecurityCapabilities {
     }
 
     /**
-     * Sets the value of the maxPasswordLength property.
+     * Imposta il valore della proprietà maxPasswordLength.
      * 
      * @param value
      *     allowed object is

@@ -14,9 +14,9 @@ import javax.xml.namespace.QName;
 
 
 /**
- * <p>Java class for JobOptions complex type.
+ * <p>Classe Java per JobOptions complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>Il seguente frammento di schema specifica il contenuto previsto contenuto in questa classe.
  * 
  * <pre>
  * &lt;complexType name="JobOptions"&gt;
@@ -44,7 +44,7 @@ public class JobOptions {
     private Map<QName, String> otherAttributes = new HashMap<QName, String>();
 
     /**
-     * Gets the value of the spare property.
+     * Recupera il valore della proprietà spare.
      * 
      * @return
      *     possible object is
@@ -56,7 +56,7 @@ public class JobOptions {
     }
 
     /**
-     * Sets the value of the spare property.
+     * Imposta il valore della proprietà spare.
      * 
      * @param value
      *     allowed object is
