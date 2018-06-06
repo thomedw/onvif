@@ -9,10 +9,11 @@ My wish is to help other developers willing to contribute to an enterprise-level
 Fork improvements (quonn77)
 =============
 * onvif-ws-client: WS stubs are no more part of the repository, you can simply generate them using the most updated version of the wsdl files.
-generated source is under target/generated-sources standard maven folder.
+Generated source files are under target/generated-sources standard maven folder.
 * WSSE UsernameToken: Support for username token authentication has been added. You have to properly initiliaze UTPasswordCallback class by
-providing the username, password pairs using the setAliasPassword method
-
+providing the username, password pairs using the setAliasPassword method.
+* Multi network card support. In order to avoid problem on a multinetwork environment you can specify which is the name of the network adapter to use (E.g. eth0).
+You have to provide it using JVM parameter -DnetworkInterface=<network interface name> (default eth0)
 Apported improvements
 =============
 * Project **mavenization** and **modularization** (separation between Java stubs and application) and 

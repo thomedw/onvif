@@ -9,7 +9,6 @@ import java.util.Arrays;
 import java.util.Calendar;
 import java.util.Date;
 import java.util.HashMap;
-import java.util.List;
 import java.util.Map;
 import java.util.TimeZone;
 import java.util.concurrent.TimeUnit;
@@ -26,10 +25,8 @@ import org.apache.cxf.endpoint.Endpoint;
 import org.apache.cxf.frontend.ClientProxy;
 import org.apache.cxf.frontend.ClientProxyFactoryBean;
 import org.apache.cxf.interceptor.Fault;
-import org.apache.cxf.interceptor.Interceptor;
 import org.apache.cxf.interceptor.LoggingOutInterceptor;
 import org.apache.cxf.jaxws.JaxWsProxyFactoryBean;
-import org.apache.cxf.message.Message;
 import org.apache.cxf.transport.http.HTTPConduit;
 import org.apache.cxf.transports.http.configuration.HTTPClientPolicy;
 import org.apache.cxf.ws.security.wss4j.WSS4JOutInterceptor;
@@ -45,7 +42,6 @@ import org.onvif.ver10.schema.Capabilities;
 import org.onvif.ver10.schema.CapabilityCategory;
 import org.onvif.ver10.schema.DateTime;
 import org.onvif.ver10.schema.SetDateTimeType;
-import org.onvif.ver10.schema.SystemDateTime;
 import org.onvif.ver20.imaging.wsdl.ImagingPort;
 import org.onvif.ver20.imaging.wsdl.ImagingService;
 import org.onvif.ver20.ptz.wsdl.PTZ;
@@ -130,11 +126,9 @@ public class OnvifDevice {
         Socket socket = null;
         try {
             String networkInterface = System.getProperty("networkInterface", "eth0");
-//            System.out.println("Using networkInterface:" + networkInterface);
             NetworkInterface ni = NetworkInterface.getByName(networkInterface);
             InetSocketAddress sockaddr = new InetSocketAddress(ip, new Integer(port));
             socket = new Socket();
-            // socket.bind(ni.getInetAddresses().nextElement());
             socket.bind(new InetSocketAddress(ni.getInetAddresses().nextElement(), 0));
             socket.connect(sockaddr, 5000);
         } catch (Exception e) {
@@ -153,7 +147,7 @@ public class OnvifDevice {
     }
 
     /**
-     * Initalizes the addresses used for SOAP messages and to get the internal IP,
+     * Initializes the addresses used for SOAP messages and to get the internal IP,
      * if given IP is a proxy.
      * 
      * @throws ConnectException
@@ -162,7 +156,7 @@ public class OnvifDevice {
      */
     protected void init() throws ConnectException, SOAPException {
         BindingProvider deviceServicePort = (BindingProvider) new DeviceService().getDevicePort();
-        this.device = getServiceProxy(deviceServicePort, deviceUri, username, password).create(Device.class);
+        this.device = getServiceProxy(deviceServicePort, deviceUri, username).create(Device.class);
 
         resetSystemDateAndTime();
 
@@ -175,26 +169,23 @@ public class OnvifDevice {
 
         if (capabilities.getMedia() != null && capabilities.getMedia().getXAddr() != null) {
             this.media = new MediaService().getMediaPort();
-            this.media = getServiceProxy((BindingProvider) media, capabilities.getMedia().getXAddr(), username,
-                    password).create(Media.class);
+            this.media = getServiceProxy((BindingProvider) media, capabilities.getMedia().getXAddr(), username).create(Media.class);
         }
 
         if (capabilities.getPTZ() != null && capabilities.getPTZ().getXAddr() != null) {
             this.ptz = new PtzService().getPtzPort();
-            this.ptz = getServiceProxy((BindingProvider) ptz, capabilities.getPTZ().getXAddr(), username, password)
+            this.ptz = getServiceProxy((BindingProvider) ptz, capabilities.getPTZ().getXAddr(), username)
                     .create(PTZ.class);
         }
 
         if (capabilities.getImaging() != null && capabilities.getImaging().getXAddr() != null) {
             this.imaging = new ImagingService().getImagingPort();
-            this.imaging = getServiceProxy((BindingProvider) imaging, capabilities.getImaging().getXAddr(), username,
-                    password).create(ImagingPort.class);
+            this.imaging = getServiceProxy((BindingProvider) imaging, capabilities.getImaging().getXAddr(), username).create(ImagingPort.class);
         }
 
         if (capabilities.getEvents() != null && capabilities.getEvents().getXAddr() != null) {
             this.events = new EventService().getEventPort();
-            this.events = getServiceProxy((BindingProvider) events, capabilities.getEvents().getXAddr(), username,
-                    password).create(EventPortType.class);
+            this.events = getServiceProxy((BindingProvider) events, capabilities.getEvents().getXAddr(), username).create(EventPortType.class);
         }
     }
 
@@ -206,20 +197,11 @@ public class OnvifDevice {
      * @param password
      * @return
      */
-    public static ClientProxyFactoryBean getServiceProxy(BindingProvider servicePort, String serviceAddr,
-                                                         String username, String password) {
+    public static ClientProxyFactoryBean getServiceProxy(BindingProvider servicePort, String serviceAddr,String username) {
         ClientProxyFactoryBean proxyFactory = new JaxWsProxyFactoryBean();
         if (serviceAddr != null)
             proxyFactory.setAddress(serviceAddr);
-        // Map<String, Object> props = servicePort.getRequestContext();
-        // props.put("ws-security.username", username);
-        // props.put("ws-security.password", password);
-        //
-        // props.put(WSHandlerConstants.ACTION, WSHandlerConstants.USERNAME_TOKEN);
-        // props.put(WSHandlerConstants.USER, username);
-        // props.put(WSHandlerConstants.PASSWORD_TYPE, WSConstants.PW_TEXT);
-        //
-        // props.put(WSHandlerConstants.PW_CALLBACK_CLASS, UTPasswordCallback.class.getName());
+        
 
         proxyFactory.setServiceClass(servicePort.getClass());
         proxyFactory.getOutInterceptors().add(new LoggingOutInterceptor());
@@ -234,7 +216,6 @@ public class OnvifDevice {
         WSS4JOutInterceptor handler = configureEndPoint(deviceEndPoint, username);
         proxyFactory.getOutInterceptors().add(handler);
 
-        List<Interceptor<? extends Message>> outInterceptors = deviceEndPoint.getOutInterceptors();
         HTTPConduit http = (HTTPConduit) deviceClient.getConduit();
 
         // AuthorizationPolicy authPolicy = new AuthorizationPolicy();
