@@ -36,6 +36,8 @@ import org.onvif.ver10.device.wsdl.Device;
 import org.onvif.ver10.device.wsdl.DeviceService;
 import org.onvif.ver10.events.wsdl.EventPortType;
 import org.onvif.ver10.events.wsdl.EventService;
+import org.onvif.ver10.events.wsdl.PullPointSubscription;
+import org.onvif.ver10.events.wsdl.PullPointSubscriptionService;
 import org.onvif.ver10.media.wsdl.Media;
 import org.onvif.ver10.media.wsdl.MediaService;
 import org.onvif.ver10.schema.Capabilities;
@@ -50,9 +52,12 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 import de.onvif.beans.DeviceInfo;
+import lombok.Getter;
+import lombok.Setter;
 
 /**
  * 
+ * @author Alessio Iannone - quonn77@gmail.com (minor improvements)
  * @author Robin Dick
  * 
  */
@@ -68,6 +73,21 @@ public class OnvifDevice {
     private PTZ ptz;
     private ImagingPort imaging;
     private EventPortType events;
+    private PullPointSubscription pull;
+
+    /**
+     * @return fovMin the minimum angular field of view as sessadecimal degree
+     */
+    @Getter
+    @Setter
+    private float fovMin;
+
+    /**
+     * @return fovMax the maximum angular field of view as sessadecimal degree
+     */
+    @Getter
+    @Setter
+    private float fovMax;
 
     /**
      * Initializes an Onvif device, e.g. a Network Video Transmitter (NVT) with
@@ -169,7 +189,8 @@ public class OnvifDevice {
 
         if (capabilities.getMedia() != null && capabilities.getMedia().getXAddr() != null) {
             this.media = new MediaService().getMediaPort();
-            this.media = getServiceProxy((BindingProvider) media, capabilities.getMedia().getXAddr(), username).create(Media.class);
+            this.media = getServiceProxy((BindingProvider) media, capabilities.getMedia().getXAddr(), username)
+                    .create(Media.class);
         }
 
         if (capabilities.getPTZ() != null && capabilities.getPTZ().getXAddr() != null) {
@@ -180,12 +201,18 @@ public class OnvifDevice {
 
         if (capabilities.getImaging() != null && capabilities.getImaging().getXAddr() != null) {
             this.imaging = new ImagingService().getImagingPort();
-            this.imaging = getServiceProxy((BindingProvider) imaging, capabilities.getImaging().getXAddr(), username).create(ImagingPort.class);
+            this.imaging = getServiceProxy((BindingProvider) imaging, capabilities.getImaging().getXAddr(), username)
+                    .create(ImagingPort.class);
         }
 
         if (capabilities.getEvents() != null && capabilities.getEvents().getXAddr() != null) {
             this.events = new EventService().getEventPort();
-            this.events = getServiceProxy((BindingProvider) events, capabilities.getEvents().getXAddr(), username).create(EventPortType.class);
+            this.events = getServiceProxy((BindingProvider) events, capabilities.getEvents().getXAddr(), username)
+                    .create(EventPortType.class);
+
+            this.pull = new PullPointSubscriptionService().getPullPointSubscription();
+            this.pull = getServiceProxy((BindingProvider) pull, capabilities.getEvents().getXAddr(), username)
+                    .create(PullPointSubscription.class);
         }
     }
 
@@ -197,11 +224,11 @@ public class OnvifDevice {
      * @param password
      * @return
      */
-    public static ClientProxyFactoryBean getServiceProxy(BindingProvider servicePort, String serviceAddr,String username) {
+    public static ClientProxyFactoryBean getServiceProxy(BindingProvider servicePort, String serviceAddr,
+                                                         String username) {
         ClientProxyFactoryBean proxyFactory = new JaxWsProxyFactoryBean();
         if (serviceAddr != null)
             proxyFactory.setAddress(serviceAddr);
-        
 
         proxyFactory.setServiceClass(servicePort.getClass());
         proxyFactory.getOutInterceptors().add(new LoggingOutInterceptor());
@@ -328,6 +355,10 @@ public class OnvifDevice {
 
     public EventPortType getEvents() {
         return events;
+    }
+
+    public PullPointSubscription getPull() {
+        return pull;
     }
 
     public DateTime getDate() {
