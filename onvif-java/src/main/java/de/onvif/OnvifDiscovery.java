@@ -27,6 +27,7 @@ import org.onvif.ver10.schema.VideoSourceExtension;
 
 import de.onvif.discovery.DeviceDiscovery;
 import de.onvif.soap.OnvifDevice;
+import de.onvif.soap.UTPasswordCallback;
 
 /**
  * @author th
@@ -49,22 +50,23 @@ public class OnvifDiscovery {
 
     public static void main(String[] args) throws IOException {
         // List<URL> onvifDevices = discoverOnvifDevices(true);
-        // List<URL> onvifDevices = discoverOnvifDevices(true, "192.168.150.21");
-        // if(onvifDevices.size()==0)
-        // System.out.println("No Onvif device found");
-        // for (URL url : onvifDevices) {
-        // System.out.println("Device discovered: " + url.toString());
-        // }
+        List<URL> onvifDevices = discoverOnvifDevices(true, "192.168.150.55");
+        if (onvifDevices.size() == 0)
+            System.out.println("No Onvif device found");
+        for (URL url : onvifDevices) {
+            System.out.println("Device discovered: " + url.toString());
+        }
 
         try {
-            OnvifDevice cam = new OnvifDevice("192.168.150.21", "onvifadmin", "onvif");
+
+            UTPasswordCallback.setAliasPassword("user", "pwd");
+            OnvifDevice cam = OnvifDevice.builder("192.168.150.55").username("user").password("password").build();
             List<VideoSource> sources = cam.getMedia().getVideoSources();
 
             List<Profile> profiles = cam.getMedia().getProfiles();
             profiles.forEach(p -> {
                 System.out.println("P:" + p.getName() + " Token:" + p.getToken());
             });
-
 
             StreamSetup ss = new StreamSetup();
             ss.setStream(StreamType.RTP_UNICAST);

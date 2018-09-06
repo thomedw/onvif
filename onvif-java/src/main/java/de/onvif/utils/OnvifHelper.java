@@ -93,6 +93,10 @@ public final class OnvifHelper {
         return v2D;
     }
 
+    /**
+     * With empty speed
+     * @return
+     */
     public final static PTZSpeed getDefaultSpeedEmptySpace() {
         PTZSpeed speed = new PTZSpeed();
         speed.setPanTilt(createV2D("", 0, 0));

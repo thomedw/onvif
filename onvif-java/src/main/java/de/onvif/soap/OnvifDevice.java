@@ -52,6 +52,7 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 import de.onvif.beans.DeviceInfo;
+import lombok.Builder;
 import lombok.Getter;
 import lombok.Setter;
 
@@ -65,7 +66,10 @@ public class OnvifDevice {
     private static final Logger logger = LoggerFactory.getLogger(OnvifDevice.class);
 
     private String deviceIp;
-    private String username, password;
+
+    private String username;
+    private String password;
+
     private String deviceUri;
 
     private Device device;
@@ -74,20 +78,8 @@ public class OnvifDevice {
     private ImagingPort imaging;
     private EventPortType events;
     private PullPointSubscription pull;
-
-    /**
-     * @return fovMin the minimum angular field of view as sessadecimal degree
-     */
-    @Getter
-    @Setter
-    private float fovMin;
-
-    /**
-     * @return fovMax the maximum angular field of view as sessadecimal degree
-     */
-    @Getter
-    @Setter
-    private float fovMax;
+    private boolean resetSystemTime;
+    private boolean digestAuthentication;
 
     /**
      * Initializes an Onvif device, e.g. a Network Video Transmitter (NVT) with
@@ -100,40 +92,138 @@ public class OnvifDevice {
      *            Username you need to login
      * @param password
      *            User's password to login
+     * @param resetSystemTime
      * @throws ConnectException
      *             Exception gets thrown, if device isn't accessible or invalid and
      *             doesn't answer to SOAP messages
      * @throws SOAPException
      */
-    public OnvifDevice(String deviceIp, String user, String password) throws ConnectException, SOAPException {
+    @Builder
+    private OnvifDevice(String deviceIp, String username, String password, boolean resetSystemTime,
+            boolean digestAuthentication, float panStart, float panEnd, float tiltStart, float tiltEnd, float fovMin,
+            float fovMax)
+            throws ConnectException, SOAPException {
         this.deviceIp = deviceIp;
-
         if (!isOnline()) {
             throw new ConnectException("Host not available.");
         }
-
         this.deviceUri = "http://" + deviceIp + "/onvif/device_service";
-        this.username = user;
+        this.username = username;
         this.password = password;
-
+        this.resetSystemTime = resetSystemTime;
+        this.digestAuthentication = digestAuthentication;
+        this.panStart = panStart;
+        this.panEnd = panEnd;
+        this.tiltStart = tiltStart;
+        this.tiltEnd = tiltEnd;
+        this.fovMin = fovMin;
+        this.fovMax = fovMax;
         init();
     }
 
     /**
-     * Initializes an Onvif device, e.g. a Network Video Transmitter (NVT) with
-     * logindata.
-     * 
-     * @param hostIp
-     *            The IP address of your device, you can also add a port but noch
-     *            protocol (e.g. http://)
-     * @throws ConnectException
-     *             Exception gets thrown, if device isn't accessible or invalid and
-     *             doesn't answer to SOAP messages
-     * @throws SOAPException
+     * Set the default values for the builder
      */
-    public OnvifDevice(String hostIp) throws ConnectException, SOAPException {
-        this(hostIp, null, null);
+    public static class OnvifDeviceBuilder {
+        private String username = null;
+        private String password = null;
+        private boolean resetSystemTime = true;
+        private boolean digestAuthentication = true;
+        private float panStart = -180;
+        private float panEnd = 180;
+        private float tiltStart = -20;
+        private float tiltEnd = 45;
+        private float fovMin = 45;
+        private float fovMax = 2;
+        
+
     }
+
+    private static OnvifDeviceBuilder builder() {
+        return new OnvifDeviceBuilder();
+    }
+
+    /**
+     * 
+     * @param deviceIp
+     * @return
+     */
+    public static OnvifDeviceBuilder builder(String deviceIp) {
+        return builder().deviceIp(deviceIp);
+    }
+
+    /**
+     * @return fovMin the minimum angular field of view as sessadecimal degree
+     */
+    @Getter
+    private float fovMin;
+
+    /**
+     * @return fovMax the maximum angular field of view as sessadecimal degree
+     */
+    @Getter
+    private float fovMax;
+
+    /**
+     * The start value in sessadecial degree of the panning
+     * 
+     * @return the Start pan angle in sessadecimal degree
+     */
+    @Getter
+    private float panStart;
+
+    /**
+     * The end value in sesasdecimal degree of the panning
+     * 
+     * @return the end value of the pan angle in sessadecimal degree
+     */
+    @Getter
+    private float panEnd;
+
+    /**
+     * The start value of the Tilt in sessadecimal degree.
+     * 
+     * @return the start value in sessadecimal degree of the tilt
+     */
+    @Getter
+    private float tiltStart;
+
+    /**
+     * The end value of the Tilt in sessadecimal degree
+     * return the end value in sessadecimal degree of the tilt
+     */
+    @Getter
+    private float tiltEnd;
+
+    // public OnvifDevice(String hostIp, String user, String password) throws ConnectException, SOAPException {
+    // this.deviceIp = hostIp;
+    //
+    // if (!isOnline()) {
+    // throw new ConnectException("Host not available.");
+    // }
+    //
+    // this.deviceUri = "http://" + deviceIp + "/onvif/device_service";
+    // this.username = user;
+    // this.password = password;
+    //
+    // init();
+    // }
+
+    // /**
+    // * Initializes an Onvif device, e.g. a Network Video Transmitter (NVT) with
+    // * logindata.
+    // *
+    // * @param hostIp
+    // * The IP address of your device, you can also add a port but noch
+    // * protocol (e.g. http://)
+    // * @throws ConnectException
+    // * Exception gets thrown, if device isn't accessible or invalid and
+    // * doesn't answer to SOAP messages
+    // * @throws SOAPException
+    // */
+    // public OnvifDevice(String hostIp) throws ConnectException, SOAPException {
+    // this(hostIp, null, null);
+    // }
 
     /**
      * Internal function to check, if device is available and answers to ping
@@ -176,10 +266,11 @@ public class OnvifDevice {
      */
     protected void init() throws ConnectException, SOAPException {
         BindingProvider deviceServicePort = (BindingProvider) new DeviceService().getDevicePort();
-        this.device = getServiceProxy(deviceServicePort, deviceUri, username).create(Device.class);
-
-        resetSystemDateAndTime();
-
+        this.device = getServiceProxy(deviceServicePort, deviceUri, username, digestAuthentication)
+                .create(Device.class);
+        if (resetSystemTime) {
+            resetSystemDateAndTime();
+        }
         Capabilities capabilities = this.device.getCapabilities(Arrays.asList(CapabilityCategory.ALL));
         if (capabilities == null) {
             throw new ConnectException("Capabilities not reachable.");
@@ -189,30 +280,35 @@ public class OnvifDevice {
 
         if (capabilities.getMedia() != null && capabilities.getMedia().getXAddr() != null) {
             this.media = new MediaService().getMediaPort();
-            this.media = getServiceProxy((BindingProvider) media, capabilities.getMedia().getXAddr(), username)
-                    .create(Media.class);
+            this.media = getServiceProxy((BindingProvider) media, capabilities.getMedia().getXAddr(), username,
+                    digestAuthentication)
+                            .create(Media.class);
         }
 
         if (capabilities.getPTZ() != null && capabilities.getPTZ().getXAddr() != null) {
             this.ptz = new PtzService().getPtzPort();
-            this.ptz = getServiceProxy((BindingProvider) ptz, capabilities.getPTZ().getXAddr(), username)
-                    .create(PTZ.class);
+            this.ptz = getServiceProxy((BindingProvider) ptz, capabilities.getPTZ().getXAddr(), username,
+                    digestAuthentication)
+                            .create(PTZ.class);
         }
 
         if (capabilities.getImaging() != null && capabilities.getImaging().getXAddr() != null) {
             this.imaging = new ImagingService().getImagingPort();
-            this.imaging = getServiceProxy((BindingProvider) imaging, capabilities.getImaging().getXAddr(), username)
-                    .create(ImagingPort.class);
+            this.imaging = getServiceProxy((BindingProvider) imaging, capabilities.getImaging().getXAddr(), username,
+                    digestAuthentication)
+                            .create(ImagingPort.class);
         }
 
         if (capabilities.getEvents() != null && capabilities.getEvents().getXAddr() != null) {
             this.events = new EventService().getEventPort();
-            this.events = getServiceProxy((BindingProvider) events, capabilities.getEvents().getXAddr(), username)
-                    .create(EventPortType.class);
+            this.events = getServiceProxy((BindingProvider) events, capabilities.getEvents().getXAddr(), username,
+                    digestAuthentication)
+                            .create(EventPortType.class);
 
             this.pull = new PullPointSubscriptionService().getPullPointSubscription();
-            this.pull = getServiceProxy((BindingProvider) pull, capabilities.getEvents().getXAddr(), username)
-                    .create(PullPointSubscription.class);
+            this.pull = getServiceProxy((BindingProvider) pull, capabilities.getEvents().getXAddr(), username,
+                    digestAuthentication)
+                            .create(PullPointSubscription.class);
         }
     }
 
@@ -225,7 +321,7 @@ public class OnvifDevice {
      * @return
      */
     public static ClientProxyFactoryBean getServiceProxy(BindingProvider servicePort, String serviceAddr,
-                                                         String username) {
+                                                         String username, boolean useDigest) {
         ClientProxyFactoryBean proxyFactory = new JaxWsProxyFactoryBean();
         if (serviceAddr != null)
             proxyFactory.setAddress(serviceAddr);
@@ -240,7 +336,7 @@ public class OnvifDevice {
         Client deviceClient = ClientProxy.getClient(servicePort);
         Endpoint deviceEndPoint = deviceClient.getEndpoint();
 
-        WSS4JOutInterceptor handler = configureEndPoint(deviceEndPoint, username);
+        WSS4JOutInterceptor handler = configureEndPoint(deviceEndPoint, username, useDigest);
         proxyFactory.getOutInterceptors().add(handler);
 
         HTTPConduit http = (HTTPConduit) deviceClient.getConduit();
@@ -262,7 +358,7 @@ public class OnvifDevice {
      * 
      * @param deviceEndPoint
      */
-    private static WSS4JOutInterceptor configureEndPoint(Endpoint deviceEndPoint, String username) {
+    private static WSS4JOutInterceptor configureEndPoint(Endpoint deviceEndPoint, String username, boolean useDigest) {
         // Map<String, Object> inProps = new HashMap<String, Object>();
         // how to configure the properties is outlined below;
         // inProps.put(WSHandlerConstants.ACTION,WSHandlerConstants.USERNAME_TOKEN);
@@ -275,7 +371,7 @@ public class OnvifDevice {
         Map<String, Object> outProps = new HashMap<String, Object>();
         // how to configure the properties is outlined below;
         outProps.put(WSHandlerConstants.ACTION, WSHandlerConstants.USERNAME_TOKEN);
-        outProps.put(WSHandlerConstants.PASSWORD_TYPE, WSConstants.PW_DIGEST);
+        outProps.put(WSHandlerConstants.PASSWORD_TYPE, useDigest ? WSConstants.PW_DIGEST : WSConstants.PW_TEXT);
         outProps.put(WSHandlerConstants.USER, username);
         outProps.put(WSHandlerConstants.PW_CALLBACK_CLASS, UTPasswordCallback.class.getName());
 
