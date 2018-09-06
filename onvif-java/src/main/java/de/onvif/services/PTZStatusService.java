@@ -137,7 +137,11 @@ public class PTZStatusService {
 
                 // Perform polling only if we are not suspended
                 if (!suspend) {
-                    notifyListeners();
+                    try {
+                        notifyListeners();
+                    } catch (Throwable th) {
+                        log.error(th.getMessage(), th);
+                    }
                 }
                 // Compute how much we spent for retrieve data and notify it
                 long toSleep = pollingPeriod - elapsed;
@@ -212,14 +216,20 @@ public class PTZStatusService {
         Vector1D zoom = pos.getZoom();
 
         PanTiltPositionSpace space = PanTiltPositionSpace.fromSpace(panTilt.getSpace());
-        PanTiltPositionSpace destSpace = PanTiltPositionSpace.ABSOLUTE_SPHERICAL;
+        // PanTiltPositionSpace destSpace = PanTiltPositionSpace.ABSOLUTE_SPHERICAL;
 
         float pan = panTilt.getX();
         float tilt = panTilt.getY();
-        double azimuth = OnvifHelper.toTargetDomain(pan, space.getXMin(), space.getXMax(), destSpace.getXMin(),
-                destSpace.getXMax());
-        double elevation = OnvifHelper.toTargetDomain(tilt, space.getYMin(), space.getYMax(), destSpace.getYMin(),
-                destSpace.getYMax());
+        double azimuth = OnvifHelper.toTargetDomain(pan, space.getXMin(), space.getXMax(), device.getPanStart(),
+                device.getPanEnd());
+        azimuth = (360 + azimuth) % 360;
+
+        double elevation = 0;
+        if (tilt <= 0) {
+            elevation = OnvifHelper.toTargetDomain(tilt, space.getYMin(), 0, device.getTiltStart(), 0);
+        } else {
+            elevation = OnvifHelper.toTargetDomain(tilt, 0, space.getYMax(), 0, device.getTiltEnd());
+        }
 
         ZoomPositionSpace zoomSpace = ZoomPositionSpace.fromSpace(zoom.getSpace());
         float zoomVal = zoom.getX();
@@ -231,7 +241,11 @@ public class PTZStatusService {
                 + tilt + " Zoom:" + zoomVal);
 
         for (IPTZListener listener : listeners) {
-            listener.notifyPTZStatus(fov, azimuth, elevation);
+            try {
+                listener.notifyPTZStatus(fov, azimuth, elevation);
+            } catch (Exception ex) {
+                log.error(ex.getMessage(), ex);
+            }
         }
     }
 }
