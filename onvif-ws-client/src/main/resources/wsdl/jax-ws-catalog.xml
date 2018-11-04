@@ -5,7 +5,12 @@
 	<rewriteURI uriStartString="../ver10/media/wsdl/media.wsdl" rewritePrefix="media_17.06.wsdl"/>	
 	<rewriteURI uriStartString="http://www.onvif.org/onvif/ver10/schema/onvif.xsd" rewritePrefix="local/www.onvif.org/ver10/schema/onvif.xsd"/>	
 	<rewriteURI uriStartString="http://www.onvif.org/onvif/ver10/schema/common.xsd" rewritePrefix="local/www.onvif.org/ver10/schema/common.xsd"/>
-	<rewriteURI uriStartString="../../../ver10/schema/onvif.xsd" rewritePrefix="local/www.onvif.org/ver10/schema/onvif.xsd"/>	
+	<rewriteURI uriStartString="http://www.onvif.org/onvif/ver10/schema/metadatastream.xsd"
+				rewritePrefix="local/www.onvif.org/ver10/schema/metadatastream.xsd"/>
+	<rewriteURI uriStartString="http://www.onvif.org/onvif/ver20/analytics/rules.xsd"
+				rewritePrefix="local/www.onvif.org/ver20/analytics/rules.xsd"/>
+	<rewriteURI uriStartString="../../../ver10/schema/onvif.xsd"
+				rewritePrefix="local/www.onvif.org/ver10/schema/onvif.xsd"/>
 	<rewriteURI uriStartString="../ver10/schema/onvif.xsd" rewritePrefix="local/www.onvif.org/ver10/schema/onvif.xsd"/>	
 	<rewriteURI uriStartString="types.xsd" rewritePrefix="local/www.onvif.org/ver10/pacs/types.xsd"/>
 	<rewriteURI uriStartString="../../pacs/types.xsd" rewritePrefix="local/www.onvif.org/ver10/pacs/types.xsd"/>
